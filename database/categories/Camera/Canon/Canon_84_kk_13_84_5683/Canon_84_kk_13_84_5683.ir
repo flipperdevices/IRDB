@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# Device: Camera; Brand: Canon_84; Model: kk_13_84_5683; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
+#
+name: shutter
+type: raw
+frequency: 32700
+duty_cycle: 0.330000
+data: 550 7200 550 40000
+#
+name: delay
+type: raw
+frequency: 32700
+duty_cycle: 0.330000
+data: 550 5300 550 40000

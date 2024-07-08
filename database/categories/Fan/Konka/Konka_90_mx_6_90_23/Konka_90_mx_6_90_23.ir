@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# Device: Fan; Brand: Konka_90; Model: mx_6_90_23; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
+#
+name: power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1267 422 1267 422 422 1267 1267 422 1267 422 422 1267 422 1267 422 1267 422 1267 422 1267 422 1267 1267 34700
+#
+name: shake_wind
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1267 422 1267 422 422 1267 1267 422 1267 422 422 1267 422 1267 1267 422 422 1267 422 1267 422 1267 422 35567
+#
+name: wind_speed
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1267 422 1267 422 422 1267 1267 422 1267 422 422 1267 422 1267 422 1267 422 1267 422 1267 1267 422 422 35567
+#
+name: wind_type
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1267 422 1267 422 422 1267 1267 422 1267 422 422 1267 422 1267 422 1267 422 1267 1267 422 422 1267 422 35567
