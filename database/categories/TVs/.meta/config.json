@@ -1,0 +1,64 @@
+{
+    "orders": [
+        {
+            "message": "Does %s turns on?",
+            "index": 0,
+            "key": "PWR",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "icon_id": "POWER",
+                "type": "ICON"
+            }
+        },
+        {
+            "message": "Does volume go up?",
+            "index": 1,
+            "key": "VOL_UP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does volume go down?",
+            "index": 2,
+            "key": "VOL_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does channel go next?",
+            "index": 3,
+            "key": "CH_UP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does channel go previous?",
+            "index": 4,
+            "key": "CH_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "-",
+                "type": "TEXT"
+            }
+        }
+    ]
+}
