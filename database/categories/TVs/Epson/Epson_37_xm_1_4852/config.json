@@ -1,27 +1,36 @@
 {
     "key_map": {
         "CH_DOWN": {
+            "type": "NAME",
             "key_name": "ch-"
         },
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "VOL_DOWN": {
+            "type": "NAME",
             "key_name": "vol-"
         },
         "BACK": {
+            "type": "NAME",
             "key_name": "back"
         },
         "TV": {
-            "key_name": "tv_av"
+            "type": "SHA_256",
+            "key_name": "tv_av",
+            "sha_256_string": "2943c98aa4f85ba0a8701dcdc3f97bcb1b0c87a647c67534d1bb58d2a191f02f"
         },
         "VOL_UP": {
+            "type": "NAME",
             "key_name": "vol+"
         },
         "CH_UP": {
+            "type": "NAME",
             "key_name": "ch+"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         }
     }

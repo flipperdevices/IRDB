@@ -1,39 +1,54 @@
 {
     "key_map": {
         "DOWN": {
-            "key_name": "down"
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "d07624c8b8213c9b26e8b6a89e46c6ff879b3847353681f05a6393bd99f6f5a3"
         },
         "UP": {
-            "key_name": "up"
+            "type": "SHA_256",
+            "key_name": "up",
+            "sha_256_string": "6a1bd7ee992c804c2684ad2d01b307e269718dd43750cd628c9e2d1fe46088c5"
         },
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "VOL_DOWN": {
+            "type": "NAME",
             "key_name": "vol-"
         },
         "TV": {
-            "key_name": "tv_av"
+            "type": "SHA_256",
+            "key_name": "tv_av",
+            "sha_256_string": "b8ad7b56d0d2fe9ccfdfa00a763dfb854813206846f8a8275759d5fcedd4f1c9"
         },
         "VOL_UP": {
+            "type": "NAME",
             "key_name": "vol+"
         },
         "RIGHT": {
+            "type": "NAME",
             "key_name": "right"
         },
         "PAUSE": {
+            "type": "NAME",
             "key_name": "pause"
         },
         "PLAY": {
+            "type": "NAME",
             "key_name": "play"
         },
         "MENU": {
+            "type": "NAME",
             "key_name": "menu"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         },
         "LEFT": {
+            "type": "NAME",
             "key_name": "left"
         }
     }

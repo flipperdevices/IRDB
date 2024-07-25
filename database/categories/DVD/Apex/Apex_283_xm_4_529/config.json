@@ -1,21 +1,28 @@
 {
     "key_map": {
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "NEXT": {
+            "type": "NAME",
             "key_name": "next"
         },
         "PAUSE": {
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "288ae7b5259b0c209764e714804c0129bfcbb64d09a36fe01bbc1cf777977c75"
         },
         "PLAY": {
+            "type": "NAME",
             "key_name": "play"
         },
         "MENU": {
+            "type": "NAME",
             "key_name": "menu"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         }
     }

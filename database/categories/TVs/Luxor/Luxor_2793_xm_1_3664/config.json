@@ -1,16 +1,22 @@
 {
     "key_map": {
         "PWR": {
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "4aedff623e204632fda349f61210f392448065d83dc089245e27127723e63cbc"
         },
         "VOL_DOWN": {
+            "type": "NAME",
             "key_name": "vol-"
         },
         "VOL_UP": {
+            "type": "NAME",
             "key_name": "vol+"
         },
         "MUTE": {
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "fc24ef014808e08a74b0f18eb3f616d3f155fd693cb23d105c005b4269332140"
         }
     }
 }

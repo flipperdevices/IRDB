@@ -1,21 +1,29 @@
 {
     "key_map": {
         "CH_DOWN": {
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "ccb909b1ce2d38d45a5dc39d6679fb24b27de1d8e3f6b6fbd737980a331637d2"
         },
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "VOL_DOWN": {
+            "type": "NAME",
             "key_name": "vol-"
         },
         "VOL_UP": {
+            "type": "NAME",
             "key_name": "vol+"
         },
         "CH_UP": {
-            "key_name": "ch+"
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "c2fa8abbab378cba58ba537fdd0b999c3317faebd5267e91f12c529c9b3eccfa"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         }
     }

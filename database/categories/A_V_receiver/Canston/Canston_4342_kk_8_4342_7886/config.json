@@ -1,22 +1,29 @@
 {
     "key_map": {
         "AUX": {
+            "type": "NAME",
             "key_name": "aux_r"
         },
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "VOL_UP": {
+            "type": "NAME",
             "key_name": "vol+"
         },
         "VOL_DOWN": {
+            "type": "NAME",
             "key_name": "vol-_r"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         },
         "PAUSE": {
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "1c935b7a9a8a87fd0dfbbb1e3bf9a6786a5dad7ab8a89a443e4cb295144a34cd"
         }
     }
 }

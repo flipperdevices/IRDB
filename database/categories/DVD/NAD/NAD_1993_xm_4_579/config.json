@@ -1,33 +1,45 @@
 {
     "key_map": {
         "NEXT": {
-            "key_name": "next_r"
+            "type": "SHA_256",
+            "key_name": "next_r",
+            "sha_256_string": "1a8c89af9a92e0bb0d89b8cf9bdbc2d5544364927278e28b7a7cf1d4d6ed2ef7"
         },
         "DOWN": {
+            "type": "NAME",
             "key_name": "down"
         },
         "CH_DOWN": {
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "91a0f5dada4c5b64d15dbba7665e39e0423a9c6d371b2bf8967a3aef7e365f3b"
         },
         "UP": {
+            "type": "NAME",
             "key_name": "up"
         },
         "PWR": {
+            "type": "NAME",
             "key_name": "power"
         },
         "RIGHT": {
+            "type": "NAME",
             "key_name": "right"
         },
         "PAUSE": {
+            "type": "NAME",
             "key_name": "pause"
         },
         "PLAY": {
+            "type": "NAME",
             "key_name": "play"
         },
         "MENU": {
+            "type": "NAME",
             "key_name": "menu"
         },
         "LEFT": {
+            "type": "NAME",
             "key_name": "left"
         }
     }

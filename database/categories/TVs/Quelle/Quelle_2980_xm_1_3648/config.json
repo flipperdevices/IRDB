@@ -1,15 +1,20 @@
 {
     "key_map": {
         "CH_DOWN": {
+            "type": "NAME",
             "key_name": "ch-"
         },
         "PWR": {
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "4349e482ac5d368d0d55d62ddba0f094dd6c2ba883ce4e4464b499cb5e1b79f3"
         },
         "MUTE": {
+            "type": "NAME",
             "key_name": "mute"
         },
         "RIGHT": {
+            "type": "NAME",
             "key_name": "right"
         }
     }

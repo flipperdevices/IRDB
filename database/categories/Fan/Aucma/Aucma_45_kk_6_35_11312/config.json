@@ -1,16 +1,21 @@
 {
     "key_map": {
         "WIND_TYPE": {
+            "type": "NAME",
             "key_name": "wind_type"
         },
         "WIND_SPEED": {
+            "type": "NAME",
             "key_name": "wind_speed"
         },
         "SHAKE_WIND": {
+            "type": "NAME",
             "key_name": "shake_wind"
         },
         "PWR": {
-            "key_name": "power_r"
+            "type": "SHA_256",
+            "key_name": "power_r",
+            "sha_256_string": "5e2d8a68bd2c983bffb5fc2e93f3eef5128e5c7f15cd6b48003b38896c90e3d5"
         }
     }
 }
