@@ -1,0 +1,40 @@
+{
+    "orders": [
+        {
+            "message": "Does %s turns on?",
+            "index": 0,
+            "key": "PWR",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "icon_id": "POWER",
+                "type": "ICON"
+            }
+        },
+        {
+            "message": "Does it do something?",
+            "index": 22,
+            "key": "MUTE",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "MUTE",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it do something?",
+            "index": 23,
+            "key": "FAN_SPEED",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "FAN_SPEED",
+                "type": "TEXT"
+            }
+        }
+    ]
+}
