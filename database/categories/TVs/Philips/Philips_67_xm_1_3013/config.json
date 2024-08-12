@@ -1,34 +1,39 @@
 {
     "key_map": {
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "5298cf6740e92acb546f1a854f24e6addc0c32a398bc99f6b71baa1c9b5e5f38"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
-            "sha_256_string": "94e88ae892e178f10a68913e1c75db431c511645e3cc9ca2efd0b7dc2977e3ea"
+            "sha_256_string": "784f47a87b9d170e04ed3dfa1cbb2c2773106b3184d475700695689992de95b5"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "55fdfaff266327398044293bbde73e24e98fac0550894aab2619daa81d62c02f"
+            "key_name": "up",
+            "sha_256_string": "ffa2bb100606c25e40fc52b6914bca019d47d02110bef2e4677b40cc0a296be0"
         },
         "PWR": {
             "type": "SHA_256",
             "key_name": "power",
-            "sha_256_string": "0531cfe89e0e44b975f4954bf8406b9146692f2b5ca270720405a98c0e56bff5"
+            "sha_256_string": "6c8b110e1377c480032783cbe59cdf569901c1c3430f81ff975f8d0a9586c090"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
-            "sha_256_string": "1af5c5059f84a277c4aad47d9cd8a1337e921c7bcd8c46431934ff03f3b2e725"
-        },
-        "OK": {
-            "type": "SHA_256",
-            "key_name": "ok",
-            "sha_256_string": "44865b56b9775f289e7e5c83aba797c856b833c843dd3214db1805e9f366f9c0"
+            "sha_256_string": "5502cbfaa04f8017b1d1d69c9ddca3fcee69f5f910102587f95a288a10d93d32"
         },
         "VOL_UP": {
             "type": "SHA_256",
             "key_name": "vol+",
-            "sha_256_string": "c1d120b72fd81557928382695419918b6b0a3bee0087332375331b860092bac6"
+            "sha_256_string": "ba3395c6fc3cffd164e884231c187772e4160a791faf3c5e99205e8f4554fcdd"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "eef68cdad8a5a55e9d582bebd8aa0e439bd40f1c1deefac80541f3cfce54ac0d"
         }
     }
 }
