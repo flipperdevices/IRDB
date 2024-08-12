@@ -1,35 +1,44 @@
 {
     "key_map": {
         "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "2d6be6038a14596b1595d5851e570412b3c33175338d26b5493728c27adf7868"
         },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
-            "sha_256_string": "02f7b2a2e789307f27a613b6a85d080d3812bbd79381ebc49d66f7ca451325f2"
+            "sha_256_string": "cfee5d8414b5425ead3488e9ee0fcd24f3b38668b82f89632db2189271a25040"
+        },
+        "PAUSE": {
+            "type": "SHA_256",
+            "key_name": "PAUSE",
+            "sha_256_string": "a3bdc7f4f4910ff9efdc8cd05bb3ca60f937d499a9b082512d7ab2983be71ed4"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "21b6f9f2b98e0f7607636f3578ae435bd2c94593f2d002443670126aa9e7ce88"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "a82bee40f2923f572cbddb9a2d200fc275b79f75ea95f55b5539e8b154952934"
+            "sha_256_string": "4ce7bc6b6fc9dbfe0d7c2b11f43cecfe7c6a76a2d26192234469a119a69dd2fa"
         },
         "VOL_UP": {
             "type": "SHA_256",
             "key_name": "vol+",
-            "sha_256_string": "9270418c58c46afcb3efddb4c8df974c4facbc8fe2551d87985d580b224f4544"
+            "sha_256_string": "a87ab4b3b8fca0bb14625c463633ec18287021a917891abe47f5ca159c3995b4"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "9b162f8b6a0228dab640dacdfc5f5ed3167fcbfb28123fa5ec1e8dbf62435d9f"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "94d644b053022089da41a4dde746f79ce076e26439deb4e502f1165bf69a9f54"
         }
     }
 }

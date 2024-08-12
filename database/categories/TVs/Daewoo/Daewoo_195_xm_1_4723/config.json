@@ -3,33 +3,42 @@
         "DOWN": {
             "type": "SHA_256",
             "key_name": "down",
-            "sha_256_string": "24ae9df8404176bdcfe0101c1c1afc9a1ff4edab0ec01af3d82bf6d52b0eec4a"
+            "sha_256_string": "4bf396ab54967bd53803c02b24da5f674e15c75be81e58005b1e160a76603f97"
         },
         "UP": {
             "type": "SHA_256",
             "key_name": "up",
-            "sha_256_string": "0c2e2e293c2949a3a316ff686a4525e6b607f369ddf0803a3a705d9dbc7b953d"
+            "sha_256_string": "8b560c15c6cc5a26ab6cb6d95adc44f72dfdf206e4c1812c088f14ae8f1507f9"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "27147c212c6e5202dfc875d32723a37b0b8795c8736a2565c9242d8030535d63"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol-",
+            "sha_256_string": "79b22cdaea7e35fb1783a521d6d2b12ea6d8096e0971089a8995848b939e4b90"
         },
         "TV": {
-            "type": "NAME",
-            "key_name": "tv_av"
+            "type": "SHA_256",
+            "key_name": "tv_av",
+            "sha_256_string": "ea0f2ac6117ccaec258e8cb298107b4b418478fafb0b83361f1ab2b7515c8ea0"
         },
         "VOL_UP": {
             "type": "SHA_256",
             "key_name": "vol+",
-            "sha_256_string": "db92a18735eef43ed54ff6469cc6fe77494d89e6d15338cba82c11d2174845b9"
+            "sha_256_string": "512f69d4a24cd033a67ed603b8f10535c73d19de0e4c8c71704d8bf4384c39ba"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "45eafa5161aa29ce72d2be19a80d59e542178eeb60b0951fb5d1cd9172386b19"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "9c13544aae703d0db77e12b135c1da99bf64d200a9d03302169871ae6b2e0011"
         }
     }
 }
