@@ -1,10 +1,5 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "7a05ccd495fd17b84a3fdb631c8ead4f4d42ad76ce36012aff5c54d4b0cb3bd9"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -20,25 +15,25 @@
             "key_name": "mode",
             "sha_256_string": "ba021f01416503aaabc8085aeb1835f7c1d725a1faefeeda0127435d5f636402"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "a28337a2827b48095e3f2241b1404802c7dce70898b62bb93c0748278fa944ce"
+            "key_name": "ch+",
+            "sha_256_string": "077e99689170dd1e299763c6824500ec9536a0b1486782e366db1fe2ff9fcda2"
         },
         "PWR": {
             "type": "SHA_256",
             "key_name": "power",
             "sha_256_string": "5e2adec9885d374a21b421f769cf218c36c63f89fd750e5856f05ea65b9d764e"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "a65b80f399bb57858072f46a5a85b8435bd319fa9929977602e0c03d58e311a5"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "93947e7eb170bc90aa243aebcf9e2421b17555e006884600c0ca3f10177ee7ab"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "209b462cb692e025a068790895dc3484b9f9ea2beae8b0b4b1868216682654bd"
         },
         "RIGHT": {
             "type": "SHA_256",
@@ -49,11 +44,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "effa933eb7ca86434093fe6e089fe01edcb29d8fb9d5d1d3bd1f3915ec05bd72"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "077e99689170dd1e299763c6824500ec9536a0b1486782e366db1fe2ff9fcda2"
         },
         "PLAY": {
             "type": "SHA_256",

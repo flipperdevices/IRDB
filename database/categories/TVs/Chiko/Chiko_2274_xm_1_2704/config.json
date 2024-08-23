@@ -5,20 +5,15 @@
             "key_name": "tv_av",
             "sha_256_string": "575b581d41bac0f06558b2759367d650ea932bb7f0d2f62a650e6c9e55dad06c"
         },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "3c0a87b29376f837c2088d1e33cb52ae4978a58516e88db06a6dc9234a7a4e9a"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "a1e41bc8342c034cb56135038e8f8b313f869d323070895af0ce0ced4fa62dea"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "ffab9bf0fc9d71d1cd3fe9f64741dbf6c46892ac3194dd5caafcc07d01cd8fc5"
+            "key_name": "ch+",
+            "sha_256_string": "ba431766e5c20eaa30b8748c493b479b2bd959fadc203e92a12e880820e13009"
         },
         "PWR": {
             "type": "SHA_256",
@@ -30,15 +25,15 @@
             "key_name": "vol-",
             "sha_256_string": "9b6cabbf9f47cd307941163a4648afbedc1bbe1b03867bb79b55885e71b96b28"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "e605f4552b5ba7c65ffd3ef2bcb0caca00848b560c0fc1b5c44b3e8c792fe0d9"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "c715a867343c997fefbc349f2cf12f160be93bdca6514b131eb7f1eca4986040"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "0c21ebedf75a2f6b6b08ce96a3388a9197b8f71ef366031426ea3111d2042ce2"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -54,11 +49,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "e72ec56fce2616908b58911fc73dc3cac09b8f635f66192a832bad12f357a954"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "ba431766e5c20eaa30b8748c493b479b2bd959fadc203e92a12e880820e13009"
         },
         "PLAY": {
             "type": "SHA_256",

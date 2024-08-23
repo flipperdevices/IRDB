@@ -1,10 +1,5 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "e731e7d23f21f594615251668c37917d8245ac309abd5a183429fa59eb269cab"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -15,10 +10,10 @@
             "key_name": "home",
             "sha_256_string": "1bafad8e22be489aaecb947d4210a984ec9563b6ad97cea4535cd46cfab86936"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "56f91cdd4ec459befc84415b220c45332634c6c8e5adaf408a6e337a8b2c76ea"
+            "key_name": "ch+",
+            "sha_256_string": "acb2583d9efa56e4dc9efeff0d15ac6ed13f9d6ef025625c770a092f4b053934"
         },
         "PWR": {
             "type": "SHA_256",
@@ -30,11 +25,6 @@
             "key_name": "vol-",
             "sha_256_string": "a86a6f09e23130e3cbacc91939e146a2f91ba0a99946f3e83682b81b1b614ca7"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "fd0b71838b7c66d941b2460e6c92a7b3b8e8191bc73f3db197cca53231f6fc1d"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
@@ -44,6 +34,11 @@
             "type": "SHA_256",
             "key_name": "back",
             "sha_256_string": "517a4d7a8c2792ff84077f5438b699c29d9dcb64db2a647f1ee58140a383d5c6"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "87f334d060d70b016c463b1d43d1bc367c1c46527f9ce5637830cd45ab00f3ce"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -59,11 +54,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "6497b7bc0dc6d9e76b1b53438da2c1000194178e3b6de90e23039dafedde6cf2"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "acb2583d9efa56e4dc9efeff0d15ac6ed13f9d6ef025625c770a092f4b053934"
         },
         "PLAY": {
             "type": "SHA_256",

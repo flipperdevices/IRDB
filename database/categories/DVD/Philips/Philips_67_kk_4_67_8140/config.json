@@ -2,13 +2,13 @@
     "key_map": {
         "NEXT": {
             "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "cfad93aee496161cf6295326622bb2e5512b9000edcd0d18fc41dd6d72096855"
+            "key_name": "next_r",
+            "sha_256_string": "e76131bc5ea20e02d6ecea21065a9da54b080c81fb4a6d326333cef180d2643a"
         },
-        "DOWN": {
+        "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "down_r",
-            "sha_256_string": "6db35d3a01d57b6d07e5369e174fd0a8c8b194d1e8f7c48fd929413b49e48dbd"
+            "key_name": "down",
+            "sha_256_string": "69e667edb5c7f419319aaaad319fab9b536be216d7d1a83ebab8bafb38370789"
         },
         "PWR": {
             "type": "SHA_256",
@@ -30,6 +30,11 @@
             "key_name": "play",
             "sha_256_string": "9566c8e8e7695c0b3bb86d460f44e8853d09b911c02ffa64ccb66d1739894c5c"
         },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down_r",
+            "sha_256_string": "6db35d3a01d57b6d07e5369e174fd0a8c8b194d1e8f7c48fd929413b49e48dbd"
+        },
         "LEFT": {
             "type": "SHA_256",
             "key_name": "left",
@@ -37,8 +42,13 @@
         },
         "UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "f8e64cc4f875c10e6aa2fafac7b22a3c0ca6717e4775346d936ec525e1aa45dd"
+            "key_name": "up_r",
+            "sha_256_string": "f18d64e31be0ecd829dbef203a7df468a5f27367f8a88052ab8ae8dadaa72fbd"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "next",
+            "sha_256_string": "cfad93aee496161cf6295326622bb2e5512b9000edcd0d18fc41dd6d72096855"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
@@ -49,6 +59,11 @@
             "type": "SHA_256",
             "key_name": "previous_r",
             "sha_256_string": "50281f038e177e0b44086c123c233b07f20d632db51f6b0f969495234fe516e6"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "bc003d14324d8103b2979af9e83c23673df5545c83a8d21cefe3ac617121109a"
         },
         "MUTE": {
             "type": "SHA_256",

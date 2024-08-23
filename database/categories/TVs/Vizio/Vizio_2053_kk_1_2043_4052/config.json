@@ -5,20 +5,20 @@
             "key_name": "tv_av",
             "sha_256_string": "706279ac3f93b02745117fe5375530c3c2b9106e67a8fc5d3e7c4a3f95e8f5d7"
         },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "743a50060ec6b2538b190c331e3fabd4e3d8ce3e4359becccf0cd393d7f5f0e5"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "c80a7542779c41d8c9b04ed7684e5edcc4d2d13b07a5fff4faf54cf82b1264bb"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "b9d4cec2f27872d826c7ee50ff4d168c6cea0194a429bbdec7269bb6515665f8"
+            "key_name": "ch+",
+            "sha_256_string": "95f5341d02e13c169a4458360f7e6a612eba23b0b0e33c3d03b3a27f2541fddb"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "8455323d213f2cc9cee35315f4f02e450e93f50f5cb7a4135ad44112b10f8363"
         },
         "PWR": {
             "type": "SHA_256",
@@ -39,11 +39,6 @@
             "type": "SHA_256",
             "key_name": "right",
             "sha_256_string": "70f2e66d3b1b061b5d51cc863486501ec3e13adcaa9377201ff84d086d144a1b"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "95f5341d02e13c169a4458360f7e6a612eba23b0b0e33c3d03b3a27f2541fddb"
         },
         "MENU": {
             "type": "SHA_256",

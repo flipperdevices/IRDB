@@ -1,8 +1,20 @@
 {
     "orders": [
         {
+            "message": "Did %s take a photo?",
+            "index": 1,
+            "key": "SHUTTER",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "icon_id": "CAMERA",
+                "type": "ICON"
+            }
+        },
+        {
             "message": "Does it do something?",
-            "index": 10,
+            "index": 11,
             "key": "DOWN",
             "data": {
                 "key_id": {
@@ -14,7 +26,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 11,
+            "index": 12,
             "key": "UP",
             "data": {
                 "key_id": {
@@ -26,7 +38,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 12,
+            "index": 13,
             "key": "RIGHT",
             "data": {
                 "key_id": {
@@ -38,7 +50,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 13,
+            "index": 14,
             "key": "LEFT",
             "data": {
                 "key_id": {
@@ -50,7 +62,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 14,
+            "index": 15,
             "key": "NEXT",
             "data": {
                 "key_id": {
@@ -62,7 +74,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 15,
+            "index": 16,
             "key": "PREVIOUS",
             "data": {
                 "key_id": {
@@ -74,7 +86,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 19,
+            "index": 20,
             "key": "BACK",
             "data": {
                 "key_id": {
@@ -86,7 +98,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 20,
+            "index": 21,
             "key": "MENU",
             "data": {
                 "key_id": {
@@ -98,7 +110,7 @@
         },
         {
             "message": "Does it do something?",
-            "index": 24,
+            "index": 25,
             "key": "NEAR",
             "data": {
                 "key_id": {
@@ -110,25 +122,13 @@
         },
         {
             "message": "Does it do something?",
-            "index": 25,
+            "index": 26,
             "key": "FAR",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
                 "text": "FAR",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 26,
-            "key": "SHUTTER",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "SHUTTER",
                 "type": "TEXT"
             }
         }

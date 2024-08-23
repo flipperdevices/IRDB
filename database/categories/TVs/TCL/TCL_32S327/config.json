@@ -5,12 +5,27 @@
             "key_name": "Power",
             "sha_256_string": "1ab5ef384068192eebb2b7493dfb088bef49be266bc800ec1c8695e69f41bec8"
         },
-        "UP": {
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "4ba7f301ac9aefb41e857ff17651844115c642feb53a04aed2531b1b4e7b285b"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "bcbb26e4e7f91a8b967891e0246a901675c553df6fa20f8aa918850b520422be"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Enter",
+            "sha_256_string": "4dec7c0a532cbe5eb2b0a6bff919d261d00bd02e4fbba090635568fc8baa1e06"
+        },
+        "CH_UP": {
             "type": "SHA_256",
             "key_name": "Up",
             "sha_256_string": "0d1e79141c0cf1173ab4d5678773caa3c56afca1ff995b9380a5e35b80d41ad7"
         },
-        "DOWN": {
+        "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "Down",
             "sha_256_string": "182ece546f8aca67b26bf2fd0568b69d7a2f962b8d189da3ad88d62a9cd0de7f"

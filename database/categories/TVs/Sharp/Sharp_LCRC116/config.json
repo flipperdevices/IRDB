@@ -5,6 +5,16 @@
             "key_name": "Power",
             "sha_256_string": "77e4d0f9ddf7df95bc97b13b95793731e75ffd8bbbaf83160de2beb8c8aa6043"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "ff16404b8f5423bfe18beb89aaf9578da09c6e033b8659bf16c387c00e3bb7e3"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "23ce632a9e992bdfc10915922d9670defc66d833144f0100a5c098a7f114a276"
+        },
         "MUTE": {
             "type": "SHA_256",
             "key_name": "Mute",
@@ -12,28 +22,18 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "4dde075863ab56ddc360e394105a689a9db93f9603043716c492bd75689c2893"
+            "key_name": "Up",
+            "sha_256_string": "bcd35b17580491e87bfd9b850cabcc9ef455b7f6106454237bdf3dd9b7af9b07"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "d7410afd04ed8e081839d4e3a0138deffe42a936386470363ae7ba10d03feac0"
+            "key_name": "Down",
+            "sha_256_string": "9c1a4a533d24c56bc3ac4b00967b8229c387c73666c085c84e57e3a572d43964"
         },
         "MENU": {
             "type": "SHA_256",
             "key_name": "Menu",
             "sha_256_string": "9ef50fe4045f346a0907ee56054ba70423df9ea09c4275e721d51ccaba8fcbdc"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "bcd35b17580491e87bfd9b850cabcc9ef455b7f6106454237bdf3dd9b7af9b07"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "9c1a4a533d24c56bc3ac4b00967b8229c387c73666c085c84e57e3a572d43964"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -44,6 +44,11 @@
             "type": "SHA_256",
             "key_name": "Right",
             "sha_256_string": "f1d94712d38685508200eb1538cfe374dd332002ea013bcca5f1bda84743ee77"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Enter",
+            "sha_256_string": "9fee3fcc7b0126744203e414844ab4e079c4f1813bf49fcee5baa6f120ab26c8"
         },
         "PLAY": {
             "type": "SHA_256",

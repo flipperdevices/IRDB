@@ -1,6 +1,6 @@
 {
     "key_map": {
-        "DOWN": {
+        "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "down",
             "sha_256_string": "e2164e862a80987af0396c5def67a175b742c44b581dd5ceafcf1c058e7bfc65"
@@ -15,12 +15,7 @@
             "key_name": "shutter",
             "sha_256_string": "d15cb6ba304a9ffa86198d1b9bf95c8d7f3862048c84b9ec4a080f3284acb115"
         },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "ab8a922c6001d8588dd4f86f7de19dd76fbf5ba6140ec8cd5248025b63408555"
-        },
-        "NEXT": {
+        "CH_UP": {
             "type": "SHA_256",
             "key_name": "next",
             "sha_256_string": "bc136e73170d2fc3eaa3d533cb87b329e2e9e123edf332654980cf87daacd0fb"
@@ -29,6 +24,11 @@
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "7a8a9aa4682d39812495d98186a8d50697d30ed52b8e5c3a7c77d9f192f1ee88"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "e2bee1bfa5bfe0269e48a14e00f1eb642045f7282865b1cd212807cc36c55522"
         },
         "RIGHT": {
             "type": "SHA_256",
