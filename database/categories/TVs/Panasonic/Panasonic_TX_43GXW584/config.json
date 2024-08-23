@@ -7,28 +7,28 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "8e01072ef9de6115e1e8fae991722885ba310ec082bbd0136b042f0c23486fd6"
+            "key_name": "Up",
+            "sha_256_string": "55012a650a23edefae86b5fcfa54195b7b075b4ff18ef08be6ca81660e2f5a12"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "a036581aefca4b285b77fa3c6bfc6f2160fdc087e7a701fd9e941921cb7784cd"
+            "key_name": "Down",
+            "sha_256_string": "95874eeb8b7c175d76a44471052bd7f52591844e8b025f4c6597f528039d2b10"
+        },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "423534d700279d0f4e62b63edd5d28bdfebf4416f74bda762f4d30110391cb95"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "b4a5e7afbd2199621385142e4872f0af72d5248abe226029f498a1ca2cd24c5f"
         },
         "MUTE": {
             "type": "SHA_256",
             "key_name": "Mute",
             "sha_256_string": "76cf3e503f39d01735a8de28d292b8fd2140f30d771581c0d27d335a600497ca"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "55012a650a23edefae86b5fcfa54195b7b075b4ff18ef08be6ca81660e2f5a12"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "95874eeb8b7c175d76a44471052bd7f52591844e8b025f4c6597f528039d2b10"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -39,6 +39,11 @@
             "type": "SHA_256",
             "key_name": "Right",
             "sha_256_string": "69207ea0beba58575b1161065443a3828410e6ade5791ad935d40c2bca6f09eb"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Ok",
+            "sha_256_string": "54b3b91a4e4dc84b356b4fefbff8f0731e50e6483f272ff3499ef322fc82c646"
         },
         "HOME": {
             "type": "SHA_256",

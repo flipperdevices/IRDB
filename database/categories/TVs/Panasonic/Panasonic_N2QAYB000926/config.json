@@ -5,6 +5,16 @@
             "key_name": "Power",
             "sha_256_string": "19118aa3a29b9ac19636e4e9ba5038b1e415c4b3cb1149ae60dffba1c0cd0bd1"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "22bed8ae1961b9ec1fe2b5a2c3ff2d281fd59b4cfd6cbab388b49dab394bfc15"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "275b49edb94b276a5b39102b508c203ee5dc9739cf525e650721b30115832d55"
+        },
         "MUTE": {
             "type": "SHA_256",
             "key_name": "Mute",
@@ -12,13 +22,13 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "5647f2d832b50d6bd0e9e49851b0d99d08e561c02184c81dad9b6bf9b5fc8ecc"
+            "key_name": "Up",
+            "sha_256_string": "c85bdd152c13534656abb56761d516b1673d9b3f2ee29c24acbfbba26c6b6dda"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "a2f444a83a7e5dee21795365bcf47904191289114bb91484124083c0ffaa3493"
+            "key_name": "Down",
+            "sha_256_string": "d746195f49539f0905022a2094e6a1427042405c8750a13b016df8ded14bb483"
         },
         "MENU": {
             "type": "SHA_256",
@@ -30,16 +40,6 @@
             "key_name": "Home",
             "sha_256_string": "6f78509bd4ed3e83a1fcab6a02debc7b3aa5ebf1de16da896abf84eaa52218c0"
         },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "c85bdd152c13534656abb56761d516b1673d9b3f2ee29c24acbfbba26c6b6dda"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "d746195f49539f0905022a2094e6a1427042405c8750a13b016df8ded14bb483"
-        },
         "LEFT": {
             "type": "SHA_256",
             "key_name": "Left",
@@ -49,6 +49,11 @@
             "type": "SHA_256",
             "key_name": "Right",
             "sha_256_string": "5e884e8aaad9c5f687eb045d483a8e295e3bd6ba43caf77745f5a9b694475a3f"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Ok",
+            "sha_256_string": "5a4741f9d92a3bf1ba300da5442114ef3cb4344525f4d37e59bcfb4ff89bf903"
         },
         "PLAY": {
             "type": "SHA_256",

@@ -5,20 +5,15 @@
             "key_name": "aux",
             "sha_256_string": "67e60304a6d9666a07800cad65b9cb7b3e33f25577e40d86683abb95c946a1b9"
         },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "4aa929345b6a855ca75437db38293f6b31108e4adc38078305a7b2f12e8d423b"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "bbfec26ad194cd4e0a32fa95312c5ac40d0897dd0065a088f9ac7bc919c2fef6"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "ca33058cdedd46ee05c2dd3562a37c8184801d57d1f1bd917111fe33dc6416b1"
+            "key_name": "ch+",
+            "sha_256_string": "8712e3a7ebdb7294be5fecfabeba67d20d3cd5298c27c64df1beefbdd7855de4"
         },
         "PWR": {
             "type": "SHA_256",
@@ -30,15 +25,15 @@
             "key_name": "vol-",
             "sha_256_string": "3b0005545e04b22e40f90b44807dae41dbe38234a276e3bb0413e9718ee126ff"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "7540876f437701ba485b1c49fc2b8fad9f9a5c0521a0bcc5a567897cdff4282c"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "dd1b112affd4effaef199c4790f9132da9358c5305b3bf46da82c57b3eb3b42c"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "36cc33e1ad0e352ed5bc076e054e1e3ac70c110e9cecc769c073aec85ada59b0"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -54,11 +49,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "54609584a0de9d3f07f9ac86dfb28cf9952de940a7d73e1fcdf531f3afc5566d"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "8712e3a7ebdb7294be5fecfabeba67d20d3cd5298c27c64df1beefbdd7855de4"
         },
         "PLAY": {
             "type": "SHA_256",

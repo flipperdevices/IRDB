@@ -1,19 +1,14 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "83fe7dcca58036439fcdf70c47e62af4b4db8f4f85b4833a217bdf661a4e2bdb"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "d1b3bc66d7fdf864c3020e56536d4b0d524c55347488d9df8a92ba7301c0f7ba"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "275bb20326acfd31640c26bbd33b4d53cd0c509844cc85ceb1d769928e2e0182"
+            "key_name": "ch+",
+            "sha_256_string": "b430eb0f290e6f5f7b9697b17d006a6db3de5172e7208cc9360446f641e0a90c"
         },
         "PWR": {
             "type": "SHA_256",
@@ -25,15 +20,15 @@
             "key_name": "vol-",
             "sha_256_string": "77d018d77d5c266031bd92eb7e77731ed8bef07047d6ffe013928de7de33b04e"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "951c9ff99f0a1686bace42977bde373314ae9bcb501cfaed5011dc21797175ff"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "5ef62298da065ced3dc610b15cff5087a264a0b47393c2c90397aa26f0c5efbf"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "809026b4bc86b98f6376764046973166cf5bc1a849dc643efe05b46ccb4a6699"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -49,11 +44,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "9534a30d1872e577ad640a85381d9c5345ed37608daff2855527ef0104c5c1da"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "b430eb0f290e6f5f7b9697b17d006a6db3de5172e7208cc9360446f641e0a90c"
         },
         "PLAY": {
             "type": "SHA_256",

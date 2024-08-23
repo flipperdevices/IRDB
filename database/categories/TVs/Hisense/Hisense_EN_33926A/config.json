@@ -5,15 +5,25 @@
             "key_name": "Power",
             "sha_256_string": "369fdb0c50121c610f3a7b5952e0126d2e8c27f177b2ab1dca43a1a5934284f3"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "2e6b94a6ac119227c3b963aed35bf2e36557e316a3d160061a9b368433d68288"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "1be72b631fc5bc1a4b8ea7e7a049cdaea019a3ab76e2ddc6d73fbe0ddaae1125"
+        },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "a09c66ea465db630b83f25e8e7055a5726837a14179c0ecdbc7a31d8a2762954"
+            "key_name": "Up",
+            "sha_256_string": "f847bbe149495d356b623d07c608fc5b8219df21a75baad4e38b2933f07dc301"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "31be135d5e3241db888cd788b17c08dbacb33bf3eda5a1e32d8fdd0dcc2071bc"
+            "key_name": "Down",
+            "sha_256_string": "2e6bcd0dc46bfdb5dae0b7cf18e2908de02619eb6c41cb0e6c44a701daef1841"
         },
         "MUTE": {
             "type": "SHA_256",
@@ -30,25 +40,20 @@
             "key_name": "Menu",
             "sha_256_string": "4e7060f22b1ef2663909ca4cee959260da2eae48b99a143970b0d49450f4b76a"
         },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "f847bbe149495d356b623d07c608fc5b8219df21a75baad4e38b2933f07dc301"
-        },
         "RIGHT": {
             "type": "SHA_256",
             "key_name": "Right",
-            "sha_256_string": "2e6bcd0dc46bfdb5dae0b7cf18e2908de02619eb6c41cb0e6c44a701daef1841"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
             "sha_256_string": "2e6bcd0dc46bfdb5dae0b7cf18e2908de02619eb6c41cb0e6c44a701daef1841"
         },
         "LEFT": {
             "type": "SHA_256",
             "key_name": "Left",
             "sha_256_string": "2cbb97c6ee65dffe59be86ac5ee48129b1d9ea4d8f034014b9b67aff46f16693"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Enter",
+            "sha_256_string": "7f6e92234373254959ac5a1ab5eeaa9c1a4f26a0739f96981e92f64fe2bed230"
         }
     }
 }

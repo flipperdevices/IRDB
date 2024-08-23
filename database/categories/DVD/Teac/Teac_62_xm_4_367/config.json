@@ -2,13 +2,13 @@
     "key_map": {
         "NEXT": {
             "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "c97de964009cbce4a6802afffb9cffd26452074fe5473f3b4308bf0b7c8e478c"
+            "key_name": "next_r",
+            "sha_256_string": "1247556fe18a97809b11f69a30d0bd2ae6e4a3c68f8487d8eb90de9e1c2f8a04"
         },
-        "DOWN": {
+        "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "down_r",
-            "sha_256_string": "7282d948370f7f03281309cd14f907353ce260a6f0f3ea36438ea1f9e6e46eb6"
+            "key_name": "down",
+            "sha_256_string": "47a6388d6e66976b85c1f4b6fd7cff322188c3b40b98e274fc6dce85b1d1a9d5"
         },
         "PWR": {
             "type": "SHA_256",
@@ -25,10 +25,20 @@
             "key_name": "right",
             "sha_256_string": "5f63b4c9078d77d0aa9c4d47c04fad496396954e8218d446fca580b036381ea2"
         },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "fb45ebfda0a5827b9ef339eb0c743e1c7402aad67314b10c7248e5b2e78c738b"
+        },
         "MENU": {
             "type": "SHA_256",
             "key_name": "menu",
             "sha_256_string": "19220775df42e9c9fc5485001d153f0cd6dc3e234abda1f0c6964201afa2f9f2"
+        },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down_r",
+            "sha_256_string": "7282d948370f7f03281309cd14f907353ce260a6f0f3ea36438ea1f9e6e46eb6"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -37,8 +47,13 @@
         },
         "UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "2fcc7837c016c0c4f2626109e96ac5286978f3e9d466fce6bf7a111c2ae0e3cf"
+            "key_name": "up_r",
+            "sha_256_string": "4b8bafcfbb227fadfb9dadb4af5b011daf07361d274d7f67b45b6692798f08b4"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "next",
+            "sha_256_string": "c97de964009cbce4a6802afffb9cffd26452074fe5473f3b4308bf0b7c8e478c"
         },
         "VOL_DOWN": {
             "type": "SHA_256",

@@ -10,6 +10,16 @@
             "key_name": "Mode",
             "sha_256_string": "10fc95b3ebc6d0ddc1f03891a96b4392b8c9f2eb1429804cb2297769094cb26c"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "6a026fe3c6a745c5d322ff40ea1ab7e70b8f50db99ea89d0f9490b3abb262dc7"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "197789f685d0172f21f2341e524cc6a94b450ea11f40d962133d454fecf623e9"
+        },
         "MUTE": {
             "type": "SHA_256",
             "key_name": "Mute",
@@ -17,13 +27,13 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "6de52521a160896de2b9226cf4f815e290f2d564cbe232fa22e9f63e798399b6"
+            "key_name": "Up",
+            "sha_256_string": "425ea517a92bd3963749868d5645912f805c2d697dbd55a5f1dea3396ac3043e"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "51952ab65ce12e546c39e34a1d9a567b2db5f38b1b231e737328de0fb811a4d1"
+            "key_name": "Down",
+            "sha_256_string": "28920d8b5c54a9c16340acc5a4704ea03ab6d6d708bf595eb2b2034058fc7cfa"
         },
         "BACK": {
             "type": "SHA_256",
@@ -35,11 +45,6 @@
             "key_name": "Menu",
             "sha_256_string": "7be49e47a64a3afdc0a87f4e08b5b51535cb2d0ad1d75590b8f32f92379020f8"
         },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "425ea517a92bd3963749868d5645912f805c2d697dbd55a5f1dea3396ac3043e"
-        },
         "LEFT": {
             "type": "SHA_256",
             "key_name": "Left",
@@ -50,10 +55,10 @@
             "key_name": "Right",
             "sha_256_string": "da41b12f9cf5b596eb59dd7b2b19f6860acc3921806bd96797be0d06ea4ec811"
         },
-        "DOWN": {
+        "OK": {
             "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "28920d8b5c54a9c16340acc5a4704ea03ab6d6d708bf595eb2b2034058fc7cfa"
+            "key_name": "Ok",
+            "sha_256_string": "9422dc051bb7fcd9ed38e3cba4c9f104302a859f0bc33454ad27ec0e9affbea9"
         }
     }
 }

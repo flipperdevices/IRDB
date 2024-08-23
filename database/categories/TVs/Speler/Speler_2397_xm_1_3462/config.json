@@ -1,19 +1,14 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "14eca12d72f50ef73301ef2f9b90cb1e36ebe8b5a0f58e29dfc0adfe3765c929"
-        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "50d9f5ade43951027e0eb05196f881e737425d12e427304c1093515c918a1d68"
         },
-        "UP": {
+        "CH_UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "25dd2d40f0985e4a46648c5f8318048d4b28ff6a398a5bddb851bbf880aa935b"
+            "key_name": "ch+",
+            "sha_256_string": "8a5e9e7522edab7e821f583f2e4d1a80aa8216c4a8efcbced4e718d184822876"
         },
         "PWR": {
             "type": "SHA_256",
@@ -25,15 +20,15 @@
             "key_name": "vol-",
             "sha_256_string": "9604504de3e2ffcadd7ffadceae9aa1058c0cc3606952a3042d650b7437465b8"
         },
-        "NEXT": {
-            "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "5b43bea8edc64a77d642cdeaee46ae5e7da94cbea7ae7dddaeebefabdac73fe3"
-        },
         "PREVIOUS": {
             "type": "SHA_256",
             "key_name": "previous",
             "sha_256_string": "524304fae89921d0dc5c74f31a493f03a3a76df3b2c0ac1bf2aa7c8b9c332fb0"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "b5fac21ec3174dcd9940681ff95c54854439a194c5ffc35eb15be0d165d13ede"
         },
         "TV": {
             "type": "SHA_256",
@@ -54,11 +49,6 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "ea0404f3aac86173af1c4abe9f9e4675466312d9de5098216f071b78c814d47a"
-        },
-        "CH_UP": {
-            "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "8a5e9e7522edab7e821f583f2e4d1a80aa8216c4a8efcbced4e718d184822876"
         },
         "PLAY": {
             "type": "SHA_256",

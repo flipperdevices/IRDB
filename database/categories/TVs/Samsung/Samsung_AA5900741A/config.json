@@ -5,6 +5,16 @@
             "key_name": "Power",
             "sha_256_string": "7a840aa1563bb723e12cfd8a96bf0e264eab1737907a2ce0f1fece1fc5f0b350"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "1fa93123d61150609ef8a839617b287927bfbdbce3567ecef1336ba3f2630335"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "6eb6a2b8d1bda1b7b6a16f8cf31d8cacb1b85eee3e30d06a00e9d364da7bc1f7"
+        },
         "MUTE": {
             "type": "SHA_256",
             "key_name": "Mute",
@@ -12,23 +22,18 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "ce0a016b334897ca298422465a8dd606e242605293bb74e940ea802dab73c113"
+            "key_name": "Up",
+            "sha_256_string": "2ced90017b7161360b980b37f83fb3075128e0513453a3b7eef8d49f537977f8"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "ce0a016b334897ca298422465a8dd606e242605293bb74e940ea802dab73c113"
+            "key_name": "Down",
+            "sha_256_string": "2ced90017b7161360b980b37f83fb3075128e0513453a3b7eef8d49f537977f8"
         },
         "MENU": {
             "type": "SHA_256",
             "key_name": "Menu",
             "sha_256_string": "c83f7cf518cf51ef54e225018a9d54df9b47fc0e2530fcf728da0edeebabaf62"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "2ced90017b7161360b980b37f83fb3075128e0513453a3b7eef8d49f537977f8"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -38,11 +43,6 @@
         "RIGHT": {
             "type": "SHA_256",
             "key_name": "Right",
-            "sha_256_string": "2ced90017b7161360b980b37f83fb3075128e0513453a3b7eef8d49f537977f8"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
             "sha_256_string": "2ced90017b7161360b980b37f83fb3075128e0513453a3b7eef8d49f537977f8"
         },
         "PLAY": {

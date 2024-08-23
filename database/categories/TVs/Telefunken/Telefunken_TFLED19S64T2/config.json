@@ -10,30 +10,30 @@
             "key_name": "Mute",
             "sha_256_string": "66bc09f7b41ed1c13ef8bf918d4f9334ae9f8dc7ea16189ea50cb2fd11132e1d"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "15ce5b38820d01cd45f18a38f402cc97e94a665920c8abcff4cdb359ccad5220"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "ea49422a1c23130b11be07b67274e38cb9f369b068794abf7ae0befe55544615"
+        },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "bb190f80551b6ab33eae8c6cef1cc5a51e7408fbb620ee12bbd35eb4626fdf30"
+            "key_name": "Up",
+            "sha_256_string": "928e84a9b39ff6fd5d43d4a25dbbf947bb9c0c3c561927818f2ef2530c7d39f2"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "fcacdc8e06256f184c72494152502a8c337cb425aff5c6c7e9a152669654bcc6"
+            "key_name": "Down",
+            "sha_256_string": "18dcde70da4b01052a1a737b07629bb1936c00c2e04741bf4fd833c5b789aa8b"
         },
         "MENU": {
             "type": "SHA_256",
             "key_name": "Menu",
             "sha_256_string": "48a123dae2f0a16702714cecaf39fba9ae58aa6861cec67bbec33823d3b99a69"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "928e84a9b39ff6fd5d43d4a25dbbf947bb9c0c3c561927818f2ef2530c7d39f2"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "18dcde70da4b01052a1a737b07629bb1936c00c2e04741bf4fd833c5b789aa8b"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -44,6 +44,11 @@
             "type": "SHA_256",
             "key_name": "Right",
             "sha_256_string": "82cc5858184e4018a99bf68a0a87a52718153126820f22b1c8ef61b23cad8f70"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Enter",
+            "sha_256_string": "bf74915521c18757525095023faf1cb36a2ffcbfa5f149ab37225e9f01356421"
         }
     }
 }

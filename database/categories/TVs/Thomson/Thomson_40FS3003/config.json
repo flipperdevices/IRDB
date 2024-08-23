@@ -5,30 +5,30 @@
             "key_name": "Power",
             "sha_256_string": "ae5cc384540a993430448219d4b6b0853c2b0fbce94a2d264a44880d3b344123"
         },
+        "VOL_UP": {
+            "type": "SHA_256",
+            "key_name": "Vol_up",
+            "sha_256_string": "6b0a622f3b887adad9cc7011437e7d44c14326ee4490016257dcaa88d7019e73"
+        },
+        "VOL_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Vol_dn",
+            "sha_256_string": "21a020539d2263d03c52b5965610a368bc37071f6168651c23c2bdc50a80992f"
+        },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Ch_next",
-            "sha_256_string": "fbfea1782ff4dbdf94d5c891e1a78b54d72a9bdc20442ff3f9839b5742e7d556"
+            "key_name": "Up",
+            "sha_256_string": "c490d33e53856bd46876cd4ae44c5ebd00e8e809eb265896a07e1ccdf2e62096"
         },
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "Ch_prev",
-            "sha_256_string": "f15fd238952099f9f8b79fb1c1f3c50f51a58e8a609c24c7ea8dec4bc1ef789a"
+            "key_name": "Down",
+            "sha_256_string": "ed04baa12ac03d29e9841d44d960761d59a291741e86b499208a3e7ed3773df4"
         },
         "MENU": {
             "type": "SHA_256",
             "key_name": "Menu",
             "sha_256_string": "18a22e24b737f2ab623c32a10dfce8b8d5001394f424a4b8a47a4f9b856e17f4"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "c490d33e53856bd46876cd4ae44c5ebd00e8e809eb265896a07e1ccdf2e62096"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "Down",
-            "sha_256_string": "ed04baa12ac03d29e9841d44d960761d59a291741e86b499208a3e7ed3773df4"
         },
         "LEFT": {
             "type": "SHA_256",
@@ -44,6 +44,11 @@
             "type": "SHA_256",
             "key_name": "Mute",
             "sha_256_string": "a1f0b13e8c24384295a74904137209ca64e573c1c7e2c877f318ac62ce904157"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "Ok",
+            "sha_256_string": "4fa3ad380d5dab66ecc743ab46836f81743e132772718b3bfdbaf495b25a07ca"
         },
         "TV": {
             "type": "SHA_256",

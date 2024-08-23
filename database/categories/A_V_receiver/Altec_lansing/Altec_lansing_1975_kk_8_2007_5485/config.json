@@ -2,8 +2,8 @@
     "key_map": {
         "NEXT": {
             "type": "SHA_256",
-            "key_name": "next",
-            "sha_256_string": "c220a8d5062acae138ab76f1b117d4d923f0791fc7b7dcfa16ca73b8f1f3d990"
+            "key_name": "next_r",
+            "sha_256_string": "67480acecdb8ebb6184e38a981942c281f2de7bd82f79f896100c4a8a0701c76"
         },
         "PWR": {
             "type": "SHA_256",
@@ -17,18 +17,28 @@
         },
         "UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "91209620f66d82f12b2d6758391257c4cafaab4cee3f53794b1fb87549f30e7d"
+            "key_name": "up_r",
+            "sha_256_string": "aff7016fac3ef44bbc70acd4ce7cf7d56a26585c229e82016e36c9505a46ae24"
         },
         "DOWN": {
             "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "c7471a010e31f5a19ace0f6ee64084d6fce837ff4343f0044dc9b16d8f0b9d8d"
+            "key_name": "down_r",
+            "sha_256_string": "52d34455a3742d4f4d1db6d2b845e8af5ad7daaef5e9089c8a329b3414bdd8c5"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "up",
+            "sha_256_string": "91209620f66d82f12b2d6758391257c4cafaab4cee3f53794b1fb87549f30e7d"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-_r",
             "sha_256_string": "66475f8212c47f4f30a6de209328068349242c4d8b30a307123233b4d32f2aad"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "b8897417cdede13df44d845d10c4f5ca06b4702ac6e0620d04085606987b8637"
         },
         "MUTE": {
             "type": "SHA_256",
@@ -39,6 +49,11 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "085629aa6fc8e6870b71cd7342732e640700921399027b4919e9b5b0992d7cb4"
+        },
+        "CH_DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "c7471a010e31f5a19ace0f6ee64084d6fce837ff4343f0044dc9b16d8f0b9d8d"
         }
     }
 }
