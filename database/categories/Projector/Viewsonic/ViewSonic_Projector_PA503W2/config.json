@@ -1,5 +1,15 @@
 {
     "key_map": {
+        "PWR": {
+            "type": "SHA_256",
+            "key_name": "POWER_On",
+            "sha_256_string": "2b3e7dd96d94708cf123e7fcab30631ce94792026d93591c642aa80e80088065"
+        },
+        "OFF": {
+            "type": "SHA_256",
+            "key_name": "POWER_Off",
+            "sha_256_string": "93e5d203981c2ea7bb712e0d48d7e3d7e0127bbce819e5e0deaffb37eabc1a3d"
+        },
         "CH_UP": {
             "type": "SHA_256",
             "key_name": "Up",
@@ -30,15 +40,35 @@
             "key_name": "Menu",
             "sha_256_string": "29df7c7acae037e788af13ba7bb0c2ccd75dfd99eac97e8b48990ec093275e3e"
         },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "Info",
+            "sha_256_string": "adde78f34e85b220b3fd034e037772259ffb40ec03eeb05fa693614bee579a3a"
+        },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "Exit",
+            "sha_256_string": "13ceb781b4ec79f149cfa5f0f838b48cc07c1aaaa06f2062a4b5d2a147b0f737"
+        },
         "VOL_UP": {
             "type": "SHA_256",
             "key_name": "VOL+",
             "sha_256_string": "8f3a26e4b5425f85b2161562cdab3fc1a365b99c121620fd9216e4a27bdec660"
         },
+        "ZOOM_UP": {
+            "type": "SHA_256",
+            "key_name": "Zoom_In",
+            "sha_256_string": "9b8a4e680c723862317ff577d5cd0bc33f4d86e6dfb5660c1ddff89f0d480c9b"
+        },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "VOL-",
             "sha_256_string": "864693d069d0b8411c98631990e1762d2068f4afafb4b59e32fdcb293953c963"
+        },
+        "ZOOM_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Zoom_Out",
+            "sha_256_string": "882256e2806dd7a1538e57ad293b36865d1e3250c097f52ffd9ba19f8b12f753"
         },
         "MUTE": {
             "type": "SHA_256",

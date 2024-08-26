@@ -10,6 +10,26 @@
             "key_name": "home",
             "sha_256_string": "bba88316340841e25be2208caefb3dc315147366f4a63fb86b14cb6ee09972c9"
         },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "97c6f34930b6ced271bdab0f3faa45a49c9339a8e9f8c21995e66a68bf303de6"
+        },
+        "VOD": {
+            "type": "SHA_256",
+            "key_name": "vod",
+            "sha_256_string": "5af394e2af0f7911731dcabd3ee74be6e9e9f7a3a86a7d72f8c0aefe0fbfef41"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "apply",
+            "sha_256_string": "29c8f50c06727dde3641f353ce4e33e317cd8a99a7c3c87454dd1dbe3e07e73b"
+        },
+        "DELETE": {
+            "type": "SHA_256",
+            "key_name": "delete",
+            "sha_256_string": "3df8bae148e106a27bdf691bfabb1384d4f5934da9d1070ecffa006cb7a94d13"
+        },
         "CH_UP": {
             "type": "SHA_256",
             "key_name": "ch+",
@@ -30,10 +50,10 @@
             "key_name": "back",
             "sha_256_string": "24ac9431476e58524081e2f620d574af6a5fd7863b04be9881a4e385a7302980"
         },
-        "OK": {
+        "REW": {
             "type": "SHA_256",
-            "key_name": "ok",
-            "sha_256_string": "aab5e6a6a7906b306fc722b69f48584716203410a7316c9e6cf443d66b00a49a"
+            "key_name": "REW",
+            "sha_256_string": "34c6fb9ecb77114cd84df027c7fdf22cdbfab04e0e88731f7961d0c540dc165d"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -55,10 +75,20 @@
             "key_name": "pause",
             "sha_256_string": "3791e2cdd17b178ea3a773057071fd1425a651988fe4290b7aa22eaf47d2e66c"
         },
+        "SET": {
+            "type": "SHA_256",
+            "key_name": "set",
+            "sha_256_string": "b64877365eebba02a98d76b9635ade3a0d82e4a40f6a3c3e9b460f5be85c4fb3"
+        },
         "PLAY": {
             "type": "SHA_256",
             "key_name": "play",
             "sha_256_string": "fd2bb56da285d72356212a48180e67b68c12c0b7c14c45e85be9a0a5b0edc64d"
+        },
+        "FAVORITE": {
+            "type": "SHA_256",
+            "key_name": "favorite",
+            "sha_256_string": "6f3a1a41cce6b9cde903ee583a36ee5612eaf172e6cfbc041ce5f2f7e35797a5"
         },
         "MENU": {
             "type": "SHA_256",

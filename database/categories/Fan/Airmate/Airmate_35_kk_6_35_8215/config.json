@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "OSCILLATE": {
+            "type": "SHA_256",
+            "key_name": "oscillation",
+            "sha_256_string": "ae5bca2b7e9cdb067dd015d60f005e7bf17dec9c4dbccae33048a3733471100c"
+        },
         "FAN_SPEED_DOWN": {
             "type": "SHA_256",
             "key_name": "fanspeed-",
@@ -9,6 +14,11 @@
             "type": "SHA_256",
             "key_name": "fanspeed+",
             "sha_256_string": "a035eb525707f888a47408c9cbce400f842d63726f09e08c6451ee9901606f99"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "4d98f39861aa7c17a4ad1a4c8fa560b8c6369ce564a36e73255b68b44a4902a2"
         },
         "PWR": {
             "type": "SHA_256",

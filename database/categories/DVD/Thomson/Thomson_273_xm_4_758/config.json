@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "b76d4acbdf73676c8edb03aeec18c661fc68c059df78e927e5ddce26d2476715"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "down",
@@ -45,10 +50,25 @@
             "key_name": "up",
             "sha_256_string": "51d697ac81e21c61029651d943e77bb631428dba7ae1365a4067ba2fd65ac1f9"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop_r",
+            "sha_256_string": "d3af3c5f89f029ffda8b2810fad5e388d6868346a576a4a1e81a7716aa651b88"
+        },
         "OK": {
             "type": "SHA_256",
             "key_name": "ok",
             "sha_256_string": "04e41e1ba8694a2e05efa099f2ddacc4ab2197846ee68278d8332e2dd871554e"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "11c901284f9007a0420fbc06f6eb395f1e9e22c851f73c39d7ae83aef1a8a7f0"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "ab036087efd75e6453e95b96180945f8500ca6edbf2a91e5039e5e9a4471d764"
         },
         "PAUSE": {
             "type": "SHA_256",

@@ -25,6 +25,11 @@
             "key_name": "power",
             "sha_256_string": "3fa67a1f632be15eac8c5e5c0e0f6361deb64741e064d3113684ee01b1250759"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "9d50f017b02733abad463caa992f636b90369744d928ccd9a3cb0577e6110030"
+        },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
@@ -42,8 +47,18 @@
         },
         "OK": {
             "type": "SHA_256",
-            "key_name": "ok",
-            "sha_256_string": "71b19a3e94be127ac830c3ceca38e0c44d0e5fd774b7cdd7ab6fd0d56f9ea8b4"
+            "key_name": "apply",
+            "sha_256_string": "3d941669bb2f3fb8201c4248303c069bee240580cbf60a589980c13bf1c2f764"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "1fad85acd75f14611bc764b8c089bc579f9bfd16ec01ac130dcbc268c92ed3ca"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "74ca109db328c343c5229a4f877f64d424482fe85a06a4f9d440c78e670802d3"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -64,6 +79,11 @@
             "type": "SHA_256",
             "key_name": "play",
             "sha_256_string": "42c97465bebad571757f4e6b23ccf672600e83f5d01a9488b1011cd45467c4ad"
+        },
+        "FAVORITE": {
+            "type": "SHA_256",
+            "key_name": "favorite",
+            "sha_256_string": "98d3c3584b5e948997c457bd3db0e70ffef06460db1666b28c18688b01b95c38"
         },
         "MENU": {
             "type": "SHA_256",

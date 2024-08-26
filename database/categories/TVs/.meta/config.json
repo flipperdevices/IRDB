@@ -2,7 +2,7 @@
     "orders": [
         {
             "message": "Does %s turns on?",
-            "index": 0,
+            "index": 1,
             "key": "PWR",
             "data": {
                 "key_id": {
@@ -12,62 +12,110 @@
             }
         },
         {
-            "message": "Does volume go up?",
+            "message": "Does it increase volume?",
             "index": 2,
             "key": "VOL_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "+",
+                "text": "V+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does volume go down?",
+            "message": "Does it decrease volume?",
             "index": 3,
             "key": "VOL_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "-",
+                "text": "V-",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does channel go next?",
-            "index": 4,
-            "key": "CH_UP",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "+",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does channel go previous?",
+            "message": "Does it sho next channel?",
             "index": 5,
-            "key": "CH_DOWN",
+            "key": "VOL_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "-",
+                "text": "CH+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 37,
-            "key": "OK",
+            "message": "Does it show previous channel?",
+            "index": 6,
+            "key": "VOL_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "OK",
+                "text": "CH-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it zoom in?",
+            "index": 8,
+            "key": "ZOOM_UP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "Z+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it zoom out?",
+            "index": 9,
+            "key": "ZOOM_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "Z-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it increase brightness?",
+            "index": 10,
+            "key": "BRIGHTNESS_UP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "BR-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it decrease brightness?",
+            "index": 11,
+            "key": "BRIGHTNESS_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "BR-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it record?",
+            "index": 12,
+            "key": "RECORD",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "RC",
                 "type": "TEXT"
             }
         }

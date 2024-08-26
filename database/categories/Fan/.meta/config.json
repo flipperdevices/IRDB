@@ -2,7 +2,7 @@
     "orders": [
         {
             "message": "Does %s turns on?",
-            "index": 0,
+            "index": 1,
             "key": "PWR",
             "data": {
                 "key_id": {
@@ -12,32 +12,32 @@
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 23,
-            "key": "MUTE",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "MUTE",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 28,
+            "message": "Does it change wind speed?",
+            "index": 2,
             "key": "WIND_SPEED",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "WIND_SPEED",
+                "text": "WSP",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 29,
+            "message": "Does it enable wind shake?",
+            "index": 3,
+            "key": "SHAKE_WIND",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "WSH",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it change mode?",
+            "index": 4,
             "key": "MODE",
             "data": {
                 "key_id": {
@@ -48,86 +48,146 @@
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 30,
+            "message": "Does it change lights?",
+            "index": 5,
+            "key": "LIGHT",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "LIGHT",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it increase fan speed?",
+            "index": 6,
             "key": "FAN_SPEED_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "FAN_SPEED_UP",
+                "text": "SP+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 31,
+            "message": "Does it decrease fan speed?",
+            "index": 7,
             "key": "FAN_SPEED_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "FAN_SPEED_DOWN",
+                "text": "SP-",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 32,
-            "key": "SHAKE_WIND",
+            "message": "Is speed changed?",
+            "index": 8,
+            "key": "FAN_SPEED",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SHAKE_WIND",
+                "text": "SP",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 33,
-            "key": "WIND_TYPE",
+            "message": "Is speed oscillated?",
+            "index": 9,
+            "key": "OSCILLATE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "WIND_TYPE",
+                "text": "OSC",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 34,
-            "key": "TEMPERATURE_UP",
+            "message": "Is it muted?",
+            "index": 10,
+            "key": "MUTE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "TEMPERATURE_UP",
+                "icon_id": "MUTE",
+                "type": "ICON"
+            }
+        },
+        {
+            "message": "Does it change mode?",
+            "index": 11,
+            "key": "MODE",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "MODE",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 35,
-            "key": "TEMPERATURE_DOWN",
+            "message": "Is timer changed?",
+            "index": 12,
+            "key": "TIMER",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "TEMPERATURE_DOWN",
+                "text": "T",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 36,
-            "key": "ENERGY_SAVE",
+            "message": "Is timer increased?",
+            "index": 13,
+            "key": "TIMER_ADD",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "ENERGY_SAVE",
+                "text": "T+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Is timer decreased?",
+            "index": 14,
+            "key": "TIMER_REDUCE",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "T-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it swing?",
+            "index": 15,
+            "key": "SWING",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "SWING",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it go to sleep?",
+            "index": 16,
+            "key": "SLEEP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "SLEEP",
                 "type": "TEXT"
             }
         }

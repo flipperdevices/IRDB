@@ -1,5 +1,15 @@
 {
     "key_map": {
+        "SHUTTER": {
+            "type": "SHA_256",
+            "key_name": "Photo",
+            "sha_256_string": "76c173aafc801925a5d61029217a285b9bee73ce1cf1cd443bef91c61a8e0b3b"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "Rew",
+            "sha_256_string": "1043152dc8011a7facafbf57aa7759ceabbd28f347dacda68aade4e6a1754710"
+        },
         "PLAY": {
             "type": "SHA_256",
             "key_name": "Play",
@@ -9,6 +19,11 @@
             "type": "SHA_256",
             "key_name": "Pause",
             "sha_256_string": "bcc0a53e77411f47b47d0c1baaaaa29a95926bf06098c6246a30a8eb354d1e44"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "Stop",
+            "sha_256_string": "23abbc121df5c04deaecade5887f0190831cd2375af8154aa8707fb5409d8c07"
         }
     }
 }

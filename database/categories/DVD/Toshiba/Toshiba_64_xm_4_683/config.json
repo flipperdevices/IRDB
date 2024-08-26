@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "ed924c52c97ce9e6b6fa904e7106cfc869cfa3b65e9a879148f3d92d9cda11a8"
+        },
         "NEXT": {
             "type": "SHA_256",
             "key_name": "next_r",
@@ -25,10 +30,20 @@
             "key_name": "power",
             "sha_256_string": "1bfe9a972c08b0f6af44f27fa02d73dd012f2f5e0ed792ed44a05af3611d8b11"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "09577517f729ee36a9a0dd8ccd7668abc9960505e53d3fa6ef5b28a6b2b0f115"
+        },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
             "sha_256_string": "7019ef1cf2084e2c296f4d0c1a9b05266903309207eb82c6b5421e039e32f874"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "ff2ba53c079265758e6ab1f07d4a1e39c83d1b17fcdaab4e9a9361133a5499f9"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -39,6 +54,11 @@
             "type": "SHA_256",
             "key_name": "livetv",
             "sha_256_string": "b79f1f470a25c17d43204042df64dc3cc24a00692825062296efa9bd2dd7e2e3"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "5e4c5022577ba72927d1f960a74812a350b29a6e24c7ef672acf68efa91c09bc"
         },
         "RIGHT": {
             "type": "SHA_256",

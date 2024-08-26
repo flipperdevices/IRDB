@@ -2,157 +2,49 @@
     "orders": [
         {
             "message": "Does volume go up?",
-            "index": 2,
+            "index": 4,
             "key": "VOL_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "+",
+                "text": "V+",
                 "type": "TEXT"
             }
         },
         {
             "message": "Does volume go down?",
-            "index": 3,
+            "index": 5,
             "key": "VOL_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "-",
+                "text": "V-",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 11,
-            "key": "DOWN",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "DOWN",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 12,
-            "key": "UP",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "UP",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 13,
-            "key": "RIGHT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "RIGHT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 14,
-            "key": "LEFT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "LEFT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 15,
-            "key": "NEXT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "NEXT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 16,
-            "key": "PREVIOUS",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "PREVIOUS",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 19,
-            "key": "HOME",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "HOME",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 21,
-            "key": "MENU",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "MENU",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 22,
-            "key": "PLAY",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "PLAY",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 23,
+            "message": "Is it muted?",
+            "index": 6,
             "key": "MUTE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "MUTE",
-                "type": "TEXT"
+                "icon_id": "MUTE",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 27,
-            "key": "PAUSE",
+            "message": "Is it ejected?",
+            "index": 7,
+            "key": "EJECT",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "PAUSE",
+                "text": "EJECT",
                 "type": "TEXT"
             }
         }

@@ -5,6 +5,11 @@
             "key_name": "down",
             "sha_256_string": "d35d598a38779f6f832624b8388759a29816d994cd451aa9f6ef17e9df8862fa"
         },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "62ce04c9a5085ea728a3e691a0768b12a16d63cfd4a9c5c57ab466e2fcd2b8ec"
+        },
         "CH_UP": {
             "type": "SHA_256",
             "key_name": "next",
@@ -15,10 +20,20 @@
             "key_name": "power",
             "sha_256_string": "82ea6ba41ad7a021b7acbcbff62ec931b72dfe685f577329aa9ac94af4ecdf2f"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "4bdfc78a65ea67fa2182a7aa0683cd2ca3fa65e739b443a8007e720c74d85657"
+        },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
             "sha_256_string": "7b90efd8500a610b3a712b49e9ea9d7e69473be83a962e364411af76b7f55c95"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "21f5f868df934175698fee23df6f768b2f6cd68593e781c6ef0cc456103b76ac"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -34,6 +49,11 @@
             "type": "SHA_256",
             "key_name": "play",
             "sha_256_string": "e5b6f8290332a3f012c98e07ca3f6577d8563a00fdc86672d918f049dd7cdfc3"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "ced25877f3d15e94d41b6163412e68ef9a95985033525a59751a523925f2475d"
         },
         "MENU": {
             "type": "SHA_256",
