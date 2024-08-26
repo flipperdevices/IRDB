@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "message": "Does it take photo?",
+            "message": "Did it take a photo?",
             "index": 2,
             "key": "SHUTTER",
             "data": {
@@ -20,8 +20,8 @@
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "Z+",
-                "type": "TEXT"
+                "icon_id": "ZOOM_IN",
+                "type": "ICON"
             }
         },
         {
@@ -32,8 +32,8 @@
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "Z-",
-                "type": "TEXT"
+                "icon_id": "ZOOM_OUT",
+                "type": "ICON"
             }
         },
         {
@@ -44,8 +44,8 @@
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "MENU",
-                "type": "TEXT"
+                "icon_id": "MENU",
+                "type": "ICON"
             }
         }
     ]
