@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "d7d75f822003779740899f1977a3efc8e4412fff29e86676cb515a060eac7281"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -10,10 +15,20 @@
             "key_name": "power",
             "sha_256_string": "55876c2a3223b6e40d4aa6638e10f90f30481a015b2b3c43e2ce9bb7f85bc2a4"
         },
+        "DELETE": {
+            "type": "SHA_256",
+            "key_name": "delete",
+            "sha_256_string": "e8c82d7c3030054838b05e31788027784c2cb4dffc8b57aaeface812c88cc3b5"
+        },
         "OK": {
             "type": "SHA_256",
             "key_name": "enter",
             "sha_256_string": "25c78862fbabe23a808cd75dc5f98bb23e119546773492e0737659322eb82e61"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "23026c80c90bdaf7a6afef4da895f3947b21beef3885c7371c32a8df4b7b40ed"
         },
         "VOL_DOWN": {
             "type": "SHA_256",

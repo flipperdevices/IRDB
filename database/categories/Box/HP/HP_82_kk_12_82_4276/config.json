@@ -30,6 +30,11 @@
             "key_name": "right",
             "sha_256_string": "ce0538394791d3269f1394b0bbd58af20cd3df519aa044382ce0f46cabdd58fc"
         },
+        "EJECT": {
+            "type": "SHA_256",
+            "key_name": "eject",
+            "sha_256_string": "d202512c9fc66585884307294c7283bf9933a4a3352ecb4314bf922095f77b63"
+        },
         "PLAY": {
             "type": "SHA_256",
             "key_name": "play",
@@ -55,10 +60,20 @@
             "key_name": "up_r",
             "sha_256_string": "26b626541a13677763c2c2362cf3f0420b9fdbb03d716d82824564d3f2daa167"
         },
+        "LIVE_TV": {
+            "type": "SHA_256",
+            "key_name": "Live TV_r",
+            "sha_256_string": "a6f369db2bc75cde0c2cc9579499c1643fb448d9b3f2c85c3b590f1750be031b"
+        },
         "OK": {
             "type": "SHA_256",
             "key_name": "ok",
             "sha_256_string": "57e39d3507b7b8983f638ff5e27f532205a7800a1f666bc808db0180bc2e5b31"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop_r",
+            "sha_256_string": "7ad97f97a26639c7a02e8b828607a01abfd48599a72adc291ca4375cb95be865"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
@@ -70,6 +85,16 @@
             "key_name": "previous_r",
             "sha_256_string": "3721923a422217740d5502850ddccfeb46d84f43b16776d48fafb8de0a814dde"
         },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "843bf546507cb46a954741737e3663daa6022253ee7fd275e5bd3ca51b16b001"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "1d67f4004f49f6a3e5f9b8fe2dfdb5781dd370726349e20721f4e5b12a50578f"
+        },
         "TV": {
             "type": "SHA_256",
             "key_name": "livetv",
@@ -79,6 +104,11 @@
             "type": "SHA_256",
             "key_name": "mute",
             "sha_256_string": "e43ce3ff74e9bf30acb91ef2be306027bfde879e983f30cbfe2e746ef441d933"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "01215f4e0283c5e0fabb570373daee3ec744e4aebbadd636fc1192df17665b91"
         },
         "PAUSE": {
             "type": "SHA_256",

@@ -10,6 +10,16 @@
             "key_name": "home",
             "sha_256_string": "937ad086626a5e989586d122c77e99f8991080345023d28c3d2e9288f4787a97"
         },
+        "VOD": {
+            "type": "SHA_256",
+            "key_name": "vod",
+            "sha_256_string": "6634e9338b0ade0d65e7dce12c72db4b4e407eb548d4b78bb89090676447d886"
+        },
+        "DELETE": {
+            "type": "SHA_256",
+            "key_name": "delete",
+            "sha_256_string": "1f7939aa31beff37f7fc70efae5e84f78f9dc7ca4394ffeb6f40a1cf6955aa06"
+        },
         "CH_UP": {
             "type": "SHA_256",
             "key_name": "up",
@@ -55,10 +65,20 @@
             "key_name": "pause",
             "sha_256_string": "866968dd396b068794e9997979e0de4c6e1ad0848959903db8d400af05ce31b1"
         },
+        "SET": {
+            "type": "SHA_256",
+            "key_name": "set",
+            "sha_256_string": "17c6611c53e3d413f8adb27bb655db3996827477dff635d9fa2e42c270dae048"
+        },
         "PLAY": {
             "type": "SHA_256",
             "key_name": "play",
             "sha_256_string": "6939c9f357742a2d1dfd4f8d7f17de43cb2003ea68ec1138d1071319b2396a10"
+        },
+        "FAVORITE": {
+            "type": "SHA_256",
+            "key_name": "favorite",
+            "sha_256_string": "eae821a3773a2d426c3a6d66c595576cc3c1c35d8d807829b64b1fac69fcaf2b"
         },
         "MENU": {
             "type": "SHA_256",

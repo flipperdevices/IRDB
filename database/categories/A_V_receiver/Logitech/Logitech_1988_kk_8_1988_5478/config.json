@@ -1,19 +1,24 @@
 {
     "key_map": {
-        "PWR": {
+        "VOL_UP": {
             "type": "SHA_256",
-            "key_name": "power",
-            "sha_256_string": "97362782b00146ef694fba68afa0371f11de7a0999567e056341c52224da1704"
+            "key_name": "vol+",
+            "sha_256_string": "5c9ed3daf3945edc0732451acfc24c1737e67e0e12c98e1ed349802aaf510200"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
             "sha_256_string": "bea400bb598b60a4581265800e23a69a80134a7b10ef31c631b2ba23bc65fca7"
         },
-        "VOL_UP": {
+        "PWR": {
             "type": "SHA_256",
-            "key_name": "vol+",
-            "sha_256_string": "5c9ed3daf3945edc0732451acfc24c1737e67e0e12c98e1ed349802aaf510200"
+            "key_name": "power",
+            "sha_256_string": "97362782b00146ef694fba68afa0371f11de7a0999567e056341c52224da1704"
+        },
+        "SET": {
+            "type": "SHA_256",
+            "key_name": "set",
+            "sha_256_string": "815424c4eb2668ac129dec2e1e29752d9ee8292e1c2d25887c1fe5615a39d37d"
         },
         "MUTE": {
             "type": "SHA_256",

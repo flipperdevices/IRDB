@@ -2,7 +2,7 @@
     "orders": [
         {
             "message": "Does %s turns on?",
-            "index": 0,
+            "index": 1,
             "key": "PWR",
             "data": {
                 "key_id": {
@@ -12,26 +12,50 @@
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 23,
-            "key": "MUTE",
+            "message": "Is it oscillated?",
+            "index": 2,
+            "key": "OSCILLATE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "MUTE",
+                "text": "V+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 24,
-            "key": "FAN_SPEED",
+            "message": "Is Fan speed increased??",
+            "index": 3,
+            "key": "FAN_SPEED_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "FAN_SPEED",
+                "text": "FS+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Is Fan speed decreased?",
+            "index": 4,
+            "key": "FAN_SPEED_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "FS-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it swing?",
+            "index": 5,
+            "key": "SWING",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "FS-",
                 "type": "TEXT"
             }
         }

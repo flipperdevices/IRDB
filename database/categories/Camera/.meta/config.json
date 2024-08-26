@@ -1,8 +1,8 @@
 {
     "orders": [
         {
-            "message": "Did %s take a photo?",
-            "index": 1,
+            "message": "Does it take photo?",
+            "index": 2,
             "key": "SHUTTER",
             "data": {
                 "key_id": {
@@ -13,122 +13,38 @@
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 11,
-            "key": "DOWN",
+            "message": "Does it zoom in?",
+            "index": 3,
+            "key": "ZOOM_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "DOWN",
+                "text": "Z+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 12,
-            "key": "UP",
+            "message": "Does it zoom out?",
+            "index": 4,
+            "key": "ZOOM_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "UP",
+                "text": "Z-",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 13,
-            "key": "RIGHT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "RIGHT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 14,
-            "key": "LEFT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "LEFT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 15,
-            "key": "NEXT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "NEXT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 16,
-            "key": "PREVIOUS",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "PREVIOUS",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 20,
-            "key": "BACK",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "BACK",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 21,
+            "message": "Is menu opened?",
+            "index": 5,
             "key": "MENU",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
                 "text": "MENU",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 25,
-            "key": "NEAR",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "NEAR",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 26,
-            "key": "FAR",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "FAR",
                 "type": "TEXT"
             }
         }

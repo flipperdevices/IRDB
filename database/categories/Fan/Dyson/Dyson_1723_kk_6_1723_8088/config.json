@@ -5,6 +5,11 @@
             "key_name": "fanspeed-",
             "sha_256_string": "c422a75243a46fb435a03aed541d11f1e383556356080da0e3abf3dce6778263"
         },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "d555b975020220b08831712f18ce3c181e21773e86d5a75d3fb0ad078e69987d"
+        },
         "TEMPERATURE_DOWN": {
             "type": "SHA_256",
             "key_name": "temperature_down",
@@ -20,10 +25,20 @@
             "key_name": "fanspeed+",
             "sha_256_string": "337ec166c64f74bd999b1d9beec0819639e51ad1d7b169b27ae0c39c1d243cdf"
         },
+        "COOL": {
+            "type": "SHA_256",
+            "key_name": "COOL",
+            "sha_256_string": "c40dc57297d3e19060f853139326bbfe0047641837ee1ecab8fa41a1bb652872"
+        },
         "PWR": {
             "type": "SHA_256",
             "key_name": "power",
             "sha_256_string": "4686e866db75cde079ff2c297568e501cfde653fb9309e0e302304196f6ff78d"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "8fd14aa9fe916130d1b39bcc2792cf4f10e9be08ff8011c39c54662081da407d"
         }
     }
 }

@@ -20,6 +20,11 @@
             "key_name": "vol+",
             "sha_256_string": "3bfec49bf3eede954c0cbc91c4738885f2c8a0ff18f6f9c4e93461c98a65eb40"
         },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "abbb680ffd40797125ca34b81da2781307ae970465ff04d62b1af7c89859addb"
+        },
         "RIGHT": {
             "type": "SHA_256",
             "key_name": "right",
@@ -29,6 +34,11 @@
             "type": "SHA_256",
             "key_name": "speed",
             "sha_256_string": "b8a710cd3a06121b7fb5398ed31ccbd364a55abbbf24bc48f37110ffdc3fbc51"
+        },
+        "EJECT": {
+            "type": "SHA_256",
+            "key_name": "eject",
+            "sha_256_string": "e23297ee723c31e72336795cf63bc6648c6cfcf525c4606ab6192b0ed6b69450"
         },
         "MENU": {
             "type": "SHA_256",
@@ -65,10 +75,25 @@
             "key_name": "ok",
             "sha_256_string": "28a9d70dcca57956d41f306ed6b37ad44ba5ec0c572a8ac7beacf4fd39998589"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop_r",
+            "sha_256_string": "b26ba82b35d62192d4b18ed0fccfb31566ab55f93d239655388615847fff0636"
+        },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-_r",
             "sha_256_string": "fa2cf9c57ed1699ef3b7b58899bbb9893e145c477b10d7eaa5b204cf3f0bb38e"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "312e3b86ff60cddfd93285dc5b77a5c0ea9833d381ba2465a53b738e94398849"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "305c00c54da35cfff5ca5593299208f04d2308110514a2d3bc30236e1dbd6bbe"
         },
         "TV": {
             "type": "SHA_256",
@@ -84,6 +109,11 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "0225d7eb515e826a1ba8efd1b31771de06365e996f873c3ba7f24193b94d5d1b"
+        },
+        "SET": {
+            "type": "SHA_256",
+            "key_name": "set",
+            "sha_256_string": "1df345e6914e6c26d1148d90d107ccda815d27fe975231132f7a3ce8a73899c7"
         }
     }
 }

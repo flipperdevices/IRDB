@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "793ebaf86c35c9fe0a681409f9818d97aaacf0861719d7d68fdeae0e01993da8"
+        },
         "NEXT": {
             "type": "SHA_256",
             "key_name": "next_r",
@@ -20,10 +25,25 @@
             "key_name": "power",
             "sha_256_string": "61a2f5bec6ebae7c6c97414a5679bd0dc123e23cc265bd8500599b8ac5ac3399"
         },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "3c09b7229207e2dba6f69aed4e377b39105359be12b00be0977a324548757a34"
+        },
+        "OFF": {
+            "type": "SHA_256",
+            "key_name": "poweroff",
+            "sha_256_string": "0c483b373bcba0fd3353e061afd9c19f0b5077a346b90c6877eb3f3d90185a1f"
+        },
         "OK": {
             "type": "SHA_256",
             "key_name": "ok",
             "sha_256_string": "6c0617ab5a87fbc41914d071b524d044bb4864b3bf4cd11ea630c789138c8fdd"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "b0b9d894faba76639fe6f8297ac875aaff38dd92d543d062ea76c255994a128a"
         },
         "RIGHT": {
             "type": "SHA_256",

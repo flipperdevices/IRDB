@@ -10,6 +10,11 @@
             "key_name": "ch-",
             "sha_256_string": "a44857c475efb68da9822cc66323293cbe308b6ec71fc4c317036179829e593e"
         },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "80d9f4774ac9d5979808542e4abd65047bc73500c9dff8485d7b7f276a04480a"
+        },
         "CH_UP": {
             "type": "SHA_256",
             "key_name": "ch+",
@@ -35,10 +40,20 @@
             "key_name": "vol+",
             "sha_256_string": "c4acbcdf252850f453332b35494e20b64599270006ae1a5a7b29f6dca4baeb00"
         },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "fbd1fa29720ca470a32e72cb0fd939b337ab431090f472867f9c165dd013f729"
+        },
         "RIGHT": {
             "type": "SHA_256",
             "key_name": "right",
             "sha_256_string": "7071a21822fe72f30077426788b0af58dc521adc18d3eb61ad352fe6f1c5e453"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "47efb43c8494477941c26bd227a245ee95375b16c466101434f7b4e26d668066"
         },
         "MUTE": {
             "type": "SHA_256",
