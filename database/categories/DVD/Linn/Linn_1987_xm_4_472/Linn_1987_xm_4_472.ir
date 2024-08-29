@@ -1,172 +1,170 @@
 Filetype: IR signals file
 Version: 1
-# Device: DVD; Brand: Linn_1987; Model: xm_4_472; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
-# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
-#
+# 
 name: ch-_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: rew
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 892 892 1811 892 892 1811 1811 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 32 00 00 00
+# 
 name: next_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1758 1758 892 892 1758 892 892 1758 892 892 1758 892 892 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: down
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: ch+_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: down
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: ch-_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: pause_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 892 892 1811 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 30 00 00 00
+# 
 name: power_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 1811 892 892 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 92899
-#
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
 name: down
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: ff
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 892 892 1811 1811 1811 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 34 00 00 00
+# 
 name: menu_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 1811 892 892 1811 892 892 1811 892 892 1811 1811 892 892 892 892 892 892 1811 892 892 892 92006
-#
+type: parsed
+protocol: RC5X
+address: 19 00 00 00
+command: 03 00 00 00
+# 
 name: ff_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 892 892 1811 1811 1811 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 34 00 00 00
+# 
 name: play_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 892 892 1811 1811 1811 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 35 00 00 00
+# 
 name: ch-_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 21 00 00 00
+# 
 name: up_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 892 892 92899
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: up
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1758 892 892 1758 892 892 1758 892 892 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: power
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 1811 892 892 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 92899
-#
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
 name: stop
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 892 892 1811 1811 892 892 1811 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 36 00 00 00
+# 
 name: next
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: stop_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1811 1811 892 892 1811 892 892 1811 892 892 892 892 1811 1811 892 892 1811 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 36 00 00 00
+# 
 name: info
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 1811 892 892 1811 1811 1811 892 892 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 0B 00 00 00
+# 
 name: info_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1758 1758 892 892 1758 892 892 1758 1758 892 892 1758 1758 1758 892 892 892 91980
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 0B 00 00 00
+# 
 name: pause
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 892 892 1811 892 892 892 892 892 892 92899
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 30 00 00 00
+# 
 name: next
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 1811 892 892 892 892 892 892 892 892 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 20 00 00 00
+# 
 name: rew_r
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 1758 1758 892 892 1758 892 892 1758 892 892 892 892 1758 892 892 1758 1758 92925
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 32 00 00 00
+# 
 name: play
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 892 892 892 892 892 892 892 892 1811 892 892 1811 892 892 892 892 1811 1811 1811 1811 892 92006
-#
+type: parsed
+protocol: RC5
+address: 19 00 00 00
+command: 35 00 00 00
+# 
 name: menu
-type: raw
-frequency: 38095
-duty_cycle: 0.330000
-data: 1811 1811 892 892 892 892 1811 892 892 1811 1811 892 892 892 892 892 892 1811 892 892 892 92006
+type: parsed
+protocol: RC5X
+address: 19 00 00 00
+command: 03 00 00 00

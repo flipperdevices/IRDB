@@ -1,8 +1,6 @@
 Filetype: IR signals file
 Version: 1
-#
-# Sony Bravia KD-55XF80xx, KD-49XF80xx, KD-43XF80xx.ir
-#
+# 
 name: Power
 type: parsed
 protocol: SIRC
@@ -62,7 +60,7 @@ type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 65 00 00 00
-#
+# 
 name: Back
 type: parsed
 protocol: SIRC15
@@ -92,7 +90,7 @@ type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
-#
+# 
 name: Ch_prev
 type: parsed
 protocol: SIRC

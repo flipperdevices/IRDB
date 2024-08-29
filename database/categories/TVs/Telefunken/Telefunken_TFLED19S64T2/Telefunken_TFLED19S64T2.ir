@@ -1,8 +1,6 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Telefunken TF-LED19S64T2 TV
-# 
 name: Power
 type: parsed
 protocol: NECext
@@ -86,7 +84,7 @@ type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 13 EC 00 00
-#
+# 
 name: 1
 type: parsed
 protocol: NECext

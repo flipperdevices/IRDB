@@ -1,7 +1,5 @@
 Filetype: IR signals file
 Version: 1
-#
-# Samsung UN32EH5000F
 # 
 name: Power
 type: parsed
@@ -50,19 +48,19 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
-#
+# 
 name: Smart_Hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
-#
+# 
 name: Exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
-#
+# 
 name: Info
 type: parsed
 protocol: Samsung32

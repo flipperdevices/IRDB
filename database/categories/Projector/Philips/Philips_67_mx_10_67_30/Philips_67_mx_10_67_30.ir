@@ -1,110 +1,108 @@
 Filetype: IR signals file
 Version: 1
-# Device: Projector; Brand: Philips_67; Model: mx_10_67_30; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
-# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
-#
+# 
 name: down
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 82730
-#
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 11 00 00 00
+# 
 name: power_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
 name: list_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 888 888 1776 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
 name: up_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 1776 1776 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2B 00 00 00
+# 
 name: list_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 888 888 1776 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
 name: down_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 82730
-#
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 11 00 00 00
+# 
 name: left_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 1776 888 888 888 83600
-#
+# 
 name: up_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
 name: up
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
 name: power
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
 name: vol-
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
 name: ok_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
 name: list
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 888 888 1776 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
 name: vol-
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
 name: list
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 888 888 1776 83600
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
 name: up
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 1776 1776 1776 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2B 00 00 00
+# 
 name: ok_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 82730
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
 name: left
 type: raw
 frequency: 36000

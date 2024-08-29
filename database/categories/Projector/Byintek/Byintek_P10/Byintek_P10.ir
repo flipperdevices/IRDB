@@ -1,14 +1,12 @@
 Filetype: IR signals file
 Version: 1
-#
-# Byintek P10 Projector
 # 
 name: Power
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 01 00 00 00
-#
+# 
 name: UP
 type: parsed
 protocol: NEC
@@ -32,7 +30,7 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 06 00 00 00
-#
+# 
 name: OK
 type: parsed
 protocol: NEC
@@ -44,7 +42,7 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 25 00 00 00
-#
+# 
 name: Mute
 type: parsed
 protocol: NEC
@@ -98,4 +96,3 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 26 00 00 00
-# 
