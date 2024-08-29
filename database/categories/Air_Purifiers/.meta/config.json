@@ -1,0 +1,63 @@
+{
+    "orders": [
+        {
+            "message": "Does %s turns on?",
+            "index": 1,
+            "key": "PWR",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "type": "POWER"
+            }
+        },
+        {
+            "message": "Is it oscillated?",
+            "index": 2,
+            "key": "OSCILLATE",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "OSC",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Is Fan speed increased??",
+            "index": 3,
+            "key": "FAN_SPEED_UP",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "FS+",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Is Fan speed decreased?",
+            "index": 4,
+            "key": "FAN_SPEED_DOWN",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "FS-",
+                "type": "TEXT"
+            }
+        },
+        {
+            "message": "Does it swing?",
+            "index": 5,
+            "key": "SWING",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "text": "SW",
+                "type": "TEXT"
+            }
+        }
+    ]
+}
