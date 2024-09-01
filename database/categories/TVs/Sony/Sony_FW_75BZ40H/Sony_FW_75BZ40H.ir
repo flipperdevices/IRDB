@@ -1,9 +1,6 @@
 Filetype: IR signals file
 Version: 1
 # 
-# TV: Sony FW 75BZ40H
-# Remote: Sony FPD RMT-TB400U
-#
 name: Input
 type: parsed
 protocol: SIRC
@@ -201,7 +198,7 @@ type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 60 00 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: SIRC
@@ -279,4 +276,3 @@ type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 3D 00 00 00
-# 

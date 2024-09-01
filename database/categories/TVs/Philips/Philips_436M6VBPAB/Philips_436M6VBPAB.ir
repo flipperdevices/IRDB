@@ -1,8 +1,6 @@
 Filetype: IR signals file
 Version: 1
-#
-# LED TV Monitor Philips 436M6VBPAB, these codes are from a replacement remote control
-#
+# 
 name: Power
 type: parsed
 protocol: RC6
@@ -14,13 +12,13 @@ type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
-#
+# 
 name: Image
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: F3 00 00 00
-#
+# 
 name: Ok
 type: parsed
 protocol: RC6

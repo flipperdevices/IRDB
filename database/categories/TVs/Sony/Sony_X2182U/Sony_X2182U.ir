@@ -1,10 +1,6 @@
 Filetype: IR signals file
 Version: 1
 # 
-# TV: Sony X2182U
-# Remote: RM-887
-# remote came with X2182U, but may actually be for a newer Trinitron TV
-#
 name: Power
 type: parsed
 protocol: SIRC
@@ -83,7 +79,6 @@ protocol: SIRC
 address: 01 00 00 00
 command: 08 00 00 00
 # 
-# not sure what SIRC_1D does, label is -/--
 name: Sirc_1d
 type: parsed
 protocol: SIRC
@@ -96,14 +91,12 @@ protocol: SIRC
 address: 01 00 00 00
 command: 09 00 00 00
 # 
-# not sure what SIRC_3B does, label was a circle of two arrows, like a sync icon
 name: Sirc_3b
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-#not sure what SIRC_38 does, label was a rounded square
 name: Sirc_38
 type: parsed
 protocol: SIRC
@@ -146,28 +139,24 @@ protocol: SIRC
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-# Also has music label
 name: Red
 type: parsed
 protocol: SIRC
 address: 03 00 00 00
 command: 4C 00 00 00
 # 
-# also has brightness label
 name: Green
 type: parsed
 protocol: SIRC
 address: 03 00 00 00
 command: 4D 00 00 00
 # 
-# also has guide label
 name: Yellow
 type: parsed
 protocol: SIRC
 address: 03 00 00 00
 command: 4E 00 00 00
 # 
-# also has picture adjustment label
 name: Blue
 type: parsed
 protocol: SIRC

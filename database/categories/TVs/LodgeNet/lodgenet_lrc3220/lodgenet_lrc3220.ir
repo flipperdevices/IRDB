@@ -1,9 +1,6 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Standard remote for hotel rooms
-# Lodgenet LRC3220
-#
 name: Power
 type: parsed
 protocol: NECext
@@ -21,7 +18,7 @@ type: parsed
 protocol: NECext
 address: 85 7C 00 00
 command: 95 6A 00 00
-#
+# 
 name: Back
 type: parsed
 protocol: NECext
@@ -33,7 +30,7 @@ type: parsed
 protocol: NECext
 address: 85 7C 00 00
 command: 90 6F 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: NECext

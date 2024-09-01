@@ -1,40 +1,38 @@
 Filetype: IR signals file
 Version: 1
-# Device: A_V receiver; Brand: Revox_25; Model: mx_8_25_43; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
-# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
-#
+# 
 name: power_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 1776 1776 888 888 1776 888 888 1776 888 888 85350
-#
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 0C 00 00 00
+# 
 name: vol+
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 1776 1776 888 888 888 888 888 888 83600 85350
-#
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 10 00 00 00
+# 
 name: vol+_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 1776 1776 1776 1776 888 888 888 888 888 888 85350
-#
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 10 00 00 00
+# 
 name: vol-
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 1776 1776 888 888 888 888 1776 888 82730 85350
-#
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 11 00 00 00
+# 
 name: power
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 888 888 1776 888 888 1776 888 888 83600 85350
-#
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 0C 00 00 00
+# 
 name: vol-_r
-type: raw
-frequency: 36000
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 1776 1776 1776 1776 888 888 888 888 1776 888 85350
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 11 00 00 00

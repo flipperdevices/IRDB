@@ -1,148 +1,146 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: ONIDA_1714; Model: xm_1_2739; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
-# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
-#
+# 
 name: down
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 842 842 815 842 815 842 815 842 815 842 815 842 815 842 1657 1684 1657 842 815 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
 name: ch-
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 868 1684 842 842 868 842 868 842 868 842 868 842 868 842 868 842 1684 1684 1684 842 868 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
 name: -
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 842 815 1684 842 842 815 842 815 842 815 842 815 842 815 842 1631 1684 1657 842 815 842 815 842 100000
-#
+# 
 name: 0
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 85368
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+# 
 name: 4
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1631 1684 100000
-#
+# 
 name: 7
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 842 815 1684 842 842 815 842 815 842 815 842 815 842 815 842 815 842 1657 842 815 842 815 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 07 00 00 00
+# 
 name: up
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 864 810 864 810 1729 810 864 810 864 810 864 810 864 810 864 810 864 1675 1729 1648 1729 86351
-#
+# 
 name: 1
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 864 810 864 810 1729 810 864 810 864 810 864 810 864 810 864 810 864 810 864 810 864 810 864 1675 864 85513
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 01 00 00 00
+# 
 name: 8
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 868 1684 842 842 868 842 868 842 868 842 868 842 868 842 868 842 1684 1684 842 842 868 842 86631
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 08 00 00 00
+# 
 name: power
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 1657 842 815 1684 815 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
 name: 9
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 864 810 864 810 1729 810 864 810 864 810 864 810 864 810 864 810 864 1675 1729 810 864 1675 864 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 09 00 00 00
+# 
 name: vol-
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 842 815 1684 815 842 815 842 815 842 815 842 815 842 1657 1684 815 842 815 842 1657 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
 name: back
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 864 810 864 810 1729 810 864 810 864 810 864 810 864 1675 1729 810 864 810 864 1675 1729 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 22 00 00 00
+# 
 name: ok
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 842 815 1684 842 842 815 842 815 842 815 842 815 842 1657 842 815 1684 842 842 815 842 85631
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 18 00 00 00
+# 
 name: vol+
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 1657 1684 815 842 1657 1684 85631
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00
+# 
 name: 1
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 864 810 864 810 1729 810 864 810 864 810 864 810 864 810 864 810 864 810 864 810 864 810 864 1675 864 85513
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 01 00 00 00
+# 
 name: right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 1631 1684 815 842 1631 1684 100000
-#
+# 
 name: 5
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1657 1684 815 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 04 00 00 00
+# 
 name: ch+
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1657 1684 1657 1684 85657
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
 name: 4
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1631 1684 100000
-#
+# 
 name: 6
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1657 842 815 1684 85631
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 06 00 00 00
+# 
 name: menu
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 842 815 1684 842 842 815 842 815 842 815 842 815 842 1657 842 815 1684 842 842 815 842 100000
-#
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 18 00 00 00
+# 
 name: mute
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 820 846 820 846 1641 820 820 846 820 846 820 846 820 846 820 846 820 1666 820 846 1641 1641 820 83974
-#
+# 
 name: left
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 1657 1684 815 842 815 842 1657 842 84789
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00

@@ -1,76 +1,74 @@
 Filetype: IR signals file
 Version: 1
-# Device: DVD; Brand: Aiwa_36; Model: xm_4_480; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
-# AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
-#
+# 
 name: skip_back
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 1225 625 1225 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 625 625 23400
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 57 00 00 00
+# 
 name: rew
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 625 625 625 625 625 625 625 625 1225 625 625 625 625 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 20950
-#
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 10 00 00 00
+# 
 name: ch-
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 625 625 625 625 625 625 1225 625 625 625 625 625 1225 625 1225 625 625 625 1225 625 625 25175
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 11 00 00 00
+# 
 name: ff
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 625 625 625 625 625 625 1225 625 625 625 625 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 20375
-#
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 11 00 00 00
+# 
 name: changesound
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 1225 625 1225 625 625 625 1225 625 625 625 625 625 1225 625 1225 625 625 625 1225 625 625 24000
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 17 00 00 00
+# 
 name: skip_forward
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 625 625 1225 625 1225 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 625 625 23975
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 56 00 00 00
+# 
 name: power
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 625 625 1225 625 625 625 1225 625 625 625 625 625 1225 625 1225 625 625 625 1225 625 625 24575
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 15 00 00 00
+# 
 name: stop
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 1225 625 1225 625 1225 625 625 625 625 625 625 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 19175
-#
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0F 00 00 00
+# 
 name: record
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 625 625 1225 625 1225 625 625 625 1225 625 625 23975
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 1D 00 00 00
+# 
 name: pause
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 625 625 1225 625 1225 625 1225 625 625 625 625 625 625 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 19750
-#
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0E 00 00 00
+# 
 name: ch+
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 625 625 625 625 625 625 625 625 1225 625 625 625 625 625 1225 625 1225 625 625 625 1225 625 625 25775
-#
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 10 00 00 00
+# 
 name: play
-type: raw
-frequency: 40000
-duty_cycle: 0.330000
-data: 2400 625 625 625 625 625 625 625 1225 625 1225 625 625 625 625 625 625 625 1225 625 625 625 1225 625 1225 625 1225 625 625 625 1225 20350
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 18 00 00 00

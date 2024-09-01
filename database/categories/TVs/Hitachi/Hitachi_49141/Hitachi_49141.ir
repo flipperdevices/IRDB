@@ -1,10 +1,5 @@
 Filetype: IR signals file
 Version: 1
-#
-# Hitachi SmartTV 49141
-# Tested on Hitachi Smart TV model 32HB4T62.
-# To write, the numbers have the T9 layout with space on 0.
-# One button near the end is kind of unknown.
 # 
 name: Power
 type: parsed
@@ -228,11 +223,6 @@ protocol: RC5
 address: 03 00 00 00
 command: 1B 00 00 00
 # 
-# !!!ATTENTION!!!
-# I wasn't able to verify what this button does
-# as i was in a hurry. If someone finds out what it does,
-# feel free to edit the name of the button
-#
 name: Back_to_tv_maybe
 type: parsed
 protocol: RC5
