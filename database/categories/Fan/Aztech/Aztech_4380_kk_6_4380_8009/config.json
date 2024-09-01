@@ -1,17 +1,29 @@
 {
     "key_map": {
+        "OSCILLATE": {
+            "type": "SHA_256",
+            "key_name": "Osc",
+            "sha_256_string": "3c5c303bf9f8d0bb370fa41689a64e515fd473102a88c35b352a10effd18dadc"
+        },
         "WIND_SPEED": {
             "type": "SHA_256",
             "key_name": "wind_speed",
-            "sha_256_string": "5bd111a71bde52baa14b16074ffb9d7375b690601498781a691581f63892d7cd"
+            "sha_256_string": "5e6caf660175a706c455a7d035bdb17ca25dad5ec3f916f9464b5a520214ba75"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power_r"
+            "type": "SHA_256",
+            "key_name": "power_r",
+            "sha_256_string": "868aa90cefd4b72b2ac73d5e728ac4817f45ac2d69664966f61512ed462ac0bc"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "69fa824f7634327def04acdd617d19e1a7d5ec94857910e85c0d428705cc90a5"
         },
         "MODE": {
-            "type": "NAME",
-            "key_name": "mode"
+            "type": "SHA_256",
+            "key_name": "mode",
+            "sha_256_string": "02e5ea923808b55b6d4d52ecf910489ad2e5607bbc20a0f3dfd24b24c32f03ce"
         }
     }
 }

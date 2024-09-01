@@ -1,159 +1,62 @@
 {
     "orders": [
         {
-            "message": "Does it do something?",
-            "index": 10,
-            "key": "DOWN",
+            "message": "Does %s turns on?",
+            "index": 1,
+            "key": "PWR",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "DOWN",
-                "type": "TEXT"
+                "type": "POWER"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 11,
-            "key": "UP",
+            "message": "Does volume go up?",
+            "index": 2,
+            "key": "VOL_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "UP",
-                "type": "TEXT"
+                "icon_id": "VOL_UP",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 12,
-            "key": "RIGHT",
+            "message": "Does volume go down?",
+            "index": 3,
+            "key": "VOL_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "RIGHT",
-                "type": "TEXT"
+                "icon_id": "VOL_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 13,
-            "key": "LEFT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "LEFT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 14,
-            "key": "NEXT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "NEXT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 15,
-            "key": "PREVIOUS",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "PREVIOUS",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 16,
-            "key": "TV",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "TV",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 17,
-            "key": "AUX",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "AUX",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 18,
-            "key": "HOME",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "HOME",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 19,
-            "key": "BACK",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "BACK",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 20,
-            "key": "MENU",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "MENU",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 21,
-            "key": "PLAY",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "PLAY",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 22,
+            "message": "Is volume muted?",
+            "index": 4,
             "key": "MUTE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "MUTE",
-                "type": "TEXT"
+                "icon_id": "MUTE",
+                "type": "ICON"
+            }
+        },
+        {
+            "message": "Is menu opened?",
+            "index": 5,
+            "key": "MENU",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "icon_id": "MENU",
+                "type": "ICON"
             }
         }
     ]

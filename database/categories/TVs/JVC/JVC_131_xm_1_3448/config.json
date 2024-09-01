@@ -1,35 +1,44 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
+        "CH_DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "3c79840f76fd6cb7507adf662e7fb1ee3674db47d29a34fd3decb9eaded55cc8"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "728e0398badaafd61da4b23f5d17fb7f575a300425e081774d88db544c4701f0"
         },
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "up",
+            "sha_256_string": "faaf0aeab216f27cf49219cbb0772e37162070cefb6be14c1ed978aebde3bd23"
         },
         "VOL_DOWN": {
             "type": "SHA_256",
             "key_name": "vol-",
-            "sha_256_string": "9dde5ecaca52bbc80b53021fda4dc7298dcd898db06d07796a143b0f41658c06"
+            "sha_256_string": "3729f6e32e94ab30ac442a1713d3f0ebe0c882d0a1acdd3f3aa5c1744c9cb76b"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "84b4cf8a8a5cd6861f6afe52b3025dcd98c6905bb46fed1734037a3a6c5a9956"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "c2c338ce405204cfba29ce060d2d3e98bec42028c0598d8c46db358216aa3c3f"
+            "sha_256_string": "6bee62e54d309d4fcafa889f39ec969dfcaa0eb1129956399ad0c54bf119bf48"
         },
         "VOL_UP": {
             "type": "SHA_256",
             "key_name": "vol+",
-            "sha_256_string": "c778028baf8525ab7bba9a638a7a46672821588135a315be46c0271e30d61068"
+            "sha_256_string": "37d2857e3b134e24cad4b370aefeaec1c11aa0c4c41f01d000109ba243dac8d2"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "83966bd28a3f0fcee59ad093082fe230c7ceb6d75ee422b50910fbbc27f598e4"
         }
     }
 }

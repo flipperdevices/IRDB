@@ -1,53 +1,89 @@
 {
     "key_map": {
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "bb777a3b8a35e43a80ea9df960179096f1be975196d47136550738d36dd816e4"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_r",
-            "sha_256_string": "b1739f21e76adf022c7e4ab27c11ab261567a230cd1f7c521484064a681a227a"
-        },
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down_r"
+            "sha_256_string": "ad8e0c0c86fac332c8dc08e8e92e2fb10765399f7db3a6cdec936716c8df2d03"
         },
         "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "c1eb2425b1ea2c0f6b77e69cd2f2a92622690bb5fdd0b3c9c8d1e139a0f9e416"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "147a0e0bb625b376faee435aad8df73f85882a969d1238acc99c9f4a18aea75d"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "16f4495c87de31ebaae00a680998c257968c5bee1f3835acdce2e2fbbb5dd9dc"
+        },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "24b8ef7ed579daa0188f59652da1b7afe7747c955f817841ce4f7ffb8f6b17d1"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "3e4dfe63b7fc494b532cb87ef583d35765522a63a16acac27883feed5cd97d70"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "7829a2d3b330b220cb9ca237b522f92f46a9eafab31c2a33cbda79296117e5d0"
+        },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down_r",
+            "sha_256_string": "4b8af65904eeee4a7849b7ad0fade7bd5b832336d97fea6a64da3b52cfa14260"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "3c8571390ce351642d1d6d67f0377269eb89c5fa4759b63b5f971597b57c5093"
         },
         "UP": {
-            "type": "NAME",
-            "key_name": "up"
+            "type": "SHA_256",
+            "key_name": "up_r",
+            "sha_256_string": "aa2b82b1363401251dc96e7a684f4337125b9440c4d40c6c5c2fc122123030bf"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "95745ae14efd665e84a4f6e1a87790603955cda860963e7c85c014aac68a565a"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-_r"
+            "type": "SHA_256",
+            "key_name": "vol-_r",
+            "sha_256_string": "87fb1028ddca9bb0a5993cffe893bbd89b53c41d2ee632c86f2540dc43547275"
+        },
+        "SHUTTER": {
+            "type": "SHA_256",
+            "key_name": "picture",
+            "sha_256_string": "6b3bf772d6bdcefd814577a1b9829041ce840ce190cbedab8b35bc31342c8bee"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "42e7a5b56e84dec9646522500a864919a797e4fcd9814184784f6190eb90cdc1"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "88a4a2313f486d770fe4c6dc7a74da262575756baaa9f16ec5cf46991c882c84"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "81607e7d17bab0a3b17b335184b9cb8b7173f006728984e362c2b86a85d9d0a5"
         }
     }
 }

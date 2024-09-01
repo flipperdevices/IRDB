@@ -1,16 +1,49 @@
 {
     "key_map": {
+        "FAN_MEDIUM": {
+            "type": "SHA_256",
+            "key_name": "MEDIUM",
+            "sha_256_string": "14988f3327ae0c234cf4f1669ed05ba4e7f08040a0cddf6001d8b9081bef6699"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "07627761e0468300d602c3e8960c5aaa10b710007afca0c596f0da3b76146b09"
+        },
         "MODE": {
-            "type": "NAME",
-            "key_name": "mode"
+            "type": "SHA_256",
+            "key_name": "mode",
+            "sha_256_string": "560e8c53cec51d751af4ba697819f49a9207ff27606d8743617630a91a936da2"
         },
         "WIND_SPEED": {
-            "type": "NAME",
-            "key_name": "wind_speed"
+            "type": "SHA_256",
+            "key_name": "wind_speed",
+            "sha_256_string": "3e022199a63f22d412286d761ca59ce8fc9bd45a4a64d8bacdf2c9b3e92b4a15"
+        },
+        "FAN_HIGH": {
+            "type": "SHA_256",
+            "key_name": "HIGH",
+            "sha_256_string": "6c7f75c43793442b4fe06f899608671e2710e9f48f5190346c98ed65f66d95b0"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "789ac4945bb823384e626b5df7ad2831db8bd1e28d33d1247f5f7c3ba0268758"
+        },
+        "LIGHT": {
+            "type": "SHA_256",
+            "key_name": "Light",
+            "sha_256_string": "8bac3527836a4cc43a6b60fbff3873d0f1c3e4473a7e1791fad462b4485beba4"
+        },
+        "FAN_LOW": {
+            "type": "SHA_256",
+            "key_name": "LOW",
+            "sha_256_string": "bef03ee11de9cb1f3be7947174619cbc45afd0855a5ea6aa74c9f3f1f59f6fd0"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "1a4c88f08209d3be7bfa9237a133d58f6dfc3b03cafce22ec96dacf58060be56"
         }
     }
 }

@@ -1,41 +1,59 @@
 {
     "key_map": {
-        "DOWN": {
+        "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "down",
-            "sha_256_string": "12c60cb0a3bb92ad4c07948f4a57c04da9fb1a5ba51bcf9b09ffd8366297847e"
+            "sha_256_string": "93fbe7c2cb0173e0891fb4867e8506024de18bd905795074340c43e3ad977163"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "f2742bf2c8f9bc88865f703830fe1c6ad3631e99ad37d00802bce767e5a3587b"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "db88a99e0cad41909b1689e65ef9d94a2e77fb70cbafca1c84725281649aa13f"
+        },
+        "SHUTTER": {
+            "type": "SHA_256",
+            "key_name": "picture",
+            "sha_256_string": "d0cdfb5cfe17b4393e5e1e9dc8d724c612ff081bfc2b4cd8a1b56ee5959d77e5"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "f0325cecdd17561961420bd8230ea580a3538aea356b0b283d668c03d96f0a6d"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "2ef8347e8bbdcd49c07447c3021dd8da73ff97a64a6f19c25ecbbd2fda1ca3eb"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "8121324bc1cd286ffd68b6bf0f047ccdb6b07e2e2af8cf7f5fff926b77d581d8"
         },
         "ZOOM_DOWN": {
-            "type": "NAME",
-            "key_name": "zoom_down"
+            "type": "SHA_256",
+            "key_name": "zoom_down",
+            "sha_256_string": "e369b0861dbd35f9735f90293d4dcb37bf119b22cc6c685ba594b77ec322edab"
         },
         "ZOOM_UP": {
-            "type": "NAME",
-            "key_name": "zoom_up"
+            "type": "SHA_256",
+            "key_name": "zoom_up",
+            "sha_256_string": "47b26b8d99d464f61a8adb04284e4a5b9c71029886aad65cd4d4c65b1638d5e4"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "3beb7609d1acac5b78bd3add9264bdd6b0e2d43892a3b53745599348bdaa32b4"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "e78b91a1447ca2999ae06ee5b92800c6a33c4f570d0c5580f6051469c1bd9a90"
         }
     }
 }

@@ -1,61 +1,84 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
-        },
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "19cb5eda8e652d839a1b54633a6c744b2dca59d12d09ac36f6accd8ebe9b22b2"
         },
         "HOME": {
-            "type": "NAME",
-            "key_name": "home"
+            "type": "SHA_256",
+            "key_name": "home",
+            "sha_256_string": "1fb75ee12344bdfd5160a4ced21aee2750dcf36a01c186591d2c0666a08809b1"
         },
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "e5a53643b77b54cb585b0bb5f9fea61e2e7f2376f8118bad0a5485ec650a13ff"
+        },
+        "DELETE": {
+            "type": "SHA_256",
+            "key_name": "delete",
+            "sha_256_string": "dadcb882905c6f95ffe400e8c09d0c2cb982e1f0a04a24eb5a45951867ffba36"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "d2f353258b6c67d40d43dcfcf25645ab797bf0100b7f417e5124f03e0a517bf2"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "5a4cc2a088dbfee46b90f01924fde584a7dfd51818178db03e7781b84ca3c3a1"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "ebe89370f9b1f618685e57c85ff96761dd713bbe449f58b407a28d48e9c9922a"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "cfe938c13fa57804111a25853569b238a2bd8a649db297f2460510ed925965a8"
         },
         "BACK": {
-            "type": "NAME",
-            "key_name": "back"
+            "type": "SHA_256",
+            "key_name": "back",
+            "sha_256_string": "39a2f0862d8632dec560fe00b408e3c1e4bba0ae5e0d68570175d6694238b910"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "aef1b792d58c9b1a9271d4309e9f6610eceb608b86dc374c7684919c997f05a7"
+            "sha_256_string": "864de09cd864af558a1170e19b0356f7bd9713e764f07d4003708a2a93f5e95c"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "a04c579bb283a726b1eba6bd528099e2116d010f9efd8c19d7b4ea5fb1cb861f"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "f86d8ffba1834f8bf369c4a240a338aae89a4dc7316f617ee819e9490e273ea6"
         },
-        "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+        "SET": {
+            "type": "SHA_256",
+            "key_name": "set",
+            "sha_256_string": "5422e073d53d53a468a50cb9ff57c8755061225a46589cb923f558de15abfb70"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "9088d1c7c9de40a6c6e170cda97e6bf28e0962308b29268c150e7eda74060f64"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "9796bab0d9f8785715b30976e42cef79b3c4cd3fbf72f032ce873b20fc9f0434"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "64b545c3135cd2992e48bf33eb7516694f6de367bdbcc620854dedb5037ac3cd"
         }
     }
 }

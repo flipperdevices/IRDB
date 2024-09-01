@@ -1,33 +1,44 @@
 {
     "key_map": {
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "c63d3fa0a0347ff29f48ef32a33e94a6d3c62efa97bcf980507d5bc36528c31f"
         },
         "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "286552be9d6561b7ccf59ebcb0c4f45fb819e09f1d8e8b202aa9ee79506180c3"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "28f9b813e8dc94282dc5e646d7b29749540cea83adab5e14a5fbb9ece92ddfcb"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "e1f26d4a3667ecf6dbcd4d68b955807f194834ffc4081a054e73cce7a59f3215"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-_r"
+            "type": "SHA_256",
+            "key_name": "vol-_r",
+            "sha_256_string": "e664f7d6c355919ca305e8ce6c8bb34f17b7f198b0a4bcc878eb6c12a9395b8c"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "464a95fdbf9282d18963f02a16bb04ccd5c12868b7a73bdea79194ac860b2657"
+            "sha_256_string": "ee2e1d3620f90eac784bee1908ad6b6d7c9b240b9dc233471169fae9d20c65d7"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "c6155a8c325fd672d61b3d8feef21a70c57822a8205bcc76703e43987a51a6c1"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "9581eb84cf07ae5878c2f837bb88f2a9845864b487c9943767db755f4811c80f"
         }
     }
 }

@@ -1,24 +1,39 @@
 {
     "key_map": {
+        "COLD_WIND": {
+            "type": "SHA_256",
+            "key_name": "COLD WIND",
+            "sha_256_string": "a99c2b4dca8c2d064be09fcbd902edb0b7e33dcd7488642791d31fc2c7b0d0d5"
+        },
         "WIND_TYPE": {
-            "type": "NAME",
-            "key_name": "wind_type"
+            "type": "SHA_256",
+            "key_name": "wind_type",
+            "sha_256_string": "de602f83cd63b9ebc777e09ee3dd9e71ea6b7ff73664d36a341adbd60dabdbec"
         },
         "WIND_SPEED": {
-            "type": "NAME",
-            "key_name": "wind_speed"
+            "type": "SHA_256",
+            "key_name": "wind_speed",
+            "sha_256_string": "84ece376d4a2ffb27215d1195f3c5831f3088dd83360fbec4e56aed699cfeb6a"
         },
         "SHAKE_WIND": {
-            "type": "NAME",
-            "key_name": "shake_wind"
+            "type": "SHA_256",
+            "key_name": "shake_wind",
+            "sha_256_string": "7fffe9aba1b3dbe5079fee390150cfa40af139674c5f521e47808bf0d4a1f2e8"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "bffd8520a9c5688f5606b9dc4e389dac23fc9c48c5b499ea4217fce484a44fa7"
         },
         "MODE": {
-            "type": "NAME",
-            "key_name": "mode"
+            "type": "SHA_256",
+            "key_name": "mode",
+            "sha_256_string": "7e343fbb44dbc14ca363ddf076db7cd7cf6ee8f1b7932d98ee96116a2581dc0e"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "0a8c222b391f186d33253c3ae9fdb35957804ed2c8962efb8a0e556aef69f56a"
         }
     }
 }

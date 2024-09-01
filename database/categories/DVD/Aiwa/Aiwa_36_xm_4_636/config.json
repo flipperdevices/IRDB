@@ -1,13 +1,24 @@
 {
     "key_map": {
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "11db4cec6145292bb5c66d9ef1967534d64f6af33f1aabe6e5dc68c188ea3cf9"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "2c9681879aa2c4350b4f7b40ef4124f94eafeff21d653b4b2621cdef15477962"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "ef9afe929badf6b8f6fdd6628305b30217f591ec894ea1415ce115de97481391"
         },
         "PAUSE": {
             "type": "SHA_256",
             "key_name": "pause",
-            "sha_256_string": "bd14d3926403e5197df16c348b4c07f0b2f98006a8973123474b8b36a162b959"
+            "sha_256_string": "5a6653c5d9c31e1389d5884be6d5c99f08513d6e6d11004b61959dcbaf51cfd9"
         }
     }
 }

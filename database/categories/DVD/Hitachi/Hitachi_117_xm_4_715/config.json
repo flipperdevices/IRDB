@@ -1,50 +1,89 @@
 {
     "key_map": {
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "75269602bf248013a8f50adff2e8e3d454523e2659bdd70b606aad880e0178d0"
+        },
         "NEXT": {
             "type": "SHA_256",
             "key_name": "next_r",
-            "sha_256_string": "28d60b24e6538755d9f73fe758ad7008419552f1b47aeb05b7cb71006fd26336"
-        },
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down_r"
+            "sha_256_string": "0049c36628e5c847ba69d59539875e449c99cdc4135104a73eaecb875bdff4f6"
         },
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "349dee1f094a1ddf8818e7b487051196708a05133c37535356ff0bc84228c3a6"
         },
         "MODE": {
-            "type": "NAME",
-            "key_name": "mode"
+            "type": "SHA_256",
+            "key_name": "mode",
+            "sha_256_string": "07159091eb84ee3873a7b9252cd5fc2b5ea358172eedb037ca8f1b1a3ac13a2d"
+        },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down_r",
+            "sha_256_string": "b5036210aa609af129e3dfe97d5d09971006f53a950d662fb033092d14577456"
         },
         "UP": {
             "type": "SHA_256",
+            "key_name": "up_r",
+            "sha_256_string": "9f96dcbc53ec1caebe1b53bc7277abb712831f201180034a01efe6f93aa08839"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
             "key_name": "up",
-            "sha_256_string": "12fc0e041af5f9d882655b821fc0480b78c34b33f9077d5dd52c42d02f306554"
+            "sha_256_string": "ad8408f999478c86f09ab9c0a41bb27affcdf175d352aa0cc24eedfcc730559f"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "c3df7cc9fc3fd759f4265f6d6aff636f7983a465ee06b905e0e9b6454ba8cd0e"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "31924d967eb16b234db531a57c112941268158f5eb0072ee14bf4c568f208211"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "7978a039230d5585e72db0e5ba9b313657936f97c9cab47236494b44fee978e7"
+        },
+        "RECORD": {
+            "type": "SHA_256",
+            "key_name": "record",
+            "sha_256_string": "fd1dd892fe02fd16054d2b26a8117a5fdf8d430946dc73ef2ed8824698d02a8e"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "359ff3da2ba671cf78ec5f46ddf65713b5f315ccd7a137d20e7e19788643ed24"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "4b4ced70c416356fa5261aaf495b409bd7680cf8bfb9680af60d5795f09c63c0"
         },
         "PAUSE": {
-            "type": "NAME",
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "b9f690709efbe9277ce52107d1fbbaff3782c713f195913aeb600e6374b3e343"
         },
         "PLAY": {
-            "type": "NAME",
-            "key_name": "play"
+            "type": "SHA_256",
+            "key_name": "play",
+            "sha_256_string": "220aa800c2b71783e72ceeb6ed9b37548bcbb60f515ed9917aefd3ebac88c628"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "92e1c9e86f0124610cc2536609274e8b3e5692313803bb754408c5b4f46a6af9"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "7e0f2030bacc5b67cc357171f5419cfd821f4b97c6d91df4e798295078a40a85"
         }
     }
 }

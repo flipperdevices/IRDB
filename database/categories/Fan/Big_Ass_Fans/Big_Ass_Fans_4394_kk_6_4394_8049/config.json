@@ -1,12 +1,24 @@
 {
     "key_map": {
         "FAN_SPEED_DOWN": {
-            "type": "NAME",
-            "key_name": "fanspeed-"
+            "type": "SHA_256",
+            "key_name": "fanspeed-",
+            "sha_256_string": "e7463ce3295452093f37722928d6b12dc7b44d50d0a0e1db8810547eff63b320"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "81c348388ce4d68d591acf0371cb7adebd720cfce6c265336fdbcdae0ae88b2b"
         },
         "FAN_SPEED_UP": {
-            "type": "NAME",
-            "key_name": "fanspeed+"
+            "type": "SHA_256",
+            "key_name": "fanspeed+",
+            "sha_256_string": "ebb2148e945c80ad7331b62c46ec9ba03765c129ad17be71d70bdc4f05602cf3"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "aa83798bd9da22cc3bf8115951d1f4a9e7bcc88bb7fcccde22331cae1020d58a"
         }
     }
 }

@@ -1,20 +1,54 @@
 {
     "key_map": {
+        "FAN_MEDIUM": {
+            "type": "SHA_256",
+            "key_name": "MEDIUM",
+            "sha_256_string": "210c4b946aed61eccfa5303029a83c7ba06bdb055f241b25a774aea3167b87bf"
+        },
+        "TIMER": {
+            "type": "SHA_256",
+            "key_name": "timer",
+            "sha_256_string": "2f1b2deaacb22aac65afff637b8925270c23666a0d967c3d4fad86be6228eb87"
+        },
         "MODE": {
-            "type": "NAME",
-            "key_name": "mode"
+            "type": "SHA_256",
+            "key_name": "mode",
+            "sha_256_string": "cacbe4d3cf8da4a99be64ebc29b2ece46988fef1ee84f2f14586b12722e7317d"
         },
         "WIND_SPEED": {
-            "type": "NAME",
-            "key_name": "wind_speed"
+            "type": "SHA_256",
+            "key_name": "wind_speed",
+            "sha_256_string": "be0f62ef9defeb2ebff5a73f65458c66e70aa2ab84026e018a487a07724185dc"
+        },
+        "FAN_HIGH": {
+            "type": "SHA_256",
+            "key_name": "HIGH",
+            "sha_256_string": "b1a74c0ed408ab2aa35a36e15f5c5ae3fb4ec23c34b0e16fc519c71da9946007"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "558e720009a2aadf72f1356b1b06df9e8b99bd5cce98cb11d8faaaca5439d841"
         },
         "SHAKE_WIND": {
-            "type": "NAME",
-            "key_name": "shake_wind"
+            "type": "SHA_256",
+            "key_name": "shake_wind",
+            "sha_256_string": "a52b8cde08f921ddd9c6a3fa2a3f683f649de544065a8c311b7ba83b295c9522"
+        },
+        "LIGHT": {
+            "type": "SHA_256",
+            "key_name": "Light",
+            "sha_256_string": "a317c3fc1fe2a1f1fd75090c095a8d1d802b2050f97a3701645ce6eeeff5cc37"
+        },
+        "FAN_LOW": {
+            "type": "SHA_256",
+            "key_name": "LOW",
+            "sha_256_string": "9ba9c9d92d6202dbc565ccffcf1b1e4a5814a6e85664551a4a61c03711ba9605"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "20eb56395d7f01248cbf0fc12d8948a5db581c53c7592e6fea1c365698cce3b4"
         }
     }
 }

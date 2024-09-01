@@ -1,57 +1,84 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
-        },
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "882f506a3d591e390866250540353f701e142af3e70e84dfe3d6ada52fe5daa4"
         },
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "aefc6dfab50e8869f4c33e083559da776d005a333cd85135c3041b07e7d9b749"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "27361f2e34244449184cbcedea145fa378bed75a3b7abdca684a70656e83eb6c"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "c56d34be1bc0e57653333675a6ac27c82bb0bfaf951dd421302e362eb2a53b5d"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "237c9fe39a7cc4a79d13e38031a81d9c8aa5d366ad742ea83a1ad3927d2366b9"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "5d0425e88d08621ae437dd1c8cd6b80198d5e76a85a74827c431e6b714f5d1e0"
+        },
+        "PAUSE": {
+            "type": "SHA_256",
+            "key_name": "Pause",
+            "sha_256_string": "e9567d0379755d8111d5bb80069b95657f560dc0c1af3b404486f0ac08311d85"
         },
         "PREVIOUS": {
-            "type": "NAME",
-            "key_name": "previous"
+            "type": "SHA_256",
+            "key_name": "previous",
+            "sha_256_string": "08df2b19aa1e34d6d8567dffe2c5dbefc10e7afd03304864f144b8f35618f16f"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "1ef3c420ba5d821bf37db39e5d5e6a50504158892c69931b20d0623786113e71"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "f92e3017b56b066107f7f339554d03422038b636ffcc8c770acf079682e776b6"
+            "sha_256_string": "53288854c46b16cc875af16c5f4d0f02bfb20e3a047bb6f8ca6df18b76b8277e"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "1ea1a2bee2aa5773d57869d1eec94b0cbd9f839a4845cd6b5198fe6c98bf3291"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "bae3475f5894bcc2359312b867cc9a80b18ef4ed86ec68f382b399f6f8eae6e0"
         },
-        "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "c78e38086f100a00da607af7429897176042f93752d62ae9bb2b0ace560303d2"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "5aae1d56f3cde02619bcc09afe8cf3cc40030a111cf09922f2e6cbcd9bf8ca4d"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "2b9ca39c8f9032c7c56340025bcae098f25a6c8de6c7bfe1d52225fb3a5c30ed"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "d5ad34cd014772892cd941a4b6ea4ae060ae3396b2fbd6ae6f0ed311bc2e77a7"
         }
     }
 }

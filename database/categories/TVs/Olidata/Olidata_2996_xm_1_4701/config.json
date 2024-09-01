@@ -1,52 +1,89 @@
 {
     "key_map": {
         "AUX": {
-            "type": "NAME",
-            "key_name": "aux"
+            "type": "SHA_256",
+            "key_name": "aux",
+            "sha_256_string": "ddda79ff762a7045dc857f4b137fdb51fec610cc2aafe06dc088fd198c966148"
         },
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
+        "CH_DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "de427fb418dd9024f42446481ac493b0faeb5b56dad1f58027962043cca01de1"
         },
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "EJECT": {
+            "type": "SHA_256",
+            "key_name": "eject",
+            "sha_256_string": "b19c968fa948829a589850ca1b49f5163578cf2e95e6dbe6f3053f2d3e7e4e15"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "up",
+            "sha_256_string": "d9f00812d7ef216520a6bf3545b4082c8164a2104cc79c240c35adcbf3076abf"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "34a1b6e0319533e87ecc2c35f3db5a6e71558c734227fa3a224ad939c524e085"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "ba56a585769a114c917350067f3ba2dc2a90c227ede5362c942217ba3db5bb1e"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "3f14770124bb17a231c5cab39dbb56cc82f91d1df39cfd98b55a2457fff7133c"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "2acbf919b9b926e79f3c38283ced0cf11267b9359148900725aaf01187dd686f"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "b5e2366c9d222beb7f7c974411286ba3fa9321213b19cbc846e379c9a0345403"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "e822c588ce48b2f3ef0038cf133c3db6eedcbbfbd5c8b9bcaf8fd69edc291252"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "faad0156c9c2095a8d8e5920402506947ced1e51c3ad7f7e906cd78355d2f0a6"
         },
         "PAUSE": {
-            "type": "NAME",
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "e3fbed8e4c96aa8e2a67e3a33d11a20ec750c24f201e2fc1b412c6261b69b30d"
         },
         "PLAY": {
-            "type": "NAME",
-            "key_name": "play"
+            "type": "SHA_256",
+            "key_name": "play",
+            "sha_256_string": "f68becb11b8db13b4c61046be16ea51f31a6a1b729e318c588a8d4a4de0f4e50"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "1e0ae52a13f95926bb4607fb11c0aae577260711137022490103e683669ef5d2"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "a242c0c6c592b3d78a348c6c7bf185ee74bca95a2428660116aaea00418c322c"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "c6aaf596256c0267ea92ce497a8ba5cde0b56606285d8e582e11c512ab872232"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "fdbb829ef3fd6a1fb8dd9a4cbb7d6490810999c3c987fb62459bf38e722839c3"
         }
     }
 }

@@ -2,134 +2,85 @@
     "orders": [
         {
             "message": "Does %s turns on?",
-            "index": 0,
+            "index": 1,
             "key": "PWR",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "icon_id": "POWER",
-                "type": "ICON"
+                "type": "POWER"
             }
         },
         {
             "message": "Does volume go up?",
-            "index": 1,
+            "index": 2,
             "key": "VOL_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "+",
-                "type": "TEXT"
+                "icon_id": "VOL_UP",
+                "type": "ICON"
             }
         },
         {
             "message": "Does volume go down?",
-            "index": 2,
+            "index": 3,
             "key": "VOL_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "-",
-                "type": "TEXT"
+                "icon_id": "VOL_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does channel go next?",
-            "index": 3,
+            "message": "Is volume muted?",
+            "index": 4,
+            "key": "MUTE",
+            "data": {
+                "key_id": {
+                    "type": "EMPTY"
+                },
+                "icon_id": "MUTE",
+                "type": "ICON"
+            }
+        },
+        {
+            "message": "Is next channel shown?",
+            "index": 5,
             "key": "CH_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "+",
+                "text": "CH+",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does channel go previous?",
-            "index": 4,
+            "message": "Is previous channel shown?",
+            "index": 6,
             "key": "CH_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "-",
+                "text": "CH-",
                 "type": "TEXT"
             }
         },
         {
-            "message": "Does it do something?",
-            "index": 10,
-            "key": "DOWN",
+            "message": "Is menu opened?",
+            "index": 7,
+            "key": "MENU",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "DOWN",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 11,
-            "key": "UP",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "UP",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 12,
-            "key": "RIGHT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "RIGHT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 13,
-            "key": "LEFT",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "LEFT",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 18,
-            "key": "HOME",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "HOME",
-                "type": "TEXT"
-            }
-        },
-        {
-            "message": "Does it do something?",
-            "index": 19,
-            "key": "BACK",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "text": "BACK",
-                "type": "TEXT"
+                "icon_id": "MENU",
+                "type": "ICON"
             }
         }
     ]

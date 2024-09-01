@@ -1,36 +1,44 @@
 {
     "key_map": {
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "1fcf2395f7446c7d0fcab700fa1d652daac652a02544fd2e883b91b639bf72fc"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "master volume-",
+            "sha_256_string": "1460e270f3a08559842dc8341caa698e15952d6c48b0c731e2e3ef0d3e0978ec"
         },
-        "NEXT": {
-            "type": "NAME",
-            "key_name": "next"
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "next",
+            "sha_256_string": "8cd5b2b0aed1816c21876ff1752f1308cfd3febf3bb0c084b21fccb6069d4d46"
         },
         "PREVIOUS": {
-            "type": "NAME",
-            "key_name": "previous"
+            "type": "SHA_256",
+            "key_name": "previous",
+            "sha_256_string": "7336bc7ef0a4df86dbea1aca7ecb29dddeba33037aa4240f799efa5350ba9f8c"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "master volume+",
+            "sha_256_string": "b8ed94cf50c7d8805c7f4136ec31b08d621193ed3ddcfa216e7c5a4cfcb9aa6f"
         },
         "PAUSE": {
-            "type": "NAME",
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "c25150f29a309d5cf292fec9324c472b2216fc17d7cdcff5943ca14d553daf5b"
         },
         "PLAY": {
-            "type": "NAME",
-            "key_name": "play"
+            "type": "SHA_256",
+            "key_name": "play",
+            "sha_256_string": "7fb14ca68bb326af5315feae3f9a5e2e80a3a1146d3579053f7187df74ff4c0b"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "4f6a3801904c431c5b7f74cc817e4d034021f0b32fab66a03b86b6e85c4c9067"
         }
     }
 }

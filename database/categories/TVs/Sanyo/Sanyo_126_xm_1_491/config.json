@@ -1,61 +1,84 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
-        },
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "e58961b3737a86256172432e492aa34fc8f2c92d2499403d8c819c5ee2e920c5"
+        },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "7195bbb838dd6641d1fdb04d544bc70dab9bf8c791f226da8c4c953f143b5950"
         },
         "RESET": {
-            "type": "NAME",
-            "key_name": "reset"
+            "type": "SHA_256",
+            "key_name": "reset",
+            "sha_256_string": "3428ffc76c535f93a0a8b7835105af51cfd1bae5d4198d9ae9946a0fd7113e21"
         },
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "b86efc7e3d2ce0a6ddb82ddee61fe726cd68c8705e005eaa1c426adb25ae1b52"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "000bb4c8e423d70dce9955e8311aae4f9aeb1e5b541fd4acfd1c564cac98be19"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "e48fb5dc6f77f0d729ae11d97f041082d9988c29553566db3e7d3ef3e7d0e3a9"
         },
         "BACK": {
-            "type": "NAME",
-            "key_name": "back"
+            "type": "SHA_256",
+            "key_name": "back",
+            "sha_256_string": "0ec48e256a425997d4e53a94e4873a0247c4b141667cd7107c587345785626b7"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "3fb7661b5a11f0b9cc7e2f8164e6b35e5fd5551a2a9099f66cc89ce3c83eb3ea"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "e0e748b4dba440a28aec0452bb3ded9b6e20e3c31fca1188d4e22d03ff4f8967"
+            "sha_256_string": "e58d1ae762e0279ea9619b9f96b9191acd9de84f738593b5a3068683e7c4de64"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "c8901d406662e6a36a60f33353c39de3d9f7bc01089f0b6d2b0e31f8e47fce80"
+        },
+        "INFO": {
+            "type": "SHA_256",
+            "key_name": "info",
+            "sha_256_string": "b9b554c513aee135998447531fe9954b464fb83a7ec0212494c823d0234ae005"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "0d56decad2127a2352d6788b0c5037cebf2a0c1554221c3a4f9f09fcf24cd5f2"
         },
-        "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "e414659c439c6a509242295c663224c49a8663dbef8188e1240d8d9b2efaa9cf"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "f33332c2e66ed3211dc757c2fafb7e9865acffb2337c82826d44844c0623063f"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "28ddfb805156df406e5683d9481b40532c939d696c18b42971b8cec9d07913b4"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "6d70d8603662818357997100dbd481e44370b560cf0949ac944e2e6adb7ce085"
         }
     }
 }

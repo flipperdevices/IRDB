@@ -1,20 +1,49 @@
 {
     "key_map": {
-        "DOWN": {
-            "type": "NAME",
-            "key_name": "down"
+        "CH_DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "92f2ba6a0c5bff097822a4f549db8a2f566b0f80049f2cfa39793a7ffe780e14"
+        },
+        "EXIT": {
+            "type": "SHA_256",
+            "key_name": "exit",
+            "sha_256_string": "a5d1fc1916024ccf7677c6af7efa290c3d0ad210a1d1594e02766b2c8d83624c"
+        },
+        "PAUSE": {
+            "type": "SHA_256",
+            "key_name": "PAUSE",
+            "sha_256_string": "4d44109f4e026c63d69c722426fe3a3f67611da5ebcea7611d6c3b81fcdfaa62"
+        },
+        "EJECT": {
+            "type": "SHA_256",
+            "key_name": "EJECT",
+            "sha_256_string": "4854b98ca3ae8ed2d210dc8422040c65f40b72e506bf77049f34f7ea0ef4fee4"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "0147b7037983ff17e1b9b62cf3c74ae5c5b27a498d9831c7bcdbdaf9c60959d7"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "ok",
+            "sha_256_string": "bae9c0d741b6b15f22e54d84ddf774c42300347b3e6286a5e37f379c854426bf"
+        },
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "REW",
+            "sha_256_string": "b8c53b6fac4dc37c303e04667abc36026b949e0f0062b94317da93a8edc8ee31"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "db26bc15c681e34db64f02d17e822f2928771a33ef0b2ceef9e3965c716f8ac3"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "7845ef9bf168d7f49514fb90d1ce0ac5773221813115bf685985af7d7f035d29"
         }
     }
 }

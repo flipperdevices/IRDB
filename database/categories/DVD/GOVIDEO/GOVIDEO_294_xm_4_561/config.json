@@ -1,28 +1,49 @@
 {
     "key_map": {
-        "UP": {
-            "type": "NAME",
-            "key_name": "up"
+        "REW": {
+            "type": "SHA_256",
+            "key_name": "rew",
+            "sha_256_string": "8282fb4f39460ba52e1ffc620c5e39f236676e56acf53604a0f99efd0c86bb8d"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "up",
+            "sha_256_string": "09a63c249d80e0599d2b5296eb07b68c852b112693a39f28f5a01b44966abdf5"
+        },
+        "OK": {
+            "type": "SHA_256",
+            "key_name": "enter",
+            "sha_256_string": "ffe9229b37cd7bd5aadbe0375544a8b13e2a178fcf314f577ae8468ae747e2cd"
+        },
+        "STOP": {
+            "type": "SHA_256",
+            "key_name": "stop",
+            "sha_256_string": "37631ccffa2a097305faa1f62f25fff16499f67508c3bafa7fc391d2169ecb67"
         },
         "RIGHT": {
-            "type": "NAME",
-            "key_name": "right"
+            "type": "SHA_256",
+            "key_name": "right",
+            "sha_256_string": "bbbdb3c8ab0e15f20dfca438a7b6034751b6feb809b9c014ee2f8b95587af8ce"
         },
         "PAUSE": {
-            "type": "NAME",
-            "key_name": "pause"
+            "type": "SHA_256",
+            "key_name": "pause",
+            "sha_256_string": "bd72cd9ae28475210e34787e90afd8d66e932e352be08c0b5d120dec8e14668b"
         },
         "PLAY": {
-            "type": "NAME",
-            "key_name": "play"
+            "type": "SHA_256",
+            "key_name": "play",
+            "sha_256_string": "29398280ece8c067a52c28072e4da64af6e97a6edafe2a850fe741f13375dffb"
         },
         "MENU": {
-            "type": "NAME",
-            "key_name": "menu"
+            "type": "SHA_256",
+            "key_name": "menu",
+            "sha_256_string": "40c150350ce4afbbeca7b696f7e329920d1016ba3503a4b7f5154c7965cfc150"
         },
         "LEFT": {
-            "type": "NAME",
-            "key_name": "left"
+            "type": "SHA_256",
+            "key_name": "left",
+            "sha_256_string": "86b0d348cdaa07a5658984d4cc88b045bc9c2d92f3b36ad1e6705398de9ae1fd"
         }
     }
 }

@@ -1,33 +1,44 @@
 {
     "key_map": {
         "CH_DOWN": {
-            "type": "NAME",
-            "key_name": "ch-"
+            "type": "SHA_256",
+            "key_name": "ch-",
+            "sha_256_string": "4ea06a967b58586763ea02423bb58711046e4269ae38ee87a78571faa50d1fce"
         },
         "PWR": {
-            "type": "NAME",
-            "key_name": "power"
+            "type": "SHA_256",
+            "key_name": "power",
+            "sha_256_string": "228a66a22746186970ca0f916512daff8d65d02c9f3fc1e21cb7978e1305c0fe"
         },
         "VOL_DOWN": {
-            "type": "NAME",
-            "key_name": "vol-"
+            "type": "SHA_256",
+            "key_name": "vol-",
+            "sha_256_string": "b28a6c15352f4d9a11b8007fc09f61482e5581db51f806ed2ee00d3b386a02e2"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_av",
-            "sha_256_string": "ed70f9a7bb17e9b5663c2a04f89d515b0969dda179f171422be2fa7574f415e3"
+            "sha_256_string": "b3923743a0c6b5a55c60f4f6a65be9f90feaed462b103cf2e894a5ea1b08d0b4"
         },
         "VOL_UP": {
-            "type": "NAME",
-            "key_name": "vol+"
+            "type": "SHA_256",
+            "key_name": "vol+",
+            "sha_256_string": "b7630680530b312499194f942ed9f1003be1f245fc0f067ac6ad86e507774744"
         },
         "CH_UP": {
-            "type": "NAME",
-            "key_name": "ch+"
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "62285a4bb07cffaff01167d96fb0561927f8bc8069f9b21df8738f2b6efd16c6"
+        },
+        "SLEEP": {
+            "type": "SHA_256",
+            "key_name": "sleep",
+            "sha_256_string": "2d14b67ac53c0154964f56e1dc2b8d85c5023dae522c69810fad2ccfb648fbfe"
         },
         "MUTE": {
-            "type": "NAME",
-            "key_name": "mute"
+            "type": "SHA_256",
+            "key_name": "mute",
+            "sha_256_string": "493a2aab2bd4f3ce11bd7542e74145124756d7f5458d86e39bad3e4344fb8cb1"
         }
     }
 }
