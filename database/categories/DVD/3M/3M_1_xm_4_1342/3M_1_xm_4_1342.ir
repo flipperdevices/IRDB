@@ -13,18 +13,6 @@ protocol: Pioneer
 address: AF 00 00 00
 command: E4 00 00 00
 # 
-name: tune+
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
-name: Equalizer
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: D7 00 00 00
-# 
 name: Equalizer
 type: parsed
 protocol: Pioneer
@@ -49,12 +37,6 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 76 00 00 00
 # 
-name: p_bass
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 76 00 00 00
-# 
 name: folder
 type: parsed
 protocol: Pioneer
@@ -67,30 +49,6 @@ protocol: Pioneer
 address: AF 00 00 00
 command: 65 00 00 00
 # 
-name: folder
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
-name: eject
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 53 00 00 00
-# 
-name: eject
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 53 00 00 00
-# 
-name: eject
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 53 00 00 00
-# 
 name: eject
 type: parsed
 protocol: Pioneer
@@ -103,41 +61,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 0E 00 00 00
 # 
-name: cd
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 0E 00 00 00
-# 
 name: 0
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 09 00 00 00
-# 
-name: 0
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 09 00 00 00
-# 
-name: 0
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 09 00 00 00
-# 
-name: 0
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 09 00 00 00
-# 
-name: 4
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 03 00 00 00
 # 
 name: 4
 type: parsed
@@ -156,18 +84,6 @@ type: parsed
 protocol: Pioneer
 address: AF 00 00 00
 command: F9 00 00 00
-# 
-name: DIMMER
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A1 00 00 00
-# 
-name: 7
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 06 00 00 00
 # 
 name: 7
 type: parsed
@@ -193,53 +109,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 00 00 00 00
 # 
-name: 1
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 00 00 00 00
-# 
 name: FF
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 91 00 00 00
-# 
-name: FF
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 91 00 00 00
-# 
-name: 8
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 07 00 00 00
 # 
 name: 8
 type: parsed
@@ -253,53 +127,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 38 00 00 00
 # 
-name: usb
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 38 00 00 00
-# 
 name: power
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 1C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1C 00 00 00
-# 
-name: mono
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: D1 00 00 00
 # 
 name: mono
 type: parsed
@@ -313,41 +145,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 90 00 00 00
 # 
-name: stop
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 90 00 00 00
-# 
 name: 9
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 08 00 00 00
-# 
-name: 9
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 08 00 00 00
-# 
-name: 9
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 08 00 00 00
-# 
-name: 9
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 08 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 0B 00 00 00
 # 
 name: vol-
 type: parsed
@@ -361,41 +163,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 91 00 00 00
 # 
-name: next
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 91 00 00 00
-# 
 name: previous
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 92 00 00 00
-# 
-name: previous
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 92 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 74 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 74 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 74 00 00 00
 # 
 name: ok
 type: parsed
@@ -415,18 +187,6 @@ protocol: Pioneer
 address: AF 00 00 00
 command: FB 00 00 00
 # 
-name: program memory
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
-name: Preset-
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 4B 00 00 00
-# 
 name: Preset-
 type: parsed
 protocol: Pioneer
@@ -445,18 +205,6 @@ protocol: Pioneer
 address: AF 00 00 00
 command: E5 00 00 00
 # 
-name: tune-
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
-name: REW
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 92 00 00 00
-# 
 name: REW
 type: parsed
 protocol: Pioneer
@@ -468,30 +216,6 @@ type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 0A 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 0A 00 00 00
-# 
-name: 2
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 01 00 00 00
-# 
-name: 2
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 01 00 00 00
-# 
-name: 2
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 01 00 00 00
 # 
 name: 2
 type: parsed
@@ -517,18 +241,6 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 96 00 00 00
 # 
-name: random
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 96 00 00 00
-# 
-name: repeat
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 95 00 00 00
-# 
 name: repeat
 type: parsed
 protocol: Pioneer
@@ -547,41 +259,11 @@ protocol: Pioneer
 address: AF 00 00 00
 command: E3 00 00 00
 # 
-name: display
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A1 00 00 00
-# 
 name: 5
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 04 00 00 00
-# 
-name: pause
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 98 00 00 00
 # 
 name: pause
 type: parsed
@@ -595,18 +277,6 @@ protocol: Pioneer
 address: A6 00 00 00
 command: CE 00 00 00
 # 
-name: clock
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: CE 00 00 00
-# 
-name: tuner
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 0D 00 00 00
-# 
 name: tuner
 type: parsed
 protocol: Pioneer
@@ -618,30 +288,6 @@ type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 98 00 00 00
-# 
-name: play
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 98 00 00 00
-# 
-name: 3
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 02 00 00 00
 # 
 name: 3
 type: parsed
@@ -655,29 +301,11 @@ protocol: Pioneer
 address: A6 00 00 00
 command: 4C 00 00 00
 # 
-name: audio in
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 4C 00 00 00
-# 
 name: 6
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 05 00 00 00
-# 
-name: 6
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 05 00 00 00
-# 
-name: Preset+
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 4A 00 00 00
 # 
 name: Preset+
 type: parsed
@@ -697,29 +325,11 @@ protocol: Pioneer
 address: AF 00 00 00
 command: B2 00 00 00
 # 
-name: treble
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
 name: ipod
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 9B 00 00 00
-# 
-name: ipod
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 9B 00 00 00
-# 
-name: sleep
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 19 00 00 00
 # 
 name: sleep
 type: parsed
@@ -739,29 +349,11 @@ protocol: Pioneer
 address: AF 00 00 00
 command: 39 00 00 00
 # 
-name: menu
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: A0 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Pioneer
 address: A6 00 00 00
 command: 1E 00 00 00
-# 
-name: mute
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 1E 00 00 00
-# 
-name: clear
-type: parsed
-protocol: Pioneer
-address: A6 00 00 00
-command: 41 00 00 00
 # 
 name: clear
 type: parsed

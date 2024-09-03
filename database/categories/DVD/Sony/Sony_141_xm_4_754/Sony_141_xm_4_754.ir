@@ -49,12 +49,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 33 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 30 00 00 00
-# 
 name: topmenu
 type: parsed
 protocol: SIRC20
@@ -97,12 +91,6 @@ protocol: SIRC20
 address: 10 06 00 00
 command: 06 00 00 00
 # 
-name: ff
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 34 00 00 00
-# 
 name: 0
 type: parsed
 protocol: SIRC20
@@ -120,12 +108,6 @@ type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 03 00 00 00
-# 
-name: directtuner
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 11 00 00 00
 # 
 name: 7
 type: parsed
@@ -180,12 +162,6 @@ type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 4E 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 31 00 00 00
 # 
 name: poweroff
 type: parsed
@@ -259,12 +235,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 31 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 31 00 00 00
-# 
 name: options
 type: parsed
 protocol: SIRC20
@@ -318,12 +288,6 @@ type: parsed
 protocol: SIRC15
 address: D0 00 00 00
 command: 77 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 30 00 00 00
 # 
 name: sleep
 type: parsed

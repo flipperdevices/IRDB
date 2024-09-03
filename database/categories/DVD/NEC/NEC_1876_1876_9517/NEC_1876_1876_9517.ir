@@ -19,29 +19,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 09 00 00 00
 # 
-name: 0
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 09 00 00 00
-# 
 name: 4
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 03 00 00 00
-# 
-name: 4
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 03 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 06 00 00 00
 # 
 name: 7
 type: parsed
@@ -61,23 +43,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: 1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 00 00 00 00
-# 
 name: FF
 type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 33 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 07 00 00 00
 # 
 name: 8
 type: parsed
@@ -133,12 +103,6 @@ protocol: SIRC
 address: 01 00 00 00
 command: 01 00 00 00
 # 
-name: 2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 01 00 00 00
-# 
 name: right
 type: parsed
 protocol: Samsung32
@@ -150,12 +114,6 @@ type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 3A 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 04 00 00 00
 # 
 name: 5
 type: parsed
@@ -192,18 +150,6 @@ type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 02 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 05 00 00 00
 # 
 name: 6
 type: parsed

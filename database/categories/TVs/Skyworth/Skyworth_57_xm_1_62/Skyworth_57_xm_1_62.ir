@@ -259,12 +259,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: switch_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
 name: power
 type: parsed
 protocol: RC5
@@ -415,12 +409,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 15 00 00 00
 # 
-name: info
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -457,12 +445,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
 name: picture mode_r
 type: parsed
 protocol: RC5
@@ -492,12 +474,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: info_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: heavy bass_r
 type: parsed
@@ -534,12 +510,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: mute
 type: parsed

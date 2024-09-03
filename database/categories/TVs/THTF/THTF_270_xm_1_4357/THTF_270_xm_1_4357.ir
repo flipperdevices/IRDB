@@ -259,12 +259,6 @@ protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 4B B4 00 00
-# 
 name: play
 type: parsed
 protocol: NECext
@@ -294,12 +288,6 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 40 BF 00 00
-# 
-name: favorites
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 1A E5 00 00
 # 
 name: menu
 type: parsed

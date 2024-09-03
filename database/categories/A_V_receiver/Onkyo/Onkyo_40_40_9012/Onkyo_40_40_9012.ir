@@ -7,12 +7,6 @@ protocol: NECext
 address: D2 09 00 00
 command: 83 7C 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: D2 09 00 00
-command: 83 7C 00 00
-# 
 name: cycle
 type: parsed
 protocol: NECext
@@ -79,12 +73,6 @@ protocol: NECext
 address: D2 09 00 00
 command: 82 7D 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: D2 09 00 00
-command: 82 7D 00 00
-# 
 name: tone
 type: parsed
 protocol: NECext
@@ -96,12 +84,6 @@ type: parsed
 protocol: NECext
 address: D2 03 00 00
 command: D5 2A 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: D2 03 00 00
-command: 8A 75 00 00
 # 
 name: FF
 type: parsed
@@ -145,12 +127,6 @@ protocol: NECext
 address: D2 03 00 00
 command: 03 FC 00 00
 # 
-name: vol-
-type: parsed
-protocol: NECext
-address: D2 03 00 00
-command: 03 FC 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -162,18 +138,6 @@ type: parsed
 protocol: NECext
 address: D2 03 00 00
 command: 8B 74 00 00
-# 
-name: REW
-type: parsed
-protocol: NECext
-address: D2 03 00 00
-command: 8B 74 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: D2 03 00 00
-command: 02 FD 00 00
 # 
 name: vol+
 type: parsed

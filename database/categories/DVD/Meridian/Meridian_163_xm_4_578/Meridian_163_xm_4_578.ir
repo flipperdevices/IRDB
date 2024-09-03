@@ -85,12 +85,6 @@ protocol: RC5
 address: 13 00 00 00
 command: 23 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 21 00 00 00
-# 
 name: poweron
 type: parsed
 protocol: RC5X
@@ -301,18 +295,6 @@ protocol: RC5
 address: 13 00 00 00
 command: 0E 00 00 00
 # 
-name: dvd_r
-type: parsed
-protocol: RC5X
-address: 13 00 00 00
-command: 2F 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 20 00 00 00
-# 
 name: 4
 type: parsed
 protocol: RC5
@@ -493,18 +475,6 @@ protocol: RC5
 address: 13 00 00 00
 command: 1D 00 00 00
 # 
-name: inputcd_r
-type: parsed
-protocol: RC5X
-address: 13 00 00 00
-command: 2B 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 21 00 00 00
-# 
 name: next
 type: parsed
 protocol: RC5
@@ -684,12 +654,6 @@ type: parsed
 protocol: RC5X
 address: 13 00 00 00
 command: 13 00 00 00
-# 
-name: next
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 20 00 00 00
 # 
 name: ch+
 type: parsed

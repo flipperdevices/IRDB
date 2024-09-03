@@ -31,18 +31,6 @@ protocol: Kaseikyo
 address: B0 02 20 01
 command: 90 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: 90 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: 90 00 00 00
-# 
 name: popmenu
 type: parsed
 protocol: Kaseikyo
@@ -157,12 +145,6 @@ protocol: Kaseikyo
 address: B0 02 20 00
 command: 80 01 00 00
 # 
-name: next_r
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: A0 00 00 00
-# 
 name: status
 type: parsed
 protocol: Kaseikyo
@@ -216,12 +198,6 @@ type: parsed
 protocol: Kaseikyo
 address: B0 02 20 02
 command: 10 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: A0 00 00 00
 # 
 name: audio
 type: parsed

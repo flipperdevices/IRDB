@@ -85,12 +85,6 @@ protocol: NECext
 address: 33 00 00 00
 command: 1D E2 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 33 00 00 00
-command: 1D E2 00 00
-# 
 name: hdmi2
 type: parsed
 protocol: NECext
@@ -102,9 +96,3 @@ type: parsed
 protocol: NECext
 address: 33 00 00 00
 command: 1C E3 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 33 00 00 00
-command: 1E E1 00 00

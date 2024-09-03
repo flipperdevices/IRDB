@@ -163,12 +163,6 @@ protocol: RC5X
 address: 16 00 00 00
 command: 39 00 00 00
 # 
-name: back_r
-type: parsed
-protocol: RC5X
-address: 16 00 00 00
-command: 3B 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5X
@@ -258,12 +252,6 @@ type: parsed
 protocol: RC5X
 address: 16 00 00 00
 command: 1A 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5X
-address: 16 00 00 00
-command: 3E 00 00 00
 # 
 name: 3
 type: parsed

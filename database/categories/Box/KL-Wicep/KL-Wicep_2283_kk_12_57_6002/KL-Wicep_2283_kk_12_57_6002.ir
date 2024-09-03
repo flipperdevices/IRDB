@@ -247,12 +247,6 @@ protocol: NEC
 address: B3 00 00 00
 command: 8D 00 00 00
 # 
-name: pause
-type: parsed
-protocol: NEC
-address: B3 00 00 00
-command: 95 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC
@@ -276,12 +270,6 @@ type: parsed
 protocol: NEC
 address: B3 00 00 00
 command: D6 00 00 00
-# 
-name: local
-type: parsed
-protocol: NEC
-address: B3 00 00 00
-command: 82 00 00 00
 # 
 name: mute
 type: parsed

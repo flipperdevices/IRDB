@@ -79,12 +79,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 07 00 00 00
 # 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1E 00 00 00
-# 
 name: power
 type: parsed
 protocol: Samsung32
@@ -169,23 +163,11 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 04 00 00 00
 # 
-name: --
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0A 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 10 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 16 00 00 00
 # 
 name: play
 type: parsed
@@ -210,12 +192,6 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 1A 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1E 00 00 00
 # 
 name: mute
 type: parsed

@@ -37,12 +37,6 @@ protocol: Samsung32
 address: 70 00 00 00
 command: 30 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 37 00 00 00
-# 
 name: next
 type: parsed
 protocol: Samsung32
@@ -67,44 +61,8 @@ protocol: Samsung32
 address: 70 00 00 00
 command: 35 00 00 00
 # 
-name: up
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 33 00 00 00
-# 
-name: next
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 36 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 35 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 35 00 00 00
-# 
-name: m
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 31 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Samsung32
 address: 70 00 00 00
 command: 32 00 00 00
-# 
-name: previous
-type: parsed
-protocol: Samsung32
-address: 70 00 00 00
-command: 34 00 00 00

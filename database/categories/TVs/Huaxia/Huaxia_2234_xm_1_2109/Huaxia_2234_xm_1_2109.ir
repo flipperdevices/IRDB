@@ -85,24 +85,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 13 00 00 00
 # 
-name: channel_digit_change
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0A 00 00 00
-# 
-name: power
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0B 00 00 00
-# 
-name: back
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 18 00 00 00
-# 
 name: pic
 type: parsed
 protocol: Samsung32
@@ -162,12 +144,6 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 05 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0F 00 00 00
 # 
 name: vga_pc
 type: parsed

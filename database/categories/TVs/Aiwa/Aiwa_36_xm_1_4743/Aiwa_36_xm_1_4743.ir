@@ -7,25 +7,7 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 0E 00 00 00
 # 
-name: video
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
 name: down
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 41 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 41 00 00 00
-# 
-name: ch-
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
@@ -43,18 +25,6 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 1F 00 00 00
 # 
-name: exit
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 1F 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 19 00 00 00
-# 
 name: texthold
 type: parsed
 protocol: NEC42
@@ -66,18 +36,6 @@ type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 7C 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 7C 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: C4 00 00 00
 # 
 name: textoff
 type: parsed
@@ -91,29 +49,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 0A 00 00 00
 # 
-name: 0
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0A 00 00 00
-# 
 name: 4
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 04 00 00 00
-# 
-name: 4
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 04 00 00 00
-# 
-name: 7
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 07 00 00 00
 # 
 name: 7
 type: parsed
@@ -127,29 +67,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 40 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 40 00 00 00
-# 
 name: 1
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 01 00 00 00
-# 
-name: 1
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 01 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 4B 00 00 00
 # 
 name: FF
 type: parsed
@@ -163,29 +85,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 08 00 00 00
 # 
-name: 8
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 08 00 00 00
-# 
 name: Subtitle
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 0E 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
-name: power
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 00 00 00 00
 # 
 name: power
 type: parsed
@@ -199,18 +103,6 @@ protocol: NEC42
 address: 7B 00 00 00
 command: DC 00 00 00
 # 
-name: stop
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: DC 00 00 00
-# 
-name: 9
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 09 00 00 00
-# 
 name: 9
 type: parsed
 protocol: NEC42
@@ -222,30 +114,6 @@ type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 19 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 19 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: C4 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: C4 00 00 00
-# 
-name: ok
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 6A 00 00 00
 # 
 name: ok
 type: parsed
@@ -259,41 +127,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 4E 00 00 00
 # 
-name: REW
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 4E 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 18 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 18 00 00 00
-# 
-name: 2
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 02 00 00 00
 # 
 name: 2
 type: parsed
@@ -307,29 +145,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 18 00 00 00
 # 
-name: right
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 18 00 00 00
-# 
 name: display
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 4F 00 00 00
-# 
-name: display
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 4F 00 00 00
-# 
-name: 5
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 05 00 00 00
 # 
 name: 5
 type: parsed
@@ -343,41 +163,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 6A 00 00 00
 # 
-name: input selection
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 6A 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 40 00 00 00
-# 
-name: ch+
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 40 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0E 00 00 00
-# 
-name: play
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 13 00 00 00
 # 
 name: play
 type: parsed
@@ -391,29 +181,11 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 03 00 00 00
 # 
-name: 3
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 03 00 00 00
-# 
 name: 6
 type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 06 00 00 00
-# 
-name: 6
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 06 00 00 00
-# 
-name: last
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 7B 00 00 00
 # 
 name: last
 type: parsed
@@ -427,18 +199,6 @@ protocol: NEC42
 address: 7B 00 00 00
 command: 43 00 00 00
 # 
-name: sleep
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 43 00 00 00
-# 
-name: menu
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 1B 00 00 00
-# 
 name: menu
 type: parsed
 protocol: NEC42
@@ -450,30 +210,6 @@ type: parsed
 protocol: NEC42
 address: 7B 00 00 00
 command: 4A 00 00 00
-# 
-name: mute
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 4A 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 19 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 19 00 00 00
-# 
-name: +10
-type: parsed
-protocol: NEC42
-address: 7B 00 00 00
-command: 0F 00 00 00
 # 
 name: +10
 type: parsed

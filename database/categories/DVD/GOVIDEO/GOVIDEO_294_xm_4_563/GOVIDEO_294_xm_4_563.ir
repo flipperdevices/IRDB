@@ -19,12 +19,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 18 00 00 00
 # 
-name: tv
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 01 00 00 00
-# 
 name: down
 type: parsed
 protocol: Samsung32
@@ -85,12 +79,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 2C 00 00 00
 # 
-name: track-
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 04 00 00 00
-# 
 name: enter
 type: parsed
 protocol: Samsung32
@@ -145,12 +133,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 28 00 00 00
 # 
-name: enter
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 43 00 00 00
-# 
 name: disc_menu
 type: parsed
 protocol: Samsung32
@@ -187,12 +169,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 13 00 00 00
 # 
-name: _shuttle
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 09 00 00 00
-# 
 name: pause
 type: parsed
 protocol: Samsung32
@@ -204,36 +180,6 @@ type: parsed
 protocol: Samsung32
 address: 05 00 00 00
 command: 12 00 00 00
-# 
-name: 4
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 08 00 00 00
-# 
-name: pause
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 19 00 00 00
-# 
-name: track+
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 06 00 00 00
-# 
-name: shuttle_>>
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 0A 00 00 00
-# 
-name: 2
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 05 00 00 00
 # 
 name: clear
 type: parsed

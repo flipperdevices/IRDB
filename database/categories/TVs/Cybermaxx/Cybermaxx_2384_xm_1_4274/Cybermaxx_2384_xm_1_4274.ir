@@ -277,12 +277,6 @@ protocol: NEC
 address: 42 00 00 00
 command: 0B 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: 07 00 00 00
-# 
 name: play
 type: parsed
 protocol: NEC
@@ -331,20 +325,8 @@ protocol: NEC
 address: 42 00 00 00
 command: 40 00 00 00
 # 
-name: ok
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: 0D 00 00 00
-# 
 name: mute
 type: parsed
 protocol: NEC
 address: 42 00 00 00
 command: 40 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: 0C 00 00 00

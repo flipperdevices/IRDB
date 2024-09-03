@@ -25,12 +25,6 @@ protocol: NECext
 address: 00 DF 00 00
 command: 5F A0 00 00
 # 
-name: vod
-type: parsed
-protocol: NECext
-address: 00 DF 00 00
-command: 5F A0 00 00
-# 
 name: 0
 type: parsed
 protocol: NECext
@@ -151,18 +145,6 @@ protocol: NECext
 address: 00 DF 00 00
 command: 4B B4 00 00
 # 
-name: yellow
-type: parsed
-protocol: NECext
-address: 00 DF 00 00
-command: 5B A4 00 00
-# 
-name: red
-type: parsed
-protocol: NECext
-address: 00 DF 00 00
-command: 01 FE 00 00
-# 
 name: info
 type: parsed
 protocol: NECext
@@ -186,12 +168,6 @@ type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 12 ED 00 00
-# 
-name: blue
-type: parsed
-protocol: NECext
-address: 00 DF 00 00
-command: 41 BE 00 00
 # 
 name: 3
 type: parsed

@@ -7,77 +7,11 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 79 00 00 00
 # 
-name: down
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 79 00 00 00
-# 
-name: down
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 79 00 00 00
-# 
-name: down
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 79 00 00 00
-# 
-name: down
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 79 00 00 00
-# 
-name: down
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 79 00 00 00
-# 
 name: caption
 type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 11 00 00 00
-# 
-name: caption
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 11 00 00 00
-# 
-name: caption
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 11 00 00 00
-# 
-name: caption
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 11 00 00 00
-# 
-name: sound mode
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 5E 00 00 00
-# 
-name: sound mode
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 5E 00 00 00
-# 
-name: sound mode
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 5E 00 00 00
 # 
 name: sound mode
 type: parsed
@@ -91,48 +25,6 @@ protocol: SIRC15
 address: D0 00 00 00
 command: 07 00 00 00
 # 
-name: home
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 07 00 00 00
-# 
-name: home
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 07 00 00 00
-# 
-name: home
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 07 00 00 00
-# 
-name: eject
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 3C 00 00 00
-# 
-name: eject
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 3C 00 00 00
-# 
-name: eject
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 3C 00 00 00
-# 
-name: eject
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 3C 00 00 00
-# 
 name: eject
 type: parsed
 protocol: SIRC20
@@ -145,71 +37,11 @@ protocol: SIRC20
 address: 10 06 00 00
 command: 45 00 00 00
 # 
-name: aud
-type: parsed
-protocol: SIRC20
-address: 10 06 00 00
-command: 45 00 00 00
-# 
-name: aud
-type: parsed
-protocol: SIRC20
-address: 10 06 00 00
-command: 45 00 00 00
-# 
-name: aud
-type: parsed
-protocol: SIRC20
-address: 10 06 00 00
-command: 45 00 00 00
-# 
 name: sound_channel
 type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 12 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 12 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 12 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 12 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 12 00 00 00
-# 
-name: 0
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 09 00 00 00
-# 
-name: 0
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 09 00 00 00
-# 
-name: 0
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 09 00 00 00
 # 
 name: 0
 type: parsed
@@ -223,36 +55,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 03 00 00 00
 # 
-name: 4
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 03 00 00 00
-# 
-name: 4
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 03 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 06 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 06 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 06 00 00 00
-# 
 name: 7
 type: parsed
 protocol: SIRC20
@@ -265,60 +67,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 78 00 00 00
 # 
-name: up
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 78 00 00 00
-# 
-name: up
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 78 00 00 00
-# 
-name: up
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 78 00 00 00
-# 
-name: up
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 78 00 00 00
-# 
-name: title
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 1A 00 00 00
-# 
-name: title
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 1A 00 00 00
-# 
-name: title
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 1A 00 00 00
-# 
-name: title
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 1A 00 00 00
-# 
-name: title
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 1A 00 00 00
-# 
 name: title
 type: parsed
 protocol: SIRC20
@@ -330,48 +78,6 @@ type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 00 00 00 00
-# 
-name: enter
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 69 00 00 00
-# 
-name: enter
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 69 00 00 00
-# 
-name: enter
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 69 00 00 00
-# 
-name: enter
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 69 00 00 00
 # 
 name: enter
 type: parsed
@@ -385,71 +91,11 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 34 00 00 00
 # 
-name: FF
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 34 00 00 00
-# 
-name: FF
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 34 00 00 00
-# 
 name: 8
 type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 07 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 15 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 15 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 15 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 15 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 15 00 00 00
 # 
 name: power
 type: parsed
@@ -463,42 +109,6 @@ protocol: SIRC15
 address: D0 00 00 00
 command: 00 00 00 00
 # 
-name: stop
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 00 00 00 00
-# 
-name: stop
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 00 00 00 00
-# 
-name: stop
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 00 00 00 00
-# 
-name: 9
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 08 00 00 00
-# 
-name: 9
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 08 00 00 00
-# 
-name: 9
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 08 00 00 00
-# 
 name: 9
 type: parsed
 protocol: SIRC20
@@ -510,48 +120,6 @@ type: parsed
 protocol: SIRC15
 address: 50 00 00 00
 command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 13 00 00 00
-# 
-name: next
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 31 00 00 00
-# 
-name: next
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 31 00 00 00
-# 
-name: next
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 31 00 00 00
 # 
 name: next
 type: parsed
@@ -565,36 +133,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 30 00 00 00
 # 
-name: previous
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 30 00 00 00
-# 
-name: previous
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 30 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7C 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7C 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7C 00 00 00
-# 
 name: ok
 type: parsed
 protocol: SIRC20
@@ -606,54 +144,6 @@ type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 33 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 33 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 33 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 33 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 12 00 00 00
 # 
 name: vol+
 type: parsed
@@ -667,48 +157,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 01 00 00 00
 # 
-name: 2
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 01 00 00 00
-# 
-name: 2
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 01 00 00 00
-# 
-name: 2
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 01 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7B 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7B 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7B 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7B 00 00 00
-# 
 name: right
 type: parsed
 protocol: SIRC20
@@ -721,65 +169,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: inputtv
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
-# 
-name: inputtv
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
-# 
-name: inputtv
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
-# 
 name: display
 type: parsed
 protocol: SIRC20
 address: 10 02 00 00
 command: 18 00 00 00
-# 
-name: display
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 18 00 00 00
-# 
-name: display
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 18 00 00 00
-# 
-name: display
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 18 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 04 00 00 00
 # 
 name: 5
 type: parsed
@@ -793,30 +187,6 @@ protocol: SIRC15
 address: D0 00 00 00
 command: 01 00 00 00
 # 
-name: pause
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 01 00 00 00
-# 
-name: pause
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 01 00 00 00
-# 
-name: options
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 73 00 00 00
-# 
-name: options
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 73 00 00 00
-# 
 name: options
 type: parsed
 protocol: SIRC20
@@ -829,36 +199,6 @@ protocol: SIRC15
 address: D0 00 00 00
 command: 02 00 00 00
 # 
-name: play
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 02 00 00 00
-# 
-name: play
-type: parsed
-protocol: SIRC15
-address: D0 00 00 00
-command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 02 00 00 00
-# 
 name: 3
 type: parsed
 protocol: SIRC20
@@ -871,48 +211,6 @@ protocol: SIRC20
 address: 10 02 00 00
 command: 05 00 00 00
 # 
-name: 6
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 05 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 05 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 05 00 00 00
-# 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 19 00 00 00
-# 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 19 00 00 00
-# 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 19 00 00 00
-# 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 19 00 00 00
-# 
 name: menu
 type: parsed
 protocol: SIRC20
@@ -924,42 +222,6 @@ type: parsed
 protocol: SIRC15
 address: 50 00 00 00
 command: 14 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 14 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 14 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC15
-address: 50 00 00 00
-command: 14 00 00 00
-# 
-name: left
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7A 00 00 00
-# 
-name: left
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7A 00 00 00
-# 
-name: left
-type: parsed
-protocol: SIRC20
-address: 10 02 00 00
-command: 7A 00 00 00
 # 
 name: left
 type: parsed

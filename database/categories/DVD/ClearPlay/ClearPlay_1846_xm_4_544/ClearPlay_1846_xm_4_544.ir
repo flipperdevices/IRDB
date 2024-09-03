@@ -49,12 +49,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 43 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 43 00 00 00
-# 
 name: ff
 type: parsed
 protocol: NEC
@@ -84,18 +78,6 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 43 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 42 00 00 00
 # 
 name: 7
 type: parsed
@@ -264,12 +246,6 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 05 00 00 00
-# 
-name: b
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 16 00 00 00
 # 
 name: goto
 type: parsed

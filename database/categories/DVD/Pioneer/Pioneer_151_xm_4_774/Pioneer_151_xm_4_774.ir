@@ -199,12 +199,6 @@ protocol: NEC
 address: AF 00 00 00
 command: BE 00 00 00
 # 
-name: stop
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 9F 00 00 00
-# 
 name: cancel
 type: parsed
 protocol: NEC

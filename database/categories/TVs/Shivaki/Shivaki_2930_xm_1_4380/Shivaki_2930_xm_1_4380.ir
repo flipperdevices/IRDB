@@ -43,12 +43,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: tv_av_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: ch+_r
 type: parsed
 protocol: RC5
@@ -103,12 +97,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 3E 00 00 00
 # 
-name: sound mode
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 16 00 00 00
-# 
 name: REW_r
 type: parsed
 protocol: RC5
@@ -162,12 +150,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3A 00 00 00
-# 
-name: aspect
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 33 00 00 00
 # 
 name: yellow
 type: parsed
@@ -397,18 +379,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: sound mode_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 16 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
@@ -421,12 +391,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 25 00 00 00
 # 
-name: audio_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
 name: list
 type: parsed
 protocol: RC5
@@ -438,12 +402,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 37 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: pip_r
 type: parsed
@@ -463,12 +421,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RC5
@@ -480,18 +432,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
-# 
-name: program list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
-name: program list_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: 0_r
 type: parsed
@@ -505,35 +445,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: yellow_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
-# 
 name: right
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: psm
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0E 00 00 00
-# 
 name: vol-_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: program list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: position
 type: parsed
@@ -547,12 +469,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: --_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
 name: 3_r
 type: parsed
 protocol: RC5
@@ -565,36 +481,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: yellow
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
-# 
-name: dual-channel
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
-name: list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
-# 
-name: psm_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0E 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -606,12 +492,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: program list_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: 8_r
 type: parsed
@@ -636,18 +516,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3E 00 00 00
-# 
-name: input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
 # 
 name: mute
 type: parsed
@@ -679,20 +547,8 @@ protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: ok_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
 name: AV_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
-# 
-name: aspect_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 33 00 00 00

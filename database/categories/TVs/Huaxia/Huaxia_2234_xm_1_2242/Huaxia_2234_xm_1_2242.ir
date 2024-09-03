@@ -31,12 +31,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: power_r
 type: parsed
 protocol: RC5
@@ -78,12 +72,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 26 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: display
 type: parsed
@@ -139,23 +127,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 24 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: vol-_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: 7
 type: parsed
@@ -229,23 +205,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: timer
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
-# 
 name: ok
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 25 00 00 00
-# 
-name: sound_mode
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 24 00 00 00
 # 
 name: 1_r
 type: parsed
@@ -283,24 +247,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: vol-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: display
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -319,18 +265,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 13 00 00 00
 # 
-name: ch+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
-name: sound_mode_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 24 00 00 00
-# 
 name: timer_r
 type: parsed
 protocol: RC5
@@ -348,12 +282,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: display_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: 8_r
 type: parsed
@@ -396,15 +324,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: timer_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00

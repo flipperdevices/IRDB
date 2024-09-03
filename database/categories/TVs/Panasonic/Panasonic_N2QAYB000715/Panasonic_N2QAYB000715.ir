@@ -7,12 +7,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
-# 
 name: Vol_up
 type: parsed
 protocol: Kaseikyo
@@ -30,24 +24,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
-# 
-name: Ch_next
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 03 00 00
-# 
-name: Ch_next
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 03 00 00
-# 
-name: Ch_next
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 03 00 00
 # 
 name: Ch_next
 type: parsed

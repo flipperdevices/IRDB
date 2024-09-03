@@ -55,12 +55,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 5B 00 00 00
 # 
-name: power_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 42 00 00 00
-# 
 name: bass
 type: parsed
 protocol: RC6
@@ -78,12 +72,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 05 00 00 00
-# 
-name: pause_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
 # 
 name: 0
 type: parsed
@@ -150,12 +138,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 07 00 00 00
-# 
-name: eject
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 42 00 00 00
 # 
 name: stop
 type: parsed
@@ -258,12 +240,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 03 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
 # 
 name: pause
 type: parsed

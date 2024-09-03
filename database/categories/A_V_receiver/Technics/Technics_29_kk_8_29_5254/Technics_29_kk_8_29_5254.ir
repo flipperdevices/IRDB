@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: 51 00 00 00
 # 
-name: down
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 51 00 00 00
-# 
 name: exit
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 03
 command: 91 00 00 00
-# 
-name: exit
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 03
-command: 91 00 00 00
-# 
-name: up
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 41 00 00 00
 # 
 name: up
 type: parsed
@@ -43,29 +25,11 @@ protocol: Kaseikyo
 address: A2 02 20 00
 command: D1 03 00 00
 # 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: D1 03 00 00
-# 
 name: vol-
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 00
 command: 11 02 00 00
-# 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: 11 02 00 00
-# 
-name: previous
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 03
-command: 81 00 00 00
 # 
 name: previous
 type: parsed
@@ -79,29 +43,11 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: B1 02 00 00
 # 
-name: ok
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: B1 02 00 00
-# 
 name: vol+
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 00
 command: 01 02 00 00
-# 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: 01 02 00 00
-# 
-name: right
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: 71 02 00 00
 # 
 name: right
 type: parsed
@@ -115,18 +61,6 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: E1 03 00 00
 # 
-name: selection
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: E1 03 00 00
-# 
-name: sleep
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: F1 03 00 00
-# 
 name: sleep
 type: parsed
 protocol: Kaseikyo
@@ -139,29 +73,11 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: B1 02 00 00
 # 
-name: menu
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: B1 02 00 00
-# 
 name: mute
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 00
 command: 21 03 00 00
-# 
-name: mute
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: 21 03 00 00
-# 
-name: left
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 00
-command: 61 02 00 00
 # 
 name: left
 type: parsed

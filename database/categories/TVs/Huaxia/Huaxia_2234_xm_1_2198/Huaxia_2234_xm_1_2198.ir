@@ -7,12 +7,6 @@ protocol: NECext
 address: 0E 0E 00 00
 command: 12 ED 00 00
 # 
-name: usb_dmp
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 12 ED 00 00
-# 
 name: 1
 type: parsed
 protocol: NECext
@@ -103,23 +97,11 @@ protocol: NECext
 address: 0E 0E 00 00
 command: 1E E1 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 13 EC 00 00
-# 
 name: ch-
 type: parsed
 protocol: NECext
 address: 0E 0E 00 00
 command: 11 EE 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 19 E6 00 00
 # 
 name: tv_av
 type: parsed
@@ -139,12 +121,6 @@ protocol: NECext
 address: 0E 0E 00 00
 command: 04 FB 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 16 E9 00 00
-# 
 name: 6
 type: parsed
 protocol: NECext
@@ -162,12 +138,6 @@ type: parsed
 protocol: NECext
 address: 0E 0E 00 00
 command: 0B F4 00 00
-# 
-name: ch+
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 10 EF 00 00
 # 
 name: timer
 type: parsed
@@ -187,12 +157,6 @@ protocol: NECext
 address: 0E 0E 00 00
 command: 14 EB 00 00
 # 
-name: 1
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 00 FF 00 00
-# 
 name: vga_pc
 type: parsed
 protocol: NECext
@@ -204,9 +168,3 @@ type: parsed
 protocol: NECext
 address: 0E 0E 00 00
 command: 15 EA 00 00
-# 
-name: channel_digit_change
-type: parsed
-protocol: NECext
-address: 0E 0E 00 00
-command: 0A F5 00 00

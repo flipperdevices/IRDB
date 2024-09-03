@@ -31,12 +31,6 @@ protocol: Samsung32
 address: 2D 00 00 00
 command: 64 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 35 00 00 00
-# 
 name: pre
 type: parsed
 protocol: Samsung32
@@ -96,18 +90,6 @@ type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 3E 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 35 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 34 00 00 00
 # 
 name: 7
 type: parsed
@@ -187,12 +169,6 @@ protocol: Samsung32
 address: 2D 00 00 00
 command: 43 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 34 00 00 00
-# 
 name: red
 type: parsed
 protocol: Samsung32
@@ -216,12 +192,6 @@ type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 50 00 00 00
-# 
-name: subtitleon
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: F7 00 00 00
 # 
 name: info
 type: parsed
@@ -264,12 +234,6 @@ type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 45 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 34 00 00 00
 # 
 name: audio
 type: parsed

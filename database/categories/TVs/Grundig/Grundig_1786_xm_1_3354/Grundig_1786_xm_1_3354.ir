@@ -49,12 +49,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 32 00 00 00
 # 
-name: into
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00
-# 
 name: power_r
 type: parsed
 protocol: RC5
@@ -199,12 +193,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 36 00 00 00
 # 
-name: into
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
@@ -235,23 +223,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 19 00 00 00
 # 
 name: red
 type: parsed
@@ -361,12 +337,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -391,24 +361,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: into_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 19 00 00 00
-# 
 name: mute
 type: parsed
 protocol: RC5
@@ -432,9 +384,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 13 00 00 00
-# 
-name: into_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00

@@ -19,12 +19,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 29 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 19 00 00 00
-# 
 name: power_r
 type: parsed
 protocol: RC5
@@ -60,12 +54,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 36 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
 # 
 name: sleep_r
 type: parsed
@@ -103,23 +91,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 19 00 00 00
-# 
 name: 9_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
 # 
 name: tv_av
 type: parsed
@@ -144,12 +120,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
 # 
 name: 4
 type: parsed
@@ -193,29 +163,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
-# 
 name: ch+_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: vol+
 type: parsed
@@ -229,29 +181,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
-# 
-name: 9_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 09 00 00 00
 # 
 name: display
 type: parsed
@@ -271,18 +205,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -295,23 +217,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 4_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
-# 
-name: display
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
 # 
 name: sleep
 type: parsed
@@ -330,15 +240,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
-# 
-name: 9
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 09 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00

@@ -19,12 +19,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 5D 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 5D 00 00 00
-# 
 name: TeletextCancel
 type: parsed
 protocol: NEC
@@ -247,35 +241,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 0A 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 54 00 00 00
-# 
 name: effect
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 56 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 0D 00 00 00
-# 
 name: TeletextHold
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 18 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 0A 00 00 00
 # 
 name: 3
 type: parsed

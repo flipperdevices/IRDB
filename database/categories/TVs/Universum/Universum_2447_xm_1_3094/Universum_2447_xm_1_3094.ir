@@ -259,12 +259,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
@@ -379,23 +373,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: pip
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: play
 type: parsed

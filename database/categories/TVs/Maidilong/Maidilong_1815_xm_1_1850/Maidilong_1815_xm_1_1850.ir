@@ -25,12 +25,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 1B 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 18 00 00 00
-# 
 name: texthold
 type: parsed
 protocol: Samsung32
@@ -127,12 +121,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 16 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 18 00 00 00
-# 
 name: ok
 type: parsed
 protocol: Samsung32
@@ -169,35 +157,17 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 01 00 00 00
 # 
-name: ff
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1B 00 00 00
-# 
 name: 5
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 04 00 00 00
 # 
-name: textoff
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 17 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 11 00 00 00
-# 
-name: up
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 19 00 00 00
 # 
 name: 3
 type: parsed
@@ -211,32 +181,8 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 05 00 00 00
 # 
-name: TV
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 16 00 00 00
-# 
-name: subtitle
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0C 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1C 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 14 00 00 00
-# 
-name: stop
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1A 00 00 00

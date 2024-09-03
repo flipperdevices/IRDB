@@ -157,12 +157,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 72 DD 00 00
-command: 1E E1 00 00
-# 
 name: play
 type: raw
 frequency: 38216

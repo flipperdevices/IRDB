@@ -31,12 +31,6 @@ protocol: RC5X
 address: 13 00 00 00
 command: 11 00 00 00
 # 
-name: tracking_up_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 20 00 00 00
-# 
 name: ch-
 type: parsed
 protocol: RC5
@@ -126,12 +120,6 @@ type: parsed
 protocol: RC5
 address: 13 00 00 00
 command: 2D 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 21 00 00 00
 # 
 name: menu_r
 type: parsed
@@ -379,12 +367,6 @@ protocol: RC5X
 address: 13 00 00 00
 command: 16 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 21 00 00 00
-# 
 name: display
 type: parsed
 protocol: RC5X
@@ -414,12 +396,6 @@ type: parsed
 protocol: RC5
 address: 13 00 00 00
 command: 30 00 00 00
-# 
-name: tracking_up
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 20 00 00 00
 # 
 name: audio
 type: parsed
@@ -468,12 +444,6 @@ type: parsed
 protocol: RC5
 address: 13 00 00 00
 command: 08 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 13 00 00 00
-command: 21 00 00 00
 # 
 name: last
 type: parsed

@@ -7,41 +7,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 1E E1 00 00
 # 
-name: Record Speed
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1E E1 00 00
-# 
-name: Record Speed
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1E E1 00 00
-# 
 name: Text Hold
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 45 BA 00 00
-# 
-name: Text Hold
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 45 BA 00 00
-# 
-name: Text Hold
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 45 BA 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 17 E8 00 00
 # 
 name: down
 type: parsed
@@ -55,24 +25,6 @@ protocol: NECext
 address: 80 64 00 00
 command: 0B F4 00 00
 # 
-name: ch-
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 0B F4 00 00
-# 
-name: INPUT 9
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4E B1 00 00
-# 
-name: INPUT 9
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4E B1 00 00
-# 
 name: INPUT 9
 type: parsed
 protocol: NECext
@@ -85,31 +37,7 @@ protocol: NECext
 address: 80 64 00 00
 command: 1B E4 00 00
 # 
-name: timer
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1B E4 00 00
-# 
 name: exit
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: TEXT EXPAND
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: TEXT EXPAND
 type: parsed
 protocol: NECext
 address: 80 64 00 00
@@ -127,29 +55,11 @@ protocol: NECext
 address: 80 64 00 00
 command: DE 21 00 00
 # 
-name: texthold
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: DE 21 00 00
-# 
 name: pip
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 58 A7 00 00
-# 
-name: pip
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 58 A7 00 00
-# 
-name: yellow
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: DA 25 00 00
 # 
 name: yellow
 type: parsed
@@ -163,35 +73,11 @@ protocol: NECext
 address: 80 64 00 00
 command: D9 26 00 00
 # 
-name: green
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: D9 26 00 00
-# 
 name: time
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 1B E4 00 00
-# 
-name: time
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1B E4 00 00
-# 
-name: time
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1B E4 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: CF 30 00 00
 # 
 name: textoff
 type: parsed
@@ -205,18 +91,6 @@ protocol: NECext
 address: 80 64 00 00
 command: 45 BA 00 00
 # 
-name: --
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 45 BA 00 00
-# 
-name: 4
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 04 FB 00 00
-# 
 name: 4
 type: parsed
 protocol: NECext
@@ -228,30 +102,6 @@ type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 4A B5 00 00
-# 
-name: Text Update
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: Text Update
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: Quick Skip
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 51 AE 00 00
-# 
-name: Quick Skip
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 51 AE 00 00
 # 
 name: Quick Skip
 type: parsed
@@ -265,18 +115,6 @@ protocol: NECext
 address: 80 64 00 00
 command: 07 F8 00 00
 # 
-name: 7
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 07 F8 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 16 E9 00 00
-# 
 name: up
 type: parsed
 protocol: NECext
@@ -288,24 +126,6 @@ type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 01 FE 00 00
-# 
-name: 1
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 01 FE 00 00
-# 
-name: Text Index_ Bookmark
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 14 EB 00 00
-# 
-name: Text Index_ Bookmark
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 14 EB 00 00
 # 
 name: Text Index_ Bookmark
 type: parsed
@@ -319,29 +139,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 18 E7 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 18 E7 00 00
-# 
 name: 8
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 08 F7 00 00
-# 
-name: 8
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 08 F7 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 57 A8 00 00
 # 
 name: Subtitle
 type: parsed
@@ -355,18 +157,6 @@ protocol: NECext
 address: 80 64 00 00
 command: 49 B6 00 00
 # 
-name: power
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 49 B6 00 00
-# 
-name: 9
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 09 F6 00 00
-# 
 name: 9
 type: parsed
 protocol: NECext
@@ -379,53 +169,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 0F F0 00 00
 # 
-name: vol-
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 0F F0 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: CF 30 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: CF 30 00 00
-# 
 name: slow
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 16 E9 00 00
-# 
-name: slow
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 16 E9 00 00
-# 
-name: slow
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 16 E9 00 00
-# 
-name: Cancel
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
-# 
-name: Cancel
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 4A B5 00 00
 # 
 name: Cancel
 type: parsed
@@ -439,29 +187,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 50 AF 00 00
 # 
-name: back
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 50 AF 00 00
-# 
 name: red
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: D8 27 00 00
-# 
-name: red
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: D8 27 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 48 B7 00 00
 # 
 name: ok
 type: parsed
@@ -475,18 +205,6 @@ protocol: NECext
 address: 80 64 00 00
 command: DB 24 00 00
 # 
-name: blue
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: DB 24 00 00
-# 
-name: record
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 15 EA 00 00
-# 
 name: record
 type: parsed
 protocol: NECext
@@ -498,18 +216,6 @@ type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 19 E6 00 00
-# 
-name: REW
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 19 E6 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 00 FF 00 00
 # 
 name: tv_av
 type: parsed
@@ -523,29 +229,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 0E F1 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 0E F1 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 02 FD 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 02 FD 00 00
-# 
-name: right
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 18 E7 00 00
 # 
 name: right
 type: parsed
@@ -559,29 +247,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 50 AF 00 00
 # 
-name: display
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 50 AF 00 00
-# 
 name: 5
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 05 FA 00 00
-# 
-name: 5
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 05 FA 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 1A E5 00 00
 # 
 name: pause
 type: parsed
@@ -595,41 +265,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 0A F5 00 00
 # 
-name: ch+
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 0A F5 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 00 FF 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 00 FF 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 03 FC 00 00
-# 
-name: 3
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 03 FC 00 00
-# 
-name: 6
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 06 F9 00 00
 # 
 name: 6
 type: parsed
@@ -643,18 +283,6 @@ protocol: NECext
 address: 80 64 00 00
 command: 45 BA 00 00
 # 
-name: selection
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 45 BA 00 00
-# 
-name: sleep
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 40 BF 00 00
-# 
 name: sleep
 type: parsed
 protocol: NECext
@@ -667,29 +295,11 @@ protocol: NECext
 address: 80 64 00 00
 command: 48 B7 00 00
 # 
-name: menu
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 48 B7 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 80 64 00 00
 command: 0D F2 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 0D F2 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 80 64 00 00
-command: 19 E6 00 00
 # 
 name: left
 type: parsed

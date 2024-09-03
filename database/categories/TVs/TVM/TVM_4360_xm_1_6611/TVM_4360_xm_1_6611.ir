@@ -73,12 +73,6 @@ protocol: NECext
 address: 12 30 00 00
 command: E2 1D 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 12 30 00 00
-command: EC 13 00 00
-# 
 name: menu
 type: parsed
 protocol: NECext

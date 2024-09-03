@@ -7,29 +7,11 @@ protocol: NECext
 address: C1 44 00 00
 command: 65 9A 00 00
 # 
-name: bass
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 65 9A 00 00
-# 
 name: center
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 95 6A 00 00
-# 
-name: center
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 95 6A 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 85 7A 00 00
 # 
 name: power
 type: parsed
@@ -43,29 +25,11 @@ protocol: NECext
 address: C1 44 00 00
 command: C5 3A 00 00
 # 
-name: vol-
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: C5 3A 00 00
-# 
 name: Upmix
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 8D 72 00 00
-# 
-name: Upmix
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 8D 72 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 45 BA 00 00
 # 
 name: vol+
 type: parsed
@@ -79,18 +43,6 @@ protocol: NECext
 address: C1 44 00 00
 command: D5 2A 00 00
 # 
-name: side
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: D5 2A 00 00
-# 
-name: rear
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: E5 1A 00 00
-# 
 name: rear
 type: parsed
 protocol: NECext
@@ -102,18 +54,6 @@ type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 35 CA 00 00
-# 
-name: high pitch
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 35 CA 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 75 8A 00 00
 # 
 name: mute
 type: parsed

@@ -7,29 +7,11 @@ protocol: SIRC
 address: 0B 00 00 00
 command: 3B 00 00 00
 # 
-name: standby
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 3B 00 00 00
-# 
 name: 4
 type: parsed
 protocol: SIRC
 address: 0B 00 00 00
 command: 03 00 00 00
-# 
-name: 4
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 03 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 06 00 00 00
 # 
 name: 7
 type: parsed
@@ -43,29 +25,11 @@ protocol: SIRC
 address: 0B 00 00 00
 command: 00 00 00 00
 # 
-name: 1
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 00 00 00 00
-# 
 name: 8
 type: parsed
 protocol: SIRC
 address: 0B 00 00 00
 command: 07 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 07 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 15 00 00 00
 # 
 name: power
 type: parsed
@@ -79,18 +43,6 @@ protocol: SIRC
 address: 0B 00 00 00
 command: 01 00 00 00
 # 
-name: 2
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 01 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 04 00 00 00
-# 
 name: 5
 type: parsed
 protocol: SIRC
@@ -102,18 +54,6 @@ type: parsed
 protocol: SIRC
 address: 0B 00 00 00
 command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 02 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC
-address: 0B 00 00 00
-command: 05 00 00 00
 # 
 name: 6
 type: parsed

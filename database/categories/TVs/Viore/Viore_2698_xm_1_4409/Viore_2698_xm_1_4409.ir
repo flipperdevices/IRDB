@@ -7,12 +7,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: C2 00 00 00
 # 
-name: hdmi3
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: C2 00 00 00
-# 
 name: channel list
 type: parsed
 protocol: Samsung32
@@ -36,12 +30,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
-# 
-name: video3
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: EC 00 00 00
 # 
 name: video3
 type: parsed
@@ -73,18 +61,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 69 00 00 00
 # 
-name: PC
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 69 00 00 00
-# 
-name: hdmi4
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: C5 00 00 00
-# 
 name: hdmi4
 type: parsed
 protocol: Samsung32
@@ -102,12 +78,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 4B 00 00 00
-# 
-name: _
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 23 00 00 00
 # 
 name: 4
 type: parsed
@@ -145,18 +115,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 86 00 00 00
 # 
-name: component1
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 86 00 00 00
-# 
-name: hdmi1
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: E9 00 00 00
-# 
 name: hdmi1
 type: parsed
 protocol: Samsung32
@@ -187,18 +145,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 84 00 00 00
 # 
-name: video1
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 84 00 00 00
-# 
-name: FF
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 48 00 00 00
-# 
 name: FF
 type: parsed
 protocol: Samsung32
@@ -216,18 +162,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 8C 00 00 00
-# 
-name: usb
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 8C 00 00 00
-# 
-name: power
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 02 00 00 00
 # 
 name: power
 type: parsed
@@ -253,12 +187,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 # 
-name: smart hub
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 79 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: Samsung32
@@ -270,18 +198,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: C3 00 00 00
-# 
-name: Component3
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: C3 00 00 00
-# 
-name: Sports
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: B8 00 00 00
 # 
 name: Sports
 type: parsed
@@ -301,12 +217,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: EB 00 00 00
 # 
-name: video2
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: EB 00 00 00
-# 
 name: previous
 type: parsed
 protocol: Samsung32
@@ -319,29 +229,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: enter
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 68 00 00 00
-# 
 name: component2
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: FD 00 00 00
-# 
-name: component2
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: FD 00 00 00
-# 
-name: record
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 49 00 00 00
 # 
 name: record
 type: parsed
@@ -361,23 +253,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: source
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
-# 
-name: info
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1F 00 00 00
 # 
 name: info
 type: parsed
@@ -396,12 +276,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
-# 
-name: display
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1F 00 00 00
 # 
 name: display
 type: parsed
@@ -433,12 +307,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: F8 00 00 00
 # 
-name: source
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: play
 type: parsed
 protocol: Samsung32
@@ -457,12 +325,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1B 00 00 00
 # 
-name: tuner_input
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1B 00 00 00
-# 
 name: 6
 type: parsed
 protocol: Samsung32
@@ -474,12 +336,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
-# 
-name: hdmi2
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: BE 00 00 00
 # 
 name: hdmi2
 type: parsed

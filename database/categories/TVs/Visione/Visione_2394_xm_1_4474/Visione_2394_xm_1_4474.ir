@@ -235,12 +235,6 @@ protocol: NEC
 address: 08 00 00 00
 command: 80 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: C3 00 00 00
-# 
 name: set
 type: raw
 frequency: 38095

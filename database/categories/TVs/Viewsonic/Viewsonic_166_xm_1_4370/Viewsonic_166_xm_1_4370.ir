@@ -7,18 +7,6 @@ protocol: NECext
 address: 83 F1 00 00
 command: 24 DB 00 00
 # 
-name: aspect
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 24 DB 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 27 D8 00 00
-# 
 name: down
 type: parsed
 protocol: NECext
@@ -31,29 +19,11 @@ protocol: NECext
 address: 83 F1 00 00
 command: 13 EC 00 00
 # 
-name: ch-
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 13 EC 00 00
-# 
 name: pip
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 2B D4 00 00
-# 
-name: pip
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 2B D4 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 00 FF 00 00
 # 
 name: 0
 type: parsed
@@ -73,18 +43,6 @@ protocol: NECext
 address: 83 F1 00 00
 command: 2B D4 00 00
 # 
-name: guide
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 2B D4 00 00
-# 
-name: pip swap
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 1A E5 00 00
-# 
 name: pip swap
 type: parsed
 protocol: NECext
@@ -96,18 +54,6 @@ type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 07 F8 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 07 F8 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 26 D9 00 00
 # 
 name: up
 type: parsed
@@ -127,41 +73,11 @@ protocol: NECext
 address: 83 F1 00 00
 command: 08 F7 00 00
 # 
-name: 8
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 08 F7 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 0A F5 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0A F5 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0A F5 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0A F5 00 00
-# 
-name: 9
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 09 F6 00 00
 # 
 name: 9
 type: parsed
@@ -175,18 +91,6 @@ protocol: NECext
 address: 83 F1 00 00
 command: 11 EE 00 00
 # 
-name: vol-
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 11 EE 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 25 DA 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -199,29 +103,11 @@ protocol: NECext
 address: 83 F1 00 00
 command: 1E E1 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 1E E1 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 10 EF 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 10 EF 00 00
-# 
-name: _Next
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 1E E1 00 00
 # 
 name: _Next
 type: parsed
@@ -241,18 +127,6 @@ protocol: NECext
 address: 83 F1 00 00
 command: 29 D6 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 29 D6 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 49 B6 00 00
-# 
 name: display
 type: parsed
 protocol: NECext
@@ -271,53 +145,17 @@ protocol: NECext
 address: 83 F1 00 00
 command: 12 ED 00 00
 # 
-name: ch+
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 12 ED 00 00
-# 
 name: Greater 100
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 0F F0 00 00
 # 
-name: Greater 100
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0F F0 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 1E E1 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 1E E1 00 00
-# 
 name: pip input
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 17 E8 00 00
-# 
-name: pip input
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 17 E8 00 00
-# 
-name: 3
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 03 FC 00 00
 # 
 name: 3
 type: parsed
@@ -337,18 +175,6 @@ protocol: NECext
 address: 83 F1 00 00
 command: 21 DE 00 00
 # 
-name: last
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 21 DE 00 00
-# 
-name: MTS
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 45 BA 00 00
-# 
 name: MTS
 type: parsed
 protocol: NECext
@@ -361,29 +187,11 @@ protocol: NECext
 address: 83 F1 00 00
 command: 2C D3 00 00
 # 
-name: sleep
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 2C D3 00 00
-# 
 name: greater100
 type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 0F F0 00 00
-# 
-name: greater100
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0F F0 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 0B F4 00 00
 # 
 name: menu
 type: parsed
@@ -396,12 +204,6 @@ type: parsed
 protocol: NECext
 address: 83 F1 00 00
 command: 0C F3 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 83 F1 00 00
-command: 28 D7 00 00
 # 
 name: left
 type: parsed

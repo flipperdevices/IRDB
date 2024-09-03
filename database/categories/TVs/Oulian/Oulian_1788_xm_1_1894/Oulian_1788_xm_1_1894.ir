@@ -85,12 +85,6 @@ protocol: NECext
 address: 04 B9 00 00
 command: 1D E2 00 00
 # 
-name: enter
-type: parsed
-protocol: NECext
-address: 04 B9 00 00
-command: 18 E7 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
@@ -138,12 +132,6 @@ type: parsed
 protocol: NECext
 address: 04 B9 00 00
 command: 07 F8 00 00
-# 
-name: TV
-type: parsed
-protocol: NECext
-address: 04 B9 00 00
-command: 1D E2 00 00
 # 
 name: menu
 type: parsed

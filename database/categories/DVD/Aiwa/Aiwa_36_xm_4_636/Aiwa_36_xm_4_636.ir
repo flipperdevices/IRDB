@@ -49,12 +49,6 @@ protocol: NEC42
 address: 76 00 00 00
 command: 07 00 00 00
 # 
-name: open
-type: parsed
-protocol: NEC42
-address: 76 00 00 00
-command: 0C 00 00 00
-# 
 name: search
 type: parsed
 protocol: NEC42
@@ -90,12 +84,6 @@ type: parsed
 protocol: NEC42
 address: 76 00 00 00
 command: 09 00 00 00
-# 
-name: check
-type: parsed
-protocol: NEC42
-address: 76 00 00 00
-command: 0D 00 00 00
 # 
 name: disc4
 type: parsed
@@ -163,12 +151,6 @@ protocol: NEC42
 address: 76 00 00 00
 command: 57 00 00 00
 # 
-name: pause
-type: parsed
-protocol: NEC42
-address: 76 00 00 00
-command: 15 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC42
@@ -186,18 +168,6 @@ type: parsed
 protocol: NEC42
 address: 76 00 00 00
 command: 55 00 00 00
-# 
-name: search
-type: parsed
-protocol: NEC42
-address: 76 00 00 00
-command: 19 00 00 00
-# 
-name: search_>>i
-type: parsed
-protocol: NEC42
-address: 76 00 00 00
-command: 18 00 00 00
 # 
 name: search_>>i
 type: parsed

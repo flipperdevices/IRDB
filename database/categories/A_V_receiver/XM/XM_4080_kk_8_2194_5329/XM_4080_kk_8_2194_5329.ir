@@ -67,12 +67,6 @@ protocol: RC5X
 address: 1B 00 00 00
 command: 23 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5X
-address: 1B 00 00 00
-command: 20 00 00 00
-# 
 name: ok
 type: parsed
 protocol: RC5X
@@ -96,12 +90,6 @@ type: parsed
 protocol: RC5X
 address: 1B 00 00 00
 command: 3E 00 00 00
-# 
-name: up_r
-type: parsed
-protocol: RC5X
-address: 1B 00 00 00
-command: 20 00 00 00
 # 
 name: menu
 type: parsed

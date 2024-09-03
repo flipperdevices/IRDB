@@ -25,12 +25,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 59 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 0D 00 00 00
-# 
 name: zoom
 type: parsed
 protocol: NEC
@@ -163,12 +157,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 08 00 00 00
 # 
-name: textoff
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 46 00 00 00
-# 
 name: power
 type: parsed
 protocol: NEC
@@ -204,12 +192,6 @@ type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 17 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 46 00 00 00
 # 
 name: still image
 type: parsed
@@ -265,12 +247,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 02 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 16 00 00 00
-# 
 name: S_SYS
 type: parsed
 protocol: NEC
@@ -301,18 +277,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 48 00 00 00
 # 
-name: still image
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 0B 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 0C 00 00 00
-# 
 name: audio
 type: parsed
 protocol: NEC
@@ -324,12 +288,6 @@ type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 43 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 14 00 00 00
 # 
 name: play
 type: parsed
@@ -372,9 +330,3 @@ type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 15 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 17 00 00 00

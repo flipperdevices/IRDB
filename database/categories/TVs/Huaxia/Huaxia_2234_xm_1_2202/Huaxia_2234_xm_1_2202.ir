@@ -49,12 +49,6 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 1C 00 00 00
 # 
-name: child_lock
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 00 00 00 00
-# 
 name: 8
 type: parsed
 protocol: Samsung32
@@ -91,18 +85,6 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 1A 00 00 00
 # 
-name: timer
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 18 00 00 00
-# 
-name: channel_digit_change
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 0A 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: Samsung32
@@ -121,12 +103,6 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 01 00 00 00
 # 
-name: up
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 1C 00 00 00
-# 
 name: display
 type: parsed
 protocol: Samsung32
@@ -138,12 +114,6 @@ type: parsed
 protocol: Samsung32
 address: 17 00 00 00
 command: 04 00 00 00
-# 
-name: up
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 1C 00 00 00
 # 
 name: ch+
 type: parsed
@@ -174,9 +144,3 @@ type: parsed
 protocol: Samsung32
 address: 17 00 00 00
 command: 15 00 00 00
-# 
-name: down
-type: parsed
-protocol: Samsung32
-address: 17 00 00 00
-command: 1D 00 00 00

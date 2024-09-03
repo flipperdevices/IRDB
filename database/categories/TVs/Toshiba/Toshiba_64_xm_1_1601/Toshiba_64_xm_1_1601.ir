@@ -217,12 +217,6 @@ protocol: NECext
 address: 42 C0 00 00
 command: 1B E4 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 42 C0 00 00
-command: 0F F0 00 00
-# 
 name: pip input
 type: parsed
 protocol: NECext

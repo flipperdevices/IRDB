@@ -7,18 +7,6 @@ protocol: NECext
 address: 86 05 00 00
 command: 40 BF 00 00
 # 
-name: aspect
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 40 BF 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 43 BC 00 00
-# 
 name: down
 type: parsed
 protocol: NECext
@@ -37,29 +25,11 @@ protocol: NECext
 address: 86 05 00 00
 command: 1C E3 00 00
 # 
-name: CC
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 1C E3 00 00
-# 
 name: exit
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 1B E4 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 1B E4 00 00
-# 
-name: return
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 10 EF 00 00
 # 
 name: return
 type: parsed
@@ -72,12 +42,6 @@ type: raw
 frequency: 38462
 duty_cycle: 0.330000
 data: 8710 4368 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 1638 546 546 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 44563 8710 4368 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 1638 546 546 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 44563
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 41 BE 00 00
 # 
 name: --
 type: parsed
@@ -109,23 +73,11 @@ protocol: NECext
 address: 86 05 00 00
 command: 42 BD 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 42 BD 00 00
-# 
 name: vcr
 type: raw
 frequency: 38462
 duty_cycle: 0.330000
 data: 8710 4368 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 546 546 546 546 1638 546 546 546 546 546 1638 546 546 546 546 546 546 546 1638 546 546 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 42925 8710 4368 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 546 546 546 546 1638 546 546 546 546 546 1638 546 546 546 546 546 546 546 1638 546 546 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 42925
-# 
-name: recall
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 10 EF 00 00
 # 
 name: recall
 type: parsed
@@ -199,12 +151,6 @@ protocol: NECext
 address: 86 05 00 00
 command: 18 E7 00 00
 # 
-name: ok
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 18 E7 00 00
-# 
 name: record
 type: raw
 frequency: 38462
@@ -216,12 +162,6 @@ type: raw
 frequency: 38462
 duty_cycle: 0.330000
 data: 8710 4368 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 546 546 1638 546 1638 546 1638 546 42951 8710 4368 546 546 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 1638 546 1638 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 546 546 1638 546 1638 546 1638 546 42951
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 12 ED 00 00
 # 
 name: tv_av
 type: parsed
@@ -246,18 +186,6 @@ type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 44 BB 00 00
-# 
-name: right
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 44 BB 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 17 E8 00 00
 # 
 name: display
 type: parsed
@@ -288,24 +216,6 @@ type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 11 EE 00 00
-# 
-name: audio
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 11 EE 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 12 ED 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 12 ED 00 00
 # 
 name: play
 type: raw
@@ -348,12 +258,6 @@ type: raw
 frequency: 38462
 duty_cycle: 0.330000
 data: 8710 4368 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 1638 546 44563 8710 4368 546 546 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 1638 546 546 546 1638 546 546 546 546 546 546 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 546 546 546 546 546 546 546 546 1638 546 546 546 546 546 546 546 1638 546 1638 546 1638 546 1638 546 44563
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 45 BA 00 00
 # 
 name: left
 type: parsed

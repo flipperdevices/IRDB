@@ -43,12 +43,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 1C 00 00 00
 # 
-name: zoom
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 57 00 00 00
-# 
 name: sound_channel
 type: parsed
 protocol: NEC
@@ -175,12 +169,6 @@ protocol: NEC
 address: 38 00 00 00
 command: 1E 00 00 00
 # 
-name: info
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 0C 00 00 00
-# 
 name: 5
 type: parsed
 protocol: NEC
@@ -198,12 +186,6 @@ type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 55 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 38 00 00 00
-command: 13 00 00 00
 # 
 name: pip input
 type: parsed

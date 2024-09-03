@@ -133,12 +133,6 @@ protocol: NEC
 address: 20 00 00 00
 command: 55 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: 02 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC
@@ -150,12 +144,6 @@ type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 1C 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: 02 00 00 00
 # 
 name: menu
 type: parsed

@@ -31,18 +31,6 @@ protocol: NECext
 address: 85 ED 00 00
 command: 3C C3 00 00
 # 
-name: ch-
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1C E3 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1C E3 00 00
-# 
 name: ff
 type: parsed
 protocol: NECext
@@ -66,18 +54,6 @@ type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 30 CF 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1C E3 00 00
-# 
-name: next_r
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1D E2 00 00
 # 
 name: 7
 type: parsed
@@ -139,12 +115,6 @@ protocol: NECext
 address: 85 ED 00 00
 command: 3A C5 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1D E2 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -199,23 +169,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 1A E5 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1D E2 00 00
-# 
 name: audio
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 09 F6 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 1A E5 00 00
 # 
 name: 3
 type: parsed
@@ -228,12 +186,6 @@ type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 34 CB 00 00
-# 
-name: b
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 3F C0 00 00
 # 
 name: menu
 type: parsed

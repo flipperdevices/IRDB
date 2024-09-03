@@ -25,12 +25,6 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 30 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 30 00 00 00
-# 
 name: poweron
 type: parsed
 protocol: SIRC20
@@ -42,12 +36,6 @@ type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 5C 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 30 00 00 00
 # 
 name: topmenu
 type: parsed
@@ -151,12 +139,6 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 65 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 31 00 00 00
-# 
 name: 1
 type: parsed
 protocol: SIRC20
@@ -193,12 +175,6 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 08 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 31 00 00 00
-# 
 name: poweroff
 type: parsed
 protocol: SIRC20
@@ -210,12 +186,6 @@ type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 5E 00 00 00
-# 
-name: cd
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 5F 00 00 00
 # 
 name: ok
 type: parsed
@@ -277,23 +247,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 0E 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 31 00 00 00
-# 
 name: audio
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 64 00 00 00
-# 
-name: multi
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 5E 00 00 00
 # 
 name: play
 type: parsed

@@ -91,12 +91,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 3F 00 00 00
 # 
-name: caption_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 6F 00 00 00
-# 
 name: MotorLeft_r
 type: parsed
 protocol: RC6
@@ -229,23 +223,11 @@ protocol: RC6
 address: 00 00 00 00
 command: F1 00 00 00
 # 
-name: caption
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 6F 00 00 00
-# 
 name: MotorRight_r
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: F2 00 00 00
-# 
-name: options_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 40 00 00 00
 # 
 name: Off
 type: parsed
@@ -343,12 +325,6 @@ protocol: RC6
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
 name: Off_r
 type: parsed
 protocol: RC6
@@ -360,12 +336,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 39 00 00 00
-# 
-name: browse
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: CC 00 00 00
 # 
 name: 4_r
 type: parsed
@@ -426,12 +396,6 @@ type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: F4 00 00 00
-# 
-name: smart picture
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F3 00 00 00
 # 
 name: Suround
 type: parsed
@@ -517,12 +481,6 @@ protocol: RC6
 address: 00 00 00 00
 command: 4F 00 00 00
 # 
-name: formats
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F5 00 00 00
-# 
 name: 7_r
 type: parsed
 protocol: RC6
@@ -541,23 +499,11 @@ protocol: RC6
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: --
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 31 00 00 00
-# 
 name: 9
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: last_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 0A 00 00 00
 # 
 name: vol-
 type: parsed
@@ -589,12 +535,6 @@ protocol: RC6
 address: 00 00 00 00
 command: F4 00 00 00
 # 
-name: effect_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F4 00 00 00
-# 
 name: teletext
 type: parsed
 protocol: RC6
@@ -606,48 +546,6 @@ type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: F5 00 00 00
-# 
-name: Ext2
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
-# 
-name: ActiveControl
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 96 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: --_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 31 00 00 00
-# 
-name: illustrate
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 6D 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 5C 00 00 00
-# 
-name: video1
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 04 00 00 00
 # 
 name: pip_r
 type: parsed
@@ -787,41 +685,11 @@ protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: option
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 40 00 00 00
-# 
-name: smart sound
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F4 00 00 00
-# 
-name: sleep_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 70 00 00 00
-# 
 name: period
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: D9 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: mode_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 90 00 00 00
 # 
 name: video5_r
 type: parsed
@@ -871,47 +739,11 @@ protocol: RC6
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: Ext2_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: ActiveControl_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 96 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: video1_r
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 04 00 00 00
-# 
-name: blue
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 70 00 00 00
-# 
-name: SmartPicture_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F3 00 00 00
 # 
 name: favorite
 type: parsed
@@ -919,29 +751,11 @@ protocol: RC6
 address: 00 00 00 00
 command: D2 00 00 00
 # 
-name: mode
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 90 00 00 00
-# 
-name: Format_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: F5 00 00 00
-# 
 name: menu
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
-# 
-name: guide_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: CC 00 00 00
 # 
 name: mute
 type: parsed
@@ -955,12 +769,6 @@ protocol: RC6
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: illustrate_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 6D 00 00 00
-# 
 name: video4
 type: parsed
 protocol: RC5
@@ -972,9 +780,3 @@ type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5A 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 5C 00 00 00

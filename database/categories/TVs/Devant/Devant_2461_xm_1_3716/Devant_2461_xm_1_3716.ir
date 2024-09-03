@@ -151,12 +151,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 36 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RC5
@@ -228,18 +222,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: FF_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
-# 
-name: green
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
 # 
 name: 8
 type: parsed
@@ -355,12 +337,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0E 00 00 00
 # 
-name: red
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RC5
@@ -475,12 +451,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
 # 
-name: pause
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -511,23 +481,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: sound_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 24 00 00 00
-# 
-name: previous
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
 # 
 name: vga_r
 type: parsed
@@ -564,12 +522,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: REW_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
 # 
 name: left
 type: parsed

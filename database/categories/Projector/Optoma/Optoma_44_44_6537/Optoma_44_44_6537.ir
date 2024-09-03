@@ -13,23 +13,11 @@ protocol: NECext
 address: 4F 50 00 00
 command: 10 EF 00 00
 # 
-name: freeze
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 10 EF 00 00
-# 
 name: mouse
 type: raw
 frequency: 37910
 duty_cycle: 0.330000
 data: 1212 608 606 1215 606 608 606 608 605 608 606 608 606 608 606 608 606 608 606 608 606 608 606 608 606 608 606 608 606 608 606 608 606 4758
-# 
-name: pincushion-
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 0D F2 00 00
 # 
 name: pincushion-
 type: parsed
@@ -49,18 +37,6 @@ protocol: NECext
 address: 4F 50 00 00
 command: 09 F6 00 00
 # 
-name: pincushion+
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 09 F6 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 02 FD 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
@@ -73,29 +49,11 @@ protocol: NECext
 address: 4F 50 00 00
 command: 0B F4 00 00
 # 
-name: vol-
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 0B F4 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
 address: 4F 50 00 00
 command: 17 E8 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 17 E8 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 08 F7 00 00
 # 
 name: vol+
 type: parsed
@@ -115,18 +73,6 @@ protocol: NECext
 address: 4F 50 00 00
 command: 04 FB 00 00
 # 
-name: input
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 04 FB 00 00
-# 
-name: zoom_down
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 0E F1 00 00
-# 
 name: zoom_down
 type: parsed
 protocol: NECext
@@ -139,29 +85,11 @@ protocol: NECext
 address: 4F 50 00 00
 command: 0A F5 00 00
 # 
-name: zoom_up
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 0A F5 00 00
-# 
 name: menu
 type: parsed
 protocol: NECext
 address: 4F 50 00 00
 command: 11 EE 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 11 EE 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: 0F F0 00 00
 # 
 name: mute
 type: parsed

@@ -43,18 +43,6 @@ protocol: NECext
 address: BA 4B 00 00
 command: 58 A7 00 00
 # 
-name: seek+
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: 60 9F 00 00
-# 
-name: tune+
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: C0 3F 00 00
-# 
 name: 0
 type: parsed
 protocol: NECext
@@ -67,35 +55,17 @@ protocol: NECext
 address: BA 4B 00 00
 command: 44 BB 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: 20 DF 00 00
-# 
 name: left_r
 type: parsed
 protocol: NECext
 address: BA 4B 00 00
 command: A0 5F 00 00
 # 
-name: tune+
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: C0 3F 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
 address: BA 4B 00 00
 command: 47 B8 00 00
-# 
-name: tune+
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: C0 3F 00 00
 # 
 name: 1
 type: parsed
@@ -114,12 +84,6 @@ type: parsed
 protocol: NECext
 address: BA 4B 00 00
 command: 4C B3 00 00
-# 
-name: left_r
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: A0 5F 00 00
 # 
 name: stop
 type: parsed
@@ -145,12 +109,6 @@ protocol: NECext
 address: BA 4B 00 00
 command: E0 1F 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: 20 DF 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
@@ -162,12 +120,6 @@ type: parsed
 protocol: NECext
 address: BA 4B 00 00
 command: 42 BD 00 00
-# 
-name: seek+
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: 60 9F 00 00
 # 
 name: 5
 type: parsed
@@ -216,9 +168,3 @@ type: parsed
 protocol: NECext
 address: BA 4B 00 00
 command: 01 FE 00 00
-# 
-name: left_r
-type: parsed
-protocol: NECext
-address: BA 4B 00 00
-command: A0 5F 00 00

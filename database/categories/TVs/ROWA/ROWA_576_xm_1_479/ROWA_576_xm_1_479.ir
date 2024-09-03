@@ -355,12 +355,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
-# 
 name: aspect ratio
 type: parsed
 protocol: RC5
@@ -420,12 +414,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: audio_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
 # 
 name: vol-
 type: parsed
@@ -607,12 +595,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
-# 
 name: dtv_r
 type: parsed
 protocol: RC5
@@ -630,12 +612,6 @@ type: raw
 frequency: 37910
 duty_cycle: 0.330000
 data: 842 816 1684 816 842 816 842 816 842 816 842 816 842 816 842 1658 842 816 1684 1632 1684 85237 842 816 1684 816 842 816 842 816 842 816 842 816 842 816 842 1658 842 816 1684 1632 1684 100000
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: picture mode_r
 type: parsed
@@ -786,12 +762,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: audio_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
 # 
 name: epg_r
 type: parsed

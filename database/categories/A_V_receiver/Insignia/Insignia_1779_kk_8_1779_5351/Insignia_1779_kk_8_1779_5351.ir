@@ -7,29 +7,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 70 8F 00 00
 # 
-name: sat
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 70 8F 00 00
-# 
 name: tv
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 77 88 00 00
-# 
-name: tv
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 77 88 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 16 E9 00 00
 # 
 name: down
 type: parsed
@@ -43,29 +25,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 9A 65 00 00
 # 
-name: Channel_Level_Down
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 9A 65 00 00
-# 
 name: Equalizer_Treble_Down
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 9E 61 00 00
-# 
-name: Equalizer_Treble_Down
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 9E 61 00 00
-# 
-name: aux1
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 6E 91 00 00
 # 
 name: aux1
 type: parsed
@@ -79,29 +43,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 4B B4 00 00
 # 
-name: less light
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 4B B4 00 00
-# 
 name: exit
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 47 B8 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 47 B8 00 00
-# 
-name: surround_parameter
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 94 6B 00 00
 # 
 name: surround_parameter
 type: parsed
@@ -115,29 +61,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 76 89 00 00
 # 
-name: cd
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 76 89 00 00
-# 
 name: boot
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 02 FD 00 00
-# 
-name: boot
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 29 D6 00 00
 # 
 name: 0
 type: parsed
@@ -151,29 +79,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 31 CE 00 00
 # 
-name: 4
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 31 CE 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 37 C8 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 37 C8 00 00
-# 
-name: Equalizer_Bass_Up
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 9B 64 00 00
 # 
 name: Equalizer_Bass_Up
 type: parsed
@@ -187,29 +97,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 12 ED 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 12 ED 00 00
-# 
 name: 1
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 2B D4 00 00
-# 
-name: 1
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 2B D4 00 00
-# 
-name: dvd
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 6B 94 00 00
 # 
 name: dvd
 type: parsed
@@ -223,53 +115,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 79 86 00 00
 # 
-name: Digital_Input
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 79 86 00 00
-# 
 name: 8
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 39 C6 00 00
-# 
-name: 8
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 39 C6 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 02 FD 00 00
 # 
 name: power
 type: parsed
@@ -283,29 +133,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 3B C4 00 00
 # 
-name: 9
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 3B C4 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 60 9F 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 60 9F 00 00
-# 
-name: stereo
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 8A 75 00 00
 # 
 name: stereo
 type: parsed
@@ -319,29 +151,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 18 E7 00 00
 # 
-name: ok
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 18 E7 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 61 9E 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 61 9E 00 00
-# 
-name: Channel_Level
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 67 98 00 00
 # 
 name: Channel_Level
 type: parsed
@@ -355,29 +169,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 9C 63 00 00
 # 
-name: Equalizer_Bass_Down
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 9C 63 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 2D D2 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 2D D2 00 00
-# 
-name: Channel_Level_Up
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 99 66 00 00
 # 
 name: Channel_Level_Up
 type: parsed
@@ -391,29 +187,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 14 EB 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 14 EB 00 00
-# 
 name: display
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 25 DA 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 25 DA 00 00
-# 
-name: 5
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 33 CC 00 00
 # 
 name: 5
 type: parsed
@@ -427,29 +205,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 47 B8 00 00
 # 
-name: input
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 47 B8 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 2F D0 00 00
-# 
-name: 3
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 2F D0 00 00
-# 
-name: tuner_input
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 81 7E 00 00
 # 
 name: tuner_input
 type: parsed
@@ -463,29 +223,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 35 CA 00 00
 # 
-name: 6
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 35 CA 00 00
-# 
 name: selection
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 18 E7 00 00
-# 
-name: selection
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 18 E7 00 00
-# 
-name: sleep
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 68 97 00 00
 # 
 name: sleep
 type: parsed
@@ -499,18 +241,6 @@ protocol: NECext
 address: 85 ED 00 00
 command: 6F 90 00 00
 # 
-name: aux2
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 6F 90 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 0E F1 00 00
-# 
 name: menu
 type: parsed
 protocol: NECext
@@ -523,29 +253,11 @@ protocol: NECext
 address: 85 ED 00 00
 command: 05 FA 00 00
 # 
-name: shutdown
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 05 FA 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 85 ED 00 00
 command: 6A 95 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 6A 95 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 85 ED 00 00
-command: 10 EF 00 00
 # 
 name: left
 type: parsed

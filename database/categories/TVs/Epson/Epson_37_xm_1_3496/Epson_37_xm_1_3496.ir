@@ -97,12 +97,6 @@ protocol: NECext
 address: 83 55 00 00
 command: 8C 73 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 8C 73 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
@@ -120,36 +114,6 @@ type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 86 79 00 00
-# 
-name: page_up
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 86 79 00 00
-# 
-name: page_up
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 86 79 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 8C 73 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 8C 73 00 00
-# 
-name: page_down
-type: parsed
-protocol: NECext
-address: 83 55 00 00
-command: 87 78 00 00
 # 
 name: page_down
 type: parsed

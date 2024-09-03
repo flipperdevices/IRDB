@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: B9 00 00 00
 # 
-name: dynamic_volume
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: B9 00 00 00
-# 
 name: music
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: A5 00 00 00
-# 
-name: music
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: A5 00 00 00
-# 
-name: optical_fiber
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 96 00 00 00
 # 
 name: optical_fiber
 type: parsed
@@ -43,29 +25,11 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: 88 00 00 00
 # 
-name: simulation
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 88 00 00 00
-# 
 name: movie
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: A3 00 00 00
-# 
-name: movie
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: A3 00 00 00
-# 
-name: overweight_tone
-type: parsed
-protocol: Kaseikyo
-address: 51 54 32 00
-command: 30 00 00 00
 # 
 name: overweight_tone
 type: parsed
@@ -79,29 +43,11 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: 9B 00 00 00
 # 
-name: hdmi
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 9B 00 00 00
-# 
 name: power
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: 83 00 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 83 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 85 00 00 00
 # 
 name: vol-
 type: parsed
@@ -115,18 +61,6 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: A6 00 00 00
 # 
-name: stereo
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: A6 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 84 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: Kaseikyo
@@ -139,29 +73,11 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: 86 00 00 00
 # 
-name: mute
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: 86 00 00 00
-# 
 name: news
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: AC 00 00 00
-# 
-name: news
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: AC 00 00 00
-# 
-name: hd_control
-type: parsed
-protocol: Kaseikyo
-address: 52 54 32 00
-command: B2 00 00 00
 # 
 name: hd_control
 type: parsed

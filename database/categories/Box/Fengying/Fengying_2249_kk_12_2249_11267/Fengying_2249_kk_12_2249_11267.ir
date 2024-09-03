@@ -85,18 +85,6 @@ protocol: NECext
 address: CC 1D 00 00
 command: 22 DD 00 00
 # 
-name: green
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 25 DA 00 00
-# 
-name: previous
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 24 DB 00 00
-# 
 name: previous
 type: parsed
 protocol: NECext
@@ -108,12 +96,6 @@ type: parsed
 protocol: NECext
 address: CC 1D 00 00
 command: 04 FB 00 00
-# 
-name: output
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 27 D8 00 00
 # 
 name: REW
 type: parsed
@@ -157,12 +139,6 @@ protocol: NECext
 address: CC 1D 00 00
 command: 15 EA 00 00
 # 
-name: yellow
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 26 D9 00 00
-# 
 name: page_up
 type: parsed
 protocol: NECext
@@ -174,12 +150,6 @@ type: parsed
 protocol: NECext
 address: CC 1D 00 00
 command: 0A F5 00 00
-# 
-name: yellow
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 26 D9 00 00
 # 
 name: 3
 type: parsed

@@ -13,18 +13,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 85 7A 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 85 7A 00 00
-# 
-name: keystone+
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 82 7D 00 00
-# 
 name: keystone+
 type: parsed
 protocol: NECext
@@ -84,12 +72,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: D3 2C 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 82 7D 00 00
 # 
 name: up
 type: parsed
@@ -169,12 +151,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 81 7E 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 81 7E 00 00
-# 
 name: 5
 type: parsed
 protocol: NECext
@@ -235,12 +211,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 85 7A 00 00
 # 
-name: keystone-
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 85 7A 00 00
-# 
 name: media
 type: parsed
 protocol: NECext
@@ -258,12 +228,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: 61 9E 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 83 7C 00 00
 # 
 name: left
 type: parsed

@@ -55,12 +55,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 19 E6 00 00
 # 
-name: yellow
-type: parsed
-protocol: NECext
-address: 00 7F 00 00
-command: 47 B8 00 00
-# 
 name: 0
 type: parsed
 protocol: NECext
@@ -163,12 +157,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 4E B1 00 00
 # 
-name: yellow
-type: parsed
-protocol: NECext
-address: 00 7F 00 00
-command: 47 B8 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -252,12 +240,6 @@ type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4B B4 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 7F 00 00
-command: 53 AC 00 00
 # 
 name: vga
 type: parsed

@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: 88 02 20 01
 command: B4 01 00 00
 # 
-name: down
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 01
-command: B4 01 00 00
-# 
 name: up
 type: parsed
 protocol: Kaseikyo
 address: 88 02 20 01
 command: A4 01 00 00
-# 
-name: up
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 01
-command: A4 01 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 00
-command: D4 03 00 00
 # 
 name: power
 type: parsed
@@ -43,29 +25,11 @@ protocol: Kaseikyo
 address: 88 02 20 00
 command: 14 02 00 00
 # 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 00
-command: 14 02 00 00
-# 
 name: ok
 type: parsed
 protocol: Kaseikyo
 address: 88 02 20 01
 command: 24 03 00 00
-# 
-name: ok
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 01
-command: 24 03 00 00
-# 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 00
-command: 04 02 00 00
 # 
 name: vol+
 type: parsed
@@ -79,18 +43,6 @@ protocol: Kaseikyo
 address: 88 02 20 01
 command: D4 01 00 00
 # 
-name: right
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 01
-command: D4 01 00 00
-# 
-name: zoom_down
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 02
-command: 64 00 00 00
-# 
 name: zoom_down
 type: parsed
 protocol: Kaseikyo
@@ -102,18 +54,6 @@ type: parsed
 protocol: Kaseikyo
 address: 88 02 20 02
 command: 04 01 00 00
-# 
-name: zoom_up
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 02
-command: 04 01 00 00
-# 
-name: menu
-type: parsed
-protocol: Kaseikyo
-address: 88 02 20 01
-command: A4 03 00 00
 # 
 name: menu
 type: parsed

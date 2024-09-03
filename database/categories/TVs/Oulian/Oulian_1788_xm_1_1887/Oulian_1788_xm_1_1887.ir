@@ -7,12 +7,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 57 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 57 00 00 00
-# 
 name: 0
 type: parsed
 protocol: NEC
@@ -139,12 +133,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 54 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 56 00 00 00
-# 
 name: fast_forward
 type: parsed
 protocol: NEC
@@ -168,12 +156,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 46 00 00 00
-# 
-name: TV
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 73 00 00 00
 # 
 name: menu
 type: parsed

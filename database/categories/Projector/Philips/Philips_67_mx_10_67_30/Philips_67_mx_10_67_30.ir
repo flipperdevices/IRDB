@@ -25,12 +25,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: list_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
 name: down_r
 type: parsed
 protocol: RC5X
@@ -79,29 +73,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 2E 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
-name: list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
 name: up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
 # 
 name: left
 type: raw

@@ -7,12 +7,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
-# 
 name: Ch_next
 type: parsed
 protocol: Kaseikyo
@@ -24,12 +18,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 03 00 00
-# 
-name: Vol_up
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 00 02 00 00
 # 
 name: Vol_up
 type: parsed
@@ -67,23 +55,11 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: E0 00 00 00
 # 
-name: Left
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: E0 00 00 00
-# 
 name: Right
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: F0 00 00 00
-# 
-name: Ok
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 90 00 00 00
 # 
 name: Ok
 type: parsed
@@ -103,18 +79,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 90 03 00 00
 # 
-name: Info
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 90 03 00 00
-# 
-name: Guide
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 02
-command: 70 00 00 00
-# 
 name: Guide
 type: parsed
 protocol: Kaseikyo
@@ -127,29 +91,11 @@ protocol: Kaseikyo
 address: 89 02 20 02
 command: E0 02 00 00
 # 
-name: Mybutton1
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 02
-command: E0 02 00 00
-# 
 name: Home
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 50 01 00 00
-# 
-name: Home
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 02
-command: 50 01 00 00
-# 
-name: Netflix
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: 20 03 00 00
 # 
 name: Netflix
 type: parsed
@@ -169,12 +115,6 @@ protocol: Kaseikyo
 address: 80 02 20 03
 command: 30 01 00 00
 # 
-name: Exit
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 03
-command: 30 01 00 00
-# 
 name: Back
 type: parsed
 protocol: Kaseikyo
@@ -186,12 +126,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 00 03 00 00
-# 
-name: Green
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 10 03 00 00
 # 
 name: Green
 type: parsed
@@ -295,12 +229,6 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 00 00 00 00
 # 
-name: Play
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: 00 00 00 00
-# 
 name: Ff
 type: parsed
 protocol: Kaseikyo
@@ -312,12 +240,6 @@ type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: 20 00 00 00
-# 
-name: Pause
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: 10 00 00 00
 # 
 name: Pause
 type: parsed

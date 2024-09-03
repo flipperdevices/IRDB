@@ -229,23 +229,11 @@ protocol: NEC
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 32 00 00 00
-# 
 name: audio
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0B 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 33 00 00 00
 # 
 name: 3
 type: parsed

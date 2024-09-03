@@ -31,12 +31,6 @@ protocol: NEC
 address: 49 00 00 00
 command: 45 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 54 00 00 00
-# 
 name: poweron
 type: parsed
 protocol: NEC
@@ -48,12 +42,6 @@ type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 58 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 54 00 00 00
 # 
 name: ff
 type: parsed
@@ -78,12 +66,6 @@ type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 0A 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 54 00 00 00
 # 
 name: up_r
 type: parsed
@@ -151,12 +133,6 @@ protocol: NEC
 address: 49 00 00 00
 command: 05 00 00 00
 # 
-name: dvd
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 11 00 00 00
-# 
 name: power
 type: parsed
 protocol: NEC
@@ -186,12 +162,6 @@ type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 17 00 00 00
-# 
-name: up_r
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 50 00 00 00
 # 
 name: slow
 type: parsed
@@ -307,23 +277,11 @@ protocol: NEC
 address: 49 00 00 00
 command: 03 00 00 00
 # 
-name: pal
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 16 00 00 00
-# 
 name: 6
 type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 02 00 00 00
-# 
-name: b
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 4D 00 00 00
 # 
 name: goto
 type: parsed

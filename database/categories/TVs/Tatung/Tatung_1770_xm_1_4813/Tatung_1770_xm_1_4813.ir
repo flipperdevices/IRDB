@@ -31,12 +31,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: sound mode
 type: parsed
 protocol: RC5
@@ -96,12 +90,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 25 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: time_r
 type: parsed
@@ -163,35 +151,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: 4_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: pip swap
 type: parsed
@@ -217,23 +187,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: -- (10 key)_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
 name: 1
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: 8
 type: parsed
@@ -295,23 +253,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
 name: back
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: 1_r
 type: parsed
@@ -361,29 +307,11 @@ protocol: RC5X
 address: 00 00 00 00
 command: 19 00 00 00
 # 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: picture mode
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: display
 type: parsed
@@ -408,18 +336,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: picture mode_r
 type: parsed
@@ -463,23 +379,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: back
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: pip on
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 18 00 00 00
-# 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
 # 
 name: sleep
 type: parsed
@@ -493,12 +397,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 26 00 00 00
 # 
-name: home
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
 name: mute
 type: parsed
 protocol: RC5
@@ -510,15 +408,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00

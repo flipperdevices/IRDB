@@ -13,41 +13,11 @@ protocol: NEC
 address: 33 00 00 00
 command: C7 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C7 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C7 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C7 00 00 00
-# 
 name: s-video
 type: parsed
 protocol: NEC
 address: 33 00 00 00
 command: 8D 00 00 00
-# 
-name: keystone+
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 85 00 00 00
-# 
-name: keystone+
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 85 00 00 00
 # 
 name: keystone+
 type: parsed
@@ -79,36 +49,6 @@ protocol: NEC
 address: 33 00 00 00
 command: C4 00 00 00
 # 
-name: source
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C4 00 00 00
-# 
-name: source
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C4 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C6 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C6 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C6 00 00 00
-# 
 name: up
 type: parsed
 protocol: NEC
@@ -120,30 +60,6 @@ type: parsed
 protocol: NEC
 address: 33 00 00 00
 command: 81 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 8F 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 8F 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 8F 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 8F 00 00 00
 # 
 name: vol-
 type: parsed
@@ -181,53 +97,11 @@ protocol: NEC
 address: 33 00 00 00
 command: 8C 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 8C 00 00 00
-# 
 name: automatic
 type: parsed
 protocol: NEC
 address: 33 00 00 00
 command: C3 00 00 00
-# 
-name: automatic
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C3 00 00 00
-# 
-name: automatic
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C3 00 00 00
-# 
-name: automatic
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C3 00 00 00
-# 
-name: right
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C9 00 00 00
-# 
-name: right
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C9 00 00 00
-# 
-name: right
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C9 00 00 00
 # 
 name: right
 type: parsed
@@ -253,59 +127,11 @@ protocol: NEC
 address: 33 00 00 00
 command: C2 00 00 00
 # 
-name: zoom_down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C2 00 00 00
-# 
-name: zoom_down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C2 00 00 00
-# 
-name: zoom_down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C2 00 00 00
-# 
-name: zoom_down
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C2 00 00 00
-# 
 name: keystone-
 type: parsed
 protocol: NEC
 address: 33 00 00 00
 command: 84 00 00 00
-# 
-name: keystone-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 84 00 00 00
-# 
-name: keystone-
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: 84 00 00 00
-# 
-name: zoom_up
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C1 00 00 00
-# 
-name: zoom_up
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C1 00 00 00
 # 
 name: zoom_up
 type: parsed
@@ -324,18 +150,6 @@ type: parsed
 protocol: NEC
 address: 33 00 00 00
 command: 87 00 00 00
-# 
-name: left
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C8 00 00 00
-# 
-name: left
-type: parsed
-protocol: NEC
-address: 33 00 00 00
-command: C8 00 00 00
 # 
 name: left
 type: parsed

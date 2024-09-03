@@ -79,44 +79,14 @@ protocol: NEC
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 05 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 04 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 01 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 04 00 00 00
-# 
 name: mute
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 10 00 00 00
-# 
-name: REW
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 03 00 00 00

@@ -13,12 +13,6 @@ protocol: NECext
 address: 00 FD 00 00
 command: 1E E1 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 1E E1 00 00
-# 
 name: pip
 type: parsed
 protocol: NECext
@@ -121,23 +115,11 @@ protocol: NECext
 address: 00 FD 00 00
 command: 0F F0 00 00
 # 
-name: ok
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 1B E4 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
 address: 00 FD 00 00
 command: 02 FD 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 0E F1 00 00
 # 
 name: display
 type: parsed
@@ -150,18 +132,6 @@ type: parsed
 protocol: NECext
 address: 00 FD 00 00
 command: 05 FA 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 1F E0 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 0B F4 00 00
 # 
 name: help
 type: parsed
@@ -193,20 +163,8 @@ protocol: NECext
 address: 00 FD 00 00
 command: 12 ED 00 00
 # 
-name: ok
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 1B E4 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 00 FD 00 00
 command: 1D E2 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 00 FD 00 00
-command: 0D F2 00 00

@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: A0 02 20 02
 command: A0 01 00 00
 # 
-name: aux
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 02
-command: A0 01 00 00
-# 
 name: BD
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 02
 command: F0 01 00 00
-# 
-name: BD
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 02
-command: F0 01 00 00
-# 
-name: tv
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 02
-command: C0 01 00 00
 # 
 name: tv
 type: parsed
@@ -43,18 +25,6 @@ protocol: Kaseikyo
 address: A0 02 20 00
 command: 20 03 00 00
 # 
-name: mute
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 00
-command: 20 03 00 00
-# 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 00
-command: 10 02 00 00
-# 
 name: vol-
 type: parsed
 protocol: Kaseikyo
@@ -66,18 +36,6 @@ type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 00 02 00 00
-# 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 00
-command: 00 02 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 00
-command: D0 03 00 00
 # 
 name: power
 type: parsed

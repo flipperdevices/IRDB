@@ -7,12 +7,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
-# 
 name: Mute
 type: raw
 frequency: 38000
@@ -67,29 +61,11 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 20 03 00 00
 # 
-name: Netflix
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: 20 03 00 00
-# 
 name: Rakutentv
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: E0 02 00 00
-# 
-name: Rakutentv
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: E0 02 00 00
-# 
-name: Primevideo
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 03
-command: D0 02 00 00
 # 
 name: Primevideo
 type: parsed
@@ -102,18 +78,6 @@ type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: C0 02 00 00
-# 
-name: Myapp
-type: parsed
-protocol: Kaseikyo
-address: 84 02 20 02
-command: 60 03 00 00
-# 
-name: Myapp
-type: parsed
-protocol: Kaseikyo
-address: 84 02 20 02
-command: 60 03 00 00
 # 
 name: Myapp
 type: parsed

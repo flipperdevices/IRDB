@@ -121,12 +121,6 @@ protocol: Samsung32
 address: 16 00 00 00
 command: 11 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 16 00 00 00
-command: 0F 00 00 00
-# 
 name: 3
 type: parsed
 protocol: Samsung32
@@ -156,9 +150,3 @@ type: parsed
 protocol: Samsung32
 address: 16 00 00 00
 command: 0A 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Samsung32
-address: 16 00 00 00
-command: 12 00 00 00

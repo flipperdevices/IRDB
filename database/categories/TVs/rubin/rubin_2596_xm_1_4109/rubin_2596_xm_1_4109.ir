@@ -19,12 +19,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: audio_r
 type: parsed
 protocol: RC5
@@ -79,12 +73,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: last_r
 type: parsed
 protocol: RC5
@@ -115,12 +103,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 00 00 00 00
 # 
-name: FF_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
 name: --
 type: parsed
 protocol: RC5
@@ -139,23 +121,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: 7
 type: parsed
@@ -186,12 +156,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 30 00 00 00
-# 
-name: FF
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
 # 
 name: 8
 type: parsed
@@ -247,12 +211,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 36 00 00 00
 # 
-name: enter
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 30 00 00 00
-# 
 name: 1_r
 type: parsed
 protocol: RC5
@@ -295,18 +253,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -325,23 +271,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 29 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
 name: audio
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2D 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: play
 type: parsed
@@ -390,15 +324,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 30 00 00 00

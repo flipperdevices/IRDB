@@ -19,32 +19,14 @@ protocol: NEC
 address: 18 00 00 00
 command: 46 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 18 00 00 00
-command: FF 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NEC
 address: 18 00 00 00
 command: 16 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 18 00 00 00
-command: FF 00 00 00
-# 
 name: power
 type: parsed
 protocol: NEC
 address: 18 00 00 00
 command: 17 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 18 00 00 00
-command: FF 00 00 00

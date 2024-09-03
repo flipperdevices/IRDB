@@ -139,12 +139,6 @@ protocol: NECext
 address: 00 99 00 00
 command: 45 BA 00 00
 # 
-name: enter
-type: parsed
-protocol: NECext
-address: 00 99 00 00
-command: 4A B5 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
@@ -156,18 +150,6 @@ type: parsed
 protocol: NECext
 address: 00 99 00 00
 command: 09 F6 00 00
-# 
-name: enter
-type: parsed
-protocol: NECext
-address: 00 99 00 00
-command: 4A B5 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 00 99 00 00
-command: 45 BA 00 00
 # 
 name: menu
 type: parsed

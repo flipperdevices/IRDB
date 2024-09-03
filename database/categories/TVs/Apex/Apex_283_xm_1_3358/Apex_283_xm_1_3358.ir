@@ -7,12 +7,6 @@ protocol: NEC
 address: 10 00 00 00
 command: 1F 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 10 00 00 00
-command: 1F 00 00 00
-# 
 name: video
 type: parsed
 protocol: NEC
@@ -127,12 +121,6 @@ protocol: NEC
 address: 10 00 00 00
 command: 02 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 10 00 00 00
-command: 1A 00 00 00
-# 
 name: display
 type: parsed
 protocol: NEC
@@ -144,18 +132,6 @@ type: parsed
 protocol: NEC
 address: 10 00 00 00
 command: 05 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 10 00 00 00
-command: 1B 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 10 00 00 00
-command: 14 00 00 00
 # 
 name: play
 type: parsed
@@ -204,9 +180,3 @@ type: parsed
 protocol: NEC
 address: 10 00 00 00
 command: 10 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 10 00 00 00
-command: 1E 00 00 00

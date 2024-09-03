@@ -31,18 +31,6 @@ protocol: RC5
 address: 19 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 19 00 00 00
-command: 21 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 19 00 00 00
-command: 21 00 00 00
-# 
 name: pause_r
 type: parsed
 protocol: RC5
@@ -54,12 +42,6 @@ type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 0C 00 00 00
-# 
-name: down
-type: parsed
-protocol: RC5
-address: 19 00 00 00
-command: 21 00 00 00
 # 
 name: ff
 type: parsed
@@ -84,12 +66,6 @@ type: parsed
 protocol: RC5
 address: 19 00 00 00
 command: 35 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 19 00 00 00
-command: 21 00 00 00
 # 
 name: up_r
 type: parsed
@@ -144,12 +120,6 @@ type: parsed
 protocol: RC5
 address: 19 00 00 00
 command: 30 00 00 00
-# 
-name: next
-type: parsed
-protocol: RC5
-address: 19 00 00 00
-command: 20 00 00 00
 # 
 name: rew_r
 type: parsed

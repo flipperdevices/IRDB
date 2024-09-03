@@ -31,35 +31,17 @@ protocol: NECext
 address: E7 0A 00 00
 command: 12 ED 00 00
 # 
-name: usb
-type: parsed
-protocol: NECext
-address: E7 0A 00 00
-command: FF 00 00 00
-# 
 name: list
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 1B E4 00 00
 # 
-name: usb
-type: parsed
-protocol: NECext
-address: E7 0A 00 00
-command: FF 00 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 13 EC 00 00
-# 
-name: usb
-type: parsed
-protocol: NECext
-address: E7 0A 00 00
-command: FF 00 00 00
 # 
 name: right
 type: parsed

@@ -19,12 +19,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 5E 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00
-# 
 name: REW
 type: parsed
 protocol: NEC
@@ -42,9 +36,3 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 45 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00

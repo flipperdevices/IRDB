@@ -43,12 +43,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 08 00 00 00
 # 
-name: index
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 6A 00 00 00
-# 
 name: 100
 type: parsed
 protocol: Samsung32
@@ -127,12 +121,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: index
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 6A 00 00 00
-# 
 name: 2
 type: parsed
 protocol: Samsung32
@@ -157,23 +145,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: index
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 6A 00 00 00
-# 
 name: audio
 type: parsed
 protocol: Samsung32
 address: 05 00 00 00
 command: 3D 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
 # 
 name: 3
 type: parsed
@@ -186,12 +162,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0A 00 00 00
-# 
-name: index
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 6A 00 00 00
 # 
 name: menu
 type: parsed

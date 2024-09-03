@@ -19,18 +19,6 @@ protocol: NECext
 address: 86 7A 00 00
 command: 83 7C 00 00
 # 
-name: mute
-type: parsed
-protocol: NECext
-address: 86 7A 00 00
-command: 83 7C 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 86 7A 00 00
-command: 9E 61 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
@@ -42,24 +30,6 @@ type: parsed
 protocol: NECext
 address: 86 7A 00 00
 command: 9F 60 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 86 7A 00 00
-command: 9F 60 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 86 7A 00 00
-command: 82 7D 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 86 7A 00 00
-command: 82 7D 00 00
 # 
 name: power
 type: parsed

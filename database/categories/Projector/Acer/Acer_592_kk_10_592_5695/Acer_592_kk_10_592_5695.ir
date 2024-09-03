@@ -13,12 +13,6 @@ protocol: NECext
 address: 08 13 00 00
 command: B2 4D 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: B2 4D 00 00
-# 
 name: freeze
 type: parsed
 protocol: NECext
@@ -30,12 +24,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: A9 56 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: B1 4E 00 00
 # 
 name: up
 type: parsed
@@ -91,12 +79,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 4F B0 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 4F B0 00 00
-# 
 name: pause
 type: parsed
 protocol: NECext
@@ -132,12 +114,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: 84 7B 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 4E B1 00 00
 # 
 name: left
 type: parsed

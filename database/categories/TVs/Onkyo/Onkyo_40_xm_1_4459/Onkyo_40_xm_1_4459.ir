@@ -13,18 +13,6 @@ protocol: NECext
 address: D2 6D 00 00
 command: 83 7C 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 83 7C 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 01 FE 00 00
-# 
 name: ch-
 type: parsed
 protocol: NECext
@@ -85,23 +73,11 @@ protocol: NECext
 address: D2 6D 00 00
 command: 82 7D 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 82 7D 00 00
-# 
 name: 1
 type: parsed
 protocol: NECext
 address: D2 02 00 00
 command: D5 2A 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: D2 02 00 00
-command: 80 7F 00 00
 # 
 name: FF
 type: parsed
@@ -132,12 +108,6 @@ type: parsed
 protocol: NECext
 address: D2 02 00 00
 command: DD 22 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: D2 19 00 00
-command: 83 7C 00 00
 # 
 name: vol-
 type: parsed
@@ -181,12 +151,6 @@ protocol: NECext
 address: D2 02 00 00
 command: 81 7E 00 00
 # 
-name: REW
-type: parsed
-protocol: NECext
-address: D2 02 00 00
-command: 81 7E 00 00
-# 
 name: tv_av
 type: parsed
 protocol: NECext
@@ -199,23 +163,11 @@ protocol: NECext
 address: D2 19 00 00
 command: 82 7D 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: D2 19 00 00
-command: 82 7D 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
 address: D2 02 00 00
 command: D6 29 00 00
-# 
-name: right
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 85 7A 00 00
 # 
 name: right
 type: parsed
@@ -240,18 +192,6 @@ type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 00 FF 00 00
-# 
-name: ch+
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 00 FF 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: D2 19 00 00
-command: 87 78 00 00
 # 
 name: set
 type: parsed
@@ -288,12 +228,6 @@ type: parsed
 protocol: NECext
 address: D2 6C 00 00
 command: 88 77 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: D2 6D 00 00
-command: 84 7B 00 00
 # 
 name: left
 type: parsed

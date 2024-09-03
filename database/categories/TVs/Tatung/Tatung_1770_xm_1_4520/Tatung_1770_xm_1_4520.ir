@@ -181,12 +181,6 @@ frequency: 39220
 duty_cycle: 0.330000
 data: 1711 1632 1711 816 842 816 842 816 842 816 842 816 842 1632 1711 816 842 1632 1711 86312 1711 1632 1711 816 842 816 842 816 842 816 842 816 842 1632 1711 816 842 1632 1711 86312
 # 
-name: TeletextZoom
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: PC
 type: parsed
 protocol: RC5X
@@ -234,12 +228,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2D 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 13 00 00 00
 # 
 name: sat_r
 type: parsed
@@ -349,12 +337,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: TeletextHidden_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2C 00 00 00
-# 
 name: 7
 type: parsed
 protocol: RC5
@@ -372,12 +354,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2F 00 00 00
-# 
-name: TeletextStop_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
 # 
 name: Text Update_r
 type: parsed
@@ -415,12 +391,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: WHITE
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2F 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
@@ -432,12 +402,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
-# 
-name: Text Update_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: power
 type: parsed
@@ -463,18 +427,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: MenuOff_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 13 00 00 00
-# 
-name: antenna
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
@@ -486,12 +438,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2D 00 00 00
-# 
-name: teletext_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
 # 
 name: teletext
 type: parsed
@@ -523,35 +469,17 @@ protocol: RC5X
 address: 00 00 00 00
 command: 28 00 00 00
 # 
-name: game
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
 name: 1_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: teletext
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
 name: MenuOn
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 12 00 00 00
-# 
-name: Text Update
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: TeletextTime_r
 type: parsed
@@ -631,24 +559,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: TeletextHidden
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2C 00 00 00
-# 
-name: game
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
-name: antenna_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -697,12 +607,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 2E 00 00 00
 # 
-name: Text Update
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: picture mode_r
 type: parsed
 protocol: RC5X
@@ -727,35 +631,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: TeletextZoom_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: 6
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: blue_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
-name: WHITE_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2F 00 00 00
-# 
-name: Text Hold
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
 # 
 name: 8_r
 type: parsed
@@ -780,12 +660,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 26 00 00 00
-# 
-name: blue_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2E 00 00 00
 # 
 name: Brightness_Down_r
 type: parsed

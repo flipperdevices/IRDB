@@ -13,24 +13,6 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 9000 4500 560 560 560 1680 560 560 560 560 560 560 560 560 560 1680 560 560 560 1680 560 560 560 1680 560 1680 560 1680 560 1680 560 560 560 1680 9000 2250 560 96190 560 40180
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NEC
@@ -43,12 +25,6 @@ protocol: NEC
 address: 42 00 00 00
 command: 6E 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00
-# 
 name: ok
 type: parsed
 protocol: NEC
@@ -60,15 +36,3 @@ type: parsed
 protocol: NEC
 address: 42 00 00 00
 command: 59 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 42 00 00 00
-command: FF 00 00 00

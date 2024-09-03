@@ -109,12 +109,6 @@ protocol: NEC
 address: 49 00 00 00
 command: 17 00 00 00
 # 
-name: vol+_r
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 0E 00 00 00
-# 
 name: 2
 type: parsed
 protocol: NEC
@@ -126,12 +120,6 @@ type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 44 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 10 00 00 00
 # 
 name: 5
 type: parsed

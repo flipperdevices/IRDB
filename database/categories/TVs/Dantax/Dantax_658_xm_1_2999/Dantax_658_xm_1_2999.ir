@@ -19,12 +19,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: pause_r
 type: parsed
 protocol: RC5
@@ -78,12 +72,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 30 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: record_r
 type: parsed
@@ -163,23 +151,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: 7
 type: parsed
@@ -253,23 +229,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 30 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: texton
 type: parsed
@@ -319,12 +283,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: ok
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: mute_r
 type: parsed
 protocol: RC5
@@ -342,18 +300,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: display
 type: parsed
@@ -373,24 +319,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: display
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: play
 type: parsed
 protocol: RC5
@@ -409,23 +337,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 30 00 00 00
 # 
 name: mute
 type: parsed
@@ -438,12 +354,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: texthold_r
 type: parsed

@@ -265,12 +265,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: return
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 0A 00 00 00
-# 
 name: --
 type: raw
 frequency: 38000
@@ -355,12 +349,6 @@ protocol: RC5
 address: 03 00 00 00
 command: 0A 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: 1
 type: parsed
 protocol: RC5
@@ -433,12 +421,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: nicam
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
 name: stop
 type: parsed
 protocol: RC5
@@ -474,12 +456,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 17 00 00 00
-# 
-name: return_r
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 0A 00 00 00
 # 
 name: next
 type: parsed
@@ -517,12 +493,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: enter
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 17 00 00 00
-# 
 name: blue
 type: parsed
 protocol: RC5X
@@ -534,12 +504,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: 6_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 06 00 00 00
 # 
 name: illustrate_r
 type: parsed
@@ -559,12 +523,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 32 00 00 00
 # 
-name: source
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RC5
@@ -582,12 +540,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
-# 
-name: input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: info_r
 type: parsed
@@ -643,12 +595,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: nicam_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
@@ -667,18 +613,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 2E 00 00 00
 # 
-name: source
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: 4_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
-# 
 name: play
 type: parsed
 protocol: RC5X
@@ -690,18 +624,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: av2
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 06 00 00 00
-# 
-name: 4
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
 # 
 name: av1_r
 type: parsed
@@ -720,12 +642,6 @@ type: parsed
 protocol: RC5
 address: 0C 00 00 00
 command: 24 00 00 00
-# 
-name: --
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 868 789 1737 789 868 816 868 789 868 789 868 789 868 1632 1737 816 868 789 868 1632 1737 85474 868 789 1737 789 868 816 868 789 868 789 868 789 868 1632 1737 816 868 789 868 1632 1737 98684
 # 
 name: sleep
 type: parsed
@@ -780,9 +696,3 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 17 00 00 00

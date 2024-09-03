@@ -13,62 +13,14 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 9000 4500 560 1680 560 1680 560 1680 560 560 560 560 560 560 560 560 560 1680 560 1680 560 560 560 1680 560 560 560 560 560 560 560 1680 560 560 9000 2250 560 96190 560 40180
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 87 45 00 00
 command: 17 E8 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
 name: list
 type: parsed
 protocol: NECext
 address: 87 45 00 00
 command: 20 DF 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 87 45 00 00
-command: FF 00 00 00

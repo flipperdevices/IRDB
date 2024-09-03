@@ -145,12 +145,6 @@ protocol: NEC
 address: C1 00 00 00
 command: 1B 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: C1 00 00 00
-command: 14 00 00 00
-# 
 name: help
 type: parsed
 protocol: NEC
@@ -168,12 +162,6 @@ type: parsed
 protocol: NEC
 address: C1 00 00 00
 command: 06 00 00 00
-# 
-name: back
-type: parsed
-protocol: NEC
-address: C1 00 00 00
-command: 0E 00 00 00
 # 
 name: favorite
 type: parsed

@@ -25,18 +25,6 @@ protocol: NEC
 address: 31 00 00 00
 command: 8C 00 00 00
 # 
-name: exit
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 87 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 8C 00 00 00
-# 
 name: up
 type: parsed
 protocol: NEC
@@ -61,35 +49,17 @@ protocol: NEC
 address: 31 00 00 00
 command: 81 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: C2 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: 86 00 00 00
 # 
-name: exit
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 87 00 00 00
-# 
 name: ok
 type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: C5 00 00 00
-# 
-name: record
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 8F 00 00 00
 # 
 name: FF
 type: parsed
@@ -109,56 +79,14 @@ protocol: NEC
 address: 31 00 00 00
 command: 83 00 00 00
 # 
-name: REW
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: C4 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 87 00 00 00
-# 
-name: ok
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: C5 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: 8E 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 85 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: C1 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: 87 00 00 00
-# 
 name: mute
 type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: 89 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 31 00 00 00
-command: C3 00 00 00

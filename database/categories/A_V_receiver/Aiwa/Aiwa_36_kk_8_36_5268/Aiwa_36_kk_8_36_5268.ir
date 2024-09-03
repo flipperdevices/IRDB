@@ -7,29 +7,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 43 00 00 00
 # 
-name: tv
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 43 00 00 00
-# 
 name: down
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 79 00 00 00
-# 
-name: down
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 79 00 00 00
-# 
-name: radios
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 20 00 00 00
 # 
 name: radios
 type: parsed
@@ -43,29 +25,11 @@ protocol: SIRC
 address: 0D 00 00 00
 command: 11 00 00 00
 # 
-name: program_down
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 11 00 00 00
-# 
 name: SLEEP
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 5E 00 00 00
-# 
-name: SLEEP
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 5E 00 00 00
-# 
-name: magnetic tape
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 23 00 00 00
 # 
 name: magnetic tape
 type: parsed
@@ -79,29 +43,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 25 00 00 00
 # 
-name: cd
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 25 00 00 00
-# 
 name: 100+
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 6F 00 00 00
-# 
-name: 100+
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 6F 00 00 00
-# 
-name: PAUSE
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 78 00 00 00
 # 
 name: PAUSE
 type: parsed
@@ -115,29 +61,11 @@ protocol: SIRC
 address: 0C 00 00 00
 command: 6F 00 00 00
 # 
-name: EJECT
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 6F 00 00 00
-# 
 name: tape2
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 5C 00 00 00
-# 
-name: tape2
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 5C 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 15 00 00 00
 # 
 name: power
 type: parsed
@@ -151,29 +79,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 13 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 13 00 00 00
-# 
 name: >>I
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 46 00 00 00
-# 
-name: >>I
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 46 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 5B 00 00 00
 # 
 name: ok
 type: parsed
@@ -187,29 +97,11 @@ protocol: SIRC
 address: 12 00 00 00
 command: 3F 00 00 00
 # 
-name: record
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 3F 00 00 00
-# 
 name: REW
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 7A 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 7A 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 12 00 00 00
 # 
 name: vol+
 type: parsed
@@ -223,29 +115,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 42 00 00 00
 # 
-name: LDP
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 42 00 00 00
-# 
 name: right
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 7B 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 7B 00 00 00
-# 
-name: vcr1
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 22 00 00 00
 # 
 name: vcr1
 type: parsed
@@ -259,29 +133,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 21 00 00 00
 # 
-name: tuner_input
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 21 00 00 00
-# 
 name: program-guide
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 4B 00 00 00
-# 
-name: program-guide
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 4B 00 00 00
-# 
-name: selection
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 5B 00 00 00
 # 
 name: selection
 type: parsed
@@ -295,18 +151,6 @@ protocol: SIRC
 address: 0C 00 00 00
 command: 7A 00 00 00
 # 
-name: last
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 7A 00 00 00
-# 
-name: program_up
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 10 00 00 00
-# 
 name: program_up
 type: parsed
 protocol: SIRC
@@ -319,29 +163,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 1E 00 00 00
 # 
-name: SAT
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 1E 00 00 00
-# 
 name: V_INPUT
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 33 00 00 00
-# 
-name: V_INPUT
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 33 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 5D 00 00 00
 # 
 name: mute
 type: parsed

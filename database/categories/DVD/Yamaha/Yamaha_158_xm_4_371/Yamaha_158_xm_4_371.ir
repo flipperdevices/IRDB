@@ -91,12 +91,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 83 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 54 00 00 00
-# 
 name: stop_r
 type: parsed
 protocol: RC6
@@ -156,12 +150,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 20 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 54 00 00 00
 # 
 name: left
 type: parsed

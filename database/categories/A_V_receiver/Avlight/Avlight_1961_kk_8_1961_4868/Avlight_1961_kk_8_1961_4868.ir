@@ -7,35 +7,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 89 76 00 00
 # 
-name: dts
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 89 76 00 00
-# 
-name: dts
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 89 76 00 00
-# 
 name: aux
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 95 6A 00 00
-# 
-name: aux
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 95 6A 00 00
-# 
-name: sound
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 88 77 00 00
 # 
 name: sound
 type: parsed
@@ -49,29 +25,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 98 67 00 00
 # 
-name: eq
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 98 67 00 00
-# 
 name: Echo+
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 87 78 00 00
-# 
-name: Echo+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 87 78 00 00
-# 
-name: center-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9C 63 00 00
 # 
 name: center-
 type: parsed
@@ -85,29 +43,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 8B 74 00 00
 # 
-name: delay-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8B 74 00 00
-# 
 name: delay+
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 81 7E 00 00
-# 
-name: delay+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 81 7E 00 00
-# 
-name: C
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 91 6E 00 00
 # 
 name: C
 type: parsed
@@ -121,29 +61,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 97 68 00 00
 # 
-name: SW+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 97 68 00 00
-# 
 name: surround+
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 8D 72 00 00
-# 
-name: surround+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8D 72 00 00
-# 
-name: surround-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9D 62 00 00
 # 
 name: surround-
 type: parsed
@@ -157,29 +79,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 96 69 00 00
 # 
-name: center+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 96 69 00 00
-# 
 name: dvd
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 94 6B 00 00
-# 
-name: dvd
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 94 6B 00 00
-# 
-name: preset
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 84 7B 00 00
 # 
 name: preset
 type: parsed
@@ -193,29 +97,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 8C 73 00 00
 # 
-name: Echo-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8C 73 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 8A 75 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8A 75 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 83 7C 00 00
 # 
 name: vol-
 type: parsed
@@ -229,29 +115,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 86 79 00 00
 # 
-name: BALANCE+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 86 79 00 00
-# 
 name: Treble Down
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 8E 71 00 00
-# 
-name: Treble Down
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8E 71 00 00
-# 
-name: SW-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 99 66 00 00
 # 
 name: SW-
 type: parsed
@@ -265,29 +133,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 85 7A 00 00
 # 
-name: bass+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 85 7A 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 9A 65 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9A 65 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9E 61 00 00
 # 
 name: display
 type: parsed
@@ -301,29 +151,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 80 7F 00 00
 # 
-name: bass-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 80 7F 00 00
-# 
 name: Treble Up
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 9B 64 00 00
-# 
-name: Treble Up
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9B 64 00 00
-# 
-name: microphone-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 8F 70 00 00
 # 
 name: microphone-
 type: parsed
@@ -337,18 +169,6 @@ protocol: NECext
 address: 87 48 00 00
 command: 82 7D 00 00
 # 
-name: BALANCE-
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 82 7D 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 92 6D 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
@@ -361,29 +181,11 @@ protocol: NECext
 address: 87 48 00 00
 command: 90 6F 00 00
 # 
-name: lock
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 90 6F 00 00
-# 
 name: ac-3
 type: parsed
 protocol: NECext
 address: 87 48 00 00
 command: 93 6C 00 00
-# 
-name: ac-3
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 93 6C 00 00
-# 
-name: microphone+
-type: parsed
-protocol: NECext
-address: 87 48 00 00
-command: 9F 60 00 00
 # 
 name: microphone+
 type: parsed

@@ -19,18 +19,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: pause_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: pause_r
 type: parsed
 protocol: RC5X
@@ -79,18 +67,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: vol+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
-# 
-name: pause_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: texthold
 type: parsed
 protocol: RC5X
@@ -102,12 +78,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
-# 
-name: texton_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
 # 
 name: 5_r
 type: parsed
@@ -121,29 +91,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: last
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 00 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
 # 
 name: tv_av
 type: parsed
@@ -174,24 +126,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: REW_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: 7
 type: parsed
@@ -229,23 +163,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: texthold
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: 7_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
-# 
-name: input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: power
 type: parsed
@@ -253,47 +175,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: 9
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: texton_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
-name: texton
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: texton
 type: parsed
@@ -306,36 +198,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: FF
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
-# 
-name: REW_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
 # 
 name: info
 type: parsed
@@ -361,24 +223,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: FF
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
-# 
-name: REW_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
-name: texton
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -390,30 +234,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: 3
 type: parsed
@@ -427,47 +247,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: texton_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: texton
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
 name: 9_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
-name: pause_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: AV_r
 type: parsed

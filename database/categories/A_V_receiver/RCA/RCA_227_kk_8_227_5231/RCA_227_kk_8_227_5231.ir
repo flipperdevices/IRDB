@@ -7,28 +7,10 @@ protocol: RCA
 address: 0B 00 00 00
 command: 5C 00 00 00
 # 
-name: vcr2
-type: parsed
-protocol: RCA
-address: 0B 00 00 00
-command: 5C 00 00 00
-# 
 name: tv
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
-command: 5C 00 00 00
-# 
-name: tv
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5C 00 00 00
-# 
-name: magnetic tape
-type: parsed
-protocol: RCA
-address: 09 00 00 00
 command: 5C 00 00 00
 # 
 name: magnetic tape
@@ -43,28 +25,10 @@ protocol: RCA
 address: 01 00 00 00
 command: 5C 00 00 00
 # 
-name: cd
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: 5C 00 00 00
-# 
 name: CABLE
 type: parsed
 protocol: RCA
 address: 0E 00 00 00
-command: 5C 00 00 00
-# 
-name: CABLE
-type: parsed
-protocol: RCA
-address: 0E 00 00 00
-command: 5C 00 00 00
-# 
-name: am
-type: parsed
-protocol: RCA
-address: 03 00 00 00
 command: 5C 00 00 00
 # 
 name: am
@@ -79,29 +43,11 @@ protocol: RCA
 address: 0E 00 00 00
 command: 5C 00 00 00
 # 
-name: sat
-type: parsed
-protocol: RCA
-address: 0E 00 00 00
-command: 5C 00 00 00
-# 
 name: dvd
 type: parsed
 protocol: RCA
 address: 0A 00 00 00
 command: 5C 00 00 00
-# 
-name: dvd
-type: parsed
-protocol: RCA
-address: 0A 00 00 00
-command: 5C 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 54 00 00 00
 # 
 name: power
 type: parsed
@@ -115,18 +61,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 74 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 74 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F4 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RCA
@@ -138,18 +72,6 @@ type: parsed
 protocol: RCA
 address: 07 00 00 00
 command: 5C 00 00 00
-# 
-name: vcr1
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 5C 00 00 00
-# 
-name: mute
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: FC 00 00 00
 # 
 name: mute
 type: parsed

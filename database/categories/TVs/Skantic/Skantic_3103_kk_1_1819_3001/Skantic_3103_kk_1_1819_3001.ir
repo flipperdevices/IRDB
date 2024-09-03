@@ -349,12 +349,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 17 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
-# 
 name: red
 type: parsed
 protocol: RC5X
@@ -487,12 +481,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 2E 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: video5_r
 type: parsed
 protocol: RC5X
@@ -516,12 +504,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
 # 
 name: 8_r
 type: parsed

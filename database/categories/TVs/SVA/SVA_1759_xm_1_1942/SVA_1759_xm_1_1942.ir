@@ -7,12 +7,6 @@ protocol: NECext
 address: 00 EE 00 00
 command: 14 EB 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 00 EE 00 00
-command: 14 EB 00 00
-# 
 name: 0
 type: parsed
 protocol: NECext
@@ -85,12 +79,6 @@ protocol: NECext
 address: 00 EE 00 00
 command: 02 FD 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 00 EE 00 00
-command: 15 EA 00 00
-# 
 name: display
 type: parsed
 protocol: NECext
@@ -102,18 +90,6 @@ type: parsed
 protocol: NECext
 address: 00 EE 00 00
 command: 05 FA 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 00 EE 00 00
-command: 13 EC 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 EE 00 00
-command: 0D F2 00 00
 # 
 name: 3
 type: parsed
@@ -156,9 +132,3 @@ type: parsed
 protocol: NECext
 address: 00 EE 00 00
 command: 19 E6 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 00 EE 00 00
-command: 16 E9 00 00

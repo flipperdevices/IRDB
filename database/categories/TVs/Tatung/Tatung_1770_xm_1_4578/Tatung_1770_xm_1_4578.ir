@@ -73,12 +73,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: INPUT 9_r
 type: parsed
 protocol: RC5
@@ -163,47 +157,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 3C 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: 6_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: tv_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: texton_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: TEXT EXPAND
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
-# 
-name: Text Hold
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
 # 
 name: PIPMove
 type: parsed
@@ -229,41 +193,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 3B 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: into_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0B 00 00 00
-# 
 name: 5_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: sound mode
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
-# 
 name: time
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2A 00 00 00
-# 
-name: INPUT 9
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
 # 
 name: 0
 type: parsed
@@ -276,12 +216,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0A 00 00 00
-# 
-name: INPUT 9_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
 # 
 name: TeletextMix
 type: parsed
@@ -301,23 +235,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: tv_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: Text Update
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2D 00 00 00
-# 
-name: channel list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
 # 
 name: 4_r
 type: parsed
@@ -325,23 +247,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: pip swap
 type: parsed
@@ -373,23 +283,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: TeletextMix
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
 name: Text Hold_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 29 00 00 00
-# 
-name: pip on_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: Text Update_r
 type: parsed
@@ -402,12 +300,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
-# 
-name: -- (10 key)_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
 # 
 name: 1
 type: parsed
@@ -433,35 +325,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 24 00 00 00
 # 
-name: pipswap_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1C 00 00 00
-# 
-name: PipToggle_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3A 00 00 00
-# 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: green_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
 # 
 name: surround_r
 type: parsed
@@ -505,35 +373,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: INPUT 9
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
 name: texton
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3C 00 00 00
-# 
-name: -- (10 key)_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
 # 
 name: effect_r
 type: parsed
@@ -547,71 +397,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: texton_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: home
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: texton
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: PIPMove_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: tv
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0E 00 00 00
-# 
 name: red
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 37 00 00 00
-# 
-name: home
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: channel list
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
 # 
 name: INPUT 2
 type: parsed
@@ -625,12 +421,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: texton
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
 name: pipswap
 type: parsed
 protocol: RC5
@@ -642,12 +432,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
-# 
-name: next
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: mute_r
 type: parsed
@@ -661,77 +445,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 2E 00 00 00
 # 
-name: PipToggle_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3A 00 00 00
-# 
 name: 0_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 00 00 00 00
 # 
-name: pipinput
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3A 00 00 00
-# 
 name: 2
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: INPUT 2
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
-# 
-name: pip move_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 39 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: next
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: red
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: channel list_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
 # 
 name: Text Reveal
 type: parsed
@@ -744,18 +468,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
-# 
-name: INPUT 9_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
-name: into_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0B 00 00 00
 # 
 name: 5
 type: parsed
@@ -775,53 +487,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: audio_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
-name: into
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0B 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
 name: effect
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 16 00 00 00
-# 
-name: into
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0B 00 00 00
-# 
-name: sap
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
-name: channel list_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 34 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: picture mode_r
 type: parsed
@@ -834,18 +504,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 35 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: pipinput
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3A 00 00 00
 # 
 name: 3
 type: parsed
@@ -871,12 +529,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: selection
 type: parsed
 protocol: RC5
@@ -888,36 +540,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: pipswap
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1C 00 00 00
-# 
-name: tv
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: selection
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
 # 
 name: sleep
 type: parsed
@@ -931,24 +553,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0E 00 00 00
 # 
-name: -- (10 key)_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: TeletextMix_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2E 00 00 00
-# 
-name: home
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
 name: mute
 type: parsed
 protocol: RC5
@@ -960,33 +564,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: picture mode_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
-name: home
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: Text Hold_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
-# 
-name: picture_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0E 00 00 00

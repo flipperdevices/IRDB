@@ -49,12 +49,6 @@ protocol: NECext
 address: 18 E9 00 00
 command: 17 E8 00 00
 # 
-name: pip
-type: parsed
-protocol: NECext
-address: 18 E9 00 00
-command: 27 D8 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
@@ -85,12 +79,6 @@ protocol: NECext
 address: 18 E9 00 00
 command: 0D F2 00 00
 # 
-name: 7
-type: parsed
-protocol: NECext
-address: 18 E9 00 00
-command: FA 05 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
@@ -120,18 +108,6 @@ type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 08 F7 00 00
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 18 E9 00 00
-command: 17 E8 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 18 E9 00 00
-command: 92 6D 00 00
 # 
 name: REW
 type: parsed
@@ -186,12 +162,6 @@ type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 89 76 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 18 E9 00 00
-command: 4D B2 00 00
 # 
 name: play
 type: parsed

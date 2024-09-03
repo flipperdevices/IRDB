@@ -145,12 +145,6 @@ protocol: NECext
 address: A2 5D 00 00
 command: 35 50 00 00
 # 
-name: title
-type: parsed
-protocol: NECext
-address: 2B D4 00 00
-command: 35 50 00 00
-# 
 name: previous
 type: parsed
 protocol: NECext
@@ -179,12 +173,6 @@ name: Subtitle
 type: parsed
 protocol: NECext
 address: 51 AE 00 00
-command: 35 50 00 00
-# 
-name: red
-type: parsed
-protocol: NECext
-address: 35 CA 00 00
 command: 35 50 00 00
 # 
 name: tv_av
@@ -259,18 +247,6 @@ protocol: NECext
 address: 56 A9 00 00
 command: 35 50 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 53 AC 00 00
-command: 35 50 00 00
-# 
-name: repeat
-type: parsed
-protocol: NECext
-address: 2A D5 00 00
-command: 35 50 00 00
-# 
 name: play
 type: parsed
 protocol: NECext
@@ -317,10 +293,4 @@ name: left
 type: parsed
 protocol: NECext
 address: 22 DD 00 00
-command: 35 50 00 00
-# 
-name: previous
-type: parsed
-protocol: NECext
-address: 6A 95 00 00
 command: 35 50 00 00

@@ -121,12 +121,6 @@ protocol: NECext
 address: 86 6B 00 00
 command: 09 F6 00 00
 # 
-name: Vol-1
-type: parsed
-protocol: NECext
-address: 86 6B 00 00
-command: 09 F6 00 00
-# 
 name: status
 type: parsed
 protocol: NECext
@@ -198,12 +192,6 @@ type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 08 F7 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 6B 00 00
-command: 01 FE 00 00
 # 
 name: 3
 type: parsed

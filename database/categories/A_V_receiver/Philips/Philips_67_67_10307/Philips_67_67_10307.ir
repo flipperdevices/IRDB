@@ -115,12 +115,6 @@ protocol: RC5
 address: 11 00 00 00
 command: 3F 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
-# 
 name: FF_r
 type: parsed
 protocol: RC6
@@ -276,12 +270,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 20 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
 # 
 name: vcr1
 type: parsed

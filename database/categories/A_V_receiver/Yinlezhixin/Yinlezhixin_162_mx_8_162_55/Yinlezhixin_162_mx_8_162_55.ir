@@ -19,32 +19,14 @@ protocol: NECext
 address: 00 BF 00 00
 command: AA 55 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: FF 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 09 F6 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: FF 00 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 00 FF 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: FF 00 00 00

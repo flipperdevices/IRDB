@@ -49,12 +49,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 4E 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 21 00 00 00
-# 
 name: pause_r
 type: parsed
 protocol: RC6
@@ -84,12 +78,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 06 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 21 00 00 00
 # 
 name: ff
 type: parsed
@@ -121,18 +109,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 05 00 00 00
 # 
-name: right_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 5B 00 00 00
-# 
-name: pause_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RC6
@@ -157,23 +133,11 @@ protocol: RC6
 address: 04 00 00 00
 command: 85 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 5A 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 20 00 00 00
 # 
 name: 7
 type: parsed
@@ -331,12 +295,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: ff
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 5B 00 00 00
-# 
 name: repeat
 type: parsed
 protocol: RC6
@@ -379,18 +337,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 4E 00 00 00
 # 
-name: left_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 5A 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2C 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC6
@@ -402,12 +348,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 06 00 00 00
-# 
-name: b
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 3B 00 00 00
 # 
 name: 8_r
 type: parsed
@@ -432,12 +372,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 42 00 00 00
-# 
-name: b_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 3B 00 00 00
 # 
 name: 9_r
 type: parsed

@@ -343,12 +343,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: textoff_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: texton
 type: parsed
 protocol: RC5
@@ -372,12 +366,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2C 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
 # 
 name: pip_r
 type: parsed
@@ -516,12 +504,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: play
 type: parsed
