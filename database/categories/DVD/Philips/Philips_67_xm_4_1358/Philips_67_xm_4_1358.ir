@@ -67,12 +67,6 @@ protocol: RC6
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: Scan
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2A 00 00 00
-# 
 name: right_r
 type: parsed
 protocol: RC6
@@ -84,12 +78,6 @@ type: parsed
 protocol: RC6
 address: 04 00 00 00
 command: 4B 00 00 00
-# 
-name: Scan_r
-type: parsed
-protocol: RC6
-address: 04 00 00 00
-command: 2A 00 00 00
 # 
 name: menu_r
 type: parsed

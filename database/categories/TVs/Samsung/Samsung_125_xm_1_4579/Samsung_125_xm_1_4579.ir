@@ -43,12 +43,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 25 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 10 00 00 00
-# 
 name: PipSize
 type: parsed
 protocol: Samsung32
@@ -265,12 +259,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 21 00 00 00
 # 
-name: vid
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: PMode
 type: parsed
 protocol: Samsung32
@@ -331,12 +319,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: vid
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: PipChannelDown
 type: parsed
 protocol: Samsung32
@@ -348,12 +330,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 06 00 00 00
-# 
-name: PMode
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 28 00 00 00
 # 
 name: 6
 type: parsed

@@ -19,12 +19,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00
-# 
 name: mute
 type: parsed
 protocol: NEC
@@ -36,15 +30,3 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 41 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00

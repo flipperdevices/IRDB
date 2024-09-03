@@ -43,12 +43,6 @@ protocol: RC5
 address: 0F 00 00 00
 command: 11 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC5
-address: 0F 00 00 00
-command: 31 00 00 00
-# 
 name: FF_r
 type: parsed
 protocol: RC5
@@ -102,12 +96,6 @@ type: parsed
 protocol: RC5
 address: 0F 00 00 00
 command: 34 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RC5
-address: 0F 00 00 00
-command: 31 00 00 00
 # 
 name: pause
 type: parsed

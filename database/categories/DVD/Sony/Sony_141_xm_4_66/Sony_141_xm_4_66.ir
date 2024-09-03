@@ -7,29 +7,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 7A 00 00 00
 # 
-name: down
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 7A 00 00 00
-# 
 name: caption
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 62 00 00 00
-# 
-name: caption
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 62 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 11 00 00 00
 # 
 name: ch-
 type: parsed
@@ -43,29 +25,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 1B 00 00 00
 # 
-name: dvd menu
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 1B 00 00 00
-# 
 name: slow+
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 61 00 00 00
-# 
-name: slow+
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 61 00 00 00
-# 
-name: vid
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
 # 
 name: vid
 type: parsed
@@ -79,29 +43,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 16 00 00 00
 # 
-name: eject
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 16 00 00 00
-# 
 name: time
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 28 00 00 00
-# 
-name: time
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 28 00 00 00
-# 
-name: 0
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 09 00 00 00
 # 
 name: 0
 type: parsed
@@ -115,29 +61,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 30 00 00 00
 # 
-name: trk-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 30 00 00 00
-# 
 name: step+
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 3B 00 00 00
-# 
-name: step+
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 3B 00 00 00
-# 
-name: 4
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 03 00 00 00
 # 
 name: 4
 type: parsed
@@ -151,29 +79,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 4B 00 00 00
 # 
-name: srch
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 4B 00 00 00
-# 
 name: 7
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 06 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 06 00 00 00
-# 
-name: up
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 79 00 00 00
 # 
 name: up
 type: parsed
@@ -187,29 +97,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 1A 00 00 00
 # 
-name: title
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 1A 00 00 00
-# 
 name: 1
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 00 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 00 00 00 00
-# 
-name: dnr
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 48 00 00 00
 # 
 name: dnr
 type: parsed
@@ -223,29 +115,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 07 00 00 00
 # 
-name: 8
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 07 00 00 00
-# 
 name: power
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 15 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 15 00 00 00
-# 
-name: stop
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 38 00 00 00
 # 
 name: stop
 type: parsed
@@ -259,29 +133,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 08 00 00 00
 # 
-name: 9
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 08 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 13 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 0B 00 00 00
 # 
 name: ok
 type: parsed
@@ -295,29 +151,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 12 00 00 00
-# 
 name: 2
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 01 00 00 00
-# 
-name: 2
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 01 00 00 00
-# 
-name: right
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 7C 00 00 00
 # 
 name: right
 type: parsed
@@ -331,29 +169,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 54 00 00 00
 # 
-name: display
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 54 00 00 00
-# 
 name: 5
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 04 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 04 00 00 00
-# 
-name: pause
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 39 00 00 00
 # 
 name: pause
 type: parsed
@@ -367,29 +187,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: ch+
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 10 00 00 00
-# 
 name: search for-
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 33 00 00 00
-# 
-name: search for-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 33 00 00 00
-# 
-name: search for+
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 34 00 00 00
 # 
 name: search for+
 type: parsed
@@ -403,29 +205,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 32 00 00 00
 # 
-name: play
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 32 00 00 00
-# 
 name: 3
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 02 00 00 00
-# 
-name: slow-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 60 00 00 00
 # 
 name: slow-
 type: parsed
@@ -439,29 +223,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 05 00 00 00
 # 
-name: 6
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 05 00 00 00
-# 
 name: step-
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 3A 00 00 00
-# 
-name: step-
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 3A 00 00 00
-# 
-name: trk+
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 31 00 00 00
 # 
 name: trk+
 type: parsed
@@ -475,29 +241,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 53 00 00 00
 # 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 53 00 00 00
-# 
 name: clear
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 0F 00 00 00
-# 
-name: clear
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 0F 00 00 00
-# 
-name: left
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 7B 00 00 00
 # 
 name: left
 type: parsed

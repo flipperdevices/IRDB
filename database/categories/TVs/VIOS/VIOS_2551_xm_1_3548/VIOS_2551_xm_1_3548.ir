@@ -151,12 +151,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 46 00 00 00
 # 
-name: stop
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 46 00 00 00
-# 
 name: 9
 type: parsed
 protocol: Samsung32
@@ -223,12 +217,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: REW
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 45 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: Samsung32
@@ -283,12 +271,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 68 00 00 00
-# 
 name: vga
 type: parsed
 protocol: Samsung32
@@ -324,12 +306,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
-# 
-name: media
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 8C 00 00 00
 # 
 name: media
 type: parsed

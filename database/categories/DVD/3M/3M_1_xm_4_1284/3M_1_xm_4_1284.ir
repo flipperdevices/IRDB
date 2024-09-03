@@ -37,12 +37,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 17 00 00 00
 # 
-name: eject
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 17 00 00 00
-# 
 name: sound_channel
 type: parsed
 protocol: NEC
@@ -54,12 +48,6 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0B 00 00 00
-# 
-name: 4
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 40 00 00 00
 # 
 name: 4
 type: parsed
@@ -90,18 +78,6 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 18 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 18 00 00 00
-# 
-name: 8
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 42 00 00 00
 # 
 name: 8
 type: parsed
@@ -151,12 +127,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: previous
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0F 00 00 00
-# 
 name: ok
 type: raw
 frequency: 38000
@@ -193,12 +163,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 55 00 00 00
 # 
-name: 5
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 55 00 00 00
-# 
 name: pause
 type: parsed
 protocol: NEC
@@ -216,18 +180,6 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: play
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 09 00 00 00
-# 
-name: 3
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 49 00 00 00
 # 
 name: 3
 type: parsed

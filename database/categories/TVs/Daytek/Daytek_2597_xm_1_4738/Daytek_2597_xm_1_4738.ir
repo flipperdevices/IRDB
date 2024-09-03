@@ -13,12 +13,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 6B 00 00 00
 # 
-name: channel list
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 6B 00 00 00
-# 
 name: tv
 type: parsed
 protocol: Samsung32
@@ -78,12 +72,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
-# 
-name: tool
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 4B 00 00 00
 # 
 name: tool
 type: parsed
@@ -157,12 +145,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 48 00 00 00
 # 
-name: FF
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 48 00 00 00
-# 
 name: hdmi
 type: parsed
 protocol: Samsung32
@@ -187,23 +169,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 46 00 00 00
 # 
-name: stop
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 46 00 00 00
-# 
 name: 9
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0E 00 00 00
-# 
-name: smart hub
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 79 00 00 00
 # 
 name: smart hub
 type: parsed
@@ -253,12 +223,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: REW
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 45 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: Samsung32
@@ -301,12 +265,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: pause
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 4A 00 00 00
-# 
 name: TV Input
 type: parsed
 protocol: Samsung32
@@ -325,23 +283,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: EB 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: vga
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 28 00 00 00
-# 
-name: play
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 47 00 00 00
 # 
 name: play
 type: parsed

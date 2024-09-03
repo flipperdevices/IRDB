@@ -37,12 +37,6 @@ protocol: NEC
 address: 02 00 00 00
 command: 15 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 02 00 00 00
-command: 08 00 00 00
-# 
 name: 1
 type: parsed
 protocol: NEC
@@ -127,12 +121,6 @@ protocol: NEC
 address: 02 00 00 00
 command: 0A 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 02 00 00 00
-command: 08 00 00 00
-# 
 name: exit
 type: parsed
 protocol: NEC
@@ -168,18 +156,6 @@ type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 0B 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 02 00 00 00
-command: 01 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 02 00 00 00
-command: 1C 00 00 00
 # 
 name: mute
 type: parsed

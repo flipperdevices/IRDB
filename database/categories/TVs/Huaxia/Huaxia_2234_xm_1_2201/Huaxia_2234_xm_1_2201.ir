@@ -97,12 +97,6 @@ protocol: NECext
 address: 02 BD 00 00
 command: 0D F2 00 00
 # 
-name: timer
-type: parsed
-protocol: NECext
-address: 02 BD 00 00
-command: 46 B9 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -162,12 +156,6 @@ type: parsed
 protocol: NECext
 address: 02 BD 00 00
 command: 06 F9 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 02 BD 00 00
-command: 19 E6 00 00
 # 
 name: mute
 type: parsed

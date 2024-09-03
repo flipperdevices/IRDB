@@ -91,12 +91,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: 1
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 01 00 00 00
-# 
 name: right
 type: raw
 frequency: 38000
@@ -114,12 +108,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0A 00 00 00
-# 
-name: 4
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 842 815 1684 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 815 842 1631 1684 100000
 # 
 name: 6
 type: parsed

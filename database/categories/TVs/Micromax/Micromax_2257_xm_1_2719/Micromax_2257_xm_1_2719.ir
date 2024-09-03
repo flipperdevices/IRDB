@@ -7,12 +7,6 @@ protocol: NEC42
 address: 19 01 00 00
 command: 1A 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC42
-address: 19 01 00 00
-command: 1A 00 00 00
-# 
 name: exit
 type: parsed
 protocol: NEC42
@@ -120,12 +114,6 @@ type: parsed
 protocol: NEC42
 address: 19 01 00 00
 command: 02 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: NEC42
-address: 19 01 00 00
-command: 1F 00 00 00
 # 
 name: 5
 type: parsed

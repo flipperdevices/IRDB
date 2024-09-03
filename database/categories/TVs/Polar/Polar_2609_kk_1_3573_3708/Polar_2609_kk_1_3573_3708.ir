@@ -19,12 +19,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: power_r
 type: parsed
 protocol: RC5
@@ -60,12 +54,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 12 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: menu_r
 type: parsed
@@ -103,23 +91,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: 7
 type: parsed
@@ -181,47 +157,17 @@ protocol: SIRC15
 address: E4 00 00 00
 command: 38 00 00 00
 # 
-name: stop
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 38 00 00 00
-# 
-name: stop
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 38 00 00 00
-# 
 name: 9
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: 1_r
 type: parsed
@@ -235,30 +181,6 @@ protocol: SIRC15
 address: C4 00 00 00
 command: 60 00 00 00
 # 
-name: record
-type: parsed
-protocol: SIRC15
-address: C4 00 00 00
-command: 60 00 00 00
-# 
-name: record
-type: parsed
-protocol: SIRC15
-address: C4 00 00 00
-command: 60 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3A 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3A 00 00 00
-# 
 name: REW
 type: parsed
 protocol: SIRC15
@@ -271,29 +193,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: mute_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
-name: input_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: 0_r
 type: parsed
@@ -306,18 +210,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: 5
 type: parsed
@@ -336,42 +228,6 @@ type: parsed
 protocol: SIRC15
 address: E4 00 00 00
 command: 39 00 00 00
-# 
-name: pause
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 39 00 00 00
-# 
-name: pause
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 39 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: play
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 32 00 00 00
-# 
-name: play
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 32 00 00 00
 # 
 name: play
 type: parsed
@@ -403,12 +259,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: mute
 type: parsed
 protocol: RC5
@@ -420,15 +270,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00

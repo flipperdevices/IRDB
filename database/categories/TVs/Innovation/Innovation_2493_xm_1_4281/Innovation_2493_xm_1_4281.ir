@@ -91,12 +91,6 @@ protocol: RC5X
 address: 01 00 00 00
 command: 17 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 37 00 00 00
-# 
 name: 5_r
 type: parsed
 protocol: RC5
@@ -132,12 +126,6 @@ type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
-# 
-name: texton_r
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 11 00 00 00
 # 
 name: 4
 type: parsed
@@ -235,29 +223,11 @@ protocol: RC5
 address: 01 00 00 00
 command: 09 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 37 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
-# 
-name: record_r
-type: parsed
-protocol: RC5X
-address: 01 00 00 00
-command: 17 00 00 00
-# 
-name: textoff
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 11 00 00 00
 # 
 name: stop_r
 type: parsed
@@ -277,12 +247,6 @@ protocol: RC5
 address: 01 00 00 00
 command: 01 00 00 00
 # 
-name: ok
-type: parsed
-protocol: RC5X
-address: 01 00 00 00
-command: 17 00 00 00
-# 
 name: REW
 type: parsed
 protocol: RC5
@@ -294,12 +258,6 @@ type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 36 00 00 00
-# 
-name: --_r
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 13 00 00 00
 # 
 name: 0_r
 type: parsed
@@ -343,12 +301,6 @@ protocol: RC5
 address: 01 00 00 00
 command: 03 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 37 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
@@ -384,18 +336,6 @@ type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 08 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 37 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 01 00 00 00
-command: 13 00 00 00
 # 
 name: 9_r
 type: parsed

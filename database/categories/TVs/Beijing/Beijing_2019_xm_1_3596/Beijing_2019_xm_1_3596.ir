@@ -85,12 +85,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 2D 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: Samsung32
@@ -132,12 +126,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
 # 
 name: 3
 type: parsed

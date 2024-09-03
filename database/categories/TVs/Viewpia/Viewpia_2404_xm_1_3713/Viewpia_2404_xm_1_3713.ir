@@ -193,12 +193,6 @@ protocol: NECext
 address: 40 02 00 00
 command: 48 B7 00 00
 # 
-name: yellow
-type: parsed
-protocol: NECext
-address: 40 02 00 00
-command: 57 A8 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
@@ -264,12 +258,6 @@ type: parsed
 protocol: NECext
 address: 40 02 00 00
 command: 0E F1 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 40 02 00 00
-command: 42 BD 00 00
 # 
 name: mute
 type: parsed

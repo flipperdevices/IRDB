@@ -91,12 +91,6 @@ protocol: RCA
 address: 01 00 00 00
 command: 38 00 00 00
 # 
-name: FF
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: 38 00 00 00
-# 
 name: 8
 type: parsed
 protocol: NEC
@@ -108,12 +102,6 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
-# 
-name: stop
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: F8 00 00 00
 # 
 name: stop
 type: parsed
@@ -163,12 +151,6 @@ protocol: RCA
 address: 01 00 00 00
 command: B8 00 00 00
 # 
-name: REW
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: B8 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: NEC
@@ -211,12 +193,6 @@ protocol: RCA
 address: 01 00 00 00
 command: 98 00 00 00
 # 
-name: pause
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: 98 00 00 00
-# 
 name: cancel
 type: parsed
 protocol: NEC
@@ -228,18 +204,6 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 0B 00 00 00
-# 
-name: play
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: A8 00 00 00
 # 
 name: play
 type: parsed

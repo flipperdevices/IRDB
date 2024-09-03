@@ -31,12 +31,6 @@ protocol: NECext
 address: 45 B5 00 00
 command: 23 DC 00 00
 # 
-name: pre_r
-type: parsed
-protocol: NECext
-address: 45 B5 00 00
-command: 23 DC 00 00
-# 
 name: topmenu
 type: parsed
 protocol: NECext
@@ -127,12 +121,6 @@ protocol: NECext
 address: 45 B5 00 00
 command: 09 F6 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 45 B5 00 00
-command: 24 DB 00 00
-# 
 name: red
 type: parsed
 protocol: NECext
@@ -211,12 +199,6 @@ protocol: NECext
 address: 45 B5 00 00
 command: 27 D8 00 00
 # 
-name: pause
-type: parsed
-protocol: NECext
-address: 45 B5 00 00
-command: C2 3D 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
@@ -228,12 +210,6 @@ type: parsed
 protocol: NECext
 address: 45 B5 00 00
 command: 06 F9 00 00
-# 
-name: b
-type: parsed
-protocol: NECext
-address: 45 B5 00 00
-command: 2C D3 00 00
 # 
 name: menu
 type: parsed

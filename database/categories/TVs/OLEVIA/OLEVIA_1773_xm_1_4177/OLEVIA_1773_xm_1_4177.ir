@@ -31,12 +31,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
-# 
 name: CC
 type: parsed
 protocol: NEC
@@ -145,12 +139,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 11 00 00 00
 # 
-name: 100+
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 1B 00 00 00
-# 
 name: 8
 type: parsed
 protocol: NEC
@@ -199,12 +187,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: 100+
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 1B 00 00 00
-# 
 name: CR
 type: parsed
 protocol: NEC
@@ -235,12 +217,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 12 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 02 00 00 00
-# 
 name: Adjust Up
 type: parsed
 protocol: NEC
@@ -264,18 +240,6 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 15 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 00 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 0B 00 00 00
 # 
 name: 3
 type: parsed
@@ -336,9 +300,3 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00

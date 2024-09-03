@@ -7,29 +7,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 1A 00 00 00
 # 
-name: down
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1A 00 00 00
-# 
 name: ch-
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 34 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 34 00 00 00
-# 
-name: home
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 77 00 00 00
 # 
 name: home
 type: parsed
@@ -43,18 +25,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: E4 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E4 00 00 00
-# 
-name: 3d
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 19 00 00 00
-# 
 name: 3d
 type: parsed
 protocol: RCA
@@ -67,29 +37,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 27 00 00 00
 # 
-name: yellow
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 27 00 00 00
-# 
 name: green
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 17 00 00 00
-# 
-name: green
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 17 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 0C 00 00 00
 # 
 name: 0
 type: parsed
@@ -109,29 +61,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 58 00 00 00
 # 
-name: guide
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 58 00 00 00
-# 
 name: narrow screen
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 7F 00 00 00
-# 
-name: narrow screen
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 7F 00 00 00
-# 
-name: 7
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: EC 00 00 00
 # 
 name: 7
 type: parsed
@@ -145,29 +79,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 9A 00 00 00
 # 
-name: up
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 9A 00 00 00
-# 
 name: 1
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 8C 00 00 00
-# 
-name: 1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 8C 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2F 00 00 00
 # 
 name: enter
 type: parsed
@@ -181,18 +97,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 38 00 00 00
 # 
-name: FF
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 38 00 00 00
-# 
-name: reach the peak
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5D 00 00 00
-# 
 name: reach the peak
 type: parsed
 protocol: RCA
@@ -205,29 +109,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 1C 00 00 00
 # 
-name: 8
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1C 00 00 00
-# 
 name: power
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 54 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 54 00 00 00
-# 
-name: stop
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F8 00 00 00
 # 
 name: stop
 type: parsed
@@ -247,29 +133,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 74 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 74 00 00 00
-# 
 name: list
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 86 00 00 00
-# 
-name: list
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 86 00 00 00
-# 
-name: red
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 00 00 00 00
 # 
 name: red
 type: parsed
@@ -283,29 +151,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 2F 00 00 00
 # 
-name: ok
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2F 00 00 00
-# 
 name: blue
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 1B 00 00 00
-# 
-name: blue
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1B 00 00 00
-# 
-name: in the end
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CA 00 00 00
 # 
 name: in the end
 type: parsed
@@ -319,18 +169,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: E8 00 00 00
 # 
-name: record
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E8 00 00 00
-# 
-name: REW
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B8 00 00 00
-# 
 name: REW
 type: parsed
 protocol: RCA
@@ -343,29 +181,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 5C 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5C 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F4 00 00 00
-# 
-name: info
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 3C 00 00 00
 # 
 name: info
 type: parsed
@@ -391,29 +211,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 01 00 00 00
 # 
-name: display
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 01 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: AC 00 00 00
-# 
-name: 5
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: AC 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A8 00 00 00
 # 
 name: pause
 type: parsed
@@ -427,53 +229,17 @@ protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
 # 
-name: ch+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B4 00 00 00
-# 
 name: options
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 37 00 00 00
 # 
-name: options
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 37 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5C 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5C 00 00 00
-# 
 name: play
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: A8 00 00 00
-# 
-name: play
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A8 00 00 00
-# 
-name: 3
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CC 00 00 00
 # 
 name: 3
 type: parsed
@@ -493,29 +259,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 6C 00 00 00
 # 
-name: 6
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6C 00 00 00
-# 
 name: last
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 7B 00 00 00
-# 
-name: last
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 7B 00 00 00
-# 
-name: sleep
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E0 00 00 00
 # 
 name: sleep
 type: parsed
@@ -529,18 +277,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: A0 00 00 00
 # 
-name: favorite
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
-name: menu
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 10 00 00 00
-# 
 name: menu
 type: parsed
 protocol: RCA
@@ -553,29 +289,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: FC 00 00 00
 # 
-name: mute
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: FC 00 00 00
-# 
 name: left
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 6A 00 00 00
-# 
-name: left
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6A 00 00 00
-# 
-name: text
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 78 00 00 00
 # 
 name: text
 type: parsed

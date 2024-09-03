@@ -13,12 +13,6 @@ protocol: Samsung32
 address: 18 00 00 00
 command: 18 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 18 00 00 00
-# 
 name: zoom
 type: parsed
 protocol: Samsung32
@@ -211,12 +205,6 @@ protocol: Samsung32
 address: 18 00 00 00
 command: 01 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 1B 00 00 00
-# 
 name: picture mode
 type: parsed
 protocol: Samsung32
@@ -246,30 +234,6 @@ type: parsed
 protocol: Samsung32
 address: 18 00 00 00
 command: 27 00 00 00
-# 
-name: mirroring
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 0F 00 00 00
-# 
-name: up
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 19 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 15 00 00 00
-# 
-name: display
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 20 00 00 00
 # 
 name: 3
 type: parsed
@@ -312,9 +276,3 @@ type: parsed
 protocol: Samsung32
 address: 18 00 00 00
 command: 0C 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 1A 00 00 00

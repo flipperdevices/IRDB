@@ -199,12 +199,6 @@ protocol: NEC
 address: 08 00 00 00
 command: 44 00 00 00
 # 
-name: info
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: 1A 00 00 00
-# 
 name: 5
 type: parsed
 protocol: NEC
@@ -222,12 +216,6 @@ type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 80 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: 54 00 00 00
 # 
 name: play
 type: parsed

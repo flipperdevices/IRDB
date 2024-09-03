@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: B0 00 00 00
 # 
-name: down
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: B0 00 00 00
-# 
 name: INPUT 1
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 00 00 00
-# 
-name: INPUT 1
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 10 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 03 00 00
 # 
 name: ch-
 type: parsed
@@ -43,29 +25,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: C0 00 00 00
 # 
-name: sound mode
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: C0 00 00 00
-# 
 name: home
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 00 00 00
-# 
-name: home
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 00 00 00
-# 
-name: computer
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: A0 03 00 00
 # 
 name: computer
 type: parsed
@@ -79,29 +43,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 60 03 00 00
 # 
-name: Format (Aspect)
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 60 03 00 00
-# 
 name: PC
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: A0 03 00 00
-# 
-name: PC
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: A0 03 00 00
-# 
-name: time
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 02
-command: 20 00 00 00
 # 
 name: time
 type: parsed
@@ -115,29 +61,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 90 01 00 00
 # 
-name: 0
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 90 01 00 00
-# 
 name: 4
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 30 01 00 00
-# 
-name: 4
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 30 01 00 00
-# 
-name: guide
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
 # 
 name: guide
 type: parsed
@@ -151,29 +79,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 60 01 00 00
 # 
-name: 7
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 60 01 00 00
-# 
 name: up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: A0 00 00 00
-# 
-name: up
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: A0 00 00 00
-# 
-name: 1
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 00 01 00 00
 # 
 name: 1
 type: parsed
@@ -187,29 +97,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 70 01 00 00
 # 
-name: 8
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 01 00 00
-# 
 name: INPUT 8
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: B0 01 00 00
-# 
-name: INPUT 8
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: B0 01 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
 # 
 name: power
 type: parsed
@@ -223,29 +115,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 30 03 00 00
 # 
-name: sap
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 30 03 00 00
-# 
 name: 9
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 80 01 00 00
-# 
-name: 9
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 80 01 00 00
-# 
-name: INPUT 4
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 00 00 00
 # 
 name: INPUT 4
 type: parsed
@@ -259,25 +133,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 # 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 10 02 00 00
-# 
 name: previous
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 03 00 00
-# 
-name: previous
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 03 00 00
-# 
-name: back
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -295,29 +151,11 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 20 01 00 00
 # 
-name: ok
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
-# 
 name: INPUT 2
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 00 00 00
-# 
-name: INPUT 2
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 00 00 00
 # 
 name: tv_av
 type: parsed
@@ -331,29 +169,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 # 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 00 02 00 00
-# 
 name: 2
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 01 00 00
-# 
-name: 2
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 10 01 00 00
-# 
-name: right
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: F0 00 00 00
 # 
 name: right
 type: parsed
@@ -367,29 +187,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 60 00 00 00
 # 
-name: picture mode
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 60 00 00 00
-# 
 name: display
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 90 03 00 00
-# 
-name: display
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 90 03 00 00
-# 
-name: 5
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 01 00 00
 # 
 name: 5
 type: parsed
@@ -403,41 +205,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 # 
-name: ch+
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 40 03 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 00 00 00
-# 
 name: 3
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 01 00 00
-# 
-name: 3
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 20 01 00 00
-# 
-name: +100
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 02
-command: C0 01 00 00
 # 
 name: +100
 type: parsed
@@ -451,25 +223,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 01 00 00
 # 
-name: 6
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 01 00 00
-# 
 name: program-guide
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
-# 
-name: program-guide
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
-# 
-name: selection
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
@@ -487,29 +241,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 70 03 00 00
 # 
-name: last
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 03 00 00
-# 
 name: sleep
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: F0 00 00 00
-# 
-name: sleep
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: F0 00 00 00
-# 
-name: INPUT 3
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 30 00 00 00
 # 
 name: INPUT 3
 type: parsed
@@ -523,18 +259,6 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 20 01 00 00
 # 
-name: menu
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
-# 
-name: Component 2
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: D0 03 00 00
-# 
 name: Component 2
 type: parsed
 protocol: Kaseikyo
@@ -547,29 +271,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 00 00 00
 # 
-name: Setup Menu
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
-# 
-name: mute
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 20 03 00 00
-# 
-name: left
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: E0 00 00 00
 # 
 name: left
 type: parsed

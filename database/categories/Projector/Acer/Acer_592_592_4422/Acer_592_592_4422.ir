@@ -13,12 +13,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 85 7A 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 85 7A 00 00
-# 
 name: s-video
 type: parsed
 protocol: NECext
@@ -66,12 +60,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: 8C 73 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 82 7D 00 00
 # 
 name: up
 type: parsed
@@ -133,12 +121,6 @@ protocol: NECext
 address: 08 13 00 00
 command: 81 7E 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 81 7E 00 00
-# 
 name: 5
 type: parsed
 protocol: NECext
@@ -169,23 +151,11 @@ protocol: NECext
 address: 08 13 00 00
 command: 8C 73 00 00
 # 
-name: zoom
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 8B 74 00 00
-# 
 name: resync
 type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: 8D 72 00 00
-# 
-name: zoom
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 8B 74 00 00
 # 
 name: empowering
 type: parsed
@@ -198,12 +168,6 @@ type: parsed
 protocol: NECext
 address: 08 13 00 00
 command: 84 7B 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 08 13 00 00
-command: 83 7C 00 00
 # 
 name: left
 type: parsed

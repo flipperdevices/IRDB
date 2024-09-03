@@ -55,12 +55,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 0B 00 00 00
 # 
-name: channel list
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 3A 00 00 00
-# 
 name: ch+_r
 type: parsed
 protocol: RC5
@@ -90,12 +84,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 24 00 00 00
-# 
-name: D_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 3A 00 00 00
 # 
 name: power_r
 type: parsed
@@ -175,12 +163,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 1A 00 00 00
 # 
-name: tv
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 0B 00 00 00
-# 
 name: menu_r
 type: parsed
 protocol: RC5X
@@ -222,12 +204,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
-# 
-name: Auto Adjust
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: 4_r
 type: parsed
@@ -354,12 +330,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 12 00 00 00
-# 
-name: wide_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 24 00 00 00
 # 
 name: MTS_r
 type: parsed
@@ -529,24 +499,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
 # 
-name: effect
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 24 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 28 00 00 00
-# 
-name: guide_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: pip input
 type: parsed
 protocol: RC5
@@ -654,12 +606,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 39 00 00 00
-# 
-name: tv_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 0B 00 00 00
 # 
 name: enter_r
 type: parsed

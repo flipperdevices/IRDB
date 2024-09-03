@@ -85,12 +85,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 02 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 12 00 00 00
-# 
 name: display
 type: parsed
 protocol: NEC
@@ -102,12 +96,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 15 00 00 00
-# 
-name: ch+
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 13 00 00 00
 # 
 name: ch+
 type: parsed

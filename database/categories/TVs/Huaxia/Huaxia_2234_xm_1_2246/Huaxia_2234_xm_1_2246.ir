@@ -91,12 +91,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 26 00 00 00
 # 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: pip
 type: parsed
 protocol: RC5
@@ -114,12 +108,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 1E 00 00 00
-# 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
 # 
 name: 5_r
 type: parsed
@@ -241,12 +229,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: timer
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
-# 
 name: ok
 type: parsed
 protocol: RC5
@@ -294,18 +276,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: vol-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: display
 type: parsed
@@ -385,12 +355,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
 # 
-name: menu
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
 name: hdtv
 type: parsed
 protocol: RC5
@@ -408,15 +372,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: timer_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00

@@ -31,20 +31,8 @@ protocol: NEC
 address: 20 00 00 00
 command: 16 00 00 00
 # 
-name: FF
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: FF 00 00 00
-# 
 name: power
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 42 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: FF 00 00 00

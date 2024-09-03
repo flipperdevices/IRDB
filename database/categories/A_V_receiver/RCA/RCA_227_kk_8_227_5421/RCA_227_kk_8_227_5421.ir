@@ -7,18 +7,6 @@ protocol: RCA
 address: 03 00 00 00
 command: 46 00 00 00
 # 
-name: down
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 46 00 00 00
-# 
-name: up
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: C6 00 00 00
-# 
 name: up
 type: parsed
 protocol: RCA
@@ -30,24 +18,6 @@ type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 38 00 00 00
-# 
-name: FF
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 38 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: DC 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: DC 00 00 00
 # 
 name: power
 type: parsed
@@ -61,29 +31,11 @@ protocol: RCA
 address: 03 00 00 00
 command: F8 00 00 00
 # 
-name: stop
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: F8 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 74 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 74 00 00 00
-# 
-name: back
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: E4 00 00 00
 # 
 name: back
 type: parsed
@@ -97,29 +49,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 2F 00 00 00
 # 
-name: ok
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 2F 00 00 00
-# 
 name: REW
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: B8 00 00 00
-# 
-name: REW
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: B8 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: F4 00 00 00
 # 
 name: vol+
 type: parsed
@@ -133,25 +67,7 @@ protocol: RCA
 address: 03 00 00 00
 command: A6 00 00 00
 # 
-name: right
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: A6 00 00 00
-# 
 name: pause
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: A8 00 00 00
-# 
-name: pause
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: A8 00 00 00
-# 
-name: play
 type: parsed
 protocol: RCA
 address: 03 00 00 00
@@ -169,29 +85,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 1E 00 00 00
 # 
-name: menu
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 1E 00 00 00
-# 
 name: mute
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: FC 00 00 00
-# 
-name: mute
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: FC 00 00 00
-# 
-name: left
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 26 00 00 00
 # 
 name: left
 type: parsed

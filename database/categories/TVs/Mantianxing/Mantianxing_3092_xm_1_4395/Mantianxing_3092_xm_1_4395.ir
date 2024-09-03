@@ -7,23 +7,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: channel list
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: tv
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1B 00 00 00
-# 
-name: Text Hold
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 23 00 00 00
 # 
 name: Text Hold
 type: parsed
@@ -49,12 +37,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: C1 00 00 00
 # 
-name: INPUT 1
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: C1 00 00 00
-# 
 name: ch-
 type: parsed
 protocol: Samsung32
@@ -73,18 +55,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 # 
-name: sound mode
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 15 00 00 00
-# 
-name: home
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1A 00 00 00
-# 
 name: home
 type: parsed
 protocol: Samsung32
@@ -97,29 +67,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 3E 00 00 00
 # 
-name: Format (Aspect)
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 3E 00 00 00
-# 
 name: exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
-# 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 2D 00 00 00
-# 
-name: TEXT EXPAND
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 3E 00 00 00
 # 
 name: TEXT EXPAND
 type: parsed
@@ -144,18 +96,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 69 00 00 00
-# 
-name: PC
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 69 00 00 00
-# 
-name: component 3
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: C3 00 00 00
 # 
 name: component 3
 type: parsed
@@ -193,23 +133,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 42 00 00 00
 # 
-name: pip freeze
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 42 00 00 00
-# 
 name: 7
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0C 00 00 00
-# 
-name: Text Mix
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 2C 00 00 00
 # 
 name: Text Mix
 type: parsed
@@ -241,12 +169,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: Text Index_ Bookmark
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1A 00 00 00
-# 
 name: 8
 type: parsed
 protocol: Samsung32
@@ -265,12 +187,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 00 00 00 00
 # 
-name: sap
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 00 00 00 00
-# 
 name: 9
 type: parsed
 protocol: Samsung32
@@ -278,18 +194,6 @@ address: 07 00 00 00
 command: 0E 00 00 00
 # 
 name: INPUT 4
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1B 00 00 00
-# 
-name: INPUT 4
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1B 00 00 00
-# 
-name: Text Off
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -312,12 +216,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
-# 
-name: back
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 13 00 00 00
 # 
 name: back
 type: parsed
@@ -349,18 +247,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: F8 00 00 00
 # 
-name: INPUT 2
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: F8 00 00 00
-# 
-name: Text On
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 2C 00 00 00
-# 
 name: Text On
 type: parsed
 protocol: Samsung32
@@ -385,12 +271,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: info
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1F 00 00 00
-# 
 name: 2
 type: parsed
 protocol: Samsung32
@@ -402,18 +282,6 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
-# 
-name: Page +
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 12 00 00 00
-# 
-name: -- (10 key)
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 23 00 00 00
 # 
 name: -- (10 key)
 type: parsed
@@ -433,24 +301,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 16 00 00 00
 # 
-name: picture mode
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 16 00 00 00
-# 
-name: info
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1F 00 00 00
-# 
-name: info
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 1F 00 00 00
-# 
 name: display
 type: parsed
 protocol: Samsung32
@@ -469,41 +319,17 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: Page -
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 10 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
-# 
 name: 3
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 06 00 00 00
-# 
-name: -- (10 key)
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 23 00 00 00
-# 
-name: -- (10 key)
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 23 00 00 00
 # 
 name: 6
 type: parsed
@@ -529,23 +355,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: F9 00 00 00
 # 
-name: INPUT 3
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: F9 00 00 00
-# 
 name: menu
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
-# 
-name: Component 2
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: FD 00 00 00
 # 
 name: Component 2
 type: parsed

@@ -199,12 +199,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: rewind_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
 name: stop
 type: parsed
 protocol: RC5
@@ -235,12 +229,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: mute
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0D 00 00 00
-# 
 name: cancel_r
 type: parsed
 protocol: RC5
@@ -252,18 +240,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 1E 00 00 00
-# 
-name: 4
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 14 00 00 00
-# 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: 2
 type: parsed
@@ -283,23 +259,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: 5
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 05 00 00 00
-# 
 name: 3_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00
 # 
 name: 4_r
 type: parsed
@@ -319,12 +283,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: rewind
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
 name: play_r
 type: parsed
 protocol: RC5
@@ -343,23 +301,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: rewind_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: 4_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 14 00 00 00
 # 
 name: mute_r
 type: parsed

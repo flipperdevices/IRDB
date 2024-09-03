@@ -19,12 +19,6 @@ protocol: NECext
 address: 4E 1B 00 00
 command: 24 DB 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 4E 1B 00 00
-command: FF 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
@@ -36,15 +30,3 @@ type: parsed
 protocol: NECext
 address: 4E 1B 00 00
 command: 03 FC 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: 4E 1B 00 00
-command: FF 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: 4E 1B 00 00
-command: FF 00 00 00

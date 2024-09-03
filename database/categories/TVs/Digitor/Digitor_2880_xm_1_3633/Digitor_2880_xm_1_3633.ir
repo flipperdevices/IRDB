@@ -7,23 +7,11 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 18 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 18 00 00 00
-# 
 name: exit
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 1C 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: FF 00 00 00
 # 
 name: texthold
 type: parsed
@@ -79,12 +67,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 07 00 00 00
 # 
-name: texthold
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: FF 00 00 00
-# 
 name: power
 type: parsed
 protocol: Samsung32
@@ -108,24 +90,6 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 1A 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: FF 00 00 00
-# 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1C 00 00 00
-# 
-name: FF
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0E 00 00 00
 # 
 name: REW
 type: parsed
@@ -151,41 +115,11 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 01 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1B 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: FF 00 00 00
-# 
 name: 5
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 04 00 00 00
-# 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1C 00 00 00
-# 
-name: up
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 19 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0F 00 00 00
 # 
 name: play
 type: parsed
@@ -205,20 +139,8 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 05 00 00 00
 # 
-name: exit
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1C 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 14 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1A 00 00 00

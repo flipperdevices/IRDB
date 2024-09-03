@@ -37,12 +37,6 @@ protocol: NECext
 address: 86 0F 00 00
 command: D5 2A 00 00
 # 
-name: pre_r
-type: parsed
-protocol: NECext
-address: 86 0F 00 00
-command: D5 2A 00 00
-# 
 name: ff
 type: parsed
 protocol: NECext
@@ -60,18 +54,6 @@ type: parsed
 protocol: NECext
 address: 86 0F 00 00
 command: C4 3B 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 86 0F 00 00
-command: D5 2A 00 00
-# 
-name: next_r
-type: parsed
-protocol: NECext
-address: 86 0F 00 00
-command: D4 2B 00 00
 # 
 name: 7
 type: parsed
@@ -120,12 +102,6 @@ type: parsed
 protocol: NECext
 address: 86 0F 00 00
 command: C9 36 00 00
-# 
-name: next_r
-type: parsed
-protocol: NECext
-address: 86 0F 00 00
-command: D4 2B 00 00
 # 
 name: ok
 type: parsed
@@ -180,12 +156,6 @@ type: parsed
 protocol: NECext
 address: 86 0F 00 00
 command: E3 1C 00 00
-# 
-name: next_r
-type: parsed
-protocol: NECext
-address: 86 0F 00 00
-command: D4 2B 00 00
 # 
 name: audio
 type: parsed

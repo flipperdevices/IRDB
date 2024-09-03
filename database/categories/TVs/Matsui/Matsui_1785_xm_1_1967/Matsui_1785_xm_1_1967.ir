@@ -7,29 +7,11 @@ protocol: NECext
 address: 80 63 00 00
 command: 54 AB 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 54 AB 00 00
-# 
 name: ch-
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 0B F4 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0B F4 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 1A E5 00 00
 # 
 name: exit
 type: parsed
@@ -43,18 +25,6 @@ protocol: NECext
 address: 80 63 00 00
 command: 47 B8 00 00
 # 
-name: texthold
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 47 B8 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
 name: textoff
 type: parsed
 protocol: NECext
@@ -66,18 +36,6 @@ type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 09 F6 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 09 F6 00 00
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 55 AA 00 00
 # 
 name: --
 type: parsed
@@ -91,29 +49,11 @@ protocol: NECext
 address: 80 63 00 00
 command: 03 FC 00 00
 # 
-name: 4
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 03 FC 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 06 F9 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 06 F9 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 53 AC 00 00
 # 
 name: up
 type: parsed
@@ -127,29 +67,11 @@ protocol: NECext
 address: 80 63 00 00
 command: 00 FF 00 00
 # 
-name: 1
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 00 FF 00 00
-# 
 name: FF
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 4D B2 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 4D B2 00 00
-# 
-name: 8
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 07 F8 00 00
 # 
 name: 8
 type: parsed
@@ -163,29 +85,11 @@ protocol: NECext
 address: 80 63 00 00
 command: 11 EE 00 00
 # 
-name: Subtitle
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 11 EE 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 0F F0 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0F F0 00 00
-# 
-name: stop
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 4B B4 00 00
 # 
 name: stop
 type: parsed
@@ -199,18 +103,6 @@ protocol: NECext
 address: 80 63 00 00
 command: 08 F7 00 00
 # 
-name: 9
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 08 F7 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0D F2 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
@@ -222,30 +114,6 @@ type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 45 BA 00 00
-# 
-name: texton
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 45 BA 00 00
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 55 AA 00 00
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 55 AA 00 00
-# 
-name: record
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 56 A9 00 00
 # 
 name: record
 type: parsed
@@ -259,30 +127,6 @@ protocol: NECext
 address: 80 63 00 00
 command: 4A B5 00 00
 # 
-name: REW
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 4A B5 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
-name: vol+
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0C F3 00 00
-# 
 name: vol+
 type: parsed
 protocol: NECext
@@ -294,30 +138,6 @@ type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 01 FE 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 01 FE 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 53 AC 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 53 AC 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 10 EF 00 00
 # 
 name: display
 type: parsed
@@ -331,18 +151,6 @@ protocol: NECext
 address: 80 63 00 00
 command: 04 FB 00 00
 # 
-name: 5
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 04 FB 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 1E E1 00 00
-# 
 name: pause
 type: parsed
 protocol: NECext
@@ -354,30 +162,6 @@ type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 0A F5 00 00
-# 
-name: ch+
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0A F5 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
-name: textoff
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
-name: play
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 4C B3 00 00
 # 
 name: play
 type: parsed
@@ -391,56 +175,14 @@ protocol: NECext
 address: 80 63 00 00
 command: 02 FD 00 00
 # 
-name: 3
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 02 FD 00 00
-# 
 name: 6
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 05 FA 00 00
 # 
-name: 6
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 05 FA 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 1A E5 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 1A E5 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 0E F1 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 0E F1 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 54 AB 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 54 AB 00 00

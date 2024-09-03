@@ -139,12 +139,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
@@ -186,18 +180,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
 # 
 name: 1_r
 type: parsed
@@ -271,12 +253,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -324,9 +300,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 35 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00

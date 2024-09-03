@@ -145,12 +145,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
@@ -192,18 +186,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: down_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
-# 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00
 # 
 name: 1_r
 type: parsed
@@ -277,12 +259,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -336,9 +312,3 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2D 00 00 00
-# 
-name: down_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3C 00 00 00

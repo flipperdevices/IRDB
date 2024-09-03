@@ -169,18 +169,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: TV
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5A 00 00 00
-# 
-name: cancel
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5F 00 00 00
-# 
 name: mute
 type: parsed
 protocol: NEC

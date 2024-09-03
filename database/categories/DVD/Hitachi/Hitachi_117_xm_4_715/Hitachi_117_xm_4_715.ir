@@ -67,12 +67,6 @@ protocol: NECext
 address: 80 23 00 00
 command: 5A A5 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 80 23 00 00
-command: 03 FC 00 00
-# 
 name: topmenu
 type: parsed
 protocol: NECext
@@ -217,12 +211,6 @@ protocol: NECext
 address: 80 23 00 00
 command: 05 FA 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 80 23 00 00
-command: 02 FD 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -300,12 +288,6 @@ type: parsed
 protocol: NECext
 address: 80 23 00 00
 command: 27 D8 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 80 23 00 00
-command: 02 FD 00 00
 # 
 name: audio
 type: parsed

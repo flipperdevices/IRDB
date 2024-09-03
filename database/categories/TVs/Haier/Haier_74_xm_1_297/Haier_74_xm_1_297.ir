@@ -181,12 +181,6 @@ protocol: Samsung32
 address: 18 00 00 00
 command: 5B 00 00 00
 # 
-name: freeze
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 0F 00 00 00
-# 
 name: 7
 type: parsed
 protocol: Samsung32
@@ -433,12 +427,6 @@ protocol: Samsung32
 address: 18 00 00 00
 command: 76 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 15 00 00 00
-# 
 name: page_down
 type: parsed
 protocol: Samsung32
@@ -517,23 +505,11 @@ protocol: Samsung32
 address: 18 00 00 00
 command: 2E 00 00 00
 # 
-name: b
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 73 00 00 00
-# 
 name: stock
 type: parsed
 protocol: Samsung32
 address: 18 00 00 00
 command: 75 00 00 00
-# 
-name: fn
-type: parsed
-protocol: Samsung32
-address: 18 00 00 00
-command: 7B 00 00 00
 # 
 name: mute
 type: parsed

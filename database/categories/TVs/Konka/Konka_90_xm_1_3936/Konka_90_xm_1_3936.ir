@@ -97,12 +97,6 @@ protocol: NEC
 address: 01 00 00 00
 command: 01 00 00 00
 # 
-name: enter
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 15 00 00 00
-# 
 name: REW
 type: parsed
 protocol: NEC
@@ -115,23 +109,11 @@ protocol: NEC
 address: 01 00 00 00
 command: 09 00 00 00
 # 
-name: enter
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 15 00 00 00
-# 
 name: 2
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 03 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 09 00 00 00
 # 
 name: 5
 type: parsed
@@ -174,9 +156,3 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0A 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 01 00 00 00

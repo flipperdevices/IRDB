@@ -19,18 +19,6 @@ protocol: SIRC
 address: 01 00 00 00
 command: 48 00 00 00
 # 
-name: YPbPr1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 48 00 00 00
-# 
-name: YPbPr1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 48 00 00 00
-# 
 name: exit
 type: raw
 frequency: 38000
@@ -49,47 +37,11 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: video
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
-# 
-name: video
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 25 00 00 00
-# 
 name: PC
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 43 00 00 00
-# 
-name: PC
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 43 00 00 00
-# 
-name: PC
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 43 00 00 00
-# 
-name: YPbPr2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 49 00 00 00
-# 
-name: YPbPr2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 49 00 00 00
 # 
 name: YPbPr2
 type: parsed
@@ -139,18 +91,6 @@ protocol: SIRC
 address: 01 00 00 00
 command: 42 00 00 00
 # 
-name: hdmi1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 42 00 00 00
-# 
-name: hdmi1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 42 00 00 00
-# 
 name: up
 type: parsed
 protocol: NECext
@@ -168,18 +108,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9010 4453 625 469 625 1536 625 1563 625 495 573 443 625 469 625 443 625 1563 625 1536 625 469 625 1536 625 443 625 469 625 469 599 443 625 469 625 443 625 443 625 495 599 1536 625 1563 625 443 625 443 625 469 625 1536 625 1563 625 1563 625 443 625 443 625 1563 625 1536 625 1563 625 42943 8906 2240 547 100156
-# 
-name: video1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 40 00 00 00
-# 
-name: video1
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 40 00 00 00
 # 
 name: video1
 type: parsed
@@ -222,18 +150,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9010 4453 625 469 625 1536 625 1563 625 443 625 443 625 469 625 443 625 1563 625 1536 625 469 625 1536 625 443 625 469 625 495 573 443 625 469 625 1536 625 469 625 1536 625 1563 625 443 625 443 625 495 599 443 625 443 625 1563 625 443 625 469 625 1536 625 1563 625 1536 625 1563 625 42943 8906 2240 547 100156
-# 
-name: video2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 4D 00 00 00
-# 
-name: video2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 4D 00 00 00
 # 
 name: video2
 type: parsed
@@ -295,29 +211,11 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 9010 4453 625 469 625 1536 625 1563 625 443 625 443 625 469 625 443 625 1563 625 1536 625 469 625 1536 625 443 625 469 625 469 599 443 625 469 625 443 625 1563 625 443 625 1536 651 443 625 443 625 443 625 469 625 1536 625 469 625 1536 625 469 625 1536 625 1563 625 1536 625 1563 625 42943 8906 2240 547 100156
 # 
-name: tv_av
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 9010 4453 625 443 625 1563 625 1536 625 469 625 443 625 443 625 469 625 1536 625 1563 625 443 625 1563 625 443 625 443 625 469 625 443 625 443 625 469 625 1536 625 469 625 443 625 1563 625 443 625 443 625 443 625 1563 625 443 625 1563 625 1563 625 443 625 1536 651 1536 625 1563 625 42943 8906 2240 547 100156
-# 
 name: 3
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9010 4453 625 495 599 1536 625 1563 625 443 625 443 625 469 625 443 625 1563 625 1536 625 469 625 1536 625 443 625 469 625 469 599 443 625 469 625 443 625 1563 625 443 625 443 625 443 651 443 625 443 625 443 625 1563 625 443 625 1563 625 1563 625 1536 625 1563 625 1536 625 1563 625 42943 8906 2240 547 100156
-# 
-name: tuner_input
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 24 00 00 00
-# 
-name: tuner_input
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 24 00 00 00
 # 
 name: tuner_input
 type: parsed
@@ -336,18 +234,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9010 4453 625 469 625 1536 625 1563 625 443 625 443 625 469 625 443 625 1563 625 1536 625 469 625 1536 625 443 625 469 625 495 573 443 625 469 625 443 625 443 625 469 625 443 625 1536 651 469 599 443 625 443 625 1563 625 1563 625 1536 625 1563 625 443 625 1563 625 1536 625 1563 625 42943 8906 2240 547 100156
-# 
-name: hdmi2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 44 00 00 00
-# 
-name: hdmi2
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 44 00 00 00
 # 
 name: hdmi2
 type: parsed

@@ -13,23 +13,11 @@ protocol: NEC
 address: 32 00 00 00
 command: C7 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C7 00 00 00
-# 
 name: s-video
 type: parsed
 protocol: NEC
 address: 32 00 00 00
 command: 83 00 00 00
-# 
-name: keystone+
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: 85 00 00 00
 # 
 name: keystone+
 type: parsed
@@ -79,18 +67,6 @@ protocol: NEC
 address: 32 00 00 00
 command: C3 00 00 00
 # 
-name: source
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C3 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C6 00 00 00
-# 
 name: up
 type: parsed
 protocol: NEC
@@ -133,12 +109,6 @@ protocol: NEC
 address: 32 00 00 00
 command: 8F 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: 8F 00 00 00
-# 
 name: av mute
 type: parsed
 protocol: NEC
@@ -151,23 +121,11 @@ protocol: NEC
 address: 32 00 00 00
 command: C5 00 00 00
 # 
-name: enter
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: CA 00 00 00
-# 
 name: overscan
 type: parsed
 protocol: NEC
 address: 32 00 00 00
 command: 89 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: 8C 00 00 00
 # 
 name: vol+
 type: parsed
@@ -187,12 +145,6 @@ protocol: NEC
 address: 32 00 00 00
 command: C9 00 00 00
 # 
-name: right
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C9 00 00 00
-# 
 name: 5
 type: parsed
 protocol: NEC
@@ -204,18 +156,6 @@ type: parsed
 protocol: NEC
 address: 32 00 00 00
 command: C1 00 00 00
-# 
-name: page_up
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C1 00 00 00
-# 
-name: page_down
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C2 00 00 00
 # 
 name: page_down
 type: parsed
@@ -253,18 +193,6 @@ protocol: NEC
 address: 32 00 00 00
 command: 84 00 00 00
 # 
-name: keystone-
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: 84 00 00 00
-# 
-name: resync
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C4 00 00 00
-# 
 name: resync
 type: parsed
 protocol: NEC
@@ -276,12 +204,6 @@ type: parsed
 protocol: NEC
 address: 32 00 00 00
 command: 88 00 00 00
-# 
-name: left
-type: parsed
-protocol: NEC
-address: 32 00 00 00
-command: C8 00 00 00
 # 
 name: left
 type: parsed

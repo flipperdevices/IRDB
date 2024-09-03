@@ -79,12 +79,6 @@ protocol: NEC
 address: 49 00 00 00
 command: 16 00 00 00
 # 
-name: memory
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 11 00 00 00
-# 
 name: sound field
 type: parsed
 protocol: NEC
@@ -163,18 +157,6 @@ protocol: NEC
 address: 49 00 00 00
 command: 19 00 00 00
 # 
-name: zoom
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 04 00 00 00
-# 
-name: Spectrum
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 4C 00 00 00
-# 
 name: next
 type: parsed
 protocol: NEC
@@ -198,12 +180,6 @@ type: parsed
 protocol: NEC
 address: 49 00 00 00
 command: 0A 00 00 00
-# 
-name: sound_channel
-type: parsed
-protocol: NEC
-address: 49 00 00 00
-command: 52 00 00 00
 # 
 name: REW
 type: parsed

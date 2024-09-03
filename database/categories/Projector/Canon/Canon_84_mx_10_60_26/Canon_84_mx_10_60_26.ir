@@ -25,12 +25,6 @@ protocol: NECext
 address: 4F 50 00 00
 command: FF 00 00 00
 # 
-name: back
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: FF 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
@@ -42,12 +36,6 @@ type: parsed
 protocol: NECext
 address: 4F 50 00 00
 command: 11 EE 00 00
-# 
-name: back
-type: parsed
-protocol: NECext
-address: 4F 50 00 00
-command: FF 00 00 00
 # 
 name: ok
 type: parsed

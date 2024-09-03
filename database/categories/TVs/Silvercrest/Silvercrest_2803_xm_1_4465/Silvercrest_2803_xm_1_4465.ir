@@ -343,12 +343,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 2C 00 00 00
 # 
-name: inputpc
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
-# 
 name: menu_r
 type: parsed
 protocol: RC5
@@ -889,12 +883,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: NavLeft4
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
-# 
 name: cancel_r
 type: parsed
 protocol: RC5
@@ -913,23 +901,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 1E 00 00 00
 # 
-name: PIPCH+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 26 00 00 00
-# 
 name: NavLeft2
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: inputpc_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
 # 
 name: 2
 type: parsed
@@ -973,12 +949,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: info
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: 5
 type: parsed
 protocol: RC5
@@ -990,12 +960,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: NavUp4
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 32 00 00 00
 # 
 name: TeletextHiddenInfo_r
 type: parsed
@@ -1032,12 +996,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2E 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: TeletextMixed_r
 type: parsed
@@ -1081,12 +1039,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: info_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 12 00 00 00
-# 
 name: program-guide
 type: parsed
 protocol: RC5X
@@ -1098,12 +1050,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 17 00 00 00
-# 
-name: PictureMenu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 36 00 00 00
 # 
 name: TeletextWait
 type: parsed
@@ -1140,12 +1086,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 16 00 00 00
-# 
-name: PipChDown_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 27 00 00 00
 # 
 name: SCART2
 type: parsed
@@ -1266,12 +1206,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3E 00 00 00
-# 
-name: PipChUp
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 26 00 00 00
 # 
 name: TeletextTime
 type: parsed

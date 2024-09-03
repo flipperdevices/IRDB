@@ -97,12 +97,6 @@ protocol: NECext
 address: 87 22 00 00
 command: 5D A2 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 87 22 00 00
-command: 5F A0 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
@@ -162,12 +156,6 @@ type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4D B2 00 00
-# 
-name: next_r
-type: parsed
-protocol: NECext
-address: 87 22 00 00
-command: 5F A0 00 00
 # 
 name: red
 type: parsed
@@ -241,12 +229,6 @@ protocol: NECext
 address: 87 22 00 00
 command: 73 8C 00 00
 # 
-name: next_r
-type: parsed
-protocol: NECext
-address: 87 22 00 00
-command: 5F A0 00 00
-# 
 name: audio
 type: parsed
 protocol: NECext
@@ -270,12 +252,6 @@ type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4A B5 00 00
-# 
-name: b
-type: parsed
-protocol: NECext
-address: 87 22 00 00
-command: 43 BC 00 00
 # 
 name: menu
 type: parsed

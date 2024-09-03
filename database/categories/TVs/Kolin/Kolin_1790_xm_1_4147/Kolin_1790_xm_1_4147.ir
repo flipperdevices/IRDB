@@ -79,12 +79,6 @@ protocol: NECext
 address: 86 6B 00 00
 command: 1F E0 00 00
 # 
-name: enter
-type: parsed
-protocol: NECext
-address: 86 6B 00 00
-command: 17 E8 00 00
-# 
 name: tv_av
 type: parsed
 protocol: NECext
@@ -120,12 +114,6 @@ type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 1A E5 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 6B 00 00
-command: 0F F0 00 00
 # 
 name: 3
 type: parsed

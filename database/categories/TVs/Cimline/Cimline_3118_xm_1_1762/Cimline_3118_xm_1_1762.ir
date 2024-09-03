@@ -127,12 +127,6 @@ protocol: NECext
 address: 80 6F 00 00
 command: 05 FA 00 00
 # 
-name: pip
-type: parsed
-protocol: NECext
-address: 80 6F 00 00
-command: FF 00 00 00
-# 
 name: exit
 type: parsed
 protocol: NECext
@@ -151,12 +145,6 @@ protocol: NECext
 address: 80 6F 00 00
 command: 10 EF 00 00
 # 
-name: pip
-type: parsed
-protocol: NECext
-address: 80 6F 00 00
-command: FF 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
@@ -168,12 +156,6 @@ type: parsed
 protocol: NECext
 address: 80 6F 00 00
 command: 06 F9 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 80 6F 00 00
-command: 18 E7 00 00
 # 
 name: menu
 type: parsed

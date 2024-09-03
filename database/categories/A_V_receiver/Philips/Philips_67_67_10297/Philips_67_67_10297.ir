@@ -85,12 +85,6 @@ protocol: RC6
 address: 15 00 00 00
 command: 05 00 00 00
 # 
-name: pause_r
-type: parsed
-protocol: RC6
-address: 15 00 00 00
-command: 2C 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RC6
@@ -372,12 +366,6 @@ type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 26 00 00 00
-# 
-name: random_r
-type: parsed
-protocol: RC6
-address: 15 00 00 00
-command: 09 00 00 00
 # 
 name: left
 type: parsed

@@ -19,18 +19,6 @@ protocol: NECext
 address: 00 BE 00 00
 command: 18 E7 00 00
 # 
-name: TeletextSubPage
-type: parsed
-protocol: NECext
-address: 00 BE 00 00
-command: 0F F0 00 00
-# 
-name: system
-type: parsed
-protocol: NECext
-address: 00 BE 00 00
-command: 5B A4 00 00
-# 
 name: system
 type: parsed
 protocol: NECext
@@ -265,12 +253,6 @@ protocol: NECext
 address: 00 BE 00 00
 command: 07 F8 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 BE 00 00
-command: 1F E0 00 00
-# 
 name: play
 type: parsed
 protocol: NECext
@@ -307,20 +289,8 @@ protocol: NECext
 address: 00 BE 00 00
 command: 14 EB 00 00
 # 
-name: red
-type: parsed
-protocol: NECext
-address: 00 BE 00 00
-command: 5F A0 00 00
-# 
 name: left
 type: parsed
 protocol: NECext
 address: 00 BE 00 00
 command: 47 B8 00 00
-# 
-name: --
-type: parsed
-protocol: NECext
-address: 00 BE 00 00
-command: 4E B1 00 00

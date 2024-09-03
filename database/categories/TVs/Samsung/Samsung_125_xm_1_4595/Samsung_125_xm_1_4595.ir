@@ -103,12 +103,6 @@ protocol: Samsung32
 address: 09 00 00 00
 command: 64 00 00 00
 # 
-name: enter
-type: parsed
-protocol: Samsung32
-address: 09 00 00 00
-command: 68 00 00 00
-# 
 name: source
 type: parsed
 protocol: Samsung32
@@ -156,12 +150,6 @@ type: parsed
 protocol: Samsung32
 address: 09 00 00 00
 command: 12 00 00 00
-# 
-name: source
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
 # 
 name: 3
 type: parsed

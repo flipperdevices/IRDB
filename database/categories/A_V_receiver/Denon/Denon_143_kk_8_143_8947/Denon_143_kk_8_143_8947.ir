@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: CE 03 00 00
 # 
-name: shift
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: CE 03 00 00
-# 
 name: tv
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: D2 02 00 00
-# 
-name: tv
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D2 02 00 00
-# 
-name: down
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 1C 00 00 00
 # 
 name: down
 type: parsed
@@ -43,29 +25,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: D5 02 00 00
 # 
-name: game
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D5 02 00 00
-# 
 name: surround_parameter
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: C0 01 00 00
-# 
-name: surround_parameter
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: C0 01 00 00
-# 
-name: restore
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 24 02 00 00
 # 
 name: restore
 type: parsed
@@ -79,29 +43,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 90 02 00 00
 # 
-name: dim
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 90 02 00 00
-# 
 name: audio_delay
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 6C 02 00 00
-# 
-name: audio_delay
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 6C 02 00 00
-# 
-name: memory
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 24 00 00 00
 # 
 name: memory
 type: parsed
@@ -115,29 +61,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: D3 03 00 00
 # 
-name: mode
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D3 03 00 00
-# 
 name: band
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: D0 03 00 00
-# 
-name: band
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D0 03 00 00
-# 
-name: input_mode
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 60 01 00 00
 # 
 name: input_mode
 type: parsed
@@ -151,29 +79,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 50 01 00 00
 # 
-name: surround_right
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 50 01 00 00
-# 
 name: search
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: D7 03 00 00
-# 
-name: search
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D7 03 00 00
-# 
-name: up
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 1B 00 00 00
 # 
 name: up
 type: parsed
@@ -187,29 +97,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: D1 02 00 00
 # 
-name: blu-ray
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D1 02 00 00
-# 
 name: tone
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 96 01 00 00
-# 
-name: tone
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 96 01 00 00
-# 
-name: dvd
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D0 02 00 00
 # 
 name: dvd
 type: parsed
@@ -223,29 +115,11 @@ protocol: Kaseikyo
 address: 23 54 32 00
 command: 15 00 00 00
 # 
-name: FF
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 15 00 00 00
-# 
 name: power
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 02 00 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 02 00 00 00
-# 
-name: stop
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 08 00 00 00
 # 
 name: stop
 type: parsed
@@ -259,29 +133,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 71 01 00 00
 # 
-name: vol-
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 71 01 00 00
-# 
 name: next
 type: parsed
 protocol: Kaseikyo
 address: 23 54 32 00
 command: 04 00 00 00
-# 
-name: next
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 04 00 00 00
-# 
-name: previous
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 05 00 00 00
 # 
 name: previous
 type: parsed
@@ -295,29 +151,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 22 00 00 00
 # 
-name: back
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 22 00 00 00
-# 
 name: ok
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 1F 00 00 00
-# 
-name: ok
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 1F 00 00 00
-# 
-name: REW
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 16 00 00 00
 # 
 name: REW
 type: parsed
@@ -331,29 +169,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 70 01 00 00
 # 
-name: vol+
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 70 01 00 00
-# 
 name: right
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 1E 00 00 00
-# 
-name: right
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 1E 00 00 00
-# 
-name: random
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 10 00 00 00
 # 
 name: random
 type: parsed
@@ -367,29 +187,11 @@ protocol: Kaseikyo
 address: 23 54 32 00
 command: 11 00 00 00
 # 
-name: repeat
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 11 00 00 00
-# 
 name: pause
 type: parsed
 protocol: Kaseikyo
 address: 23 54 32 00
 command: 01 00 00 00
-# 
-name: pause
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 01 00 00 00
-# 
-name: ch_level
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 7A 01 00 00
 # 
 name: ch_level
 type: parsed
@@ -403,29 +205,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: CA 03 00 00
 # 
-name: broadcasting_station+
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: CA 03 00 00
-# 
 name: play
 type: parsed
 protocol: Kaseikyo
 address: 23 54 32 00
 command: 01 00 00 00
-# 
-name: play
-type: parsed
-protocol: Kaseikyo
-address: 23 54 32 00
-command: 01 00 00 00
-# 
-name: tuner_input
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: CF 02 00 00
 # 
 name: tuner_input
 type: parsed
@@ -439,29 +223,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: D9 02 00 00
 # 
-name: v_aux
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: D9 02 00 00
-# 
 name: sleep
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 44 03 00 00
-# 
-name: sleep
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 44 03 00 00
-# 
-name: broadcasting_station-
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: CB 03 00 00
 # 
 name: broadcasting_station-
 type: parsed
@@ -475,29 +241,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 22 02 00 00
 # 
-name: night
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 22 02 00 00
-# 
 name: test
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 7F 01 00 00
-# 
-name: test
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 7F 01 00 00
-# 
-name: menu
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 23 00 00 00
 # 
 name: menu
 type: parsed
@@ -511,29 +259,11 @@ protocol: Kaseikyo
 address: 41 54 32 00
 command: 50 01 00 00
 # 
-name: surround_left
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 50 01 00 00
-# 
 name: mute
 type: parsed
 protocol: Kaseikyo
 address: 41 54 32 00
 command: 72 01 00 00
-# 
-name: mute
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 72 01 00 00
-# 
-name: left
-type: parsed
-protocol: Kaseikyo
-address: 41 54 32 00
-command: 1D 00 00 00
 # 
 name: left
 type: parsed

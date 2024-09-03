@@ -19,12 +19,6 @@ protocol: NEC
 address: 40 00 00 00
 command: 41 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 02 00 00 00
-# 
 name: next
 type: parsed
 protocol: NEC
@@ -49,38 +43,8 @@ protocol: NEC
 address: 40 00 00 00
 command: 07 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 03 00 00 00
-# 
-name: next
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 1A 00 00 00
-# 
-name: ok
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 07 00 00 00
-# 
-name: ok
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 07 00 00 00
-# 
 name: menu
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 4F 00 00 00
-# 
-name: previous
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 0E 00 00 00

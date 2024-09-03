@@ -7,29 +7,11 @@ protocol: NECext
 address: 83 F4 00 00
 command: 0C F3 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0C F3 00 00
-# 
 name: keystone+
 type: parsed
 protocol: NECext
 address: 83 F4 00 00
 command: 0B F4 00 00
-# 
-name: keystone+
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0B F4 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0F F0 00 00
 # 
 name: exit
 type: parsed
@@ -43,18 +25,6 @@ protocol: NECext
 address: 83 F4 00 00
 command: 19 E6 00 00
 # 
-name: Digital Zoom-
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 19 E6 00 00
-# 
-name: Digital Zoom+
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 18 E7 00 00
-# 
 name: Digital Zoom+
 type: parsed
 protocol: NECext
@@ -66,18 +36,6 @@ type: parsed
 protocol: NECext
 address: 83 F4 00 00
 command: 10 EF 00 00
-# 
-name: mode
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 10 EF 00 00
-# 
-name: source
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 04 FB 00 00
 # 
 name: source
 type: parsed
@@ -91,29 +49,11 @@ protocol: NECext
 address: 83 F4 00 00
 command: 0B F4 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0B F4 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: 83 F4 00 00
 command: 02 FD 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 02 FD 00 00
-# 
-name: blank
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 07 F8 00 00
 # 
 name: blank
 type: parsed
@@ -127,18 +67,6 @@ protocol: NECext
 address: 83 F4 00 00
 command: 10 EF 00 00
 # 
-name: ok
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 10 EF 00 00
-# 
-name: automatic
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 08 F7 00 00
-# 
 name: automatic
 type: parsed
 protocol: NECext
@@ -151,37 +79,7 @@ protocol: NECext
 address: 83 F4 00 00
 command: 0E F1 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0E F1 00 00
-# 
 name: pause
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 03 FC 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 03 FC 00 00
-# 
-name: source
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 04 FB 00 00
-# 
-name: source
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 04 FB 00 00
-# 
-name: play
 type: parsed
 protocol: NECext
 address: 83 F4 00 00
@@ -199,29 +97,11 @@ protocol: NECext
 address: 83 F4 00 00
 command: 0C F3 00 00
 # 
-name: keystone-
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0C F3 00 00
-# 
 name: menu
 type: parsed
 protocol: NECext
 address: 83 F4 00 00
 command: 0F F0 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0F F0 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 83 F4 00 00
-command: 0D F2 00 00
 # 
 name: left
 type: parsed

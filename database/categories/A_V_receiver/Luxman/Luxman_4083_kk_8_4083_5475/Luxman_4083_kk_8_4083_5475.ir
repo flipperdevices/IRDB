@@ -7,18 +7,6 @@ protocol: NECext
 address: 83 77 00 00
 command: 5B A4 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5B A4 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5A A5 00 00
-# 
 name: up
 type: parsed
 protocol: NECext
@@ -31,35 +19,11 @@ protocol: NECext
 address: 83 77 00 00
 command: 5C A3 00 00
 # 
-name: power
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5C A3 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5C A3 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
 address: 83 77 00 00
 command: 59 A6 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 59 A6 00 00
-# 
-name: previous
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 56 A9 00 00
 # 
 name: previous
 type: parsed
@@ -79,29 +43,11 @@ protocol: NECext
 address: 83 77 00 00
 command: 58 A7 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 58 A7 00 00
-# 
 name: right
 type: parsed
 protocol: NECext
 address: 83 77 00 00
 command: 5E A1 00 00
-# 
-name: right
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5E A1 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 54 AB 00 00
 # 
 name: menu
 type: parsed
@@ -114,12 +60,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 8671 4272 545 1623 545 1624 545 533 545 533 545 533 545 534 544 533 545 1624 545 1624 545 1624 545 1624 544 533 545 1624 545 1624 545 1624 545 533 544 1624 545 533 545 533 545 1624 545 1624 544 533 544 1624 545 533 545 533 544 1624 544 1624 545 533 545 533 544 1624 544 533 544 1624 544 38180 8671 4273 544 1624 544 1624 544 534 544 534 544 534 544 534 544 534 543 1624 544 1624 544 1624 544 1624 544 534 544 1624 544 1624 544 1624 544 534 544 1624 544 534 544 534 544 1624 544 1624 544 534 544 1624 544 534 544 533 544 1624 544 1624 544 534 544 534 544 1624 544 534 544 1624 544 40788
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 83 77 00 00
-command: 5F A0 00 00
 # 
 name: left
 type: parsed

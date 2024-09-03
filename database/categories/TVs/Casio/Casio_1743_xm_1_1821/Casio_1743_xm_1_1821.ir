@@ -7,29 +7,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 39 C6 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 39 C6 00 00
-# 
 name: ch-
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 39 C6 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 39 C6 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 2A D5 00 00
 # 
 name: 0
 type: parsed
@@ -43,29 +25,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 24 DB 00 00
 # 
-name: 4
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 24 DB 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 27 D8 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 27 D8 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 38 C7 00 00
 # 
 name: up
 type: parsed
@@ -79,29 +43,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 21 DE 00 00
 # 
-name: 1
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 21 DE 00 00
-# 
 name: 8
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 28 D7 00 00
-# 
-name: 8
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 28 D7 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 10 EF 00 00
 # 
 name: power
 type: parsed
@@ -115,29 +61,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 29 D6 00 00
 # 
-name: 9
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 29 D6 00 00
-# 
 name: vol-
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 33 CC 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 33 CC 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 34 CB 00 00
 # 
 name: tv_av
 type: parsed
@@ -151,29 +79,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 32 CD 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 32 CD 00 00
-# 
 name: info
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 35 CA 00 00
-# 
-name: info
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 35 CA 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 22 DD 00 00
 # 
 name: 2
 type: parsed
@@ -187,29 +97,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 32 CD 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 32 CD 00 00
-# 
 name: display
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 35 CA 00 00
-# 
-name: display
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 35 CA 00 00
-# 
-name: 5
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 25 DA 00 00
 # 
 name: 5
 type: parsed
@@ -223,41 +115,11 @@ protocol: NECext
 address: 83 78 00 00
 command: 45 BA 00 00
 # 
-name: ClrVoice
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 45 BA 00 00
-# 
 name: ch+
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 38 C7 00 00
-# 
-name: ch+
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 38 C7 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 34 CB 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 34 CB 00 00
-# 
-name: help
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 34 CB 00 00
 # 
 name: help
 type: parsed
@@ -271,18 +133,6 @@ protocol: NECext
 address: 83 78 00 00
 command: 23 DC 00 00
 # 
-name: 3
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 23 DC 00 00
-# 
-name: 6
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 26 D9 00 00
-# 
 name: 6
 type: parsed
 protocol: NECext
@@ -295,32 +145,8 @@ protocol: NECext
 address: 83 78 00 00
 command: 44 BB 00 00
 # 
-name: sleep
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 44 BB 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 83 78 00 00
 command: 31 CE 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 31 CE 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 33 CC 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 83 78 00 00
-command: 33 CC 00 00

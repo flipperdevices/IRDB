@@ -7,12 +7,6 @@ protocol: NEC
 address: 01 00 00 00
 command: 06 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 06 00 00 00
-# 
 name: xianshi
 type: parsed
 protocol: NEC
@@ -109,12 +103,6 @@ protocol: NEC
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 07 00 00 00
-# 
 name: display
 type: parsed
 protocol: NEC
@@ -145,12 +133,6 @@ protocol: NEC
 address: 01 00 00 00
 command: 0B 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 0A 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC
@@ -174,9 +156,3 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1C 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 04 00 00 00

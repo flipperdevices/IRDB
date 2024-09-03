@@ -115,12 +115,6 @@ protocol: NECext
 address: 80 63 00 00
 command: 01 FE 00 00
 # 
-name: up
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 53 AC 00 00
-# 
 name: 5
 type: parsed
 protocol: NECext
@@ -169,26 +163,8 @@ protocol: NECext
 address: 80 63 00 00
 command: 05 FA 00 00
 # 
-name: TV
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 12 ED 00 00
-# 
-name: cancel
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 1A E5 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 80 63 00 00
 command: 0E F1 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 80 63 00 00
-command: 54 AB 00 00

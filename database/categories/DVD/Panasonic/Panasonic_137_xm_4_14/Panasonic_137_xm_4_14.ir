@@ -7,29 +7,11 @@ protocol: Kaseikyo
 address: B0 02 20 00
 command: 80 00 00 00
 # 
-name: video
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 80 00 00 00
-# 
 name: FF
 type: parsed
 protocol: Kaseikyo
 address: B0 02 20 01
 command: A0 00 00 00
-# 
-name: FF
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: A0 00 00 00
-# 
-name: power
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: D0 03 00 00
 # 
 name: power
 type: parsed
@@ -43,18 +25,6 @@ protocol: Kaseikyo
 address: B0 02 20 00
 command: 00 00 00 00
 # 
-name: stop
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 00 00 00 00
-# 
-name: next
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: A0 00 00 00
-# 
 name: next
 type: parsed
 protocol: Kaseikyo
@@ -62,18 +32,6 @@ address: B0 02 20 01
 command: A0 00 00 00
 # 
 name: previous
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: 90 00 00 00
-# 
-name: previous
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: 90 00 00 00
-# 
-name: REW
 type: parsed
 protocol: Kaseikyo
 address: B0 02 20 01
@@ -91,29 +49,11 @@ protocol: Kaseikyo
 address: B0 02 20 00
 command: 60 00 00 00
 # 
-name: pause
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 60 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: Kaseikyo
 address: B0 02 20 00
 command: 50 03 00 00
-# 
-name: ch+
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 50 03 00 00
-# 
-name: play
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: A0 00 00 00
 # 
 name: play
 type: parsed

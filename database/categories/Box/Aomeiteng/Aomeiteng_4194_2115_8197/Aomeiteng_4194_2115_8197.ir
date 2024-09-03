@@ -181,12 +181,6 @@ protocol: NECext
 address: CC 1D 00 00
 command: 16 E9 00 00
 # 
-name: info
-type: parsed
-protocol: NECext
-address: CC 1D 00 00
-command: 02 FD 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext

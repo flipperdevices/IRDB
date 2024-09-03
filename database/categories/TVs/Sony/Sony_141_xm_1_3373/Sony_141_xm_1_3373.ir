@@ -7,29 +7,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 36 00 00 00
 # 
-name: down
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 36 00 00 00
-# 
 name: ch-
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 32 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 32 00 00 00
-# 
-name: SLEEP
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 29 00 00 00
 # 
 name: SLEEP
 type: parsed
@@ -43,29 +25,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 0D 00 00 00
 # 
-name: 4
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0D 00 00 00
-# 
 name: guide
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 24 00 00 00
-# 
-name: guide
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 24 00 00 00
-# 
-name: PAUSE
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 35 00 00 00
 # 
 name: PAUSE
 type: parsed
@@ -79,29 +43,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 58 00 00 00
 # 
-name: EJECT
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 58 00 00 00
-# 
 name: 7
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 10 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 10 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0A 00 00 00
 # 
 name: 1
 type: parsed
@@ -115,29 +61,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 48 00 00 00
 # 
-name: enter
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 48 00 00 00
-# 
 name: 8
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 11 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 11 00 00 00
-# 
-name: power
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 2F 00 00 00
 # 
 name: power
 type: parsed
@@ -151,29 +79,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 13 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 13 00 00 00
-# 
 name: >>I
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 7E 00 00 00
-# 
-name: >>I
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 7E 00 00 00
-# 
-name: ok
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 5E 00 00 00
 # 
 name: ok
 type: parsed
@@ -187,29 +97,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 34 00 00 00
 # 
-name: REW
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 34 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 12 00 00 00
-# 
-name: 2
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0B 00 00 00
 # 
 name: 2
 type: parsed
@@ -223,29 +115,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 33 00 00 00
 # 
-name: right
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 33 00 00 00
-# 
 name: display
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 2B 00 00 00
-# 
-name: display
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 2B 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0E 00 00 00
 # 
 name: 5
 type: parsed
@@ -259,29 +133,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 31 00 00 00
 # 
-name: ch+
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 31 00 00 00
-# 
 name: 3
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 0C 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0C 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 0F 00 00 00
 # 
 name: 6
 type: parsed
@@ -295,29 +151,11 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 2A 00 00 00
 # 
-name: V_INPUT
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 2A 00 00 00
-# 
 name: mute
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
 command: 14 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 14 00 00 00
-# 
-name: +10
-type: parsed
-protocol: SIRC15
-address: 54 00 00 00
-command: 7D 00 00 00
 # 
 name: +10
 type: parsed

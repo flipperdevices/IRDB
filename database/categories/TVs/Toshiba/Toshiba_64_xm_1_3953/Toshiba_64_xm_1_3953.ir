@@ -7,18 +7,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 52 00 00 00
 # 
-name: top menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 52 00 00 00
-# 
-name: aspect
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 6C 00 00 00
-# 
 name: aspect
 type: parsed
 protocol: NEC
@@ -26,18 +14,6 @@ address: 71 00 00 00
 command: 6C 00 00 00
 # 
 name: down
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 57 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 57 00 00 00
-# 
-name: ch-
 type: parsed
 protocol: NEC
 address: 71 00 00 00
@@ -55,24 +31,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 5F 00 00 00
 # 
-name: zoom
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5F 00 00 00
-# 
-name: home
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 55 00 00 00
-# 
-name: home
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 55 00 00 00
-# 
 name: home
 type: parsed
 protocol: NEC
@@ -85,24 +43,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 65 00 00 00
 # 
-name: skip-
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 65 00 00 00
-# 
-name: AUX 2
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4F 00 00 00
-# 
-name: AUX 2
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4F 00 00 00
-# 
 name: AUX 2
 type: parsed
 protocol: NEC
@@ -114,24 +54,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4D 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4D 00 00 00
-# 
-name: game
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 74 00 00 00
-# 
-name: game
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 74 00 00 00
 # 
 name: game
 type: parsed
@@ -145,35 +67,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 54 00 00 00
 # 
-name: return
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 54 00 00 00
-# 
 name: eject
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4B 00 00 00
-# 
-name: eject
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4B 00 00 00
-# 
-name: dtv
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 69 00 00 00
-# 
-name: dtv
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 69 00 00 00
 # 
 name: dtv
 type: parsed
@@ -187,18 +85,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 40 00 00 00
 # 
-name: 0
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 40 00 00 00
-# 
-name: dvd
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 69 00 00 00
-# 
 name: dvd
 type: parsed
 protocol: NEC
@@ -210,18 +96,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 5E 00 00 00
-# 
-name: b
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5E 00 00 00
-# 
-name: --
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4C 00 00 00
 # 
 name: --
 type: parsed
@@ -235,35 +109,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 44 00 00 00
 # 
-name: 4
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 44 00 00 00
-# 
 name: Quick Skip
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 5D 00 00 00
-# 
-name: Quick Skip
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5D 00 00 00
-# 
-name: Quick Skip
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5D 00 00 00
-# 
-name: skip+
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 64 00 00 00
 # 
 name: skip+
 type: parsed
@@ -277,41 +127,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 47 00 00 00
 # 
-name: 7
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 47 00 00 00
-# 
 name: Title (Top) Menu
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 52 00 00 00
-# 
-name: Title (Top) Menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 52 00 00 00
-# 
-name: Title (Top) Menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 52 00 00 00
-# 
-name: Skip Reverse
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 65 00 00 00
-# 
-name: Skip Reverse
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 65 00 00 00
 # 
 name: Skip Reverse
 type: parsed
@@ -325,29 +145,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 56 00 00 00
 # 
-name: up
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 56 00 00 00
-# 
 name: 1
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 41 00 00 00
-# 
-name: 1
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 41 00 00 00
-# 
-name: FF
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 62 00 00 00
 # 
 name: FF
 type: parsed
@@ -361,18 +163,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 48 00 00 00
 # 
-name: 8
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 48 00 00 00
-# 
-name: DVDMenu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 55 00 00 00
-# 
 name: DVDMenu
 type: parsed
 protocol: NEC
@@ -384,24 +174,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4A 00 00 00
-# 
-name: power
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4A 00 00 00
-# 
-name: sap
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4E 00 00 00
-# 
-name: sap
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4E 00 00 00
 # 
 name: sap
 type: parsed
@@ -415,29 +187,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 61 00 00 00
 # 
-name: stop
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 61 00 00 00
-# 
 name: 9
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 49 00 00 00
-# 
-name: 9
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 49 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 70 00 00 00
 # 
 name: vol-
 type: parsed
@@ -451,47 +205,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 5D 00 00 00
 # 
-name: CloseCaption
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5D 00 00 00
-# 
 name: Cancel
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4D 00 00 00
-# 
-name: Cancel
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4D 00 00 00
-# 
-name: Cancel
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4D 00 00 00
-# 
-name: zoom
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5F 00 00 00
-# 
-name: zoom
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5F 00 00 00
-# 
-name: ok
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5A 00 00 00
 # 
 name: ok
 type: parsed
@@ -505,29 +223,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 50 00 00 00
 # 
-name: Subtitle
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 50 00 00 00
-# 
 name: REW
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 63 00 00 00
-# 
-name: REW
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 63 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 73 00 00 00
 # 
 name: tv_av
 type: parsed
@@ -541,35 +241,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 6F 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 6F 00 00 00
-# 
 name: info
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4C 00 00 00
-# 
-name: info
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4C 00 00 00
-# 
-name: info
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4C 00 00 00
-# 
-name: 2
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 42 00 00 00
 # 
 name: 2
 type: parsed
@@ -583,65 +259,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 59 00 00 00
 # 
-name: right
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 59 00 00 00
-# 
-name: --
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4C 00 00 00
-# 
-name: --
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4C 00 00 00
-# 
 name: 5
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 45 00 00 00
-# 
-name: 5
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 45 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 68 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 68 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4D 00 00 00
-# 
-name: exit
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4D 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 68 00 00 00
 # 
 name: pause
 type: parsed
@@ -655,41 +277,11 @@ protocol: NEC
 address: 71 00 00 00
 command: 56 00 00 00
 # 
-name: ch+
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 56 00 00 00
-# 
 name: audio
 type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 4E 00 00 00
-# 
-name: audio
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 4E 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 73 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 73 00 00 00
-# 
-name: set
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 53 00 00 00
 # 
 name: set
 type: parsed
@@ -703,18 +295,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 60 00 00 00
 # 
-name: play
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 60 00 00 00
-# 
-name: 3
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 43 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC
@@ -726,24 +306,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 46 00 00 00
-# 
-name: 6
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 46 00 00 00
-# 
-name: last
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5F 00 00 00
-# 
-name: last
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5F 00 00 00
 # 
 name: last
 type: parsed
@@ -757,43 +319,7 @@ protocol: NEC
 address: 71 00 00 00
 command: 6B 00 00 00
 # 
-name: sleep
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 6B 00 00 00
-# 
-name: CloseCaption
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5D 00 00 00
-# 
-name: CloseCaption
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5D 00 00 00
-# 
 name: menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 53 00 00 00
-# 
-name: menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 53 00 00 00
-# 
-name: Setup Menu
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 53 00 00 00
-# 
-name: Setup Menu
 type: parsed
 protocol: NEC
 address: 71 00 00 00
@@ -810,18 +336,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 6A 00 00 00
-# 
-name: mute
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 6A 00 00 00
-# 
-name: left
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 58 00 00 00
 # 
 name: left
 type: parsed

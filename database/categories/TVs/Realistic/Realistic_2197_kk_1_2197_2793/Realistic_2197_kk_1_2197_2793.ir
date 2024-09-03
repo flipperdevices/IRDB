@@ -7,12 +7,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
-# 
 name: exit
 type: parsed
 protocol: Samsung32
@@ -79,23 +73,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 # 
-name: smart hub
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 79 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
-# 
-name: enter
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 44 00 00 00
 # 
 name: tv_av
 type: parsed
@@ -121,12 +103,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 # 
-name: vol-
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 02 00 00 00
-# 
 name: display
 type: parsed
 protocol: NEC
@@ -138,18 +114,6 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 15 00 00 00
-# 
-name: up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 00 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 01 00 00 00
 # 
 name: 3
 type: parsed
@@ -192,9 +156,3 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00

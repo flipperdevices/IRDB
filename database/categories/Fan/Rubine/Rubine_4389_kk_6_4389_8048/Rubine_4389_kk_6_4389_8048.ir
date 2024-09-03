@@ -37,12 +37,6 @@ protocol: NEC
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: power_r
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 05 00 00 00
-# 
 name: brightness+
 type: parsed
 protocol: NEC

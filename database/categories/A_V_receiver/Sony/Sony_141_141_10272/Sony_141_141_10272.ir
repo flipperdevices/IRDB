@@ -7,12 +7,6 @@ protocol: SIRC
 address: 10 00 00 00
 command: 6A 00 00 00
 # 
-name: tv
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 6A 00 00 00
-# 
 name: disco
 type: parsed
 protocol: SIRC15
@@ -25,18 +19,6 @@ protocol: SIRC
 address: 0C 00 00 00
 command: 79 00 00 00
 # 
-name: down
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 79 00 00 00
-# 
-name: radios
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 20 00 00 00
-# 
 name: radios
 type: parsed
 protocol: SIRC
@@ -48,18 +30,6 @@ type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 53 00 00 00
-# 
-name: into
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 53 00 00 00
-# 
-name: video3
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 42 00 00 00
 # 
 name: video3
 type: parsed
@@ -79,18 +49,6 @@ protocol: SIRC
 address: 12 00 00 00
 command: 2C 00 00 00
 # 
-name: eq
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 2C 00 00 00
-# 
-name: tune-up
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 10 00 00 00
-# 
 name: tune-up
 type: parsed
 protocol: SIRC
@@ -103,29 +61,11 @@ protocol: SIRC
 address: 12 00 00 00
 command: 55 00 00 00
 # 
-name: center-
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 55 00 00 00
-# 
 name: carried out
 type: parsed
 protocol: SIRC20
 address: 3A 09 00 00
 command: 0B 00 00 00
-# 
-name: carried out
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 0B 00 00 00
-# 
-name: bass
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 31 00 00 00
 # 
 name: bass
 type: parsed
@@ -145,29 +85,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 25 00 00 00
 # 
-name: cd
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 25 00 00 00
-# 
 name: am
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 0F 00 00 00
-# 
-name: am
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 0F 00 00 00
-# 
-name: 0
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 09 00 00 00
 # 
 name: 0
 type: parsed
@@ -181,29 +103,11 @@ protocol: SIRC
 address: 0D 00 00 00
 command: 03 00 00 00
 # 
-name: 4
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 03 00 00 00
-# 
 name: field
 type: parsed
 protocol: SIRC
 address: 0C 00 00 00
 command: 3F 00 00 00
-# 
-name: field
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 3F 00 00 00
-# 
-name: 7
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 06 00 00 00
 # 
 name: 7
 type: parsed
@@ -217,18 +121,6 @@ protocol: SIRC
 address: 12 00 00 00
 command: 54 00 00 00
 # 
-name: center+
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 54 00 00 00
-# 
-name: up
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 78 00 00 00
-# 
 name: up
 type: parsed
 protocol: SIRC
@@ -241,29 +133,11 @@ protocol: SIRC
 address: 0D 00 00 00
 command: 11 00 00 00
 # 
-name: tune-down
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 11 00 00 00
-# 
 name: tone
 type: parsed
 protocol: SIRC
 address: 12 00 00 00
 command: 4A 00 00 00
-# 
-name: tone
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 4A 00 00 00
-# 
-name: 1
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 00 00 00 00
 # 
 name: 1
 type: parsed
@@ -283,29 +157,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 7D 00 00 00
 # 
-name: dvd
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 7D 00 00 00
-# 
 name: video1
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 22 00 00 00
-# 
-name: video1
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 22 00 00 00
-# 
-name: 8
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 07 00 00 00
 # 
 name: 8
 type: parsed
@@ -325,29 +181,11 @@ protocol: SIRC
 address: 0D 00 00 00
 command: 08 00 00 00
 # 
-name: 9
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 08 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 13 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 13 00 00 00
-# 
-name: video2
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 1E 00 00 00
 # 
 name: video2
 type: parsed
@@ -361,29 +199,11 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 0E 00 00 00
 # 
-name: back
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 0E 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 12 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 12 00 00 00
-# 
-name: 2
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 01 00 00 00
 # 
 name: 2
 type: parsed
@@ -403,29 +223,11 @@ protocol: SIRC
 address: 0C 00 00 00
 command: 7B 00 00 00
 # 
-name: right
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 7B 00 00 00
-# 
 name: rear-
 type: parsed
 protocol: SIRC
 address: 12 00 00 00
 command: 4F 00 00 00
-# 
-name: rear-
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 4F 00 00 00
-# 
-name: 5
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 04 00 00 00
 # 
 name: 5
 type: parsed
@@ -445,29 +247,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 21 00 00 00
 # 
-name: diapason
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 21 00 00 00
-# 
 name: 3
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 02 00 00 00
-# 
-name: 3
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 02 00 00 00
-# 
-name: 6
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 05 00 00 00
 # 
 name: 6
 type: parsed
@@ -481,29 +265,11 @@ protocol: SIRC
 address: 10 00 00 00
 command: 23 00 00 00
 # 
-name: acr1
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 23 00 00 00
-# 
 name: rear+
 type: parsed
 protocol: SIRC
 address: 12 00 00 00
 command: 4E 00 00 00
-# 
-name: rear+
-type: parsed
-protocol: SIRC
-address: 12 00 00 00
-command: 4E 00 00 00
-# 
-name: sleep
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 60 00 00 00
 # 
 name: sleep
 type: parsed
@@ -517,18 +283,6 @@ protocol: SIRC20
 address: 3A 09 00 00
 command: 1B 00 00 00
 # 
-name: menu
-type: parsed
-protocol: SIRC20
-address: 3A 09 00 00
-command: 1B 00 00 00
-# 
-name: mute
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 14 00 00 00
-# 
 name: mute
 type: parsed
 protocol: SIRC
@@ -541,29 +295,11 @@ protocol: SIRC
 address: 0C 00 00 00
 command: 7A 00 00 00
 # 
-name: left
-type: parsed
-protocol: SIRC
-address: 0C 00 00 00
-command: 7A 00 00 00
-# 
 name: +10
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 33 00 00 00
-# 
-name: +10
-type: parsed
-protocol: SIRC
-address: 0D 00 00 00
-command: 33 00 00 00
-# 
-name: md
-type: parsed
-protocol: SIRC
-address: 10 00 00 00
-command: 69 00 00 00
 # 
 name: md
 type: parsed

@@ -157,18 +157,6 @@ protocol: NEC
 address: AF 00 00 00
 command: A4 00 00 00
 # 
-name: down
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 9D 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 9C 00 00 00
-# 
 name: 7
 type: parsed
 protocol: NEC
@@ -367,12 +355,6 @@ protocol: NEC
 address: AF 00 00 00
 command: 69 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 9C 00 00 00
-# 
 name: previousdisc
 type: parsed
 protocol: NEC
@@ -559,18 +541,6 @@ protocol: NEC
 address: AF 00 00 00
 command: 33 00 00 00
 # 
-name: disc
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 99 00 00 00
-# 
-name: disc
-type: parsed
-protocol: NEC
-address: AF 00 00 00
-command: B3 00 00 00
-# 
 name: cancel
 type: parsed
 protocol: NEC
@@ -654,18 +624,6 @@ type: parsed
 protocol: NEC
 address: AF 00 00 00
 command: A6 00 00 00
-# 
-name: b
-type: parsed
-protocol: NEC
-address: A3 00 00 00
-command: 99 00 00 00
-# 
-name: b
-type: parsed
-protocol: NEC
-address: AF 00 00 00
-command: E8 00 00 00
 # 
 name: program
 type: parsed

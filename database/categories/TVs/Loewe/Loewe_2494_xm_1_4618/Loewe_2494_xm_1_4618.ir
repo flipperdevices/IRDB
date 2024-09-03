@@ -109,12 +109,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 00 00 00 00
 # 
-name: yellow_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: teletext_r
 type: parsed
 protocol: RC5
@@ -139,23 +133,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 0A 00 00 00
 # 
-name: zoom
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: broadcast
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 35 00 00 00
-# 
-name: AV 1
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 32 00 00 00
 # 
 name: sat_r
 type: parsed
@@ -192,12 +174,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 25 00 00 00
-# 
-name: SV
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
 # 
 name: SV
 type: parsed
@@ -247,18 +223,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: component_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 38 00 00 00
-# 
-name: tuner_input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
 name: down_r
 type: parsed
 protocol: RC5
@@ -288,12 +252,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
-# 
-name: component
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: component
 type: parsed
@@ -349,18 +307,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 28 00 00 00
 # 
-name: SV_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
-# 
-name: tuner_input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
-# 
 name: Avs
 type: parsed
 protocol: RC5X
@@ -408,12 +354,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: end_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
 # 
 name: av2
 type: parsed
@@ -463,12 +403,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
 # 
-name: Avs
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 35 00 00 00
-# 
 name: red
 type: parsed
 protocol: RC5
@@ -493,23 +427,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 0A 00 00 00
 # 
-name: Marker
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 28 00 00 00
-# 
 name: 1_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: AV 3_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 33 00 00 00
 # 
 name: component2
 type: parsed
@@ -522,12 +444,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 39 00 00 00
-# 
-name: av2
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 33 00 00 00
 # 
 name: AV 5_r
 type: parsed
@@ -613,12 +529,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: red
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
@@ -637,18 +547,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
 # 
-name: Marker_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 28 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: vga
 type: parsed
 protocol: RC5X
@@ -661,23 +559,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: broadcast_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 35 00 00 00
-# 
-name: inputtv
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: 6
 type: parsed
@@ -715,12 +601,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 1E 00 00 00
 # 
-name: zoom
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: vga_r
 type: parsed
 protocol: RC5X
@@ -739,29 +619,11 @@ protocol: RC5X
 address: 00 00 00 00
 command: 1A 00 00 00
 # 
-name: av1_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 32 00 00 00
-# 
-name: yellow_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2B 00 00 00
-# 
 name: menu
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0B 00 00 00
-# 
-name: inputtv
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: mute
 type: parsed
@@ -775,23 +637,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: C-Set_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
-# 
 name: left
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: AV 6_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 35 00 00 00
 # 
 name: epg_r
 type: parsed

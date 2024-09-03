@@ -55,20 +55,8 @@ protocol: NEC
 address: 20 00 00 00
 command: 15 00 00 00
 # 
-name: usb
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: FF 00 00 00
-# 
 name: down
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 16 00 00 00
-# 
-name: usb
-type: parsed
-protocol: NEC
-address: 20 00 00 00
-command: FF 00 00 00

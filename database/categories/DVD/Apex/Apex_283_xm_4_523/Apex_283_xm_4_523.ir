@@ -139,12 +139,6 @@ protocol: NEC
 address: 01 00 00 00
 command: 09 00 00 00
 # 
-name: enter
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 0E 00 00 00
-# 
 name: 3
 type: parsed
 protocol: NEC
@@ -156,12 +150,6 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 41 00 00 00
-# 
-name: pause
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 09 00 00 00
 # 
 name: goto
 type: parsed

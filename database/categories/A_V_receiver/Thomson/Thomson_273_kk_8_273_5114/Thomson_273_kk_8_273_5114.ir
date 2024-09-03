@@ -7,18 +7,6 @@ protocol: RCA
 address: 0B 00 00 00
 command: 5C 00 00 00
 # 
-name: video
-type: parsed
-protocol: RCA
-address: 0B 00 00 00
-command: 5C 00 00 00
-# 
-name: down
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 44 00 00 00
-# 
 name: down
 type: parsed
 protocol: RCA
@@ -29,18 +17,6 @@ name: magnetic tape
 type: parsed
 protocol: RCA
 address: 09 00 00 00
-command: 5C 00 00 00
-# 
-name: magnetic tape
-type: parsed
-protocol: RCA
-address: 09 00 00 00
-command: 5C 00 00 00
-# 
-name: cd
-type: parsed
-protocol: RCA
-address: 01 00 00 00
 command: 5C 00 00 00
 # 
 name: cd
@@ -55,29 +31,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 34 00 00 00
 # 
-name: skip back
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 34 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 0C 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 0C 00 00 00
-# 
-name: sat
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 5C 00 00 00
 # 
 name: sat
 type: parsed
@@ -91,29 +49,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 2C 00 00 00
 # 
-name: 4
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 2C 00 00 00
-# 
 name: 7
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: EC 00 00 00
-# 
-name: 7
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: EC 00 00 00
-# 
-name: up
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 04 00 00 00
 # 
 name: up
 type: parsed
@@ -127,29 +67,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 8C 00 00 00
 # 
-name: 1
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 8C 00 00 00
-# 
 name: dvd
 type: parsed
 protocol: RCA
 address: 0A 00 00 00
 command: 5C 00 00 00
-# 
-name: dvd
-type: parsed
-protocol: RCA
-address: 0A 00 00 00
-command: 5C 00 00 00
-# 
-name: FF
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: 38 00 00 00
 # 
 name: FF
 type: parsed
@@ -163,29 +85,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 1C 00 00 00
 # 
-name: 8
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 1C 00 00 00
-# 
 name: power
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 54 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 54 00 00 00
-# 
-name: stop
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: F8 00 00 00
 # 
 name: stop
 type: parsed
@@ -199,29 +103,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 9C 00 00 00
 # 
-name: 9
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 9C 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 74 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 74 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: F4 00 00 00
 # 
 name: vol+
 type: parsed
@@ -235,29 +121,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 4C 00 00 00
 # 
-name: 2
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 4C 00 00 00
-# 
 name: right
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: A6 00 00 00
-# 
-name: right
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: A6 00 00 00
-# 
-name: 5
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: AC 00 00 00
 # 
 name: 5
 type: parsed
@@ -271,29 +139,11 @@ protocol: RCA
 address: 01 00 00 00
 command: 98 00 00 00
 # 
-name: pause
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: 98 00 00 00
-# 
 name: skip forward
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: B4 00 00 00
-# 
-name: skip forward
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: B4 00 00 00
-# 
-name: play
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: A8 00 00 00
 # 
 name: play
 type: parsed
@@ -307,29 +157,11 @@ protocol: RCA
 address: 03 00 00 00
 command: CC 00 00 00
 # 
-name: 3
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: CC 00 00 00
-# 
 name: tuner_input
 type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: 5C 00 00 00
-# 
-name: tuner_input
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 5C 00 00 00
-# 
-name: 6
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 6C 00 00 00
 # 
 name: 6
 type: parsed
@@ -343,18 +175,6 @@ protocol: RCA
 address: 03 00 00 00
 command: 1A 00 00 00
 # 
-name: selection
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 1A 00 00 00
-# 
-name: last
-type: parsed
-protocol: RCA
-address: 01 00 00 00
-command: B8 00 00 00
-# 
 name: last
 type: parsed
 protocol: RCA
@@ -366,18 +186,6 @@ type: parsed
 protocol: RCA
 address: 03 00 00 00
 command: FC 00 00 00
-# 
-name: mute
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: FC 00 00 00
-# 
-name: left
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 26 00 00 00
 # 
 name: left
 type: parsed

@@ -37,12 +37,6 @@ protocol: NECext
 address: 48 50 00 00
 command: 02 FD 00 00
 # 
-name: narrow screen
-type: parsed
-protocol: NECext
-address: 48 50 00 00
-command: FF 00 00 00
-# 
 name: back
 type: parsed
 protocol: NECext
@@ -85,12 +79,6 @@ protocol: NECext
 address: 48 50 00 00
 command: FF 00 00 00
 # 
-name: pause
-type: parsed
-protocol: NECext
-address: 48 50 00 00
-command: FF 00 00 00
-# 
 name: auto sync
 type: parsed
 protocol: NECext
@@ -98,12 +86,6 @@ address: 48 50 00 00
 command: 15 EA 00 00
 # 
 name: zoom_down
-type: parsed
-protocol: NECext
-address: 48 50 00 00
-command: FF 00 00 00
-# 
-name: Bright
 type: parsed
 protocol: NECext
 address: 48 50 00 00

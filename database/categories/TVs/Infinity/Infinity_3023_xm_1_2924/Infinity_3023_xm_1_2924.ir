@@ -19,12 +19,6 @@ protocol: RC5
 address: 05 00 00 00
 command: 36 00 00 00
 # 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
 name: down
 type: parsed
 protocol: RC5
@@ -79,12 +73,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: forward_r
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 34 00 00 00
-# 
 name: menu_r
 type: parsed
 protocol: RC5
@@ -138,12 +126,6 @@ type: parsed
 protocol: RC5
 address: 05 00 00 00
 command: 36 00 00 00
-# 
-name: REW_r
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 32 00 00 00
 # 
 name: up_r
 type: parsed
@@ -235,18 +217,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 31 00 00 00
-# 
 name: 1_r
 type: parsed
 protocol: RC5
@@ -307,12 +277,6 @@ protocol: RC5
 address: 05 00 00 00
 command: 02 00 00 00
 # 
-name: forward
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 34 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
@@ -343,24 +307,6 @@ protocol: RC5
 address: 05 00 00 00
 command: 03 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 00 00 00 00
-# 
-name: up_r
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 35 00 00 00
-# 
 name: 3
 type: parsed
 protocol: RC5
@@ -379,23 +325,11 @@ protocol: RC5
 address: 05 00 00 00
 command: 3C 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 35 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 05 00 00 00
 command: 08 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
 # 
 name: last
 type: parsed
@@ -426,15 +360,3 @@ type: parsed
 protocol: RC5
 address: 05 00 00 00
 command: 09 00 00 00
-# 
-name: REW
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 32 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC5
-address: 05 00 00 00
-command: 31 00 00 00

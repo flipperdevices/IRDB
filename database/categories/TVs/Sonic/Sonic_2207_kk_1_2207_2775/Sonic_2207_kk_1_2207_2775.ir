@@ -25,18 +25,6 @@ protocol: SIRC15
 address: E4 00 00 00
 command: 3B 00 00 00
 # 
-name: forward
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3B 00 00 00
-# 
-name: forward
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3B 00 00 00
-# 
 name: 0
 type: raw
 frequency: 37000
@@ -85,18 +73,6 @@ protocol: SIRC15
 address: E4 00 00 00
 command: 38 00 00 00
 # 
-name: stop
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 38 00 00 00
-# 
-name: stop
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 38 00 00 00
-# 
 name: 9
 type: raw
 frequency: 37000
@@ -120,30 +96,6 @@ type: parsed
 protocol: SIRC15
 address: C4 00 00 00
 command: 60 00 00 00
-# 
-name: record
-type: parsed
-protocol: SIRC15
-address: C4 00 00 00
-command: 60 00 00 00
-# 
-name: record
-type: parsed
-protocol: SIRC15
-address: C4 00 00 00
-command: 60 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3A 00 00 00
-# 
-name: REW
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 3A 00 00 00
 # 
 name: REW
 type: parsed
@@ -175,35 +127,11 @@ protocol: SIRC15
 address: E4 00 00 00
 command: 39 00 00 00
 # 
-name: pause
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 39 00 00 00
-# 
-name: pause
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 39 00 00 00
-# 
 name: ch+
 type: raw
 frequency: 37000
 duty_cycle: 0.330000
 data: 421 1237 421 1237 421 1237 1289 395 421 1237 421 1237 421 1237 421 1237 421 1237 421 1237 1289 395 421 34921 421 1237 421 1237 421 1237 1289 395 421 1237 421 1237 421 1237 421 1237 421 1237 421 1237 1289 395 421 88789 421 1237 421 1237 421 1237 1289 395 421 1237 421 1237 421 1237 421 1237 421 1237 421 1237 1289 395 421 34921 421 1237 421 1237 421 1237 1289 395 421 1237 421 1237 421 1237 421 1237 421 1237 421 1237 1289 395 421 99500
-# 
-name: play
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 32 00 00 00
-# 
-name: play
-type: parsed
-protocol: SIRC15
-address: E4 00 00 00
-command: 32 00 00 00
 # 
 name: play
 type: parsed

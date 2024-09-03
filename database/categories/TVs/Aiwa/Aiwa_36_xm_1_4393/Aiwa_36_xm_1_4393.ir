@@ -7,18 +7,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 54 AB 00 00
 # 
-name: SKIP_SEARCH
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 54 AB 00 00
-# 
-name: ZERO_RETURN
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 1B E4 00 00
-# 
 name: ZERO_RETURN
 type: parsed
 protocol: NECext
@@ -30,18 +18,6 @@ type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 4C B3 00 00
-# 
-name: CAP/TEXT
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 4C B3 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 54 AB 00 00
 # 
 name: down
 type: parsed
@@ -61,29 +37,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 1D E2 00 00
 # 
-name: QUICK_VIEW
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 1D E2 00 00
-# 
 name: exit
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 16 E9 00 00
-# 
-name: exit
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 16 E9 00 00
-# 
-name: call
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 42 BD 00 00
 # 
 name: call
 type: parsed
@@ -97,18 +55,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 18 E7 00 00
 # 
-name: speed
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 18 E7 00 00
-# 
-name: _
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 46 B9 00 00
-# 
 name: _
 type: parsed
 protocol: NECext
@@ -120,30 +66,6 @@ type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 51 AE 00 00
-# 
-name: eject
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 51 AE 00 00
-# 
-name: eject
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 51 AE 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 00 FF 00 00
-# 
-name: 0
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 00 FF 00 00
 # 
 name: 0
 type: parsed
@@ -163,35 +85,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 0E F1 00 00
 # 
-name: OTR
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0E F1 00 00
-# 
 name: 7
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 07 F8 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 07 F8 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 07 F8 00 00
-# 
-name: TRACKING+
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 55 AA 00 00
 # 
 name: TRACKING+
 type: parsed
@@ -205,18 +103,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 43 BC 00 00
 # 
-name: _Select
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 5C A3 00 00
-# 
 name: up
 type: parsed
 protocol: NECext
@@ -228,30 +114,6 @@ type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 43 BC 00 00
-# 
-name: vcr
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
-# 
-name: vcr
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
-# 
-name: 1
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 01 FE 00 00
-# 
-name: 1
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 01 FE 00 00
 # 
 name: 1
 type: parsed
@@ -271,18 +133,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 11 EE 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 11 EE 00 00
-# 
-name: FF
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 11 EE 00 00
-# 
 name: 8
 type: raw
 frequency: 38000
@@ -295,24 +145,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 49 B6 00 00
 # 
-name: power
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 49 B6 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 49 B6 00 00
-# 
-name: TV_MONI_
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 4F B0 00 00
-# 
 name: TV_MONI_
 type: parsed
 protocol: NECext
@@ -325,47 +157,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 10 EF 00 00
 # 
-name: stop
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 10 EF 00 00
-# 
-name: stop
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 10 EF 00 00
-# 
 name: 9
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 09 F6 00 00
-# 
-name: 9
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 09 F6 00 00
-# 
-name: 9
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 09 F6 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0D F2 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0D F2 00 00
 # 
 name: vol-
 type: parsed
@@ -379,18 +175,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 13 EC 00 00
 # 
-name: STILL
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 13 EC 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 15 EA 00 00
-# 
 name: ok
 type: parsed
 protocol: NECext
@@ -403,41 +187,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 0E F1 00 00
 # 
-name: record
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0E F1 00 00
-# 
-name: record
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0E F1 00 00
-# 
 name: REW
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 12 ED 00 00
-# 
-name: REW
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 12 ED 00 00
-# 
-name: REW
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 12 ED 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
 # 
 name: tv_av
 type: parsed
@@ -457,29 +211,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 1C E3 00 00
 # 
-name: Counter_Reset
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 1C E3 00 00
-# 
 name: info
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 42 BD 00 00
-# 
-name: info
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 42 BD 00 00
-# 
-name: TIMER_REC
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 17 E8 00 00
 # 
 name: TIMER_REC
 type: parsed
@@ -493,35 +229,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 11 EE 00 00
 # 
-name: F_FWD
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 11 EE 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 02 FD 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 02 FD 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 02 FD 00 00
-# 
-name: right
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 55 AA 00 00
 # 
 name: right
 type: parsed
@@ -541,24 +253,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 13 EC 00 00
 # 
-name: pause
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 13 EC 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 13 EC 00 00
-# 
-name: cancel
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 16 E9 00 00
-# 
 name: cancel
 type: parsed
 protocol: NECext
@@ -570,30 +264,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9026 4500 605 474 605 1553 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 1553 605 1553 605 1553 605 1553 605 42921 9026 4500 605 474 605 1553 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 1553 605 1553 605 1553 605 1553 605 42921 9026 4500 605 474 605 1553 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 474 605 474 605 474 605 1553 605 474 605 1553 605 474 605 1553 605 1553 605 1553 605 1553 605 100000
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 43 BC 00 00
-# 
-name: play
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0F F0 00 00
-# 
-name: play
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 0F F0 00 00
 # 
 name: play
 type: parsed
@@ -619,12 +289,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 17 E8 00 00
 # 
-name: program-guide
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 17 E8 00 00
-# 
 name: program
 type: raw
 frequency: 38000
@@ -637,41 +301,11 @@ protocol: NECext
 address: 86 02 00 00
 command: 1D E2 00 00
 # 
-name: last
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 1D E2 00 00
-# 
 name: sleep
 type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 41 BE 00 00
-# 
-name: sleep
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 41 BE 00 00
-# 
-name: sleep
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 41 BE 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 52 AD 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 52 AD 00 00
 # 
 name: menu
 type: parsed
@@ -685,18 +319,6 @@ protocol: NECext
 address: 86 02 00 00
 command: 40 BF 00 00
 # 
-name: mute
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 40 BF 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 56 A9 00 00
-# 
 name: left
 type: parsed
 protocol: NECext
@@ -708,18 +330,6 @@ type: parsed
 protocol: NECext
 address: 86 02 00 00
 command: 56 A9 00 00
-# 
-name: TRACKING-
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 56 A9 00 00
-# 
-name: AUTO_TRACKING
-type: parsed
-protocol: NECext
-address: 86 02 00 00
-command: 48 B7 00 00
 # 
 name: AUTO_TRACKING
 type: parsed

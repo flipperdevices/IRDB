@@ -7,29 +7,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: CA 35 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: CA 35 00 00
-# 
 name: ch-
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: DC 23 00 00
-# 
-name: ch-
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DC 23 00 00
-# 
-name: pip
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 96 69 00 00
 # 
 name: pip
 type: parsed
@@ -43,29 +25,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 91 6E 00 00
 # 
-name: Page+
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 91 6E 00 00
-# 
 name: av1
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: D0 2F 00 00
-# 
-name: av1
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D0 2F 00 00
-# 
-name: favorites
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C5 3A 00 00
 # 
 name: favorites
 type: parsed
@@ -79,29 +43,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 8F 70 00 00
 # 
-name: 0
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 8F 70 00 00
-# 
 name: 4
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: 97 68 00 00
-# 
-name: 4
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 97 68 00 00
-# 
-name: 100
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DE 21 00 00
 # 
 name: 100
 type: parsed
@@ -115,29 +61,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 9B 64 00 00
 # 
-name: 7
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 9B 64 00 00
-# 
 name: up
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: C2 3D 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C2 3D 00 00
-# 
-name: 1
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 93 6C 00 00
 # 
 name: 1
 type: parsed
@@ -151,29 +79,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 9E 61 00 00
 # 
-name: FF
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 9E 61 00 00
-# 
 name: hdmi
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: CB 34 00 00
-# 
-name: hdmi
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: CB 34 00 00
-# 
-name: 8
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DA 25 00 00
 # 
 name: 8
 type: parsed
@@ -187,29 +97,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: C0 3F 00 00
 # 
-name: power
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C0 3F 00 00
-# 
 name: 9
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: DB 24 00 00
-# 
-name: 9
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DB 24 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D4 2B 00 00
 # 
 name: vol-
 type: parsed
@@ -223,29 +115,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: D9 26 00 00
 # 
-name: bilingual
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D9 26 00 00
-# 
 name: Chromatic Aberration 1
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: 9E 61 00 00
-# 
-name: Chromatic Aberration 1
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 9E 61 00 00
-# 
-name: ok
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C6 39 00 00
 # 
 name: ok
 type: parsed
@@ -259,29 +133,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 85 7A 00 00
 # 
-name: Chromatic Aberration 2
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 85 7A 00 00
-# 
 name: REW
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: CB 34 00 00
-# 
-name: REW
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: CB 34 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C9 36 00 00
 # 
 name: tv_av
 type: parsed
@@ -295,29 +151,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: CC 33 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: CC 33 00 00
-# 
 name: TELEVISION
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: 8E 71 00 00
-# 
-name: TELEVISION
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 8E 71 00 00
-# 
-name: 2
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D2 2D 00 00
 # 
 name: 2
 type: parsed
@@ -331,29 +169,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: CE 31 00 00
 # 
-name: right
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: CE 31 00 00
-# 
 name: position
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: 86 79 00 00
-# 
-name: position
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 86 79 00 00
-# 
-name: 5
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D6 29 00 00
 # 
 name: 5
 type: parsed
@@ -367,29 +187,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: C1 3E 00 00
 # 
-name: still
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C1 3E 00 00
-# 
 name: ch+
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: D8 27 00 00
-# 
-name: ch+
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D8 27 00 00
-# 
-name: page_up
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 8A 75 00 00
 # 
 name: page_up
 type: parsed
@@ -403,41 +205,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: C8 37 00 00
 # 
-name: contents
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C8 37 00 00
-# 
 name: wide
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: DD 22 00 00
-# 
-name: wide
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DD 22 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C9 36 00 00
-# 
-name: tv_av
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C9 36 00 00
-# 
-name: page_down
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 85 7A 00 00
 # 
 name: page_down
 type: parsed
@@ -451,29 +223,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 8A 75 00 00
 # 
-name: vga
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 8A 75 00 00
-# 
 name: 3
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: D3 2C 00 00
-# 
-name: 3
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D3 2C 00 00
-# 
-name: exchange
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D5 2A 00 00
 # 
 name: exchange
 type: parsed
@@ -487,29 +241,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: DE 21 00 00
 # 
-name: +100
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DE 21 00 00
-# 
 name: 6
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: D7 28 00 00
-# 
-name: 6
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D7 28 00 00
-# 
-name: sub-source
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 82 7D 00 00
 # 
 name: sub-source
 type: parsed
@@ -523,29 +259,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: 95 6A 00 00
 # 
-name: Page-
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 95 6A 00 00
-# 
 name: last
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: DF 20 00 00
-# 
-name: last
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: DF 20 00 00
-# 
-name: sleep
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: D1 2E 00 00
 # 
 name: sleep
 type: parsed
@@ -559,29 +277,11 @@ protocol: NECext
 address: 00 2B 00 00
 command: C8 37 00 00
 # 
-name: menu
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C8 37 00 00
-# 
 name: mute
 type: parsed
 protocol: NECext
 address: 00 2B 00 00
 command: C4 3B 00 00
-# 
-name: mute
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: C4 3B 00 00
-# 
-name: left
-type: parsed
-protocol: NECext
-address: 00 2B 00 00
-command: 9A 65 00 00
 # 
 name: left
 type: parsed

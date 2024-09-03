@@ -97,18 +97,6 @@ protocol: NEC42
 address: 1E 01 00 00
 command: 0C 00 00 00
 # 
-name: timer
-type: parsed
-protocol: NEC42
-address: 1E 01 00 00
-command: 0D 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC42
-address: 1E 01 00 00
-command: 00 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: NEC42
@@ -144,12 +132,6 @@ type: parsed
 protocol: NEC42
 address: 1E 01 00 00
 command: 15 00 00 00
-# 
-name: down
-type: parsed
-protocol: NEC42
-address: 1E 01 00 00
-command: 00 00 00 00
 # 
 name: ch+
 type: parsed

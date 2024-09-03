@@ -13,12 +13,6 @@ protocol: NECext
 address: 08 E6 00 00
 command: 0C F3 00 00
 # 
-name: rew
-type: parsed
-protocol: NECext
-address: 08 E6 00 00
-command: 4E B1 00 00
-# 
 name: ff
 type: parsed
 protocol: NECext
@@ -91,12 +85,6 @@ protocol: NECext
 address: 08 E6 00 00
 command: 42 BD 00 00
 # 
-name: ff
-type: parsed
-protocol: NECext
-address: 08 E6 00 00
-command: 4D B2 00 00
-# 
 name: 2
 type: parsed
 protocol: NECext
@@ -120,12 +108,6 @@ type: parsed
 protocol: NECext
 address: 08 E6 00 00
 command: 0F F0 00 00
-# 
-name: standby
-type: parsed
-protocol: NECext
-address: 08 E6 00 00
-command: 0C F3 00 00
 # 
 name: play
 type: parsed

@@ -73,12 +73,6 @@ protocol: NECext
 address: 02 FF 00 00
 command: 9B 64 00 00
 # 
-name: enter
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: 9B 64 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
@@ -109,18 +103,6 @@ protocol: NECext
 address: 02 FF 00 00
 command: D9 26 00 00
 # 
-name: 9
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: 9F 60 00 00
-# 
-name: up
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: D8 27 00 00
-# 
 name: pause
 type: parsed
 protocol: NECext
@@ -138,12 +120,6 @@ type: parsed
 protocol: NECext
 address: 02 FF 00 00
 command: DD 22 00 00
-# 
-name: recall
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: DC 23 00 00
 # 
 name: a-b
 type: parsed
@@ -168,15 +144,3 @@ type: parsed
 protocol: NECext
 address: 02 FF 00 00
 command: 9E 61 00 00
-# 
-name: 7
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: 97 68 00 00
-# 
-name: menu
-type: parsed
-protocol: NECext
-address: 02 FF 00 00
-command: 96 69 00 00

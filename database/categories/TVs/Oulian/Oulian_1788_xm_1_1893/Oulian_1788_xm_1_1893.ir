@@ -19,18 +19,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: 0
 type: parsed
 protocol: RC5
@@ -60,18 +48,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: menu_r
 type: parsed
@@ -109,23 +85,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 21 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: 7_r
 type: parsed
@@ -181,12 +145,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: ok_r
 type: parsed
 protocol: RC5
@@ -198,12 +156,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
-# 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: stop_r
 type: parsed
@@ -222,12 +174,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
-# 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: vol+_r
 type: parsed
@@ -259,23 +205,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 3F 00 00 00
 # 
-name: 0
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: 2_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: vol-
 type: parsed
@@ -295,35 +229,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
-# 
 name: cancel
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3F 00 00 00
 # 
-name: ch+_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
-# 
 name: fast_forward_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 34 00 00 00
-# 
-name: rewind
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 37 00 00 00
 # 
 name: play
 type: parsed
@@ -336,18 +252,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
-# 
-name: 6_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 06 00 00 00
-# 
-name: 0_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 00 00 00 00
 # 
 name: 8
 type: parsed

@@ -151,12 +151,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: audio
 type: parsed
 protocol: RC5
@@ -283,12 +277,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 35 00 00 00
 # 
-name: last
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
 name: menu_r
 type: parsed
 protocol: RC5
@@ -300,12 +288,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0E 00 00 00
-# 
-name: enter
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00
 # 
 name: pip_r
 type: parsed
@@ -415,12 +397,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: play
 type: parsed
 protocol: RC5
@@ -498,9 +474,3 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3C 00 00 00
-# 
-name: ok_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 35 00 00 00

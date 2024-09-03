@@ -37,12 +37,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 1C 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
-# 
 name: 4_r
 type: parsed
 protocol: RC5
@@ -199,12 +193,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 33 00 00 00
 # 
-name: Number Enter
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
-# 
 name: textoff_r
 type: parsed
 protocol: RC5
@@ -216,12 +204,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
-# 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 27 00 00 00
 # 
 name: Text Update
 type: parsed
@@ -240,12 +222,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
 # 
 name: left_r
 type: parsed
@@ -270,12 +246,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 17 00 00 00
-# 
-name: PC
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
 # 
 name: Text Update_r
 type: parsed
@@ -367,12 +337,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 19 00 00 00
 # 
-name: texthold_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
-# 
 name: vol-
 type: parsed
 protocol: RC5
@@ -390,12 +354,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2F 00 00 00
-# 
-name: up_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1C 00 00 00
 # 
 name: back
 type: parsed
@@ -432,12 +390,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 33 00 00 00
-# 
-name: --_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1A 00 00 00
 # 
 name: left_r
 type: parsed
@@ -481,18 +433,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: texton
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2F 00 00 00
-# 
-name: texton_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2F 00 00 00
-# 
 name: 0_r
 type: parsed
 protocol: RC5
@@ -511,29 +451,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1C 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 24 00 00 00
-# 
 name: picture mode
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 842 816 1711 816 842 816 842 816 842 816 842 816 842 816 842 816 842 816 842 816 842 1632 1711 86366 842 816 1711 816 842 816 842 816 842 816 842 816 842 816 842 816 842 816 842 816 842 1632 1711 86366
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: guide_r
 type: parsed
@@ -546,18 +468,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0E 00 00 00
-# 
-name: guide
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
-# 
-name: ch-_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
 # 
 name: 5
 type: parsed
@@ -589,12 +499,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0B 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 1B 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
@@ -607,23 +511,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 33 00 00 00
 # 
-name: pip
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 2A 00 00 00
-# 
 name: picture mode_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: Text Index_ Bookmark
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 06 00 00 00
 # 
 name: Subtitle
 type: parsed
@@ -655,47 +547,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: guide_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 31 00 00 00
-# 
-name: help_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 06 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: back
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 27 00 00 00
-# 
-name: PC_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
-# 
 name: purple_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 2F 00 00 00
-# 
-name: texthold
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 29 00 00 00
 # 
 name: mute
 type: parsed
@@ -714,12 +576,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 26 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 25 00 00 00
 # 
 name: power_r
 type: parsed

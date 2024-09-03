@@ -7,12 +7,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 10 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 10 00 00 00
-# 
 name: timer
 type: parsed
 protocol: Samsung32
@@ -97,29 +91,11 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 18 00 00 00
 # 
-name: timer
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 15 00 00 00
-# 
 name: menu
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 1C 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0F 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 0F 00 00 00
 # 
 name: vol+
 type: parsed
@@ -132,12 +108,6 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 01 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 13 00 00 00
 # 
 name: display
 type: parsed
@@ -157,12 +127,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 1D 00 00 00
 # 
-name: up
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 11 00 00 00
-# 
 name: 3
 type: parsed
 protocol: Samsung32
@@ -175,12 +139,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 05 00 00 00
 # 
-name: pic
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1D 00 00 00
-# 
 name: vga_pc
 type: parsed
 protocol: Samsung32
@@ -192,9 +150,3 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 14 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 12 00 00 00

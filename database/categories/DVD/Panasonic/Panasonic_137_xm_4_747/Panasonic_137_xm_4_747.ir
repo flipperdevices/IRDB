@@ -49,12 +49,6 @@ protocol: Kaseikyo
 address: B0 02 20 03
 command: 20 00 00 00
 # 
-name: pre_r
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: 90 00 00 00
-# 
 name: ff
 type: parsed
 protocol: Kaseikyo
@@ -84,12 +78,6 @@ type: parsed
 protocol: Kaseikyo
 address: B0 02 20 01
 command: 00 02 00 00
-# 
-name: inputds
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: B0 02 00 00
 # 
 name: 7
 type: parsed
@@ -168,12 +156,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
-# 
-name: next_r
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 01
-command: A0 00 00 00
 # 
 name: poweroff
 type: parsed

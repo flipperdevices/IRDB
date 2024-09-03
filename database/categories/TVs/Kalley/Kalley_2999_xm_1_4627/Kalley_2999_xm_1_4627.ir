@@ -7,18 +7,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 89 00 00 00
 # 
-name: Split
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 89 00 00 00
-# 
-name: pipinput
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A7 00 00 00
-# 
 name: pipinput
 type: parsed
 protocol: RCA
@@ -30,24 +18,6 @@ type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 09 00 00 00
-# 
-name: aspect
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 09 00 00 00
-# 
-name: down
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1A 00 00 00
-# 
-name: down
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1A 00 00 00
 # 
 name: down
 type: parsed
@@ -61,35 +31,11 @@ protocol: RCA
 address: 0E 00 00 00
 command: 5C 00 00 00
 # 
-name: s-video
-type: parsed
-protocol: RCA
-address: 0E 00 00 00
-command: 5C 00 00 00
-# 
 name: ch-
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 34 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 34 00 00 00
-# 
-name: ch-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 34 00 00 00
-# 
-name: PipSize
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A3 00 00 00
 # 
 name: PipSize
 type: parsed
@@ -103,18 +49,6 @@ protocol: RCA
 address: 07 00 00 00
 command: 5C 00 00 00
 # 
-name: video3
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 5C 00 00 00
-# 
-name: PipFreeze
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 30 00 00 00
-# 
 name: PipFreeze
 type: parsed
 protocol: RCA
@@ -127,41 +61,11 @@ protocol: RCA
 address: 07 00 00 00
 command: E2 00 00 00
 # 
-name: front
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: E2 00 00 00
-# 
 name: f1
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: A0 00 00 00
-# 
-name: f1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
-name: f1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
-name: sound effects
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5A 00 00 00
-# 
-name: sound effects
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5A 00 00 00
 # 
 name: sound effects
 type: parsed
@@ -175,24 +79,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 49 00 00 00
 # 
-name: popmenu
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 49 00 00 00
-# 
-name: timer
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E0 00 00 00
-# 
-name: timer
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E0 00 00 00
-# 
 name: timer
 type: parsed
 protocol: RCA
@@ -205,41 +91,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 60 00 00 00
 # 
-name: exit
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 60 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 60 00 00 00
-# 
 name: diaplasis
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: E8 00 00 00
-# 
-name: diaplasis
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E8 00 00 00
-# 
-name: diaplasis
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E8 00 00 00
-# 
-name: PIPMove
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 28 00 00 00
 # 
 name: PIPMove
 type: parsed
@@ -253,35 +109,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 48 00 00 00
 # 
-name: reset
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 48 00 00 00
-# 
 name: pip
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: D8 00 00 00
-# 
-name: pip
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: D8 00 00 00
-# 
-name: game
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A8 00 00 00
-# 
-name: game
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A8 00 00 00
 # 
 name: game
 type: parsed
@@ -295,35 +127,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 09 00 00 00
 # 
-name: cinema
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 09 00 00 00
-# 
 name: vid
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 47 00 00 00
-# 
-name: vid
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 47 00 00 00
-# 
-name: yellow
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 80 00 00 00
-# 
-name: yellow
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 80 00 00 00
 # 
 name: yellow
 type: parsed
@@ -337,18 +145,6 @@ protocol: RCA
 address: 0B 00 00 00
 command: 10 00 00 00
 # 
-name: MenuOff
-type: parsed
-protocol: RCA
-address: 0B 00 00 00
-command: 10 00 00 00
-# 
-name: Screen16x9
-type: parsed
-protocol: RCA
-address: 0B 00 00 00
-command: EA 00 00 00
-# 
 name: Screen16x9
 type: parsed
 protocol: RCA
@@ -361,41 +157,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 8B 00 00 00
 # 
-name: 100+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 8B 00 00 00
-# 
 name: green
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 20 00 00 00
-# 
-name: green
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 20 00 00 00
-# 
-name: green
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 20 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 0C 00 00 00
-# 
-name: 0
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 0C 00 00 00
 # 
 name: 0
 type: parsed
@@ -409,18 +175,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 8D 00 00 00
 # 
-name: PipOff
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 8D 00 00 00
-# 
-name: rgb
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 51 00 00 00
-# 
 name: rgb
 type: parsed
 protocol: RCA
@@ -432,30 +186,6 @@ type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 02 00 00 00
-# 
-name: --
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 02 00 00 00
-# 
-name: --
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 02 00 00 00
-# 
-name: 4
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2C 00 00 00
-# 
-name: 4
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2C 00 00 00
 # 
 name: 4
 type: parsed
@@ -469,18 +199,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: 58 00 00 00
 # 
-name: guide
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 58 00 00 00
-# 
-name: pip swap
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C3 00 00 00
-# 
 name: pip swap
 type: parsed
 protocol: RCA
@@ -493,30 +211,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: EC 00 00 00
 # 
-name: 7
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: EC 00 00 00
-# 
-name: 7
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: EC 00 00 00
-# 
-name: up
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 9A 00 00 00
-# 
-name: up
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 9A 00 00 00
-# 
 name: up
 type: parsed
 protocol: RCA
@@ -528,30 +222,6 @@ type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: CA 00 00 00
-# 
-name: epg
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CA 00 00 00
-# 
-name: epg
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CA 00 00 00
-# 
-name: 1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 8C 00 00 00
-# 
-name: 1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 8C 00 00 00
 # 
 name: 1
 type: parsed
@@ -565,29 +235,11 @@ protocol: RCA
 address: 0E 00 00 00
 command: 2F 00 00 00
 # 
-name: enter
-type: parsed
-protocol: RCA
-address: 0E 00 00 00
-command: 2F 00 00 00
-# 
 name: surround
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 5A 00 00 00
-# 
-name: surround
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5A 00 00 00
-# 
-name: video1
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 11 00 00 00
 # 
 name: video1
 type: parsed
@@ -601,24 +253,6 @@ protocol: RCA
 address: 07 00 00 00
 command: 38 00 00 00
 # 
-name: FF
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 38 00 00 00
-# 
-name: aspect ratio
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 58 00 00 00
-# 
-name: aspect ratio
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 58 00 00 00
-# 
 name: aspect ratio
 type: parsed
 protocol: RCA
@@ -631,47 +265,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 1C 00 00 00
 # 
-name: 8
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1C 00 00 00
-# 
-name: 8
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 1C 00 00 00
-# 
 name: multimedia
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 40 00 00 00
-# 
-name: multimedia
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 40 00 00 00
-# 
-name: multimedia
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 40 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 54 00 00 00
-# 
-name: power
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 54 00 00 00
 # 
 name: power
 type: parsed
@@ -685,41 +283,11 @@ protocol: RCA
 address: 07 00 00 00
 command: F8 00 00 00
 # 
-name: stop
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: F8 00 00 00
-# 
 name: 9
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 9C 00 00 00
-# 
-name: 9
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 9C 00 00 00
-# 
-name: 9
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 9C 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 74 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 74 00 00 00
 # 
 name: vol-
 type: parsed
@@ -733,47 +301,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: B8 00 00 00
 # 
-name: calendar
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B8 00 00 00
-# 
-name: calendar
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B8 00 00 00
-# 
 name: image effects
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 48 00 00 00
-# 
-name: image effects
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 48 00 00 00
-# 
-name: image effects
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 48 00 00 00
-# 
-name: f3
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 80 00 00 00
-# 
-name: f3
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 80 00 00 00
 # 
 name: f3
 type: parsed
@@ -787,35 +319,11 @@ protocol: RCA
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: StartInput
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 10 00 00 00
-# 
 name: video2
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 91 00 00 00
-# 
-name: video2
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 91 00 00 00
-# 
-name: f2
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 20 00 00 00
-# 
-name: f2
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 20 00 00 00
 # 
 name: f2
 type: parsed
@@ -829,41 +337,11 @@ protocol: RCA
 address: 07 00 00 00
 command: A7 00 00 00
 # 
-name: ChannelControl
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: A7 00 00 00
-# 
 name: red
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: A0 00 00 00
-# 
-name: red
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
-name: red
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2F 00 00 00
-# 
-name: ok
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 2F 00 00 00
 # 
 name: ok
 type: parsed
@@ -877,53 +355,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 01 00 00 00
 # 
-name: blue
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 01 00 00 00
-# 
-name: blue
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 01 00 00 00
-# 
 name: color temperature
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F8 00 00 00
-# 
-name: color temperature
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F8 00 00 00
-# 
-name: color temperature
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F8 00 00 00
-# 
-name: pip swap
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C3 00 00 00
-# 
-name: pip swap
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C3 00 00 00
-# 
-name: record
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: E8 00 00 00
 # 
 name: record
 type: parsed
@@ -937,24 +373,6 @@ protocol: RCA
 address: 07 00 00 00
 command: B8 00 00 00
 # 
-name: REW
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: B8 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C5 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C5 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: RCA
@@ -967,89 +385,17 @@ protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F4 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: F4 00 00 00
-# 
-name: pip
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: D8 00 00 00
-# 
-name: pip
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: D8 00 00 00
-# 
 name: 2
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 4C 00 00 00
 # 
-name: 2
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 4C 00 00 00
-# 
-name: 2
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 4C 00 00 00
-# 
-name: PIPMove
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 28 00 00 00
-# 
-name: PIPMove
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 28 00 00 00
-# 
 name: right
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: EA 00 00 00
-# 
-name: right
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: EA 00 00 00
-# 
-name: right
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: EA 00 00 00
-# 
-name: picture mode
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 98 00 00 00
-# 
-name: picture mode
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 98 00 00 00
 # 
 name: picture mode
 type: parsed
@@ -1063,41 +409,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 5C 00 00 00
 # 
-name: inputtv
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 5C 00 00 00
-# 
 name: display
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 3C 00 00 00
-# 
-name: display
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 3C 00 00 00
-# 
-name: display
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 3C 00 00 00
-# 
-name: 5
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: AC 00 00 00
-# 
-name: 5
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: AC 00 00 00
 # 
 name: 5
 type: parsed
@@ -1111,18 +427,6 @@ protocol: RCA
 address: 07 00 00 00
 command: 98 00 00 00
 # 
-name: pause
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: 98 00 00 00
-# 
-name: cancel
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 60 00 00 00
-# 
 name: cancel
 type: parsed
 protocol: RCA
@@ -1135,47 +439,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 78 00 00 00
 # 
-name: still
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 78 00 00 00
-# 
-name: still
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 78 00 00 00
-# 
 name: clock
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 62 00 00 00
-# 
-name: clock
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 62 00 00 00
-# 
-name: clock
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 62 00 00 00
-# 
-name: ch+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B4 00 00 00
-# 
-name: ch+
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: B4 00 00 00
 # 
 name: ch+
 type: parsed
@@ -1189,47 +457,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: 87 00 00 00
 # 
-name: audio
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 87 00 00 00
-# 
 name: period
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: C9 00 00 00
-# 
-name: period
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C9 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C5 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C5 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: C5 00 00 00
-# 
-name: play
-type: parsed
-protocol: RCA
-address: 07 00 00 00
-command: A8 00 00 00
 # 
 name: play
 type: parsed
@@ -1243,24 +475,6 @@ protocol: RCA
 address: 0F 00 00 00
 command: CC 00 00 00
 # 
-name: 3
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CC 00 00 00
-# 
-name: 3
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CC 00 00 00
-# 
-name: tuner_input
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: A0 00 00 00
-# 
 name: tuner_input
 type: parsed
 protocol: RCA
@@ -1273,41 +487,11 @@ protocol: RCA
 address: 04 00 00 00
 command: 5C 00 00 00
 # 
-name: AuxHD
-type: parsed
-protocol: RCA
-address: 04 00 00 00
-command: 5C 00 00 00
-# 
 name: 6
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 6C 00 00 00
-# 
-name: 6
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6C 00 00 00
-# 
-name: 6
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6C 00 00 00
-# 
-name: radio
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 38 00 00 00
-# 
-name: radio
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 38 00 00 00
 # 
 name: radio
 type: parsed
@@ -1321,47 +505,11 @@ protocol: RCA
 address: 0F 00 00 00
 command: E4 00 00 00
 # 
-name: last
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E4 00 00 00
-# 
-name: last
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: E4 00 00 00
-# 
 name: f4
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 01 00 00 00
-# 
-name: f4
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 01 00 00 00
-# 
-name: f4
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 01 00 00 00
-# 
-name: media
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 86 00 00 00
-# 
-name: media
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 86 00 00 00
 # 
 name: media
 type: parsed
@@ -1375,41 +523,11 @@ protocol: RCA
 address: 03 00 00 00
 command: 5C 00 00 00
 # 
-name: Input Aux
-type: parsed
-protocol: RCA
-address: 03 00 00 00
-command: 5C 00 00 00
-# 
 name: menu
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 10 00 00 00
-# 
-name: menu
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 10 00 00 00
-# 
-name: menu
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 10 00 00 00
-# 
-name: mute
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: FC 00 00 00
-# 
-name: mute
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: FC 00 00 00
 # 
 name: mute
 type: parsed
@@ -1423,18 +541,6 @@ protocol: RCA
 address: 0B 00 00 00
 command: 5C 00 00 00
 # 
-name: video4
-type: parsed
-protocol: RCA
-address: 0B 00 00 00
-command: 5C 00 00 00
-# 
-name: SatCable
-type: parsed
-protocol: RCA
-address: 0A 00 00 00
-command: 5C 00 00 00
-# 
 name: SatCable
 type: parsed
 protocol: RCA
@@ -1446,24 +552,6 @@ type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: CA 00 00 00
-# 
-name: skip
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: CA 00 00 00
-# 
-name: left
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6A 00 00 00
-# 
-name: left
-type: parsed
-protocol: RCA
-address: 0F 00 00 00
-command: 6A 00 00 00
 # 
 name: left
 type: parsed

@@ -7,29 +7,11 @@ protocol: NECext
 address: C1 44 00 00
 command: 13 EC 00 00
 # 
-name: aux
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 13 EC 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 85 7A 00 00
-# 
-name: power
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 85 7A 00 00
-# 
-name: vol-
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: C5 3A 00 00
 # 
 name: vol-
 type: parsed
@@ -43,18 +25,6 @@ protocol: NECext
 address: C1 44 00 00
 command: 25 DA 00 00
 # 
-name: next
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 25 DA 00 00
-# 
-name: previous
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: A5 5A 00 00
-# 
 name: previous
 type: parsed
 protocol: NECext
@@ -67,18 +37,6 @@ protocol: NECext
 address: C1 44 00 00
 command: 45 BA 00 00
 # 
-name: vol+
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 45 BA 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 0D F2 00 00
-# 
 name: pause
 type: parsed
 protocol: NECext
@@ -90,30 +48,6 @@ type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 53 AC 00 00
-# 
-name: Bluetooth
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 53 AC 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 0D F2 00 00
-# 
-name: pause
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 0D F2 00 00
-# 
-name: digital
-type: parsed
-protocol: NECext
-address: C1 44 00 00
-command: 33 CC 00 00
 # 
 name: digital
 type: parsed

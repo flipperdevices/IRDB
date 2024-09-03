@@ -145,12 +145,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: 4_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
-# 
 name: down_r
 type: parsed
 protocol: RC5
@@ -247,12 +241,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 22 00 00 00
 # 
-name: timer
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
-# 
 name: ok
 type: parsed
 protocol: RC5
@@ -294,12 +282,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 00 00 00 00
-# 
-name: 4
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 04 00 00 00
 # 
 name: right
 type: parsed
@@ -396,12 +378,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
-# 
-name: timer_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 26 00 00 00
 # 
 name: left
 type: parsed

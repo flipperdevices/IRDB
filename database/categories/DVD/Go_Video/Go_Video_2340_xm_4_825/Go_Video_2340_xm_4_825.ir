@@ -91,12 +91,6 @@ protocol: Samsung32
 address: 2D 00 00 00
 command: 34 00 00 00
 # 
-name: popmenu
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 4A 00 00 00
-# 
 name: 1
 type: parsed
 protocol: Samsung32
@@ -204,12 +198,6 @@ type: parsed
 protocol: Samsung32
 address: 2D 00 00 00
 command: 38 00 00 00
-# 
-name: up
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 34 00 00 00
 # 
 name: play
 type: parsed

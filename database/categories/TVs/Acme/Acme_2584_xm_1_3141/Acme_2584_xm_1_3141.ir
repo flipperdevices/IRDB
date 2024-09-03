@@ -25,12 +25,6 @@ protocol: Samsung32
 address: 80 00 00 00
 command: 17 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: FF 00 00 00
-# 
 name: textoff
 type: parsed
 protocol: Samsung32
@@ -60,12 +54,6 @@ type: parsed
 protocol: Samsung32
 address: 80 00 00 00
 command: 07 00 00 00
-# 
-name: down
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: FF 00 00 00
 # 
 name: 1
 type: parsed
@@ -121,12 +109,6 @@ protocol: Samsung32
 address: 80 00 00 00
 command: 12 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: FF 00 00 00
-# 
 name: record
 type: parsed
 protocol: Samsung32
@@ -157,12 +139,6 @@ protocol: Samsung32
 address: 80 00 00 00
 command: 02 00 00 00
 # 
-name: down
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: FF 00 00 00
-# 
 name: display
 type: parsed
 protocol: Samsung32
@@ -187,12 +163,6 @@ protocol: Samsung32
 address: 80 00 00 00
 command: 0F 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: 15 00 00 00
-# 
 name: play
 type: parsed
 protocol: Samsung32
@@ -211,20 +181,8 @@ protocol: Samsung32
 address: 80 00 00 00
 command: 06 00 00 00
 # 
-name: pause
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: 11 00 00 00
-# 
 name: mute
 type: parsed
 protocol: Samsung32
 address: 80 00 00 00
 command: 0B 00 00 00
-# 
-name: down
-type: parsed
-protocol: Samsung32
-address: 80 00 00 00
-command: FF 00 00 00

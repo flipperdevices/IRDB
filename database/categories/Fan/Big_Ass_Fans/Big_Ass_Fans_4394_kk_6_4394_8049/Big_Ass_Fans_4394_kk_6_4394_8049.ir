@@ -43,12 +43,6 @@ protocol: NECext
 address: BA F0 00 00
 command: 51 AE 00 00
 # 
-name: Fan Switch
-type: parsed
-protocol: NECext
-address: BA F0 00 00
-command: 03 FC 00 00
-# 
 name: brightness+
 type: parsed
 protocol: NECext

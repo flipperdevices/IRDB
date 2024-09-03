@@ -31,12 +31,6 @@ protocol: NECext
 address: 10 ED 00 00
 command: 58 A7 00 00
 # 
-name: down
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 09 F6 00 00
-# 
 name: left_r
 type: parsed
 protocol: NECext
@@ -54,12 +48,6 @@ type: parsed
 protocol: NECext
 address: 10 ED 00 00
 command: 1B E4 00 00
-# 
-name: up_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 0A F5 00 00
 # 
 name: title
 type: parsed
@@ -97,12 +85,6 @@ protocol: NECext
 address: 10 ED 00 00
 command: 45 BA 00 00
 # 
-name: ok_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 49 B6 00 00
-# 
 name: info
 type: parsed
 protocol: NECext
@@ -115,29 +97,11 @@ protocol: NECext
 address: 10 ED 00 00
 command: 1E E1 00 00
 # 
-name: right_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 05 FA 00 00
-# 
 name: 5
 type: parsed
 protocol: NECext
 address: 10 ED 00 00
 command: 1A E5 00 00
-# 
-name: up_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 0A F5 00 00
-# 
-name: ok_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 49 B6 00 00
 # 
 name: 3
 type: parsed
@@ -151,18 +115,6 @@ protocol: NECext
 address: 10 ED 00 00
 command: 5B A4 00 00
 # 
-name: ok_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 49 B6 00 00
-# 
-name: up_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 0A F5 00 00
-# 
 name: menu
 type: parsed
 protocol: NECext
@@ -174,9 +126,3 @@ type: parsed
 protocol: NECext
 address: 10 ED 00 00
 command: 01 FE 00 00
-# 
-name: left_r
-type: parsed
-protocol: NECext
-address: 10 ED 00 00
-command: 47 B8 00 00

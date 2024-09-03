@@ -37,12 +37,6 @@ protocol: NECext
 address: 80 EB 00 00
 command: 15 EA 00 00
 # 
-name: keystone+
-type: parsed
-protocol: NECext
-address: 80 EB 00 00
-command: 40 BF 00 00
-# 
 name: power
 type: parsed
 protocol: NECext
@@ -96,12 +90,6 @@ type: parsed
 protocol: NECext
 address: 80 EB 00 00
 command: 04 FB 00 00
-# 
-name: down
-type: parsed
-protocol: NECext
-address: 80 EB 00 00
-command: 41 BE 00 00
 # 
 name: zoom_up
 type: parsed

@@ -7,24 +7,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
-# 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: D0 03 00 00
-# 
-name: 3d
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 02
-command: 70 03 00 00
-# 
 name: 3d
 type: parsed
 protocol: Kaseikyo
@@ -43,18 +25,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 00 00 00
 # 
-name: Input_av
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 00 00 00
-# 
-name: Menu
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 20 01 00 00
-# 
 name: Menu
 type: parsed
 protocol: Kaseikyo
@@ -66,12 +36,6 @@ type: parsed
 protocol: Kaseikyo
 address: 84 02 20 03
 command: E0 01 00 00
-# 
-name: N
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: C0 00 00 00
 # 
 name: N
 type: parsed
@@ -156,18 +120,6 @@ type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 70 00 00 00
-# 
-name: Guide
-type: parsed
-protocol: Kaseikyo
-address: 89 02 20 02
-command: 70 00 00 00
-# 
-name: Red
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 01
-command: 00 03 00 00
 # 
 name: Red
 type: parsed
@@ -283,30 +235,6 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 # 
-name: Mute
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 20 03 00 00
-# 
-name: Mute
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 20 03 00 00
-# 
-name: Last_view
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 03 00 00
-# 
-name: Last_view
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 70 03 00 00
-# 
 name: Last_view
 type: parsed
 protocol: Kaseikyo
@@ -330,12 +258,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
-# 
-name: Ch_prev
-type: parsed
-protocol: Kaseikyo
-address: 80 02 20 00
-command: 50 03 00 00
 # 
 name: Ch_prev
 type: parsed
@@ -390,18 +312,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 3474 1738 450 422 453 1293 447 426 449 424 451 422 453 419 446 428 447 425 450 423 452 421 444 429 446 427 448 424 451 1296 444 428 447 426 449 424 451 422 453 419 445 428 447 1299 451 1294 446 427 448 1298 452 420 444 429 446 426 449 424 451 422 453 420 445 428 447 426 449 424 451 1295 445 1301 449 423 452 421 444 429 446 427 448 425 450 422 453 1293 447 1299 451 421 454 1292 448 1298 452 421 444 1302 448
-# 
-name: Rec
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 80 00 00 00
-# 
-name: Rec
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: 80 00 00 00
 # 
 name: Rec
 type: parsed

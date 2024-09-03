@@ -61,12 +61,6 @@ protocol: NEC
 address: 71 00 00 00
 command: 5A 00 00 00
 # 
-name: tv
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 69 00 00 00
-# 
 name: 8
 type: parsed
 protocol: NEC
@@ -108,12 +102,6 @@ type: parsed
 protocol: NEC
 address: 71 00 00 00
 command: 64 00 00 00
-# 
-name: enter
-type: parsed
-protocol: NEC
-address: 71 00 00 00
-command: 5A 00 00 00
 # 
 name: top_menu
 type: parsed

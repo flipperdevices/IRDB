@@ -121,12 +121,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 2D 00 00 00
 # 
-name: yellow_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2D 00 00 00
-# 
 name: power_r
 type: parsed
 protocol: RC5
@@ -295,12 +289,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 39 00 00 00
 # 
-name: tv_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: Dual_r
 type: parsed
 protocol: RC5X
@@ -342,12 +330,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0A 00 00 00
-# 
-name: TeletextHidden
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: period_r
 type: parsed
@@ -433,12 +415,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: TeletextHidden
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: TeletextDouble
 type: parsed
 protocol: RC5
@@ -463,23 +439,11 @@ protocol: RC5
 address: 03 00 00 00
 command: 39 00 00 00
 # 
-name: av1
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 04 00 00 00
-# 
 name: up
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 10 00 00 00
-# 
-name: yellow
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2D 00 00 00
 # 
 name: return_r
 type: parsed
@@ -498,18 +462,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
-# 
-name: +10_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
-# 
-name: side_r
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 3A 00 00 00
 # 
 name: 1
 type: parsed
@@ -547,12 +499,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: hdmi1
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 39 00 00 00
-# 
 name: 8
 type: parsed
 protocol: RC5
@@ -564,12 +510,6 @@ type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 04 00 00 00
-# 
-name: ScreenFormat_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 3E 00 00 00
 # 
 name: 7_r
 type: parsed
@@ -613,12 +553,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 13 00 00 00
 # 
-name: yellow_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2D 00 00 00
-# 
 name: av2
 type: parsed
 protocol: RC5
@@ -637,12 +571,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: TeletextSubPage
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 3E 00 00 00
-# 
 name: mode_r
 type: parsed
 protocol: RC5X
@@ -660,12 +588,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
-# 
-name: hdmi1_r
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 39 00 00 00
 # 
 name: teletext
 type: parsed
@@ -721,12 +643,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: Dual
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 18 00 00 00
-# 
 name: Subtitle
 type: parsed
 protocol: RC5X
@@ -769,12 +685,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: TeletextHidden_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: 0_r
 type: parsed
 protocol: RC5
@@ -799,12 +709,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: SIDE AV
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 3A 00 00 00
-# 
 name: vol-_r
 type: parsed
 protocol: RC5
@@ -822,12 +726,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
-# 
-name: green
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2C 00 00 00
 # 
 name: 5
 type: parsed
@@ -847,35 +745,17 @@ protocol: RC5
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: audio_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
 name: ch+
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: TeletextDouble
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 23 00 00 00
-# 
 name: audio
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 23 00 00 00
-# 
-name: Dual_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 18 00 00 00
 # 
 name: Ext3
 type: parsed
@@ -887,12 +767,6 @@ name: period
 type: parsed
 protocol: RC5X
 address: 03 00 00 00
-command: 38 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
 command: 38 00 00 00
 # 
 name: av3_r
@@ -919,12 +793,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: tv
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3F 00 00 00
-# 
 name: 6
 type: parsed
 protocol: RC5
@@ -943,29 +811,11 @@ protocol: RC5
 address: 03 00 00 00
 command: 38 00 00 00
 # 
-name: Ext1_r
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 04 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: last_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
-# 
-name: previous
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 22 00 00 00
 # 
 name: hdmi2
 type: parsed
@@ -1038,12 +888,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: --
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 0A 00 00 00
 # 
 name: video_r
 type: parsed

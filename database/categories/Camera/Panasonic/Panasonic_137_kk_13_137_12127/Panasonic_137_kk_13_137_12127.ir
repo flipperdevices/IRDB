@@ -7,18 +7,6 @@ protocol: Kaseikyo
 address: 91 02 20 00
 command: A0 00 00 00
 # 
-name: LP
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 00
-command: A0 00 00 00
-# 
-name: down
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 00
-command: 30 00 00 00
-# 
 name: down
 type: parsed
 protocol: Kaseikyo
@@ -30,18 +18,6 @@ type: parsed
 protocol: Kaseikyo
 address: 90 02 20 01
 command: 40 01 00 00
-# 
-name: reset
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 01
-command: 40 01 00 00
-# 
-name: shutter
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: D0 03 00 00
 # 
 name: shutter
 type: parsed
@@ -55,18 +31,6 @@ protocol: Kaseikyo
 address: 91 02 20 00
 command: 20 00 00 00
 # 
-name: up
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 00
-command: 20 00 00 00
-# 
-name: FF
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: 30 00 00 00
-# 
 name: FF
 type: parsed
 protocol: Kaseikyo
@@ -77,30 +41,6 @@ name: IN SEL
 type: parsed
 protocol: Kaseikyo
 address: 90 02 20 03
-command: 00 00 00 00
-# 
-name: IN SEL
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 03
-command: 00 00 00 00
-# 
-name: shutter
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: D0 03 00 00
-# 
-name: shutter
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: D0 03 00 00
-# 
-name: stop
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
 command: 00 00 00 00
 # 
 name: stop
@@ -115,29 +55,11 @@ protocol: Kaseikyo
 address: 91 02 20 01
 command: 80 01 00 00
 # 
-name: ok
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 01
-command: 80 01 00 00
-# 
 name: record
 type: parsed
 protocol: Kaseikyo
 address: 90 02 20 00
 command: 80 00 00 00
-# 
-name: record
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: 80 00 00 00
-# 
-name: REW
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: 20 00 00 00
 # 
 name: REW
 type: parsed
@@ -151,29 +73,11 @@ protocol: Kaseikyo
 address: 91 02 20 00
 command: 40 00 00 00
 # 
-name: right
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 00
-command: 40 00 00 00
-# 
 name: display
 type: parsed
 protocol: Kaseikyo
 address: 91 02 20 01
 command: F0 01 00 00
-# 
-name: display
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 01
-command: F0 01 00 00
-# 
-name: pause
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: 60 00 00 00
 # 
 name: pause
 type: parsed
@@ -187,29 +91,11 @@ protocol: Kaseikyo
 address: 90 02 20 00
 command: A0 00 00 00
 # 
-name: play
-type: parsed
-protocol: Kaseikyo
-address: 90 02 20 00
-command: A0 00 00 00
-# 
 name: menu
 type: parsed
 protocol: Kaseikyo
 address: 91 02 20 01
 command: 60 01 00 00
-# 
-name: menu
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 01
-command: 60 01 00 00
-# 
-name: left
-type: parsed
-protocol: Kaseikyo
-address: 91 02 20 00
-command: 50 00 00 00
 # 
 name: left
 type: parsed

@@ -97,12 +97,6 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 1E 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 13 00 00 00
-# 
 name: tv_av
 type: parsed
 protocol: Samsung32
@@ -162,12 +156,6 @@ type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 0E 00 00 00
-# 
-name: right
-type: parsed
-protocol: Samsung32
-address: 0E 00 00 00
-command: 1B 00 00 00
 # 
 name: timer
 type: parsed

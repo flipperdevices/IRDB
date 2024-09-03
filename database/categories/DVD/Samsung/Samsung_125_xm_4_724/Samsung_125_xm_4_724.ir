@@ -49,12 +49,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 18 00 00 00
 # 
-name: ch-
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 18 00 00 00
-# 
 name: timer
 type: parsed
 protocol: Samsung32
@@ -109,18 +103,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 0C 00 00 00
 # 
-name: timer
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 45 00 00 00
-# 
-name: mark
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 2B 00 00 00
-# 
 name: up
 type: parsed
 protocol: Samsung32
@@ -168,12 +150,6 @@ type: parsed
 protocol: Samsung32
 address: 05 00 00 00
 command: 0E 00 00 00
-# 
-name: next_r
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 1A 00 00 00
 # 
 name: tracking_up
 type: parsed
@@ -241,12 +217,6 @@ protocol: Samsung32
 address: 05 00 00 00
 command: 31 00 00 00
 # 
-name: next_r
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 1A 00 00 00
-# 
 name: audio
 type: parsed
 protocol: Samsung32
@@ -258,12 +228,6 @@ type: parsed
 protocol: Samsung32
 address: 05 00 00 00
 command: 59 00 00 00
-# 
-name: pause
-type: parsed
-protocol: Samsung32
-address: 05 00 00 00
-command: 19 00 00 00
 # 
 name: 3
 type: parsed

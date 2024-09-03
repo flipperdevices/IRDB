@@ -13,35 +13,11 @@ protocol: NEC
 address: 80 00 00 00
 command: 9D 00 00 00
 # 
-name: av1
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 9D 00 00 00
-# 
 name: VID4
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 88 00 00 00
-# 
-name: av1
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 9D 00 00 00
-# 
-name: TVP3
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 8C 00 00 00
-# 
-name: av1
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 9D 00 00 00
 # 
 name: component
 type: parsed
@@ -60,12 +36,6 @@ type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 90 00 00 00
-# 
-name: VID4
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 88 00 00 00
 # 
 name: vol+
 type: parsed

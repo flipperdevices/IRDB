@@ -253,12 +253,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: menu_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
-# 
 name: 0_r
 type: parsed
 protocol: RC5
@@ -270,18 +264,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
-# 
-name: vol+
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 10 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 11 00 00 00
 # 
 name: 5
 type: parsed
@@ -306,12 +288,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 3B 00 00 00
-# 
-name: up
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 20 00 00 00
 # 
 name: fast_forward
 type: parsed
@@ -343,23 +319,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: TV
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: 8_r
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
-# 
-name: cancel
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 3B 00 00 00
 # 
 name: mute
 type: parsed

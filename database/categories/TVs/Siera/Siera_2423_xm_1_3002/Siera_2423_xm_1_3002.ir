@@ -19,12 +19,6 @@ protocol: RC5X
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: down
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: yellow_r
 type: parsed
 protocol: RC5X
@@ -66,12 +60,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2F 00 00 00
-# 
-name: vol+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
 # 
 name: yellow
 type: parsed
@@ -127,23 +115,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: ch-_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 11 00 00 00
-# 
 name: left_r
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
-# 
-name: ch+_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
 # 
 name: 7
 type: parsed
@@ -174,12 +150,6 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2C 00 00 00
-# 
-name: exit
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2F 00 00 00
 # 
 name: 8
 type: parsed
@@ -253,12 +223,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
-# 
 name: vol+
 type: parsed
 protocol: RC5X
@@ -283,18 +247,6 @@ protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: vol+
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 16 00 00 00
-# 
-name: left_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
 name: display
 type: parsed
 protocol: RC5
@@ -313,23 +265,11 @@ protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: up
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 10 00 00 00
-# 
 name: blue_r
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2E 00 00 00
-# 
-name: tv_av
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: 3
 type: parsed
@@ -348,12 +288,6 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0F 00 00 00
-# 
-name: input_r
-type: parsed
-protocol: RC5
-address: 00 00 00 00
-command: 38 00 00 00
 # 
 name: 8_r
 type: parsed
@@ -390,15 +324,3 @@ type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 2B 00 00 00
-# 
-name: vol-
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 15 00 00 00
-# 
-name: exit_r
-type: parsed
-protocol: RC5X
-address: 00 00 00 00
-command: 2F 00 00 00
