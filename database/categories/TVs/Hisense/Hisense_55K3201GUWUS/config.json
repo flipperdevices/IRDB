@@ -22,10 +22,20 @@
         },
         "CH_UP": {
             "type": "SHA_256",
+            "key_name": "Ch_next",
+            "sha_256_string": "a09c66ea465db630b83f25e8e7055a5726837a14179c0ecdbc7a31d8a2762954"
+        },
+        "CH_DOWN": {
+            "type": "SHA_256",
+            "key_name": "Ch_prev",
+            "sha_256_string": "31be135d5e3241db888cd788b17c08dbacb33bf3eda5a1e32d8fdd0dcc2071bc"
+        },
+        "UP": {
+            "type": "SHA_256",
             "key_name": "Up",
             "sha_256_string": "f847bbe149495d356b623d07c608fc5b8219df21a75baad4e38b2933f07dc301"
         },
-        "CH_DOWN": {
+        "DOWN": {
             "type": "SHA_256",
             "key_name": "Down",
             "sha_256_string": "b35dd029515a7ddd724bfd423dcff8a9cf91059933dcf1f6ed82b35c3b14e813"

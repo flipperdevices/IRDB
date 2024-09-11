@@ -2,13 +2,18 @@
     "key_map": {
         "CH_DOWN": {
             "type": "SHA_256",
-            "key_name": "down",
-            "sha_256_string": "e65b346c4e6153015a8472abe3d562706a9a93cdaf96b2c497900bc10efe241d"
+            "key_name": "ch-_r",
+            "sha_256_string": "bb79e1ded3106b51f4473f9bb86f063d816b3a6e9ff2e458f8eb54c1265e9895"
         },
         "TV": {
             "type": "SHA_256",
             "key_name": "tv_r",
             "sha_256_string": "d1d94402b6b08ece1cddab44de39b61d6cc180dac5aecaebae14e859481421f8"
+        },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down_r",
+            "sha_256_string": "77a30b28634a9ab43bd39f393a4b442de30a313fe8aa9bb6630f51e8fbfc9b54"
         },
         "VOL_UP": {
             "type": "SHA_256",
@@ -25,20 +30,15 @@
             "key_name": "record",
             "sha_256_string": "fe791a76c882b0f2da4b6707a479e5c4825f9bfe3e80df6a222eb346b8e3afd8"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "up",
-            "sha_256_string": "b336b4eafd06a144a00ac1ded815aac45748559f22dd8bd0ffe8c4ff5dbc86be"
+            "key_name": "up_r",
+            "sha_256_string": "c63a9928bb00296c5b0685e0a94c11aec45f0c3ff6146a23a8b376f178016d0a"
         },
         "LEFT": {
             "type": "SHA_256",
             "key_name": "left_r",
             "sha_256_string": "e0e2a9f22bfb201896b1b13ad018d57c168e398ade8b59e2b4892c3ba805589d"
-        },
-        "UP": {
-            "type": "SHA_256",
-            "key_name": "up_r",
-            "sha_256_string": "c63a9928bb00296c5b0685e0a94c11aec45f0c3ff6146a23a8b376f178016d0a"
         },
         "RIGHT": {
             "type": "SHA_256",
@@ -49,11 +49,6 @@
             "type": "SHA_256",
             "key_name": "REW",
             "sha_256_string": "b420b44916c172305b954654a378be494997446769cc3735fede5e6727207ab5"
-        },
-        "DOWN": {
-            "type": "SHA_256",
-            "key_name": "down_r",
-            "sha_256_string": "77a30b28634a9ab43bd39f393a4b442de30a313fe8aa9bb6630f51e8fbfc9b54"
         },
         "PAUSE": {
             "type": "SHA_256",

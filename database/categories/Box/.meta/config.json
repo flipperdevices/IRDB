@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "message": "Does %s turns on?",
+            "message": "Does the TV box turn on/off?",
             "index": 1,
             "key": "PWR",
             "data": {
@@ -12,7 +12,7 @@
             }
         },
         {
-            "message": "Does volume go up?",
+            "message": "Has the volume increased?",
             "index": 2,
             "key": "VOL_UP",
             "data": {
@@ -24,7 +24,7 @@
             }
         },
         {
-            "message": "Does volume go down?",
+            "message": "Has the volume decreased?",
             "index": 3,
             "key": "VOL_DOWN",
             "data": {
@@ -36,7 +36,7 @@
             }
         },
         {
-            "message": "Is volume muted?",
+            "message": "Has the volume been muted?",
             "index": 4,
             "key": "MUTE",
             "data": {
@@ -48,31 +48,31 @@
             }
         },
         {
-            "message": "Is next channel shown?",
+            "message": "Has it switched to the next channel?",
             "index": 5,
             "key": "CH_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "CH+",
-                "type": "TEXT"
+                "icon_id": "CH_UP",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is previous channel shown?",
+            "message": "Has it switched to the previous channel?",
             "index": 6,
             "key": "CH_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "CH-",
-                "type": "TEXT"
+                "icon_id": "CH_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is menu opened?",
+            "message": "Has the menu shown?",
             "index": 7,
             "key": "MENU",
             "data": {

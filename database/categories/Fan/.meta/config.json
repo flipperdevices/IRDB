@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "message": "Does %s turns on?",
+            "message": "Does the fan turn on/off?",
             "index": 1,
             "key": "PWR",
             "data": {
@@ -12,7 +12,7 @@
             }
         },
         {
-            "message": "Does it change wind speed?",
+            "message": "Has the wind speed changed?",
             "index": 2,
             "key": "WIND_SPEED",
             "data": {
@@ -24,19 +24,19 @@
             }
         },
         {
-            "message": "Does it enable wind shake?",
+            "message": "Has wind shake been enabled?",
             "index": 3,
             "key": "SHAKE_WIND",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SH",
-                "type": "TEXT"
+                "icon_id": "SHAKE_WIND",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it change mode?",
+            "message": "Has the fan mode changed?",
             "index": 4,
             "key": "MODE",
             "data": {
@@ -48,7 +48,7 @@
             }
         },
         {
-            "message": "Does it change lights?",
+            "message": "Does the fan light turn on/off?",
             "index": 5,
             "key": "LIGHT",
             "data": {
@@ -60,31 +60,31 @@
             }
         },
         {
-            "message": "Does it increase fan speed?",
+            "message": "Has it increased speed?",
             "index": 6,
             "key": "FAN_SPEED_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SP+",
-                "type": "TEXT"
+                "icon_id": "FAN_SPEED_UP",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it decrease fan speed?",
+            "message": "Has it decreased speed?",
             "index": 7,
             "key": "FAN_SPEED_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SP-",
-                "type": "TEXT"
+                "icon_id": "FAN_SPEED_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is speed changed?",
+            "message": "Has the speed changed?",
             "index": 8,
             "key": "FAN_SPEED",
             "data": {
@@ -96,19 +96,19 @@
             }
         },
         {
-            "message": "Is it oscillated?",
+            "message": "Is the fan oscillating (swinging)?",
             "index": 9,
             "key": "OSCILLATE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "OSC",
-                "type": "TEXT"
+                "icon_id": "OSCILLATE",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is it muted?",
+            "message": "Has the fan been muted?",
             "index": 10,
             "key": "MUTE",
             "data": {
@@ -120,20 +120,8 @@
             }
         },
         {
-            "message": "Does it change mode?",
+            "message": "Has the timer duration changed?",
             "index": 11,
-            "key": "MODE",
-            "data": {
-                "key_id": {
-                    "type": "EMPTY"
-                },
-                "icon_id": "MODE",
-                "type": "ICON"
-            }
-        },
-        {
-            "message": "Is timer changed?",
-            "index": 12,
             "key": "TIMER",
             "data": {
                 "key_id": {
@@ -144,51 +132,51 @@
             }
         },
         {
-            "message": "Is timer increased?",
-            "index": 13,
+            "message": "Has the timer duration increased?",
+            "index": 12,
             "key": "TIMER_ADD",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "T+",
-                "type": "TEXT"
+                "icon_id": "TIMER_ADD",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is timer decreased?",
-            "index": 14,
+            "message": "Has the timer duration decreased?",
+            "index": 13,
             "key": "TIMER_REDUCE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "T-",
-                "type": "TEXT"
+                "icon_id": "TIMER_REDUCE",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it swing?",
-            "index": 15,
+            "message": "Is the fan swinging?",
+            "index": 14,
             "key": "SWING",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SWING",
-                "type": "TEXT"
+                "icon_id": "SWING",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it go to sleep?",
-            "index": 16,
+            "message": "Has the fan switched to sleep mode?",
+            "index": 15,
             "key": "SLEEP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SLEEP",
-                "type": "TEXT"
+                "icon_id": "SLEEP",
+                "type": "ICON"
             }
         }
     ]

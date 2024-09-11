@@ -5,6 +5,11 @@
             "key_name": "livetv",
             "sha_256_string": "a7e5452af26c130f9593604201b9b717cfa9e0bd0b2ae12305a077c391c5349d"
         },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "bd64d6dbc1eb7051e45da62b41671247e7bb71558ebb2747d797a0fabf0f0a4a"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -30,10 +35,10 @@
             "key_name": "delete",
             "sha_256_string": "c5bfe4d708c088970b393cf3a89c44efb3eb70c99e6d35b1d171e485235e69a3"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "b4c803afc417168bdb59439e4cf31d73e3e3b3802321f492abcb1fba3dfd63c5"
+            "key_name": "up",
+            "sha_256_string": "bd615d5d6d67936a795d4f2e0b8b8a4721bdcb76856d5634b578e5014b3dbff1"
         },
         "PWR": {
             "type": "SHA_256",
@@ -69,6 +74,11 @@
             "type": "SHA_256",
             "key_name": "right",
             "sha_256_string": "c64326703d920b612a8cddbaf6b9cbd208e921c8c246222807ec7004b02abb3c"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "b4c803afc417168bdb59439e4cf31d73e3e3b3802321f492abcb1fba3dfd63c5"
         },
         "SET": {
             "type": "SHA_256",

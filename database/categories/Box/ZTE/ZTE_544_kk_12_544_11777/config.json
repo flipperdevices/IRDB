@@ -1,5 +1,10 @@
 {
     "key_map": {
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "6b17f0a511363bf69254e697f789ae34c3dd95108c5431c64cd7a59f7456fa6a"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -20,10 +25,10 @@
             "key_name": "vod",
             "sha_256_string": "007e4204c89c4e68a9c8117c3e3faf0bfaa6115cc8be40e42d3b2a41a128371d"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "c8c8072ad471222dbc621ac5aa992d871f66134a43df06a01ae4ff7d3bac4957"
+            "key_name": "up",
+            "sha_256_string": "a5ca0f471e2d0597b42711fe2e283a33774533e141dd3d5a916f3085df2e3421"
         },
         "PWR": {
             "type": "SHA_256",
@@ -74,6 +79,11 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "dc1e11c3befff720ad7a428a6d7c03a474dbc970143d8082a3c32fc0e5a192e5"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "c8c8072ad471222dbc621ac5aa992d871f66134a43df06a01ae4ff7d3bac4957"
         },
         "SET": {
             "type": "SHA_256",

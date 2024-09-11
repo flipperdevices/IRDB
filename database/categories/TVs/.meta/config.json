@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "message": "Does %s turns on?",
+            "message": "Does the TV turn on/off?",
             "index": 1,
             "key": "PWR",
             "data": {
@@ -12,7 +12,7 @@
             }
         },
         {
-            "message": "Does it increase volume?",
+            "message": "Has the volume increased?",
             "index": 2,
             "key": "VOL_UP",
             "data": {
@@ -24,7 +24,7 @@
             }
         },
         {
-            "message": "Does it decrease volume?",
+            "message": "Has the volume decreased?",
             "index": 3,
             "key": "VOL_DOWN",
             "data": {
@@ -36,31 +36,31 @@
             }
         },
         {
-            "message": "Does it sho next channel?",
+            "message": "Has it switched to the next channel?",
             "index": 5,
             "key": "CH_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "CH+",
-                "type": "TEXT"
+                "icon_id": "CH_UP",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it show previous channel?",
+            "message": "Has it switched to the previous channel?",
             "index": 6,
             "key": "CH_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "CH-",
-                "type": "TEXT"
+                "icon_id": "CH_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it zoom in?",
+            "message": "Has the TV zoomed in?",
             "index": 8,
             "key": "ZOOM_UP",
             "data": {
@@ -72,7 +72,7 @@
             }
         },
         {
-            "message": "Does it zoom out?",
+            "message": "Has the TV zoomed out?",
             "index": 9,
             "key": "ZOOM_DOWN",
             "data": {
@@ -84,7 +84,7 @@
             }
         },
         {
-            "message": "Does it increase brightness?",
+            "message": "Has the brightness increased?",
             "index": 10,
             "key": "BRIGHTNESS_UP",
             "data": {
@@ -96,7 +96,7 @@
             }
         },
         {
-            "message": "Does it decrease brightness?",
+            "message": "Has the brightness decreased?",
             "index": 11,
             "key": "BRIGHTNESS_DOWN",
             "data": {
@@ -108,7 +108,7 @@
             }
         },
         {
-            "message": "Does it record?",
+            "message": "Has the TV started a video recording?",
             "index": 12,
             "key": "RECORD",
             "data": {

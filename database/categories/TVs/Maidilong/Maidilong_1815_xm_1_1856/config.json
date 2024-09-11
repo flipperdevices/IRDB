@@ -1,14 +1,19 @@
 {
     "key_map": {
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "542bd5cf57a1e17d43e3934755715994123247173c8af6436f9d781c96abf907"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
             "sha_256_string": "96a3a4575f2b5d326f357535c2d0d6d5c560b841d5b25eea687d0b095707f904"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "3eca46ab2fe8e9792fd64de206ba767f35336542f1da3cc98673362c5a589feb"
+            "key_name": "up",
+            "sha_256_string": "290e14ce8fb6ea243de807f1d8b49f6671387cd5b07e79ba2b0ffb5c47be1ca5"
         },
         "PWR": {
             "type": "SHA_256",
@@ -59,6 +64,11 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "106a30bf138c6633c2bacdebd7bebaa139519aa51c85d0f476c0bb65073b5998"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "3eca46ab2fe8e9792fd64de206ba767f35336542f1da3cc98673362c5a589feb"
         },
         "PLAY": {
             "type": "SHA_256",

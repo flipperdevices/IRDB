@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "message": "Does %s turns on?",
+            "message": "Does the air purifier turn on/off?",
             "index": 1,
             "key": "PWR",
             "data": {
@@ -12,51 +12,51 @@
             }
         },
         {
-            "message": "Is it oscillated?",
+            "message": "Is the air purifier oscillating (swinging)?",
             "index": 2,
             "key": "OSCILLATE",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "OSC",
-                "type": "TEXT"
+                "icon_id": "OSCILLATE",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is Fan speed increased??",
+            "message": "Has the fan speed increased?",
             "index": 3,
             "key": "FAN_SPEED_UP",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "FS+",
-                "type": "TEXT"
+                "icon_id": "FAN_SPEED_UP",
+                "type": "ICON"
             }
         },
         {
-            "message": "Is Fan speed decreased?",
+            "message": "Has the fan speed decreased?",
             "index": 4,
             "key": "FAN_SPEED_DOWN",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "FS-",
-                "type": "TEXT"
+                "icon_id": "FAN_SPEED_DOWN",
+                "type": "ICON"
             }
         },
         {
-            "message": "Does it swing?",
+            "message": "Is the air purifier swinging?",
             "index": 5,
             "key": "SWING",
             "data": {
                 "key_id": {
                     "type": "EMPTY"
                 },
-                "text": "SW",
-                "type": "TEXT"
+                "icon_id": "SWING",
+                "type": "ICON"
             }
         }
     ]

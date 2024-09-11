@@ -5,6 +5,11 @@
             "key_name": "tv_av",
             "sha_256_string": "24d03a2f67cf32293942ea7195110b93a8fbeee34eaec35b31a899c8e8daa486"
         },
+        "DOWN": {
+            "type": "SHA_256",
+            "key_name": "down",
+            "sha_256_string": "50a3afab0f2cc298ac33d15d6685a92fed8f405b39135966e90cfd0db18e79f5"
+        },
         "CH_DOWN": {
             "type": "SHA_256",
             "key_name": "ch-",
@@ -20,10 +25,10 @@
             "key_name": "exit",
             "sha_256_string": "5c207fc288bc517edc79f1ebb7ed91f674ca80541d48d397d6a5cd23a787dc05"
         },
-        "CH_UP": {
+        "UP": {
             "type": "SHA_256",
-            "key_name": "ch+",
-            "sha_256_string": "8e3d46d56c534d130adbcdb5eac98fc53f9d85fa1f385f71c3510c19817fbb85"
+            "key_name": "up",
+            "sha_256_string": "967abfb0128d6fece66e8b5cdf11b0623c624ff231dbbccb5b1ecd79cef97d8b"
         },
         "PWR": {
             "type": "SHA_256",
@@ -84,6 +89,11 @@
             "type": "SHA_256",
             "key_name": "pause",
             "sha_256_string": "becfdbb1c8c9beb38bb12fc9c84b2cee94a070aaae0e9d85b1fdcde667891b2b"
+        },
+        "CH_UP": {
+            "type": "SHA_256",
+            "key_name": "ch+",
+            "sha_256_string": "8e3d46d56c534d130adbcdb5eac98fc53f9d85fa1f385f71c3510c19817fbb85"
         },
         "PLAY": {
             "type": "SHA_256",

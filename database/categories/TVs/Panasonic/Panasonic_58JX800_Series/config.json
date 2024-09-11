@@ -22,8 +22,8 @@
         },
         "CH_UP": {
             "type": "SHA_256",
-            "key_name": "Up",
-            "sha_256_string": "18760664a024d449f05e78af8bc50c0455aa6aa35d765dba1c219a3941729af5"
+            "key_name": "Ch_next",
+            "sha_256_string": "1e2a8e7b28a2d8fad22c82fc8baa89ddb75805f91530f6488a8f2ac152fdf674"
         },
         "SHUTTER": {
             "type": "SHA_256",
@@ -45,7 +45,12 @@
             "key_name": "Exit",
             "sha_256_string": "68238882a0a2c7ec51f3df695b20f632a465c540eb2f3a1ef60b9c3e6d02a5b7"
         },
-        "CH_DOWN": {
+        "UP": {
+            "type": "SHA_256",
+            "key_name": "Up",
+            "sha_256_string": "18760664a024d449f05e78af8bc50c0455aa6aa35d765dba1c219a3941729af5"
+        },
+        "DOWN": {
             "type": "SHA_256",
             "key_name": "Down",
             "sha_256_string": "35981eb3381a88236a4d947ac5fcc1fbbcdcb7bdb440b7aaf51fb9d9bf3c89a4"
