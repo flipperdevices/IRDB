@@ -1,5 +1,9 @@
 # IRDB
 
+## Contribute
+
+For contribution guide see [IRDB Docs](./docs/index.md)
+
 ## Directory structure
 
 ```
@@ -26,12 +30,4 @@ database
     └── TVs
 ```
 
-## Run mkdocs locally
-
-Run docker compose
-
-```bash
-docker compose up
-```
-
-Open in browser `http://0.0.0.0:8000`
+X

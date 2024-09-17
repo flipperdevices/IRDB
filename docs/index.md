@@ -1,3 +1,5 @@
 Welcome to Flipper IRDB wiki
 
-Please, navigate with categories to view information you need
+- [Avaliable Buttons](./avaliable_buttons.md)
+- [Button Aliases](./button_names.md)
+- [Adding remote](./adding_remote.md)
