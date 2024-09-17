@@ -34,4 +34,4 @@ Run docker compose
 docker compose up
 ```
 
-Open in browser `http://0.0.0.0:80000`
+Open in browser `http://0.0.0.0:8000`

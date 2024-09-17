@@ -23,7 +23,7 @@ jobs:
             mkdocs.yml
   deploy:
     needs: [ check_gradle_files_change ]
-    if: ${{ needs.check_gradle_files_change.DOCS_FILES_CHANGED }} == true
+    if: needs.check_gradle_files_change.outputs.GRADLE_FILES_CHANGED == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
