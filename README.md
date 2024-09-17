@@ -25,3 +25,13 @@ database
     ├── Toys
     └── TVs
 ```
+
+## Run mkdocs locally
+
+Run docker compose
+
+```bash
+docker compose up
+```
+
+Open in browser `http://0.0.0.0:80000`

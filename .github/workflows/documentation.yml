@@ -1,0 +1,35 @@
+name: Build and deploy material mkdocs to gh-pages
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+jobs:
+  check_gradle_files_change:
+    name: "Check docs files changed"
+    runs-on: ubuntu-latest
+    outputs:
+      DOCS_FILES_CHANGED: ${{ steps.docs_changed.outputs.any_changed }}
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+        with:
+          submodules: 'recursive'
+      - name: Check that docs changed
+        id: docs_changed
+        uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
+        with:
+          files: |
+            docs/**
+            mkdocs.yml
+  deploy:
+    needs: [ check_gradle_files_change ]
+    if: ${{ needs.check_gradle_files_change.DOCS_FILES_CHANGED }} == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-minify-plugin
+      - run: mkdocs gh-deploy --force
