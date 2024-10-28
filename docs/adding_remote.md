@@ -13,7 +13,7 @@ Firstly, you'll need to create `Infrared Remote` with your `Flipper` tool.
 
 Next, you'll need to download this remote via link or export
 
-![Picture](media/share_remote.jpg){ width="300" height="auto" style="display: block; margin: 0 auto" }
+<img src="media/share_remote.jpg" width="300">
 
 ### Creating configurations
 
