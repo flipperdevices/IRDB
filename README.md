@@ -29,5 +29,3 @@ database
     ├── Toys
     └── TVs
 ```
-
-X
