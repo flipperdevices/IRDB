@@ -3,7 +3,7 @@
 To add remote you will need two things:
 
 - Flipper Zero
-- Understanding of json format
+- Understanding of JSON format
 
 ### Creating IR file
 
@@ -18,12 +18,12 @@ Next, you'll need to download this remote via link or export
 ### Creating configurations
 
 Configuration are required to handle device key mapping.
-You can see this links to see more about [avaliaable buttons](./avaliable_buttons.md)
+You can see this links to see more about [available buttons](./available_buttons.md)
 or [button aliases](./button_names.md).
 
 Let's create our configuration by example.
 
-We have `Dell_p7524qt.ir` file, which contains some set of ir keys.
+We have `Dell_p7524qt.ir` file, which contains some set of IR keys.
 
 ```
 Filetype: IR signals file
@@ -55,7 +55,7 @@ command: 6D 00 00 00
 ```
 
 The names of keys seems like understandable, but we need to map it into
-our [avaliaable buttons](./avaliable_buttons.md).
+our [available buttons](./available_buttons.md).
 
 So let's create `config.json` by reference on [button aliases](./button_names.md).
 
@@ -85,13 +85,13 @@ So let's create `config.json` by reference on [button aliases](./button_names.md
 In this `config.json` we mapped our set of keys:
 
 - `PWR` -> "Power"
-- `OK` -> "Ok"
+- `OK` -> "OK"
 - `MENU` -> "Menu"
 - `EXIT` -> "Back"
 
 And now we are ready to create **Pull Request**
 
-### Creating PullRequest
+### Creating Pull Request
 
 Clone the repository using git clone command
 
