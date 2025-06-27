@@ -8,7 +8,7 @@ Thus, the names of buttons are different.
 
 This list of aliases defines the finite set of button names, which can be used with IRDB.
 
-Please, use only aliases from this list for every [avaliable button](./avaliable_buttons.md)
+Please, use only aliases from this list for every [available button](./available_buttons.md)
 
 If you don't see here button or alias you need, contact us
 via [new issue](https://github.com/flipperdevices/IRDB/issues/new).
