@@ -1,0 +1,168 @@
+#
+# Model: Sony Bravia Universal TV Remote
+# Protocol: SIRC (Sony Infrared Remote Control)
+# Contributed by: [Your GitHub Username]
+# Tested on: Sony Bravia KD-55X80J, KD-65A8H
+# Notes: Compatible with most Sony TVs manufactured 2015-2024
+#
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+#
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+#
+name: Input
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 60 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 74 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 75 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 34 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 33 00 00 00
+#
+name: Ok
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 65 00 00 00
+#
+name: Back
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 62 00 00 00
+#
+name: Home
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 60 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: SIRC
+address: 97 00 00 00
+command: 38 00 00 00
+#
+name: YouTube
+type: parsed
+protocol: SIRC
+address: 97 00 00 00
+command: 5E 00 00 00
+#
+name: Num_0
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 09 00 00 00
+#
+name: Num_1
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 00 00 00 00
+#
+name: Num_2
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: Num_3
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 02 00 00 00
+#
+name: Num_4
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 03 00 00 00
+#
+name: Num_5
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 04 00 00 00
+#
+name: Num_6
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 05 00 00 00
+#
+name: Num_7
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 06 00 00 00
+#
+name: Num_8
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 07 00 00 00
+#
+name: Num_9
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 08 00 00 00
