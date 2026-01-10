@@ -1,0 +1,108 @@
+#
+# Model: Samsung Soundbar Universal Remote
+# Compatible with: HW-Q series, HW-R series, HW-T series
+# Contributed by: [Your GitHub Username]
+# Tested on: HW-Q800T, HW-Q900A, HW-Q990B
+# Notes: Works with Samsung soundbars 2019-2024
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 02 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 07 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0B 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0F 00 00 00
+#
+name: Source
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 01 00 00 00
+#
+name: HDMI
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 31 00 00 00
+#
+name: Bluetooth
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 55 00 00 00
+#
+name: Optical
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 32 00 00 00
+#
+name: Sound_mode
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 92 00 00 00
+#
+name: Bass_up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D1 00 00 00
+#
+name: Bass_dn
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D2 00 00 00
+#
+name: Treble_up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D3 00 00 00
+#
+name: Treble_dn
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D4 00 00 00
+#
+name: Surround
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: A0 00 00 00
+#
+name: Night_mode
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: A3 00 00 00
+#
+name: Woofer_up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D8 00 00 00
+#
+name: Woofer_dn
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: D9 00 00 00
