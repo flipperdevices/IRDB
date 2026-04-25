@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+###################
+name: power
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 0C 00 00 00
+####################
+name: timer
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 2A 00 00 00
+####################
+name: timer+
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 30 00 00 00
+####################
+name: sleep
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 26 00 00 00
+####################
+name: previous
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 1F 00 00 00
+####################
+name: next
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 1E 00 00 00
+####################
+name: pause
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 35 00 00 00
+####################
+name: ch_next
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 20 00 00 00
+####################
+name: ch_prev
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 21 00 00 00
+####################
+name: volup
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 10 00 00 00
+####################
+name: voldown
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 11 00 00 00
+####################
+name: mute
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 0D 00 00 00
+####################
+name: aux
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 2D 00 00 00
+####################
+name: stop
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 36 00 00 00
